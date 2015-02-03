@@ -43,6 +43,8 @@
       "ironic-discoverd",
       "element-manifest",
       "fix-undercloud-package-installs",
+      "swift-proxy",
+      "swift-storage",
       "os-cloud-config",
       "install-server",
       "selinux-permissive",

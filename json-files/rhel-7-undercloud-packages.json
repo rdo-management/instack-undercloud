@@ -45,6 +45,8 @@
       "element-manifest",
       "tuskar",
       "fix-undercloud-package-installs",
+      "swift-proxy",
+      "swift-storage",
       "os-cloud-config"
     ],
     "hook": [

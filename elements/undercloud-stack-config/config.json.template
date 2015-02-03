@@ -145,5 +145,10 @@
     "interface": "{{DISCOVERY_INTERFACE}}",
     "iprange": "{{DISCOVERY_IPRANGE}}",
     "pxeip": "{{DISCOVERY_PXEIP}}"
+  },
+  "swift": {
+    "devices": "r1z1-{{LOCAL_IP}}:%PORT%/d1",
+    "hash": "{{UNDERCLOUD_SWIFT_HASH}}",
+    "service-password": "{{UNDERCLOUD_SWIFT_PASSWORD}}"
   }
 }
