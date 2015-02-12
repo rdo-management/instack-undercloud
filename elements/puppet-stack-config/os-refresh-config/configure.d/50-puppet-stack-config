@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+set +e
+puppet apply --detailed-exitcodes /etc/puppet/manifests/puppet-stack-config.pp
+rc=$?
+set -e
+
+echo "puppet apply exited with exit code $rc"
+
+if [ $rc != 2 -a $rc != 0 ]; then
+    exit $rc
+fi
+
+# For some reason puppet is not starting openstack-nova-compute, will need to
+# look into this later
+systemctl restart openstack-nova-compute
