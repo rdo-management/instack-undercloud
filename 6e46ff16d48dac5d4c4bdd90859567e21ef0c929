@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_09185080",
+        "filename": "rhel7rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-16T19:03:00Z",
+      "side": 1,
+      "message": "Did you mean for this change to be in this commit?",
+      "revId": "6e46ff16d48dac5d4c4bdd90859567e21ef0c929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
