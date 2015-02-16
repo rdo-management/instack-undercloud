@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_4909a830",
+        "filename": "scripts/instack-setup-host-rhel7",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-16T19:07:56Z",
+      "side": 1,
+      "message": "s/agroup/rdo-management/",
+      "revId": "1b151dee61d3f28b23f7e0df6bae2d497bfa2068",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
