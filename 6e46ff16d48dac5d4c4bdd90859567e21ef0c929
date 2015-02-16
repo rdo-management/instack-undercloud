@@ -16,6 +16,24 @@
       "revId": "6e46ff16d48dac5d4c4bdd90859567e21ef0c929",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_6413e95c",
+        "filename": "rhel7rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-16T19:19:02Z",
+      "side": 1,
+      "message": "Yes, it was intentional. ALthough, I also need to update the cloud image name.",
+      "parentUuid": "7a1969be_09185080",
+      "revId": "6e46ff16d48dac5d4c4bdd90859567e21ef0c929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
