@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_ce311ea4",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-discovery-ironic",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-02-16T10:06:03Z",
+      "side": 1,
+      "message": "Isn\u0027t it suppose to be RAM\u003d$(( RAM + $i )); ?",
+      "range": {
+        "startLine": 191,
+        "startChar": 9,
+        "endLine": 191,
+        "endChar": 13
+      },
+      "revId": "54f532102a2076073bc27993f862478075dc5cf5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
