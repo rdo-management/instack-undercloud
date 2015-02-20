@@ -35,6 +35,7 @@ export DIB_INSTALLTYPE_python_tuskarclient=${DIB_INSTALLTYPE_python_tuskarclient
 export DIB_INSTALLTYPE_os_collect_config=${DIB_INSTALLTYPE_os_collect_config:-package}
 export DIB_INSTALLTYPE_os_refresh_config=${DIB_INSTALLTYPE_os_refresh_config:-package}
 export DIB_INSTALLTYPE_os_apply_config=${DIB_INSTALLTYPE_os_apply_config:-package}
+export DIB_INSTALLTYPE_os_net_config=${DIB_INSTALLTYPE_os_net_config:-package}
 
 # TripleO
 # Make the setting for tripleo-heat-templates overrideable for the source

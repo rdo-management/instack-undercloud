@@ -6,7 +6,7 @@ set -o pipefail
 # Install repo file for Delorean master packages
 # Even though these packages are for F20, we're still going to try and use them
 # here since we don't yet have Delorean master el7 packages.
-export DELOREAN_REPO=${DELOREAN_REPO:-"http://209.132.178.33/repos/current/delorean.repo"}
+export DELOREAN_REPO=${DELOREAN_REPO:-"http://104.130.230.24/f21/current/delorean.repo"}
 sudo curl -o /etc/yum.repos.d/delorean.repo $DELOREAN_REPO
 
 # Install repo file for Delorean el7 midstream packages built from
