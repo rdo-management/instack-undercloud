@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_e9104603",
+        "filename": "scripts/instack-setup-host-rhel7",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-20T16:58:42Z",
+      "side": 1,
+      "message": "This is dying now because it\u0027s a redirect.  The new url is http://104.130.230.24/f21/current/delorean.repo",
+      "revId": "bd3ac9bbb78fe42efb3c5be0e7210bf688712c56",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
