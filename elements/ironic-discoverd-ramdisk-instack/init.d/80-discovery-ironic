@@ -196,7 +196,7 @@ run_standard_detect() {
     DISK_SIZE=$(($disk_bytes/1024/1024/1024 - 1))
 
     NODE_DATA="{\"ipmi_address\":\"$BMC_ADDRESS\",\"local_gb\":$DISK_SIZE,\"memory_mb\":$RAM,\"cpus\":$CPUS,\"cpu_arch\":\"$CPU_ARCH\""
-    NODE_DATA="$NODE_DATA,\"interfaces\":$IFACES,\"boot_interface\":\"$BOOTIF\"}"
+    NODE_DATA="$NODE_DATA,\"interfaces\":$IFACES,\"boot_interface\":\"$BOOTIF\",\"capabilities\":\"boot_option:local\"}"
     echo Collected $NODE_DATA
 
     echo "$NODE_DATA" > /standard.json
