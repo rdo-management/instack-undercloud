@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_d96d4e34",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-discovery-ironic",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-02-24T14:32:06Z",
+      "side": 1,
+      "message": "why do we need it here? it won\u0027t even be added to the node",
+      "revId": "542cf6a2370d23d6caa8111e36fe395f42fc37c2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
