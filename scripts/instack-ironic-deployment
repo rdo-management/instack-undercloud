@@ -34,7 +34,7 @@ function show_options () {
     echo "      --delete-nodes      -- Delete all nodes."
     echo "      --config-tools-provision"
     echo "                          -- Run provision.sh for config-tools"
-    echo "      -x                  -- enable tracing"        
+    echo "      -x                  -- enable tracing"
     echo "      --help, -h          -- Print this help message."
     echo
     exit $1
@@ -209,7 +209,7 @@ function setup_flavors {
         "cpu_arch"="x86_64" \
         "baremetal:deploy_kernel_id"="$deploy_kernel_id" \
         "baremetal:deploy_ramdisk_id"="$deploy_ramdisk_id" \
-        "baremetal:localboot"="true" \
+        "capabilities:boot_option"="local" \
         "profile=control"
     nova flavor-show baremetal_control
 
@@ -218,7 +218,7 @@ function setup_flavors {
         "cpu_arch"="x86_64" \
         "baremetal:deploy_kernel_id"="$deploy_kernel_id" \
         "baremetal:deploy_ramdisk_id"="$deploy_ramdisk_id" \
-        "baremetal:localboot"="true" \
+        "capabilities:boot_option"="local" \
         "profile=compute"
     nova flavor-show baremetal_compute
 }
