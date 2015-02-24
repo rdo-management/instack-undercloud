@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_fce2b82d",
+        "filename": "scripts/instack-setup-host-rhel7",
+        "patchSetId": 10
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-02-24T17:50:38Z",
+      "side": 1,
+      "message": "temporary install it from fedora too?",
+      "revId": "619ec0b30589e0c09e49489ccbbf9a6f7afe1a29",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
