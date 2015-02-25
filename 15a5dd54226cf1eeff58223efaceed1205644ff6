@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a1969be_b247c44a",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-25T22:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a1969be_6848be87",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1969be_c82572c3",
         "filename": "doc/source/baremetal-setup.rst",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "7a1969be_127698a4",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-25T22:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a1969be_c82572c3",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1969be_88453a72",
         "filename": "doc/source/virt-setup.rst",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2015-02-25T22:35:36Z",
       "side": 1,
       "message": "We may want to be even more explicit about baremetal being required.  I know we mention it above, but people are still trying to use vms as the host machine and it causes weird problems.",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_9269e8c0",
+        "filename": "doc/source/virt-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-25T22:47:24Z",
+      "side": 1,
+      "message": "Ok, I believe I\u0027ve called it out sufficiently in the next draft.",
+      "parentUuid": "7a1969be_88453a72",
       "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
