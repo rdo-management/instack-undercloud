@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_4d051479",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/install.d/56-discovery-ironic-install-hardware",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-25T17:00:55Z",
+      "side": 1,
+      "message": "This actually isn\u0027t necessary now.  It\u0027s included in the list above on line 6.",
+      "revId": "005ff9ccbbfdc8491fc7e4280f7a1cf27ac4077c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
