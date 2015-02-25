@@ -86,31 +86,19 @@ fi
 export OVERCLOUD_CONTROL_DIB_EXTRA_ARGS=${OVERCLOUD_CONTROL_DIB_EXTRA_ARGS:-"\
 baremetal \
 base \
-boot-stack \
-ceilometer-agent-central \
-ceilometer-agent-notification \
-ceilometer-api \
-ceilometer-collector \
-cinder-api \
-cinder-lio \
-cinder-volume-nfs \
 common-venv \
+delorean-repo \
 dhcp-all-interfaces \
-haproxy \
-horizon \
+heat-config-puppet \
+hiera \
 hosts \
-keepalived \
-mariadb-rpm \
-neutron-network-node \
-ntp \
 os-collect-config \
-pip-cache \
-rabbitmq-server \
+os-net-config \
+overcloud-controller \
+puppet-modules \
+rdo-release \
+selinux-permissive \
 snmpd \
-stable-interface-names \
-swift-proxy \
-swift-storage \
-use-ephemeral \
 sysctl \
 "}
 
@@ -118,19 +106,18 @@ export OVERCLOUD_COMPUTE_DIB_EXTRA_ARGS=${OVERCLOUD_COMPUTE_DIB_EXTRA_ARGS:-"\
 baremetal \
 base \
 common-venv \
+delorean-repo \
 dhcp-all-interfaces \
+heat-config-puppet \
+hiera \
 hosts \
-neutron-openvswitch-agent \
-nova-compute \
-nova-kvm \
-nfs-client \
-ntp \
 os-collect-config \
-pip-cache \
-pypi-openstack \
+os-net-config \
+overcloud-compute \
+puppet-modules \
+rdo-release \
+selinux-permissive \
 snmpd \
-stable-interface-names \
-use-ephemeral \
 sysctl \
 "}
 
