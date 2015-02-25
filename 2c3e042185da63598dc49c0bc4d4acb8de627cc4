@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_324e3797",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/install.d/56-discovery-ironic-install-hardware",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-25T13:58:57Z",
+      "side": 1,
+      "message": "i think we can just switch this to a straight yum install now.\ni pushed up a similar patch:\n\nhttps://review.gerrithub.io/#/c/217244/",
+      "revId": "2c3e042185da63598dc49c0bc4d4acb8de627cc4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
