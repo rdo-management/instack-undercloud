@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_6848be87",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-25T22:35:36Z",
+      "side": 1,
+      "message": "*available",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_c82572c3",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-25T22:35:36Z",
+      "side": 1,
+      "message": "I don\u0027t know that this is true anymore.  We aren\u0027t really separating the nodes this way now.",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_88453a72",
+        "filename": "doc/source/virt-setup.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-25T22:35:36Z",
+      "side": 1,
+      "message": "We may want to be even more explicit about baremetal being required.  I know we mention it above, but people are still trying to use vms as the host machine and it causes weird problems.",
+      "revId": "15a5dd54226cf1eeff58223efaceed1205644ff6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
