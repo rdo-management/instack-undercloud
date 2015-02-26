@@ -69,11 +69,3 @@ else
     echo "WARNING##################################:"
     echo "tripleo-puppet-elements directory already exists, not recloning"
 fi
-
-# git clone instack-undercloud since we're not using packages for that yet
-if [ ! -d "instack-undercloud" ]; then
-    git clone http://github.com/rdo-management/instack-undercloud
-else
-    echo "WARNING##################################:"
-    echo "instack-undercloud directory already exists, not recloning"
-fi
