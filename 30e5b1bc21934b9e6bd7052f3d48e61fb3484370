@@ -69,6 +69,24 @@
       "revId": "30e5b1bc21934b9e6bd7052f3d48e61fb3484370",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_8cac2737",
+        "filename": "rhel7rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-02-27T17:36:16Z",
+      "side": 1,
+      "message": "*facepalm*",
+      "parentUuid": "7a1969be_6c0e0b8f",
+      "revId": "30e5b1bc21934b9e6bd7052f3d48e61fb3484370",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
