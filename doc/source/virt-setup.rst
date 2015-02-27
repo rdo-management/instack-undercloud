@@ -29,7 +29,7 @@ need to ensure you have enough memory and disk space.
 Preparing the Host Machine
 --------------------------
 
-#. Install RHEL 7.1 Server x86_64.
+#. Install RHEL 7.1 Server x86_64 or CentOS 7 x86_64.
 #. Make sure sshd service is installed and running.
 #. The user performing all of the installation steps on the virt host needs to
    have sudo enabled. You can use an existing user or use the following commands
@@ -46,22 +46,35 @@ Preparing the Host Machine
 #. Make sure you are logged in as the non-root user you intend to use.
 #. Download and execute the instack-undercloud setup script::
 
-    curl https://raw.githubusercontent.com/rdo-management/instack-undercloud/master/scripts/instack-setup-host-rhel7 | bash -x
+    curl https://raw.githubusercontent.com/rdo-management/instack-undercloud/master/scripts/instack-setup-host | bash -x
 
 #. Install instack-undercloud::
 
     sudo yum install -y instack-undercloud
 
-#. Download the RHEL 7.1 cloud image or copy it over from a different
-   location, and define the needed environment variables for RHEL 7.1::
 
-    curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
-    export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
-    export DIB_YUM_REPO_CONF=/etc/yum.repos.d/rhos-release-6-rhel-7.1.repo
-
-#. Run the script to setup your virtual environment::
+7. Run the script to setup your virtual environment. The script will
+   automatically setup a vm for the Undercloud installed with the same base OS as
+   the host::
 
     instack-virt-setup
+
+  .. note:: To setup the undercloud vm with a base OS different from the host,
+     set the ``$NODE_DIST`` environment variable prior to running
+     ``instack-virt-setup``::
+
+        # To choose CentOS 7:
+        export NODE_DIST=centos7
+        # To choose RHEL 7.1:
+        exoprt NODE_DIST=rhel7
+
+  .. note:: If building a **RHEL 7.1** undercloud, download the RHEL 7.1 cloud image or copy
+     it over from a different location, and define the needed environment variables
+     for RHEL 7.1 prior to running ``instack-virt-setup``::
+
+        curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+        export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+        export DIB_YUM_REPO_CONF=/etc/yum.repos.d/rhos-release-6-rhel-7.1.repo
 
 When the script has completed successfully it will output the IP address of the
 instack vm that has now been installed with a base OS.

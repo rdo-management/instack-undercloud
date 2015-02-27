@@ -11,18 +11,30 @@ the dependencies are already present.
 The following steps can be used to build images. They should be run as the same
 non-root user that was used to install the undercloud.
 
-#. Download the RHEL 7.1 cloud image or copy it over from a different
-   location, and define the needed environment variable to use the image::
 
-    curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
-    export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
-
-#. Build the 3 image types::
+#. Build the 3 image types. The ``instack-build-images`` script will
+   automatically build images with the same base OS as the undercloud::
 
     instack-build-images deploy-ramdisk
     instack-build-images discovery-ramdisk
     instack-build-images openstack-full
 
-#. Load the images into Glance::
+  .. note:: To build imageswith a base OS different from the undercloud,
+     set the ``$NODE_DIST`` environment variable prior to running
+     ``instack-build-images`` commands::
+
+        # To choose CentOS 7:
+        export NODE_DIST=centos7
+        # To choose RHEL 7.1:
+        exoprt NODE_DIST=rhel7
+
+  .. note:: If building images for **RHEL 7.1**, download the RHEL 7.1 cloud image or copy
+     it over from a different location, and define the needed environment variable
+     to use the image prior to running the above ``instack-build-images`` commands::
+
+        curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+        export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+
+2. Load the images into Glance::
 
     instack-prepare-for-overcloud

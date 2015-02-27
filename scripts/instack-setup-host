@@ -25,16 +25,18 @@ if ! rpm -q epel-release; then
     sudo yum install -y http://mirrors.einstein.yu.edu/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 fi
 
-# rhos-release is also required, otherwise we have no base RHEL repositories to
-# pull any dependencies from (without using subscription-manager anyway).
-sudo rpm -Uvh --force http://rhos-release.virt.bos.redhat.com/repos/rhos-release/rhos-release-latest.noarch.rpm
-export RUN_RHOS_RELEASE=${RUN_RHOS_RELEASE:-"1"}
-if [ "$RUN_RHOS_RELEASE" = "1" ]; then
-    sudo rhos-release 6 -d
+if $(grep -Eqs 'Red Hat Enterprise Linux Server' /etc/redhat-release); then
+    # rhos-release is also required, otherwise we have no base RHEL repositories to
+    # pull any dependencies from (without using subscription-manager anyway).
+    sudo rpm -Uvh --force http://rhos-release.virt.bos.redhat.com/repos/rhos-release/rhos-release-latest.noarch.rpm
+    export RUN_RHOS_RELEASE=${RUN_RHOS_RELEASE:-"1"}
+    if [ "$RUN_RHOS_RELEASE" = "1" ]; then
+        sudo rhos-release 6 -d
+    fi
+    # Ideally though, we don't want to end up with any RHOS packages installed, so
+    # we disable the poodle repo.
+    sudo yum-config-manager --disable rhelosp-6.0-poodle
 fi
-# Ideally though, we don't want to end up with any RHOS packages installed, so
-# we disable the poodle repo.
-sudo yum-config-manager --disable rhelosp-6.0-poodle
 
 sudo yum -y install git
 
