@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a1969be_0c1797a4",
+        "filename": "rhel7rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-27T16:26:47Z",
+      "side": 1,
+      "message": "will remove",
+      "parentUuid": "7a1969be_4c3a2f37",
+      "revId": "30e5b1bc21934b9e6bd7052f3d48e61fb3484370",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1969be_ac4003a6",
         "filename": "rhel7rc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-02-27T16:20:55Z",
       "side": 1,
       "message": "+ /elements?",
+      "revId": "30e5b1bc21934b9e6bd7052f3d48e61fb3484370",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_6c0e0b8f",
+        "filename": "rhel7rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-02-27T16:26:47Z",
+      "side": 1,
+      "message": "the elements for instack-undercloud actually are directories under /usr/share/instack-undercloud. This is different from the diskimage-builder packaging.\n\nWe can thank our esteemed Fedora packaging review process and total subjective interpretation and enforcement for this difference.",
+      "parentUuid": "7a1969be_ac4003a6",
       "revId": "30e5b1bc21934b9e6bd7052f3d48e61fb3484370",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
