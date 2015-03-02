@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_92c43d60",
+        "filename": "doc/source/install-undercloud.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-02T16:28:27Z",
+      "side": 1,
+      "message": "Would be nice to add -y.",
+      "revId": "ed17ee920be7bf9f8124543be32a37db33690b29",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
