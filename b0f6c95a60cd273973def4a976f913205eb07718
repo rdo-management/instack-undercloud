@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_3eb272e6",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-03-03T14:39:16Z",
+      "side": 1,
+      "message": "s/patch/path/",
+      "revId": "b0f6c95a60cd273973def4a976f913205eb07718",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
