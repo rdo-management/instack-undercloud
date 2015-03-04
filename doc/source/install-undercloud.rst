@@ -1,3 +1,4 @@
+.. _install_undercloud:
 Installing the Undercloud
 =========================
 
