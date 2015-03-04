@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_86a6b851",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-03-04T08:22:11Z",
+      "side": 1,
+      "message": "we need to drop this code instead of fixing it.",
+      "revId": "f45fbc6358bd5dff16a363f5e17f68153fc9dc2c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
