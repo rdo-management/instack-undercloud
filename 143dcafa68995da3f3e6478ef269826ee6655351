@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_09177b52",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-03-04T13:10:00Z",
+      "side": 1,
+      "message": "s/not/now/",
+      "revId": "143dcafa68995da3f3e6478ef269826ee6655351",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
