@@ -140,10 +140,11 @@ function discover_nodes {
     # provisioning and thus create and associated Neutron port. When there is
     # more than 1 port, it will just pick the first one.  So, we need a hack to
     # delete discovered ports that are not on the provisioning network
-    ports_to_delete=$(ironic port-list | grep 52:54 | awk '{print $2}')
+    ports_to_delete=$(ironic port-list | grep 52:54 | awk '{print $2}') || true
     for p in $ports_to_delete; do
         tripleo wait_for 20 3 ironic port-delete $p
     done
+    echo
 }
 
 function wait_for_ssh {
