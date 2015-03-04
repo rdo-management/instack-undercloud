@@ -76,6 +76,8 @@ You can ssh to the instack vm as the root user::
 The vm contains a ``stack`` user to be used for installing the undercloud. You
 can ``su - stack`` to switch to the stack user account.
 
+Continue with `Installing the Undercloud`_
+
 .. rubric:: Footnotes
 
 .. [#]  Note that some default partitioning scheme will most likely not provide
