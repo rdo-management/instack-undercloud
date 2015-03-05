@@ -44,7 +44,8 @@
       "element-manifest",
       "tuskar",
       "fix-undercloud-package-installs",
-      "os-cloud-config"
+      "os-cloud-config",
+      "ironic-enable-drac"
     ],
     "hook": [
       "extra-data",

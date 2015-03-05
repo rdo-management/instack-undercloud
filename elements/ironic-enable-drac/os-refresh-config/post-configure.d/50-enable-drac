@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+line="enabled_drivers = pxe_ssh,pxe_ipmitool,pxe_drac"
+if ! grep -q "$line" /etc/ironic/ironic.conf; then
+    # Last entry wins, so if we append this to the file it will override
+    # whatever was set by default
+    echo '[DEFAULT]' >> /etc/ironic/ironic.conf
+    echo $line >> /etc/ironic/ironic.conf
+fi
