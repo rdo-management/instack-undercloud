@@ -3,10 +3,4 @@
 set -eu
 set -o pipefail
 
-install-packages hdparm ipmitool lshw ethtool lldpad hdparm sdparm pciutils mcelog smartmontools util-linux lvm2 jq
-
-# python-pip is not available in the standard RHEL repos, it must be installed
-# directly from brew.
-yum -y install http://download.devel.redhat.com/brewroot/packages/python-pip/1.3.1/4.el7ost/noarch/python-pip-1.3.1-4.el7ost.noarch.rpm
-
-pip install hardware
+install-packages hdparm ipmitool lshw ethtool lldpad hdparm sdparm pciutils mcelog smartmontools util-linux lvm2 jq fio sysbench python-hardware
