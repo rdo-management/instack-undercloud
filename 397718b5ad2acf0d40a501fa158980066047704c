@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_96cb7f1d",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/install.d/56-discovery-ironic-install-hardware",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-06T13:34:27Z",
+      "side": 1,
+      "message": "the python-hardware package is only available in our delorean rdo management repo, which is not enabled here, so this fails the image build because the hardware-detect command is not available.\n\nwe\u0027ll likely need an element to enable that delorean repo and then include that with the discovery image build.",
+      "revId": "397718b5ad2acf0d40a501fa158980066047704c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
