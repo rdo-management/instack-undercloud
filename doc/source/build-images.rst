@@ -24,6 +24,13 @@ non-root user that was used to install the undercloud.
     instack-build-images overcloud-control
     instack-build-images overcloud-compute
 
+.. note::
+
+  There is currently an issue where the image build may fail due to being
+  unable to delete `/tmp/svc-map-services`. The workaround is to manually
+  delete this directory (which will require sudo) and run the image build
+  again.
+
 #. Load the images into Glance::
 
     instack-prepare-for-overcloud
