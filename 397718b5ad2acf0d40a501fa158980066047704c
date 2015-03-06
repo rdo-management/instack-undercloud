@@ -34,6 +34,24 @@
       "revId": "397718b5ad2acf0d40a501fa158980066047704c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_16acaf34",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/install.d/56-discovery-ironic-install-hardware",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-03-06T13:57:33Z",
+      "side": 1,
+      "message": "Oh apparently there\u0027s you can export DELOREAN\u003d1 for instack undercloud and it will enable delorean. Should we make it default?",
+      "parentUuid": "7a1969be_d6ecd791",
+      "revId": "397718b5ad2acf0d40a501fa158980066047704c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
