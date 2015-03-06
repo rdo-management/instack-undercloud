@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_d687b7d5",
+        "filename": "scripts/instack-prepare-for-overcloud",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-06T13:13:52Z",
+      "side": 1,
+      "message": "nit typo s/openstack/overcloud + below",
+      "range": {
+        "startLine": 42,
+        "startChar": 21,
+        "endLine": 42,
+        "endChar": 28
+      },
+      "revId": "7eef97d25941a0d415740a797945c1bca7d11757",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
