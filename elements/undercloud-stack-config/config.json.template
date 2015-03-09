@@ -64,6 +64,9 @@
         "values": [
            { "option": "pxe_append_params",
              "value": "biosdevname=1"
+           },
+           { "option": "enabled_drivers",
+             "value": "pxe_ssh,pxe_ipmitool,pxe_drac"
            }
         ],
         "section": "pxe"
