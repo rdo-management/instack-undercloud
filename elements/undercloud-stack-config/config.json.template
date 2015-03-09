@@ -75,6 +75,14 @@
             "value": "true"
           }
         ]
+      },
+      {
+        "section": "DEFAULT",
+        "values": [
+            { "option": "enabled_drivers",
+              "value": "pxe_ssh,pxe_ipmitool,pxe_drac"
+            }
+        ]
       }
     ]
   },
