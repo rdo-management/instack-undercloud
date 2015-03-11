@@ -37,8 +37,24 @@ export DIB_INSTALLTYPE_puppet_modules=source
 
 export DELOREAN_EL7_REPO_URL="http://104.130.230.24/centos70/4a/1d/4a1d1169acdf6b63239b60a898a33caf428acb5c_291a4aa4/"
 
-if $(grep -Eqs 'Red Hat Enterprise Linux' /etc/redhat-release); then
-    export NODE_DIST=${NODE_DIST:-rhel7}
+export NODE_DIST=${NODE_DIST:-""}
+
+# Attempt to detect $NODE_DIST, exit 1 if we can't
+if [ -z "$NODE_DIST" ]; then
+    if $(grep -Eqs 'Red Hat Enterprise Linux' /etc/redhat-release); then
+        export NODE_DIST=${NODE_DIST:-rhel7}
+    elif $(grep -Eqs 'CentOS' /etc/redhat-release); then
+        export NODE_DIST=${NODE_DIST:-centos7}
+    elif $(grep -Eqs 'Fedora' /etc/redhat-release); then
+        export NODE_DIST=${NODE_DIST:-fedora}
+    else
+        echo "Could not detect distritubion from /etc/redhat-release!"
+        exit 1
+    fi
+fi
+
+# Set specific variables based on $NODE_DIST
+if [ "$NODE_DIST" = "rhel7" ]; then
     export REG_METHOD=disable
 
     # We need to set RHOS=0 so that epel/rdo get enabled.
@@ -49,16 +65,8 @@ if $(grep -Eqs 'Red Hat Enterprise Linux' /etc/redhat-release); then
     export REG_HALT_UNREGISTER=1
     export DELOREAN=1
     export DELOREAN_REPO_URL=$DELOREAN_EL7_REPO_URL
-elif $(grep -Eqs 'CentOS' /etc/redhat-release); then
-    export NODE_DIST=${NODE_DIST:-centos7}
+elif [ "$NODE_DIST" = "centos7" ]; then
     export DELOREAN_REPO_URL=$DELOREAN_EL7_REPO_URL
-    # SELinux permissive for CentOS for now
-    export DIB_COMMON_ELEMENTS=selinux-permissive
-elif $(grep -Eqs 'Fedora' /etc/redhat-release); then
-    export NODE_DIST=${NODE_DIST:-fedora}
-else
-    echo "Could not detect distritubion from /etc/redhat-release!"
-    exit 1
 fi
 
 export DEPLOY_IMAGE_ELEMENT=${DEPLOY_IMAGE_ELEMENT:-deploy-ironic}
