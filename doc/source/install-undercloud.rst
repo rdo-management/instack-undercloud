@@ -34,3 +34,17 @@ the home directory for easier use later.::
 
     sudo cp /root/tripleo-undercloud-passwords .
     sudo cp /root/stackrc .
+
+
+Updating the Undercloud
+-----------------------
+
+The installed packages can be upgraded on the Undercloud.
+
+#. Rerun the setup script to update the list of defined yum repositories::
+
+    instack-setup-host-rhel7
+
+#. Use yum to update the installed packages::
+
+    sudo yum update
