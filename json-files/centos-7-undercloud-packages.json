@@ -44,9 +44,7 @@
       "element-manifest",
       "tuskar",
       "fix-undercloud-package-installs",
-      "os-cloud-config",
-      "selinux-permissive",
-      "selinux-setenforce-0"
+      "os-cloud-config"
     ],
     "hook": [
       "extra-data",
