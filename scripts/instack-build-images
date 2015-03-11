@@ -52,8 +52,6 @@ if $(grep -Eqs 'Red Hat Enterprise Linux' /etc/redhat-release); then
 elif $(grep -Eqs 'CentOS' /etc/redhat-release); then
     export NODE_DIST=${NODE_DIST:-centos7}
     export DELOREAN_REPO_URL=$DELOREAN_EL7_REPO_URL
-    # SELinux permissive for CentOS for now
-    export DIB_COMMON_ELEMENTS=selinux-permissive
 elif $(grep -Eqs 'Fedora' /etc/redhat-release); then
     export NODE_DIST=${NODE_DIST:-fedora}
 else
