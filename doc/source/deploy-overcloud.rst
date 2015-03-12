@@ -33,6 +33,7 @@ Create the necessary flavors::
 
 Deploy the the *openstack-full* image (default of 1 compute and 1 control)::
 
+    source deploy-overcloudrc
     instack-deploy-overcloud
 
 
