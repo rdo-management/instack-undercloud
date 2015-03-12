@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_19ee1723",
+        "filename": "doc/source/install-undercloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-03-12T13:51:01Z",
+      "side": 1,
+      "message": "What about restarting services on the undercloud? If nothing needs to be bounced, can we add a quick note about that?",
+      "revId": "2658f4cab79bada9650c7c35dbdcc64dbe5003d8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
