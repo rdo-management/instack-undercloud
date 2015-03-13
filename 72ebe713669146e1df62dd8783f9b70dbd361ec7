@@ -16,6 +16,29 @@
       "revId": "72ebe713669146e1df62dd8783f9b70dbd361ec7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_64495f8b",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 14
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-13T19:17:59Z",
+      "side": 1,
+      "message": "Hmm, I think we may need to separate setting NODE_DIST and the rest of these settings.  If someone tries to override NODE_DIST this logic isn\u0027t going to work.  Say they try to build a rhel7 image on a centos box, they\u0027ll get the proper NODE_DIST, but they\u0027re not going to get the RHOS and registration options set because we\u0027re looking at redhat-release for this part.",
+      "range": {
+        "startLine": 41,
+        "startChar": 11,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "72ebe713669146e1df62dd8783f9b70dbd361ec7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
