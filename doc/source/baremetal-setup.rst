@@ -62,7 +62,16 @@ Setting Up The Undercloud Machine
 
 #. Select a machine within the baremetal environment on which to install the
    undercloud.
-#. Install RHEL 7.1 x86_64 on this machine.
+#. Install the following OS and version on this machine:
+
+   .. only:: rhel7
+
+      RHEL 7.1 x86_64
+
+   .. only:: centos7
+
+      CentOS 7
+
 #. If needed, create a non-root user with sudo access to use for installing the
    Undercloud::
 

@@ -11,15 +11,21 @@ the dependencies are already present.
 The following steps can be used to build images. They should be run as the same
 non-root user that was used to install the undercloud.
 
-#. Download the RHEL 7.1 cloud image or copy it over from a different
-   location, and define the needed environment variable to use the image::
+#. Build the required images:
 
-    curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
-    export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+   .. only:: rhel7
 
-#. Build the required images.::
+       Download the RHEL 7.1 cloud image or copy it over from a different
+       location, and define the needed environment variable to use the image::
 
-    instack-build-images
+           curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+           export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
+
+       Run the build script:
+
+   ::
+
+      instack-build-images
 
 #. Load the images into Glance::
 

@@ -8,13 +8,25 @@ Welcome to instack-undercloud's documentation!
 
 Contents:
 
-.. toctree::
+.. only:: baremetal
 
-   Introduction <intro>
-   Setup <setup>
-   Installing the Undercloud <install-undercloud>
-   Building Images <build-images>
-   Deploying the Overcloud <deploy-overcloud>
+  .. toctree::
+
+    Introduction <intro>
+    Setup <baremetal-setup>
+    Installing the Undercloud <install-undercloud>
+    Building Images <build-images>
+    Deploying the Overcloud <deploy-overcloud>
+
+.. only:: not baremetal
+
+  .. toctree::
+
+    Introduction <intro>
+    Setup <virt-setup>
+    Installing the Undercloud <install-undercloud>
+    Building Images <build-images>
+    Deploying the Overcloud <deploy-overcloud>
 
 Indices and tables
 ==================
