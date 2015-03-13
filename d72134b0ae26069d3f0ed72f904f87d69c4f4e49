@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_441263b5",
+        "filename": "deploy-baremetal-overcloudrc",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-13T17:47:25Z",
+      "side": 0,
+      "message": "Do we maybe want to leave this in the rc file so people know it\u0027s available for overriding if their environment is different?",
+      "range": {
+        "startLine": 2,
+        "startChar": 7,
+        "endLine": 2,
+        "endChar": 29
+      },
+      "revId": "d72134b0ae26069d3f0ed72f904f87d69c4f4e49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
