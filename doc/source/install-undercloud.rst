@@ -18,12 +18,17 @@ while preparing the environment.
 
     sudo yum install -y instack-undercloud
 
-#. If installing on baremetal, copy in the sample answers file and edit it
-   to reflect your environment::
+#. Install the undercloud:
 
-    cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
+  .. only:: baremetal
 
-#. Run script to install the undercloud::
+    Copy in the sample answers file and edit it to reflect your environment::
+
+        cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
+
+    Run the install script:
+
+  ::
 
     instack-install-undercloud
 
@@ -34,18 +39,3 @@ the home directory for easier use later.::
 
     sudo cp /root/tripleo-undercloud-passwords .
     sudo cp /root/stackrc .
-
-
-Updating the Undercloud
------------------------
-
-The installed packages can be upgraded on the Undercloud.
-
-#. Rerun the setup script to update the list of defined yum repositories::
-
-    instack-setup-host-rhel7
-
-#. Use yum to update the installed packages. No services should need to be
-   restarted after updating::
-
-    sudo yum update
