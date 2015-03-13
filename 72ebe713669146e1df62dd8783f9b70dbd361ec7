@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_c1a2c599",
+        "filename": "doc/source/install-undercloud.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003790
+      },
+      "writtenOn": "2015-03-13T15:03:31Z",
+      "side": 1,
+      "message": "Maybe make this $ sudo yum update -y\nso that it automatically updates.",
+      "revId": "72ebe713669146e1df62dd8783f9b70dbd361ec7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
