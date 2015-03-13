@@ -39,6 +39,30 @@
       "revId": "72ebe713669146e1df62dd8783f9b70dbd361ec7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_bfab60d5",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 14
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-13T20:50:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1371a2_64495f8b",
+      "range": {
+        "startLine": 41,
+        "startChar": 11,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "72ebe713669146e1df62dd8783f9b70dbd361ec7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
