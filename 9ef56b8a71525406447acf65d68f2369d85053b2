@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_9f5ae481",
+        "filename": "scripts/instack-setup-host-rhel7",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-14T00:20:53Z",
+      "side": 1,
+      "message": "rhel-7-server-extras-htb-rpms is also needed for python-greenlet apparently",
+      "revId": "9ef56b8a71525406447acf65d68f2369d85053b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
