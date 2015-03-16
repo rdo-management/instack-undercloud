@@ -16,6 +16,24 @@
       "revId": "3a559d1820d83bfcfe890d0e4847bb7d068deb94",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_6ae9211a",
+        "filename": "scripts/instack-create-overcloudrc",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-16T21:09:18Z",
+      "side": 1,
+      "message": "Yep, good point.  I\u0027ll make it configurable in case someone wants to work from source incubator, but just default it to /etc/tripleo.",
+      "parentUuid": "3a1371a2_5fbb45c4",
+      "revId": "3a559d1820d83bfcfe890d0e4847bb7d068deb94",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
