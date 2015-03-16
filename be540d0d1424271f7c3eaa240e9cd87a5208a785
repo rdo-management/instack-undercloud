@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_dcc0e37e",
+        "filename": "doc/source/build-images.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-16T15:43:49Z",
+      "side": 1,
+      "message": "*below",
+      "range": {
+        "startLine": 30,
+        "startChar": 39,
+        "endLine": 30,
+        "endChar": 42
+      },
+      "revId": "be540d0d1424271f7c3eaa240e9cd87a5208a785",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_1cbb9b0f",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-16T15:43:49Z",
+      "side": 1,
+      "message": "*distribution",
+      "range": {
+        "startLine": 51,
+        "startChar": 31,
+        "endLine": 51,
+        "endChar": 43
+      },
+      "revId": "be540d0d1424271f7c3eaa240e9cd87a5208a785",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
