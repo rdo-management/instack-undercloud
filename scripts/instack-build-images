@@ -67,8 +67,6 @@ if [ "$NODE_DIST" = "rhel7" ]; then
     export DELOREAN_REPO_URL=$DELOREAN_EL7_REPO_URL
 elif [ "$NODE_DIST" = "centos7" ]; then
     export DELOREAN_REPO_URL=$DELOREAN_EL7_REPO_URL
-    # SELinux permissive for CentOS for now
-    export DIB_COMMON_ELEMENTS=selinux-permissive
 fi
 
 export DEPLOY_IMAGE_ELEMENT=${DEPLOY_IMAGE_ELEMENT:-deploy-ironic}
