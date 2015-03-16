@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_1c48bb5a",
+        "filename": "doc/source/build-images.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-16T14:57:12Z",
+      "side": 1,
+      "message": "instack-build-images is below. ;-)",
+      "range": {
+        "startLine": 28,
+        "startChar": 51,
+        "endLine": 28,
+        "endChar": 58
+      },
+      "revId": "9bb27f70db7076cdd0ac14880871270fd0e19c1b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
