@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_5f9a2515",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-16T20:12:43Z",
+      "side": 1,
+      "message": "why add a new flag vs. just updating the existing --tuskar to do puppet?\n\nis there any reason to keep the --tuskar that doesn\u0027t use puppet around?",
+      "revId": "1123bd3895bc1bd1eee4fb3b30081498d0f87d58",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
