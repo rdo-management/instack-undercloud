@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_7c260fbc",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-16T14:40:46Z",
+      "side": 1,
+      "message": "typo",
+      "revId": "5ad51a0f32067caee65f24643411419e87139f38",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
