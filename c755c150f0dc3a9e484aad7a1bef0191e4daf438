@@ -46,6 +46,30 @@
       "revId": "c755c150f0dc3a9e484aad7a1bef0191e4daf438",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_ddfe1a6b",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 5
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-17T20:18:02Z",
+      "side": 1,
+      "message": "ok the issue here was actually that openstack-nova-compute fails to start when told to do so via puppet because it\u0027s trying to validate the ironic driver, and the ironic user does not yet exist in keystone.\n\ni\u0027ve added a workaround to restart the openstack-nova-compute service after setup-endpoints has run (which creates users)",
+      "parentUuid": "3a1371a2_dd261a68",
+      "range": {
+        "startLine": 138,
+        "startChar": 2,
+        "endLine": 138,
+        "endChar": 6
+      },
+      "revId": "c755c150f0dc3a9e484aad7a1bef0191e4daf438",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
