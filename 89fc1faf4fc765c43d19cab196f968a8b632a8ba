@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_90112aaf",
+        "filename": "elements/puppet-stack-config/os-refresh-config/post-configure.d/10-tftp-iptables",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-03-17T12:28:08Z",
+      "side": 1,
+      "message": "Do we really need it? Discoverd does the same thing but excluding nodes in Ironic database",
+      "range": {
+        "startLine": 6,
+        "startChar": 43,
+        "endLine": 6,
+        "endChar": 49
+      },
+      "revId": "89fc1faf4fc765c43d19cab196f968a8b632a8ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
