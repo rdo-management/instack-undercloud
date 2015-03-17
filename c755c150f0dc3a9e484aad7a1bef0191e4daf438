@@ -22,6 +22,30 @@
       "revId": "c755c150f0dc3a9e484aad7a1bef0191e4daf438",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_dd261a68",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 5
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-17T18:40:41Z",
+      "side": 1,
+      "message": "thanks, i\u0027ll try fixing it in the puppet manifest itself vs the hiera file",
+      "parentUuid": "3a1371a2_3d8dae7c",
+      "range": {
+        "startLine": 138,
+        "startChar": 2,
+        "endLine": 138,
+        "endChar": 6
+      },
+      "revId": "c755c150f0dc3a9e484aad7a1bef0191e4daf438",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
