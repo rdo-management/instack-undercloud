@@ -10,7 +10,7 @@ if [ -n "${HORIZON_VENV_DIR:-}" ]; then
     DJANGO_ADMIN=django-admin.py
 else
     export PYTHONPATH=/usr/share/openstack-dashboard
-    LOCAL_SETTINGS_FILE=/usr/share/openstack-dashboard/openstack_dashboard/local/local_settings.py
+    LOCAL_SETTINGS_FILE=/etc/openstack-dashboard/local_settings.py
     DJANGO_ADMIN=django-admin
 fi
 
