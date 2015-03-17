@@ -16,6 +16,24 @@
       "revId": "9ef56b8a71525406447acf65d68f2369d85053b2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_ab82fbfd",
+        "filename": "scripts/instack-setup-host-rhel7",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003853
+      },
+      "writtenOn": "2015-03-17T17:39:34Z",
+      "side": 1,
+      "message": "we don\u0027t want htb, but we can add extras easily enough\n\nrhel-7-server-extras-rpms",
+      "parentUuid": "3a1371a2_9f5ae481",
+      "revId": "9ef56b8a71525406447acf65d68f2369d85053b2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
