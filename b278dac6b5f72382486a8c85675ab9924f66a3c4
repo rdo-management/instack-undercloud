@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_905f6a72",
+        "filename": "scripts/instack-virt-setup",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-17T12:53:50Z",
+      "side": 1,
+      "message": "what other architectures are you intending to support for the Undercloud?",
+      "revId": "b278dac6b5f72382486a8c85675ab9924f66a3c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_d069e226",
+        "filename": "scripts/instack-virt-setup",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-17T12:53:50Z",
+      "side": 1,
+      "message": "I\u0027d default the value to $NODE_MEM vs 4096, to maintain the existing behavior for those who are expecting it.",
+      "revId": "b278dac6b5f72382486a8c85675ab9924f66a3c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_5065f243",
+        "filename": "scripts/instack-virt-setup",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-17T12:53:50Z",
+      "side": 1,
+      "message": "ditto, default to $NODE_CPU",
+      "revId": "b278dac6b5f72382486a8c85675ab9924f66a3c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
