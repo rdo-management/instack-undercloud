@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_3d8dae7c",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 5
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-17T17:53:26Z",
+      "side": 1,
+      "message": "nova-compute isn\u0027t being enabled by default for me.  Guessing we need a nova::compute::enabled: true line or something here.",
+      "range": {
+        "startLine": 138,
+        "startChar": 2,
+        "endLine": 138,
+        "endChar": 6
+      },
+      "revId": "c755c150f0dc3a9e484aad7a1bef0191e4daf438",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
