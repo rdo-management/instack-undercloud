@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_d399e96f",
+        "filename": "elements/puppet-stack-config/install.d/02-puppet-stack-config",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-18T14:15:48Z",
+      "side": 1,
+      "message": "We may want to default this to nic1 at some point, per https://review.gerrithub.io/#/c/218639/",
+      "range": {
+        "startLine": 45,
+        "startChar": 39,
+        "endLine": 45,
+        "endChar": 54
+      },
+      "revId": "0c9b39baf18095bf914e54daf510409efc4d30a7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1371a2_73947537",
+        "filename": "elements/puppet-stack-config/os-refresh-config/configure.d/50-puppet-stack-config",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-18T14:15:48Z",
+      "side": 1,
+      "message": "Oh, puppet.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 3
+      },
+      "revId": "0c9b39baf18095bf914e54daf510409efc4d30a7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
