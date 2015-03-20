@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a33eba27",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-03-20T11:51:15Z",
+      "side": 1,
+      "message": "it\u0027s worth putting a comment about the second issue, which won\u0027t go away when we switch to iPXE for example",
+      "revId": "708d57aefe2de4d3462337f2588256f3aac4915b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
