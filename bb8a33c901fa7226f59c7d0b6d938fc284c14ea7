@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_463a7437",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-03-20T15:28:29Z",
+      "side": 1,
+      "message": "Oddly, the comment already exists...it just was not implemented.",
+      "revId": "bb8a33c901fa7226f59c7d0b6d938fc284c14ea7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
