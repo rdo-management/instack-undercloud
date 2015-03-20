@@ -16,6 +16,24 @@
       "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c6c4a461",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-03-20T14:47:15Z",
+      "side": 1,
+      "message": "because with the ready-state workflow we want to proceed with RAID configuration and restart the node only once applying both configuration.",
+      "parentUuid": "1a106d94_46cf14b1",
+      "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
