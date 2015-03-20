@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3a1371a2_0b5985fe",
+        "filename": "json-files/centos-7-undercloud-packages.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-20T00:44:00Z",
+      "side": 1,
+      "message": "hah, definitely a mistake. these both must have been stray Ctrl-A\u0027s in vim. nice catch",
+      "parentUuid": "3a1371a2_88e57baa",
+      "range": {
+        "startLine": 43,
+        "startChar": 16,
+        "endLine": 43,
+        "endChar": 22
+      },
+      "revId": "d0a485b39db098973346369a2343a62716ecb59c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1371a2_08d22bd2",
         "filename": "json-files/centos-7-undercloud-packages.json",
         "patchSetId": 1
