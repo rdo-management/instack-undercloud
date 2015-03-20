@@ -16,6 +16,24 @@
       "revId": "1123bd3895bc1bd1eee4fb3b30081498d0f87d58",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c6730414",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002584
+      },
+      "writtenOn": "2015-03-20T16:25:44Z",
+      "side": 1,
+      "message": "I wasn\u0027t sure at the time, but I\u0027ll go ahead and remove it now.",
+      "parentUuid": "3a1371a2_5f9a2515",
+      "revId": "1123bd3895bc1bd1eee4fb3b30081498d0f87d58",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
