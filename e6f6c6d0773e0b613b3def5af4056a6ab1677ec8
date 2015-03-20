@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a6e6c814",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-03-20T14:42:00Z",
+      "side": 1,
+      "message": "export DISCOVERY_IMAGE_ELEMENT\u003d\"$DISCOVERY_IMAGE_ELEMENT delorean-rdo-management\"",
+      "revId": "e6f6c6d0773e0b613b3def5af4056a6ab1677ec8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
