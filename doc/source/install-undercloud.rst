@@ -18,18 +18,21 @@ while preparing the environment.
 
     sudo yum install -y instack-undercloud
 
-#. If installing on baremetal, copy in the sample answers file and edit it
-   to reflect your environment::
-
-    cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
-
-#. Run script to install the undercloud::
+#. Run script to install the undercloud:
 
   .. note:: Ensure that there is an entry for the system's full hostname in /etc/hosts.
      For example, if the system is named *myhost.mydomain*, /etc/hosts should have
      an entry like::
 
         127.0.0.1   myhost.mydomain
+
+  .. admonition:: Baremetal
+     :class: baremetal-tag
+
+     Copy in the sample answers file and edit it to reflect your environment::
+
+        cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
+
 
   ::
 
