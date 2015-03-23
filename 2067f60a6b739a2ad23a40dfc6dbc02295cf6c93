@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_ec025a0a",
+        "filename": "json-files/rhel-7-undercloud-packages.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-23T14:29:32Z",
+      "side": 1,
+      "message": "if you\u0027re going to use the elements for these instead of puppet modules, then you will need to add horizon to the exclude-element list below.\n\nthis is b/c horizon is installed via puppet, yet the tuskar-ui element depends on the horizon element which we do not want to use.\n\nadding horizon to the exclude-element list below will override pulling in the horizon element via element-deps.",
+      "revId": "2067f60a6b739a2ad23a40dfc6dbc02295cf6c93",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
