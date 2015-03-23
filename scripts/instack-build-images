@@ -139,6 +139,11 @@ overcloud-compute
 "}
 
 
+export OVERCLOUD_CEPHSTORAGE_DIB_EXTRA_ARGS=${OVERCLOUD_CEPHSTORAGE_DIB_EXTRA_ARGS:-"\
+$PUPPET_COMMON_ELEMENTS
+overcloud-ceph-storage \
+"}
+
 export OVERCLOUD_CINDER_DIB_EXTRA_ARGS=${OVERCLOUD_CINDER_DIB_EXTRA_ARGS:-"\
 baremetal \
 base \
@@ -224,6 +229,18 @@ function overcloud-compute {
     fi
 }
 
+function overcloud-ceph-storage {
+    if [ ! -f overcloud-ceph-storage.qcow2 ]; then
+        disk-image-create \
+            -a $NODE_ARCH \
+            -o overcloud-ceph-storage \
+            $NODE_DIST  \
+            $OVERCLOUD_CEPHSTORAGE_DIB_EXTRA_ARGS \
+            $DIB_COMMON_ELEMENTS \
+            2>&1 | tee dib-overcloud-ceph-storage.log
+    fi
+}
+
 function overcloud-cinder-volume {
     if [ ! -f overcloud-cinder-volume.qcow2 ]; then
         disk-image-create \
@@ -294,6 +311,7 @@ if [ "$image_build" = "all" ]; then
     discovery-ramdisk
     overcloud-control
     overcloud-compute
+    overcloud-ceph-storage
 else
     eval "$image_build"
 fi

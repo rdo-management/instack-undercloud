@@ -38,9 +38,11 @@ check_image $DISCOVERY_NAME.kernel
 
 check_image overcloud-compute.qcow2
 check_image overcloud-control.qcow2
+check_image overcloud-ceph-storage.qcow2
 
 load_image overcloud-compute.qcow2
 load_image overcloud-control.qcow2
+load_image overcloud-ceph-storage.qcow2
 
 # Temporarily disabled while we use split images for compute and control
 # check_image openstack-full.qcow2
