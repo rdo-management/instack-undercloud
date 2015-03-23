@@ -34,6 +34,24 @@
       "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a009832e",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-23T22:32:17Z",
+      "side": 1,
+      "message": "In that case, is there any reason these should be separate steps?",
+      "parentUuid": "1a106d94_c6c4a461",
+      "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
