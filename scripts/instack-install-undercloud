@@ -125,6 +125,7 @@ fi
 # This is owned by root, which can break later image builds as a regular user
 sudo rm -f /tmp/svc-map-services
 
+set +x
 
 export COMPLETION_MESSAGE=${COMPLETION_MESSAGE:-"\
 #############################################################################
