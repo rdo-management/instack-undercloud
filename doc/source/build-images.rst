@@ -48,6 +48,21 @@ non-root user that was used to install the undercloud.
   
       instack-build-images
 
+   .. admonition:: Ceph
+      :class: ceph-tag
+
+      If you plan to deploy Ceph you will need to build the images for the Ceph
+      OSD nodes as well::
+
+          instack-build-images openstack-ceph-storage
+
 #. Load the images into Glance::
 
     instack-prepare-for-overcloud
+
+  .. admonition:: Ceph
+     :class: ceph-tag
+
+     When the Ceph OSD image is built, you should load that into Glance with::
+
+         tripleo load-image -d openstack-ceph-storage
