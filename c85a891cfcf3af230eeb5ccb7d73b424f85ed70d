@@ -52,6 +52,24 @@
       "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7bbbba72",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-03-24T12:09:23Z",
+      "side": 1,
+      "message": "The reason is that there are DRAC machines without RAID controller where we don\u0027t want any RAID configuration to happen.",
+      "parentUuid": "1a106d94_a009832e",
+      "revId": "c85a891cfcf3af230eeb5ccb7d73b424f85ed70d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
