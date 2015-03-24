@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_567975fb",
+        "filename": "elements/undercloud-stack-config/install.d/02-undercloud-stack-heat-metadata",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-24T12:56:30Z",
+      "side": 1,
+      "message": "this line isn\u0027t needed b/c UNDERCLOUD_SWIFT_PASSWORD isn\u0027t actually rendered anywhere in /var/lib/heat-cfntools/cfn-init-data",
+      "revId": "fb85bcfba8d914fed797772791733dbbbc023cb7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
