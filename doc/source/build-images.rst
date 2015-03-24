@@ -44,6 +44,14 @@ non-root user that was used to install the undercloud.
           curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
           export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
 
+   .. only:: external
+
+      [Configuration for subscription manager settings]
+
+   .. only:: internal
+
+      [Configuration for internal repos]
+
    ::
   
       instack-build-images
