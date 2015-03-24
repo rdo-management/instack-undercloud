@@ -11,9 +11,14 @@ environment.
 Minimum System Requirements
 ---------------------------
 
-This setup creates 5 virtual machines consisting of 4GB of memory and 40GB of
-disk space on each. The virtual machine disk files are thinly provisioned and
-will not take up the full 40GB initially.
+This setup defines 16 virtual machines with 4GB of memory, 1 cpu and 40GB of
+disk space on each [#]_.
+
+The number of virtual machines, their ram and the number of cores can be
+customized by exporting ``NODE_COUNT``, ``NODE_MEM`` or ``NODE_CPU``.
+
+The virtual machine disk files are thinly provisioned and will not take up the
+full 40GB initially.
 
 The minimum system requirements for the virtual host machine are:
 
@@ -51,7 +56,6 @@ Preparing the Host Machine
 #. Install instack-undercloud::
 
     sudo yum install -y instack-undercloud
-
 
 #. The virt setup automatically sets up a vm for the Undercloud installed with
    the same base OS as the host. See the Note below to choose a different
@@ -96,7 +100,7 @@ When the script has completed successfully it will output the IP address of the
 instack vm that has now been installed with a base OS.
 
 Running ``sudo virsh list --all`` [#]_ will show you now have one virtual machine called
-*instack* and 4 called *baremetal[0-3]*.
+*instack* and 15 called *baremetal[0-14]*.
 
 You can ssh to the instack vm as the root user::
 
@@ -110,6 +114,10 @@ Continue with `Installing the Undercloud`_
 .. _`Installing the Undercloud`: install-undercloud.html
 
 .. rubric:: Footnotes
+
+.. [#]  One of the virtual machines will be used to deploy the undercloud, while
+    the others will be consumed basing on the number and type of nodes which
+    are chosen for the overcloud.
 
 .. [#]  Note that some default partitioning scheme will most likely not provide
     enough space to the partition containing the default path for libvirt image
