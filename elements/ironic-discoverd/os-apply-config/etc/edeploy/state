@@ -1,1 +1,1 @@
-[('control', '1'), ('compute', '*')]
+[('control', '1'), ('cephstorage', '1'), ('compute', '*')]
