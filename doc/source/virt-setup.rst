@@ -52,7 +52,6 @@ Preparing the Host Machine
 
     sudo yum install -y instack-undercloud
 
-
 #. The virt setup automatically sets up a vm for the Undercloud installed with
    the same base OS as the host. See the Note below to choose a different
    OS.::
@@ -87,6 +86,15 @@ Preparing the Host Machine
           curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
           export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
           export DIB_YUM_REPO_CONF=/etc/yum.repos.d/rhos-release-6-rhel-7.1.repo
+
+   .. admonition:: Ceph
+      :class: ceph-tag
+
+      To use Ceph you will need at least one additional virtual machine to be
+      provisioned as a Ceph OSD; customize the ``NODE_COUNT`` variable to 3,
+      from a default of 2, so that it will create exactly one more::
+
+          export NODE_COUNT=3
 
    ::
 

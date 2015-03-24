@@ -18,6 +18,20 @@ Discovering Nodes
 
 Discover hardware attributes of nodes and match them to a deployment profile::
 
+.. admonition:: Ceph
+   :class: ceph-tag
+
+   When deploying Ceph, you will need to configure the ``edeploy`` plugin so
+   that it will assign the ``ceph-storage`` profile to at least one system. To
+   do so, you need to **prepend** the following::
+
+       ('ceph-storage', '1')
+
+   into the list of profiles defined by ``/etc/edeploy/state``, where 1 is the
+   number of systems to be tagged with such a profile, not a boolean value.
+
+::
+
     instack-ironic-deployment --discover-nodes
 
 Check what profiles were matched for the discovered nodes::
