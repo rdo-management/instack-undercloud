@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a9b68788",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T19:41:52Z",
+      "side": 1,
+      "message": "Is it just me or do these docs not actually work?  They talk about enabling repos before you\u0027ve attached to a pool.  :-/\n\nAlso, I think we may need to be more explicit about what is required (repos and such).  Those docs have some optional stuff that I\u0027m betting we need.",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 7
+      },
+      "revId": "3aa3a46f150ba56fa69a43fbad902278e6f7323d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_448d3a31",
+        "filename": "doc/source/virt-setup.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T19:41:52Z",
+      "side": 1,
+      "message": "This link isn\u0027t working for me.",
+      "range": {
+        "startLine": 120,
+        "startChar": 34,
+        "endLine": 120,
+        "endChar": 43
+      },
+      "revId": "3aa3a46f150ba56fa69a43fbad902278e6f7323d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_249f5e61",
+        "filename": "doc/source/virt-setup.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T19:41:52Z",
+      "side": 1,
+      "message": "This comment needs to be above REG_POOL_ID.",
+      "range": {
+        "startLine": 126,
+        "startChar": 24,
+        "endLine": 126,
+        "endChar": 28
+      },
+      "revId": "3aa3a46f150ba56fa69a43fbad902278e6f7323d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6a959de3",
+        "filename": "scripts/instack-setup-host",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T19:41:52Z",
+      "side": 1,
+      "message": "I\u0027m guessing this won\u0027t be correct when not using rhos-release.",
+      "range": {
+        "startLine": 41,
+        "startChar": 13,
+        "endLine": 41,
+        "endChar": 19
+      },
+      "revId": "3aa3a46f150ba56fa69a43fbad902278e6f7323d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
