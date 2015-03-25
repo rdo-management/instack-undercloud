@@ -303,4 +303,5 @@ ironic_config {
 class { 'horizon':
   secret_key   => hiera('horizon_secret_key'),
   keystone_url => join(['http://', hiera('controller_host'), ':5000/v2.0']),
+  allowed_hosts => [hiera('controller_host'), $::fqdn],
 }
