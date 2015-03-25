@@ -117,3 +117,11 @@ Setting Up The Undercloud Machine
             }
         ]
     }
+.. only:: external
+
+   .. admonition:: RHEL
+      :class: rhel-tag
+
+       Register the host machine using Subscription Management as described in::
+
+       https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/6/html/Deploying_OpenStack_Learning_Environments/chap-Prerequisites.html#sect-Software_Requirements
