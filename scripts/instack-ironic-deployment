@@ -256,37 +256,22 @@ function deploy_nodes {
 }
 
 function setup_flavors {
-    if ! nova flavor-show baremetal_control 2>$STDERR 1>/dev/null; then
-        echo "  Creating baremetal_control flavor ... "
-        nova flavor-create baremetal_control auto 2048 40 1
-    else
-        echo "  baremetal_control flavor already exists."
-    fi
+    local FLAVORS="baremetal_control baremetal_compute baremetal_ceph-storage"
+    for FLAVOR in $FLAVORS; do
+        if ! nova flavor-show $FLAVOR 2>$STDERR 1>/dev/null; then
+            echo "  Creating $FLAVOR flavor ... "
+            nova flavor-create $FLAVOR auto 4096 40 1
+        else
+            echo "  $FLAVOR flavor already exists."
+        fi
 
-    if ! nova flavor-show baremetal_compute 2>$STDERR 1>/dev/null; then
-        echo "  Creating baremetal_compute flavor ... "
-        nova flavor-create baremetal_compute auto 4096 40 1
-    else
-        echo "  baremetal_compute flavor already exists."
-    fi
-
-    echo
-    nova flavor-list
-    echo
-
-    echo "  Setting baremetal_control flavor keys ... "
-    nova flavor-key baremetal_control set \
-        "cpu_arch"="x86_64" \
-        "capabilities:boot_option"="local" \
-        "profile=control"
-    nova flavor-show baremetal_control
-
-    echo "  Setting baremetal_compute flavor keys ... "
-    nova flavor-key baremetal_compute set \
-        "cpu_arch"="x86_64" \
-        "capabilities:boot_option"="local" \
-        "profile=compute"
-    nova flavor-show baremetal_compute
+        echo "  Setting $FLAVOR flavor keys ... "
+        nova flavor-key $FLAVOR set \
+            "cpu_arch"="x86_64" \
+            "capabilities:boot_option"="local" \
+            "profile=control"
+        nova flavor-show $FLAVOR
+    done
 }
 
 function show_profile {
