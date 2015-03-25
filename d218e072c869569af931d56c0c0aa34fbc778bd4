@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_643796b1",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/edeploy/state",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T16:15:59Z",
+      "side": 1,
+      "message": "Requiring 7 nodes by default is going to be too much for a 16 gig box.",
+      "range": {
+        "startLine": 1,
+        "startChar": 21,
+        "endLine": 1,
+        "endChar": 32
+      },
+      "revId": "d218e072c869569af931d56c0c0aa34fbc778bd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a4418e0d",
+        "filename": "scripts/instack-virt-setup",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-25T16:15:59Z",
+      "side": 1,
+      "message": "I don\u0027t think we can default this so high either.  Discovery has trouble with 4 nodes right now in a virt environment, 15 is going to cause major issues.",
+      "range": {
+        "startLine": 67,
+        "startChar": 20,
+        "endLine": 67,
+        "endChar": 30
+      },
+      "revId": "d218e072c869569af931d56c0c0aa34fbc778bd4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
