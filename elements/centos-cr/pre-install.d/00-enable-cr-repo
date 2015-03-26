@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+# Make sure we have yum-config-manager
+yum install -y yum-utils
+# Per http://seven.centos.org/?p=303 we need to update before we can
+# enable the cr repo.
+yum -y update
+yum-config-manager --enable cr
