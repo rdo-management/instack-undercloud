@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_086d0c33",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-26T19:38:59Z",
+      "side": 1,
+      "message": "No, this is not a typo.  They really do use - for some and _ for others.",
+      "range": {
+        "startLine": 25,
+        "startChar": 23,
+        "endLine": 25,
+        "endChar": 24
+      },
+      "revId": "58b06d0dac732cf736a8056628a4c7e10655f141",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
