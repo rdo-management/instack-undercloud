@@ -50,7 +50,17 @@ Create the necessary flavors::
       cp /usr/share/instack-undercloud/deploy-baremetal-overcloudrc ~/deploy-overcloudrc
       source deploy-overcloudrc
 
-Deploy the overcloud (default of 1 compute and 1 control)::
+Deploy the overcloud (default of 1 compute and 1 control):
+
+.. admonition:: Ceph
+   :class: ceph-tag
+
+   Before running the deployment script, you can specify the number of Ceph
+   OSD nodes to be deployed with::
+
+       export CEPHSTORAGESCALE=1
+
+::
 
     instack-deploy-overcloud
 
