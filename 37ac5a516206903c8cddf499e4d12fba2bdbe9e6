@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_898d7434",
+        "filename": "json-files/centos-7-undercloud-packages.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T20:24:55Z",
+      "side": 1,
+      "message": "i don\u0027t think this is needed unless some other element is pulling tuskar via a dep?",
+      "revId": "37ac5a516206903c8cddf499e4d12fba2bdbe9e6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e98228ff",
+        "filename": "json-files/rhel-7-undercloud-packages.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T20:24:55Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "37ac5a516206903c8cddf499e4d12fba2bdbe9e6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
