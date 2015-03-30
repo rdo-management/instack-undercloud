@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_307785d6",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T14:02:04Z",
+      "side": 1,
+      "message": "all of this documentation should be called out as baremetal specific via:\n\n.. admonition:: Baremetal\n   :class: baremetal-tag\n\nthere are other examples of this already in deploy-overcloud.rst\n\ni think we also need to draw some more attention to the fact that this is for DRAC only. Perhaps via a Note or something.",
+      "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7081fd8e",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T14:02:04Z",
+      "side": 1,
+      "message": "we\u0027ve already discovered nodes. or are you saying you need to run it again? Is there anyway to run it only once?",
+      "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
