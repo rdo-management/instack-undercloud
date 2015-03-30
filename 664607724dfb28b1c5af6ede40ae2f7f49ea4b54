@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_1009a931",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-03-30T14:17:14Z",
+      "side": 1,
+      "message": "OK, thanks. I will fix it.",
+      "parentUuid": "1a106d94_307785d6",
+      "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_7081fd8e",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-03-30T14:02:04Z",
       "side": 1,
       "message": "we\u0027ve already discovered nodes. or are you saying you need to run it again? Is there anyway to run it only once?",
+      "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d30efb33",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-03-30T14:17:14Z",
+      "side": 1,
+      "message": "I think there isn\u0027t any. The 2 runs are required because the block device change need to be detected. The first run will detect all block devices, the second run will figure out what changed and saves the root device hint in ironic.",
+      "parentUuid": "1a106d94_7081fd8e",
       "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
