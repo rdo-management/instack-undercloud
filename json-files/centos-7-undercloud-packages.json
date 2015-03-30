@@ -14,7 +14,6 @@
       "undercloud-package-install",
       "ironic-discoverd",
       "element-manifest",
-      "tuskar",
       "rdomanager-oscplugin",
       "ironic-conductor",
       "os-cloud-config",

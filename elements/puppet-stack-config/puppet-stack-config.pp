@@ -81,11 +81,19 @@ class { 'ceilometer::db::mysql':
 }
 $ironic_dsn = split(hiera('ironic::database_connection'), '[@:/?]')
 class { 'ironic::db::mysql':
-user          => $ironic_dsn[3],
-password      => $ironic_dsn[4],
-host          => $ironic_dsn[5],
-dbname        => $ironic_dsn[6],
-allowed_hosts => $allowed_hosts,
+  user          => $ironic_dsn[3],
+  password      => $ironic_dsn[4],
+  host          => $ironic_dsn[5],
+  dbname        => $ironic_dsn[6],
+  allowed_hosts => $allowed_hosts,
+}
+$tuskar_dsn = split(hiera('tuskar::database_connection'), '[@:/?]')
+class {'tuskar::db::mysql':
+  user          => $tuskar_dsn[3],
+  password      => $tuskar_dsn[4],
+  host          => $tuskar_dsn[5],
+  dbname        => $tuskar_dsn[6],
+  allowed_hosts => $allowed_hosts,
 }
 
 if $::osfamily == 'RedHat' {
@@ -341,6 +349,12 @@ package{'python-tuskarclient': }
 
 class { 'tuskar::ui':
   extras => true
+}
+
+include ::tuskar
+
+class { 'tuskar::api':
+  identity_uri => join(['http://', hiera('controller_host'), ':5000/v2.0']),
 }
 
 # tempest
