@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_f0268d67",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T11:27:30Z",
+      "side": 1,
+      "message": "this would affect rhel as well, which I don\u0027t think we want. maybe set $DISCOVERY_IMAGE_ELEMENT up around line 72 for centos",
+      "revId": "04494e3628f5e5bbe0290d05031bacf254168bb7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
