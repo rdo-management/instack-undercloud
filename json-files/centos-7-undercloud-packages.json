@@ -13,7 +13,6 @@
       "undercloud-package-install",
       "ironic-discoverd",
       "element-manifest",
-      "tuskar",
       "rdomanager-oscplugin",
       "ironic-conductor",
       "ipxe",
@@ -35,6 +34,7 @@
       "ironic",
       "openstack-clients",
       "os-collect-config",
+      "tuskar",
       "selinux"
     ],
     "blacklist": [

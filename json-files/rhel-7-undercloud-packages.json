@@ -13,7 +13,6 @@
       "undercloud-package-install",
       "ironic-discoverd",
       "element-manifest",
-      "tuskar",
       "rdomanager-oscplugin",
       "ironic-conductor",
       "ipxe",
@@ -33,6 +32,7 @@
       "ironic",
       "os-collect-config",
       "openstack-clients"
+      "tuskar",
     ],
     "blacklist": [
       "10-cloud-init",
