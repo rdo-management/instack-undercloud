@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_139373a4",
+        "filename": "doc/source/build-images.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-30T14:42:11Z",
+      "side": 1,
+      "message": "Whoops, I meant the internal block at line 37.  We don\u0027t want external users to do this.",
+      "range": {
+        "startLine": 68,
+        "startChar": 15,
+        "endLine": 68,
+        "endChar": 21
+      },
+      "revId": "dc9431264eb37c539ab3f8757b0405436ffff9ac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
