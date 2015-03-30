@@ -69,6 +69,24 @@
       "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_f30cd796",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-30T15:48:17Z",
+      "side": 1,
+      "message": "Also, this isn\u0027t going to work properly.  The first discovery will have decremented the control spec, so all you\u0027ll get the second time around is compute matches.  This needs to look like step 3 from https://repos.fedorapeople.org/repos/openstack-m/instack-undercloud/html/deploy-overcloud.html#redeploying-the-overcloud",
+      "parentUuid": "1a106d94_d30efb33",
+      "revId": "664607724dfb28b1c5af6ede40ae2f7f49ea4b54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
