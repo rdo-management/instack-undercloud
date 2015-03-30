@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_29ca804f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-03-30T21:00:16Z",
+      "side": 1,
+      "message": "This overlap was discussed in https://www.redhat.com/archives/rdo-list/2015-March/msg00097.html\n\nFWIW another option to make your package win without depending on yum priorities would be to introduce Epoch in your forked spec.",
+      "range": {
+        "startLine": 10,
+        "startChar": 27,
+        "endLine": 10,
+        "endChar": 47
+      },
+      "revId": "94c19a258af69022ec26f49ca20526a5f629b11b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
