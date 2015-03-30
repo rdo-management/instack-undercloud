@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_c93acc35",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-30T21:19:31Z",
+      "side": 1,
+      "message": "I think I broke you here.  This will need a rebase on my second CR repo change.",
+      "range": {
+        "startLine": 72,
+        "startChar": 51,
+        "endLine": 72,
+        "endChar": 57
+      },
+      "revId": "62262ab2330f780fc575f34b3fff9d4997db3654",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_293f2027",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 1
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-30T21:19:31Z",
+      "side": 1,
+      "message": "tab",
+      "range": {
+        "startLine": 280,
+        "startChar": 10,
+        "endLine": 280,
+        "endChar": 32
+      },
+      "revId": "62262ab2330f780fc575f34b3fff9d4997db3654",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
