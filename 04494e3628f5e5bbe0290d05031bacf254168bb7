@@ -16,6 +16,24 @@
       "revId": "04494e3628f5e5bbe0290d05031bacf254168bb7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_93a003f6",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-30T14:36:32Z",
+      "side": 1,
+      "message": "Whoops!  Considering that, I\u0027m a little surprised this passed CI.",
+      "parentUuid": "1a106d94_f0268d67",
+      "revId": "04494e3628f5e5bbe0290d05031bacf254168bb7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
