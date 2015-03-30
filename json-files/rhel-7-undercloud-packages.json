@@ -14,7 +14,6 @@
       "undercloud-package-install",
       "ironic-discoverd",
       "element-manifest",
-      "tuskar",
       "rdomanager-oscplugin",
       "ironic-conductor",
       "os-cloud-config",
@@ -30,6 +29,7 @@
     ],
     "exclude-element": [
       "pip-and-virtualenv",
+      "tuskar",
       "ironic"
     ],
     "blacklist": [
