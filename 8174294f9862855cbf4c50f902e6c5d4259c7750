@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a6e97f1c",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 4
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T17:20:28Z",
+      "side": 1,
+      "message": "since we\u0027re not deploying this by default, do we need to build it by default?",
+      "revId": "8174294f9862855cbf4c50f902e6c5d4259c7750",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
