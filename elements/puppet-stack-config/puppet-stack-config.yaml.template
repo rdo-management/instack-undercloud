@@ -175,6 +175,11 @@ rabbit_username: {{UNDERCLOUD_RABBIT_USERNAME}}
 horizon_secret_key: {{UNDERCLOUD_HORIZON_SECRET_KEY}}
 horizon::wsgi::apache::priority: 10
 
+# Tuskar
+tuskar::database_connection: mysql://tuskar:unset@{{LOCAL_IP}}/tuskar
+tuskar::api::bind_host: {{LOCAL_IP}}
+tuskar::api::keystone_password: {{UNDERCLOUD_TUSKAR_PASSWORD}}
+
 # service tenant
 ceilometer::api::keystone_tenant: 'service'
 cinder::api::keystone_tenant: 'service'
@@ -186,3 +191,4 @@ neutron::agents::metadata::auth_tenant: 'service'
 neutron::server::auth_tenant: 'service'
 nova::api::admin_tenant_name: 'service'
 swift::proxy::authtoken::admin_tenant_name: 'service'
+tuskar::api::keystone_tenant: 'service'
