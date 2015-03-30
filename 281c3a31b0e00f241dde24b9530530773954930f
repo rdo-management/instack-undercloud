@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_306825ba",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 8
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-30T10:29:55Z",
+      "side": 1,
+      "message": "i think we also want\n\n-A Ceph-Storage-1::count\u003d${CEPHSTORAGESCALE}",
+      "revId": "281c3a31b0e00f241dde24b9530530773954930f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
