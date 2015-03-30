@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_e65897fc",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/edeploy/state",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-03-30T17:38:52Z",
+      "side": 1,
+      "message": "I don\u0027t think we want to match 1 ceph-storage profile by default. Instead, let\u0027s document how to modify this file to match a ceph node, and put that into a separate documentation section. In that same section you can document how to build the image as well, and what additional parameters are needed for Heat.",
+      "revId": "add6bd666358db94d029c14c6767fd11f3962d25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
