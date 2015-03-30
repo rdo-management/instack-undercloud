@@ -34,6 +34,24 @@
       "revId": "281c3a31b0e00f241dde24b9530530773954930f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_10ac09ed",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 8
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-30T10:34:21Z",
+      "side": 1,
+      "message": "indeed, thanks Guilio, I just hit the \u0027there are no parameters named Ceph-Storage-1\u0027",
+      "parentUuid": "1a106d94_306825ba",
+      "revId": "281c3a31b0e00f241dde24b9530530773954930f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
