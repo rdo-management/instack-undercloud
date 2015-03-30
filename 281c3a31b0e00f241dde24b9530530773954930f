@@ -16,6 +16,24 @@
       "revId": "281c3a31b0e00f241dde24b9530530773954930f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_b09b75c8",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 8
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-03-30T10:32:56Z",
+      "side": 1,
+      "message": "yes but there is no \u0027support\u0027 for ceph up to this change yet; what you suggest is happening in https://review.gerrithub.io/#/c/228424",
+      "parentUuid": "1a106d94_306825ba",
+      "revId": "281c3a31b0e00f241dde24b9530530773954930f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
