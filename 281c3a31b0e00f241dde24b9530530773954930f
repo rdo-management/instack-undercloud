@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a106d94_9ff3e272",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 8
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-31T12:49:55Z",
+      "side": 1,
+      "message": "NeutronPhysicalBridge\u003d${NeutronPhysicalBridge:-\u0027br-ex\u0027}",
+      "revId": "281c3a31b0e00f241dde24b9530530773954930f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ffe8167e",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 8
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-03-31T12:49:55Z",
+      "side": 1,
+      "message": "-A Compute-1::NeutronPhysicalBridge\u003d$NeutronPhysicalBridge",
+      "revId": "281c3a31b0e00f241dde24b9530530773954930f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_306825ba",
         "filename": "scripts/instack-deploy-overcloud",
         "patchSetId": 8
