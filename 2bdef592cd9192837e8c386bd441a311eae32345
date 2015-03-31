@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_55a78b4f",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-31T19:15:05Z",
+      "side": 1,
+      "message": "I think it would be a good idea to move this step above the sample json.  It\u0027s easy to miss way down here.",
+      "range": {
+        "startLine": 120,
+        "startChar": 7,
+        "endLine": 120,
+        "endChar": 9
+      },
+      "revId": "2bdef592cd9192837e8c386bd441a311eae32345",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_35776fd6",
+        "filename": "doc/source/virt-setup.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-31T19:15:05Z",
+      "side": 1,
+      "message": "Some people are going to object to having their password in the command line because it shows up in the ps output on the system then.  We probably want to just make this \"sudo subscription-manager register\" and let the prompts take care of the username and password (at least the password anyway).",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 57
+      },
+      "revId": "2bdef592cd9192837e8c386bd441a311eae32345",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7581e78e",
+        "filename": "scripts/instack-setup-host",
+        "patchSetId": 7
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-03-31T19:15:05Z",
+      "side": 1,
+      "message": "We need priorities for the delorean repos, so this should be getting installed for all platforms, not just rhos-release or even rhel.\n\nThat said, this is already missing in the current public centos setup so it\u0027s not a regression.  Needs to be fixed in a follow up though.",
+      "range": {
+        "startLine": 40,
+        "startChar": 26,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "revId": "2bdef592cd9192837e8c386bd441a311eae32345",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
