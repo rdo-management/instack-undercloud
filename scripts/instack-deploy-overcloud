@@ -221,6 +221,7 @@ else
     -P OvercloudSwiftStorageFlavor=${OVERCLOUD_SWIFTSTORAGE_FLAVOR} \
     -P OvercloudCephStorageFlavor=${OVERCLOUD_CEPHSTORAGE_FLAVOR} \
     -P NtpServer=${NtpServer} \
+    -P Debug=True \
     "}
 
 
