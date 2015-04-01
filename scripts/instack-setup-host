@@ -6,7 +6,7 @@ set -o pipefail
 # Install repo file for Delorean master packages
 # Pin to an older repo for now because newer openstack-keystone requires a
 # newer and not yet avaialable python-pycadf.
-export DELOREAN_REPO=${DELOREAN_REPO:-"http://trunk.rdoproject.org/centos70/77/67/77671d5de0e40da08f31b91823dc93a0c1d39c31_1b51cbaf/delorean.repo"}
+export DELOREAN_REPO=${DELOREAN_REPO:-"http://trunk.rdoproject.org/centos70/9b/f3/9bf344f4786e343f5670addf3819c87cf2bc484d_16e2a3a2/delorean.repo"}
 sudo curl -o /etc/yum.repos.d/delorean.repo $DELOREAN_REPO
 # We need to have the main delorean repo have a lower priority than ours to ensure our changes get installed
 sudo sed -i 's/priority=1/priority=10/' /etc/yum.repos.d/delorean.repo
