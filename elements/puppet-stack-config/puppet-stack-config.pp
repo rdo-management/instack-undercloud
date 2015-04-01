@@ -168,10 +168,14 @@ file { '/etc/keystone/ssl/certs/ca.pem':
 include ::glance::api
 include ::glance::registry
 include ::glance::backend::file
+class { 'glance':
+  debug => hiera('debug'),
+}
 
 class { 'nova':
   rabbit_hosts           => [hiera('controller_host')],
   glance_api_servers     => join([hiera('glance_protocol'), '://', hiera('controller_host'), ':', hiera('glance_port')]),
+  debug                  => hiera('debug'),
 }
 
 include ::nova::api
@@ -183,6 +187,7 @@ include ::nova::scheduler
 
 class {'neutron':
   rabbit_hosts => [hiera('controller_host')],
+  debug        => hiera('debug'),
 }
 
 include ::neutron::server
@@ -253,6 +258,9 @@ include ::ceilometer::alarm::notifier
 include ::ceilometer::alarm::evaluator
 include ::ceilometer::expirer
 include ::ceilometer::collector
+class { 'ceilometer':
+  debug => hiera('debug'),
+}
 class { 'ceilometer::agent::auth':
   auth_url => join(['http://', hiera('controller_host'), ':5000/v2.0']),
 }
@@ -265,6 +273,9 @@ include ::heat::api
 include ::heat::api_cfn
 include ::heat::api_cloudwatch
 include ::heat::engine
+class {'heat':
+  debug => hiera('debug'),
+}
 
 $snmpd_user = hiera('snmpd_readonly_user_name')
 snmp::snmpv3_user { $snmpd_user:
@@ -304,7 +315,8 @@ class { 'nova::network::neutron':
 include ::ironic::conductor
 
 class { 'ironic':
-  enabled_drivers => ['pxe_ipmitool', 'pxe_ssh', 'pxe_drac']
+  enabled_drivers => ['pxe_ipmitool', 'pxe_ssh', 'pxe_drac'],
+  debug           => hiera('debug'),
 }
 
 class { 'ironic::api':
@@ -321,4 +333,8 @@ class { 'horizon':
   keystone_url => join(['http://', hiera('controller_host'), ':5000/v2.0']),
   allowed_hosts => [hiera('controller_host'), $::fqdn, 'localhost'],
   server_aliases => [hiera('controller_host'), $::fqdn, 'localhost'],
+}
+
+class { 'cinder':
+  debug => hiera('debug'),
 }
