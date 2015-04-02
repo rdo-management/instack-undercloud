@@ -334,6 +334,10 @@ class { 'horizon':
   server_aliases => [hiera('controller_host'), $::fqdn, 'localhost'],
 }
 
+class { 'tuskar::ui':
+  extras => true
+}
+
 # tempest
 # TODO: when puppet-tempest supports install by package, do that instead
 package{'openstack-tempest-juno': }
