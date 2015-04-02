@@ -34,6 +34,7 @@ export NETWORK_GATEWAY
 export DISCOVERY_INTERFACE
 export DISCOVERY_IPRANGE
 export DISCOVERY_PXEIP
+export DISCOVERY_RUNBENCH
 
 export UNDERCLOUD_DB_PASSWORD=${UNDERCLOUD_DB_PASSWORD:-$(tripleo os-make-password)}
 export UNDERCLOUD_ADMIN_TOKEN=${UNDERCLOUD_ADMIN_TOKEN:-$(tripleo os-make-password)}
@@ -47,7 +48,7 @@ export UNDERCLOUD_TUSKAR_PASSWORD=${UNDERCLOUD_TUSKAR_PASSWORD:-$(tripleo os-mak
 export UNDERCLOUD_SWIFT_PASSWORD=${UNDERCLOUD_SWIFT_PASSWORD:-$(tripleo os-make-password)}
 
 if [ -z "$INSTACK_ROOT" ]; then
-    sudo -E /usr/share/instack-undercloud/undercloud-stack-config/install.d/02-undercloud-stack-heat-metadata    
+    sudo -E /usr/share/instack-undercloud/undercloud-stack-config/install.d/02-undercloud-stack-heat-metadata
 else
     sudo -E $INSTACK_ROOT/instack-undercloud/elements/undercloud-stack-config/install.d/02-undercloud-stack-heat-metadata
 fi
