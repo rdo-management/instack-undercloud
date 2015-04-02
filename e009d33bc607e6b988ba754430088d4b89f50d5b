@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_22d0cd4f",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-04-02T17:25:25Z",
+      "side": 1,
+      "message": "Is there a difference between centos-cr and centos-cloud-repo?\n\nMaybe we just want to update the centos-cr element?",
+      "revId": "e009d33bc607e6b988ba754430088d4b89f50d5b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
