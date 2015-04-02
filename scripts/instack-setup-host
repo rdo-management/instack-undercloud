@@ -10,11 +10,13 @@ export DELOREAN_REPO=${DELOREAN_REPO:-"http://trunk.rdoproject.org/centos70/77/6
 sudo curl -o /etc/yum.repos.d/delorean.repo $DELOREAN_REPO
 # We need to have the main delorean repo have a lower priority than ours to ensure our changes get installed
 sudo sed -i 's/priority=1/priority=10/' /etc/yum.repos.d/delorean.repo
+sudo yum clean all
 
 # Install repo file for Delorean el7 midstream packages built from
 # rdo-management.
 export DELOREAN_RHEL7_REPO=${DELOREAN_RHEL7_REPO:-"http://trunk-mgt.rdoproject.org/repos/current/delorean-rdo-management.repo"}
 sudo curl -o /etc/yum.repos.d/delorean-rdo-management.repo $DELOREAN_RHEL7_REPO
+sudo yum clean all
 
 # Delorean requires RDO
 if ! rpm -q rdo-release; then
@@ -24,6 +26,7 @@ fi
 if ! rpm -q epel-release; then
     sudo yum install -y http://mirrors.einstein.yu.edu/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 fi
+sudo yum clean all
 
 if $(grep -Eqs 'Red Hat Enterprise Linux Server' /etc/redhat-release); then
     export RUN_RHOS_RELEASE=${RUN_RHOS_RELEASE:-"0"}
@@ -35,6 +38,7 @@ if $(grep -Eqs 'Red Hat Enterprise Linux Server' /etc/redhat-release); then
         fi
         sudo yum install -y http://rhos-release.virt.bos.redhat.com/repos/rhos-release/rhos-release-latest.noarch.rpm
         sudo rhos-release 6
+	sudo yum clean all
         # We need openwsman-python from the optional repo
         sudo yum install -y yum-utils
         sudo yum install -y yum-plugin-priorities
