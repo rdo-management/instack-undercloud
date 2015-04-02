@@ -322,3 +322,7 @@ class { 'horizon':
   allowed_hosts => [hiera('controller_host'), $::fqdn, 'localhost'],
   server_aliases => [hiera('controller_host'), $::fqdn, 'localhost'],
 }
+
+class { 'tuskar::ui':
+  extras => true
+}
