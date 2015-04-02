@@ -3,6 +3,9 @@
 set -eux
 set -o pipefail
 
+# Delorean uses repo priorities to ensure we get the right packages
+sudo yum install -y yum-plugin-priorities
+
 # Install repo file for Delorean master packages
 # Pin to an older repo for now because newer openstack-keystone requires a
 # newer and not yet avaialable python-pycadf.
@@ -37,7 +40,6 @@ if $(grep -Eqs 'Red Hat Enterprise Linux Server' /etc/redhat-release); then
         sudo rhos-release 6
         # We need openwsman-python from the optional repo
         sudo yum install -y yum-utils
-        sudo yum install -y yum-plugin-priorities
         sudo yum-config-manager --enable rhelosp-rhel-7-server-opt
     fi
 fi
