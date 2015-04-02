@@ -16,6 +16,24 @@
       "revId": "e009d33bc607e6b988ba754430088d4b89f50d5b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_222c4d47",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1004212
+      },
+      "writtenOn": "2015-04-02T17:48:49Z",
+      "side": 1,
+      "message": "No, the elements serve different purposes and work around different issues  centos-cr is there as a temporary fix until everything gets migrated to centos 7.1 (it is where we get lshw now that it is no longer in epel), and centos-cloud-repo includes updated Openstack dependencies (more current than the ones in EPEL) used to deploy RDO (it contains openvswitch 2.3.1, whic his better for compatibility with current kernels and Neutron).",
+      "parentUuid": "1a106d94_22d0cd4f",
+      "revId": "e009d33bc607e6b988ba754430088d4b89f50d5b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
