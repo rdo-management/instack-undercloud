@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_6795af3f",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-03T18:20:46Z",
+      "side": 1,
+      "message": "please update or move the comment here, since it\u0027s no longer directly above the line it was referring to previously.",
+      "revId": "0af86a48ba7bb1cb2b291ef9afe23392bfb4cd05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_87c54b5d",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-03T18:20:46Z",
+      "side": 1,
+      "message": "please also add setting these parameters to the deployment via straight Heat.",
+      "revId": "0af86a48ba7bb1cb2b291ef9afe23392bfb4cd05",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
