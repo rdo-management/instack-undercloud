@@ -11,6 +11,9 @@ if [ -z "$OS_AUTH_URL" ]; then
     exit 1
 fi
 
+# NOTE(dtantsur): last working API version
+export IRONIC_API_VERSION="1.6"
+
 function show_options () {
     echo "Usage: $SCRIPT_NAME [options]"
     echo
@@ -114,6 +117,7 @@ function register_nodes {
     node_list=$(ironic node-list --limit 0)
     node_ids=$(echo "$node_list" | tail -n +4 | head -n -1 | awk -F "| " '{print $2}')
     for node_id in $node_ids; do
+        ironic node-set-provision-state $node_id manage
         ironic node-update $node_id add properties/capabilities="boot_option:local" driver_info/deploy_ramdisk=$deploy_ramdisk_id driver_info/deploy_kernel=$deploy_kernel_id 1> /dev/null
     done
 
@@ -237,6 +241,12 @@ function wait_for_ssh {
 
 
 function deploy_nodes {
+    node_list=$(ironic node-list --limit 0)
+    node_ids=$(echo "$node_list" | tail -n +4 | head -n -1 | awk -F "| " '{print $2}')
+    for node_id in $node_ids; do
+        ironic node-set-provision-state $node_id provide
+    done
+
     wait_for_hypervisor_stats
     DEPLOY_HEAT_TEMPLATE=${DEPLOY_HEAT_TEMPLATE:-"/usr/share/instack-undercloud/heat-templates/ironic-deployment.yaml"}
     CONTROL_COUNT=${CONTROL_COUNT:-"1"}
