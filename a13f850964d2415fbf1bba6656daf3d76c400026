@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_fbee5c8a",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-discovery-ironic",
+        "patchSetId": 2
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-03T07:12:15Z",
+      "side": 1,
+      "message": "this should not go to the JSON IMO, just log on the screen",
+      "revId": "a13f850964d2415fbf1bba6656daf3d76c400026",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
