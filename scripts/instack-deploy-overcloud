@@ -69,6 +69,7 @@ source tripleo-undercloud-passwords
 
 # Define the interface that will be bridged onto the Neutron defined
 # network.
+NeutronPhysicalBridge=${NeutronPhysicalBridge:-'br-ex'}
 NeutronPublicInterface=${NeutronPublicInterface:-nic1}
 HypervisorNeutronPublicInterface=${HypervisorNeutronPublicInterface:-$NeutronPublicInterface}
 NEUTRON_NETWORK_TYPE=${NEUTRON_NETWORK_TYPE:-gre}
@@ -140,6 +141,7 @@ if [ -n "$TUSKAR" ]; then
     -A Cinder-Storage-1::CinderISCSIHelper=lioadm
     -A Controller-1::CloudName=overcloud
     -A Controller-1::NeutronPublicInterface=$NeutronPublicInterface
+    -A Compute-1::NeutronPhysicalBridge=$NeutronPhysicalBridge
     -A Compute-1::NeutronPublicInterface=$NeutronPublicInterface
     -A Compute-1::NovaComputeLibvirtType=$OVERCLOUD_LIBVIRT_TYPE
     -A Controller-1::NtpServer=${NtpServer}
