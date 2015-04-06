@@ -16,6 +16,24 @@
       "revId": "1ca5fc320f930cf36e81da4bb778eb6782abbe7d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d4f40ad1",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-06T14:13:29Z",
+      "side": 1,
+      "message": "It wasn\u0027t working for me until I wired them all in manually.",
+      "parentUuid": "1a106d94_b4422e0e",
+      "revId": "1ca5fc320f930cf36e81da4bb778eb6782abbe7d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
