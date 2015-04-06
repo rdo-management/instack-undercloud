@@ -23,6 +23,7 @@ The minimum system requirements for the virtual host machine are:
 * At least (1) quad core CPU
 * 12GB free memory
 * 120GB disk space [#]_
+* ip forwarding enabled, e.g. net.ipv4.ip_forward = 1
 
 If you want to increase the scaling of one or more overcloud nodes, you will
 need to ensure you have enough memory and disk space.
