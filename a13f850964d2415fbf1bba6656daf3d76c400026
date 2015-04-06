@@ -16,6 +16,24 @@
       "revId": "a13f850964d2415fbf1bba6656daf3d76c400026",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d43c0ac2",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-discovery-ironic",
+        "patchSetId": 2
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-04-06T12:31:39Z",
+      "side": 1,
+      "message": "We have to put a valid key into hw.json, or the discoverd.json that we create on line 596 will not be valid, and we will get a 400 from line 598. I am ok with just putting \"\" in though and logging to the screen. wdyt?",
+      "parentUuid": "1a106d94_fbee5c8a",
+      "revId": "a13f850964d2415fbf1bba6656daf3d76c400026",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
