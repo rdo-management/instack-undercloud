@@ -110,7 +110,7 @@ fi
 
 export DELOREAN=${DELOREAN:-"0"}
 if [ "$DELOREAN" = "1" ]; then
-    export DIB_COMMON_ELEMENTS="$DIB_COMMON_ELEMENTS delorean"
+    export DIB_COMMON_ELEMENTS="$DIB_COMMON_ELEMENTS"
 fi
 
 export PACKAGES=${PACKAGES:-"1"}
