@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_de453c71",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 3
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-08T18:54:40Z",
+      "side": 1,
+      "message": "any reason not to add NeutronPhysicalBridge here as well?",
+      "revId": "c25d60741b1ba87f71faa9013088fca19ff3dc42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
