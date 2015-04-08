@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a3bdcd6a",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-08T15:43:22Z",
+      "side": 1,
+      "message": "This is now a noop.  We might as well just remove this entire block.",
+      "range": {
+        "startLine": 113,
+        "startChar": 11,
+        "endLine": 113,
+        "endChar": 30
+      },
+      "revId": "04544c52995b281c9a641d95043d5410ddae2549",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
