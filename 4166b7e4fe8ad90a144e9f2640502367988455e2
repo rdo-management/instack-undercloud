@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_39baaa0a",
+        "filename": "doc/source/troubleshooting-overcloud.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-08T20:05:17Z",
+      "side": 1,
+      "message": "*sosreport ?",
+      "range": {
+        "startLine": 169,
+        "startChar": 11,
+        "endLine": 169,
+        "endChar": 19
+      },
+      "revId": "4166b7e4fe8ad90a144e9f2640502367988455e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
