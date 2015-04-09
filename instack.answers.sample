@@ -65,6 +65,11 @@ DISCOVERY_PXEIP=192.0.2.1
 # Set to 1 to enable
 DISCOVERY_RUNBENCH=0
 
+### Enable Log Aggregation ###
+# whether or not log aggregation components should be installed
+# and configured on the undercloud
+ENABLE_LOG_AGGREGATION=false
+
 ### UNDERCLOUD_DEBUG ###
 # Whether to enable the debug log level for OpenStack services
 UNDERCLOUD_DEBUG=true

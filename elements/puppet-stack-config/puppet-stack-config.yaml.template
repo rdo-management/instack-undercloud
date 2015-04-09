@@ -1,4 +1,5 @@
 debug: {{UNDERCLOUD_DEBUG}}
+enable_log_aggregation: {{ENABLE_LOG_AGGREGATION}}
 controller_host: {{LOCAL_IP}} #local-ipv4
 ntp::servers:
   -
