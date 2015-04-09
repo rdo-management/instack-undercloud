@@ -4,6 +4,7 @@
    "puppet-stack-config"
   ]},
   "local-ip": "{{LOCAL_IP}}",
+  "enable-log-aggregation": "{{ENABLE_LOG_AGGREGATION}}",
   "masquerade_networks": ["{{MASQUERADE_NETWORK}}"],
   "neutron": {
     "dhcp_start": "{{DHCP_START}}",
