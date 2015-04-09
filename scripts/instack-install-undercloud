@@ -126,6 +126,11 @@ fi
 # This is owned by root, which can break later image builds as a regular user
 sudo rm -f /tmp/svc-map-services
 
+# This generates proper nodes.json file structure so it can be feeded to regular CLI without modifications
+if [ -f instackenv.json ]; then
+    jq '.nodes[].memory=null | .nodes[].disk=null | .nodes[].arch=null | .nodes[].cpu=null | .nodes' instackenv.json > nodes.json
+fi
+
 export COMPLETION_MESSAGE=${COMPLETION_MESSAGE:-"\
 #############################################################################
 instack-install-undercloud complete.
