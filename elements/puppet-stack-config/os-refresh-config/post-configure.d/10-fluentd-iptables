@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+ENABLE_LOG_AGGREGATION=$(os-apply-config --key enable-log-aggregation --type raw)
+
+if [[ x"$ENABLE_LOG_AGGREGATION" = "xtrue" ]]; then
+    add-rule INPUT -m tcp -p tcp --dport 4000 -j ACCEPT
+fi
