@@ -1,3 +1,6 @@
 os-cloud-config:
 pystache:
 python-oslo-concurrency:
+rubygem-fluent-plugin-elasticsearch:
+fluentd:
+elasticsearch:

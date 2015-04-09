@@ -341,3 +341,49 @@ package{'python-tuskarclient': }
 # tempest
 # TODO: when puppet-tempest supports install by package, do that instead
 package{'openstack-tempest-juno': }
+
+# log aggregation
+if hiera('enable_log_aggregation') {
+
+  # fluentd collector
+
+  # We're installing from yum, so we don't use the
+  # fluentd::install_plugin directive
+  package {'rubygem-fluent-plugin-elasticsearch':
+    ensure => 'installed',
+  }
+
+  Package['fluentd'] -> Package['rubygem-fluent-plugin-elasticsearch'] -> Class['fluentd::service']
+
+  class {'fluentd':
+    package_name => 'fluentd',
+    install_repo => false,
+    service_name => 'fluentd',
+  }
+
+  fluentd::source { 'collector-input':
+    config     => {
+      'type' => 'forward',
+      'port' => '4000',
+      'bind' => '0.0.0.0'
+    },
+    notify => Service['fluentd']
+  }
+
+  fluentd::match { 'collector-output':
+    pattern               => '*.**',
+    config                => {
+      'type'            => 'elasticsearch',
+      'host'            => 'localhost',
+      'port'            => '9200',
+      'logstash_format' => 'true',
+      'flush_interval'  => '5s'
+    },
+    notify => Service['fluentd']
+  }
+
+  # elasticsearch
+  class {'elasticsearch': }
+
+  elasticsearch::instance {'openstack-logs': }
+}
