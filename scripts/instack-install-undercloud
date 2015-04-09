@@ -83,6 +83,7 @@ export DISCOVERY_IPRANGE
 export DISCOVERY_PXEIP
 export DISCOVERY_RUNBENCH
 export UNDERCLOUD_DEBUG
+export ENABLE_LOG_AGGREGATION
 
 # Reuse any existing defined passwords. This is important since any users
 # defined in Keystone already have passwords set. So we don't want to generate
