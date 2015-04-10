@@ -130,8 +130,17 @@ rabbitmq_user_permissions {[
 # pre-install swift here so we can build rings
 include ::swift
 
+if hiera('service_certificate') != '' {
+  $keystone_public_endpoint = join('https://', hiera('controller_public_vip'), ':13000')
+} else {
+  $keystone_public_endpoint = undef
+}
+
 class { 'keystone':
   debug => hiera('debug'),
+  public_bind_host => hiera('controller_host'),
+  admin_bind_host  => hiera('controller_host'),
+  public_endpoint  => $keystone_public_endpoint,
 }
 
 #TODO: need a cleanup-keystone-tokens.sh solution here
@@ -336,6 +345,29 @@ class { 'horizon':
 
 # Install python-tuskarclient so we can deploy a stack with tuskar
 package{'python-tuskarclient': }
+
+if hiera('service_certificate') != '' {
+  class { 'tripleo::loadbalancer':
+    controller_virtual_ip => hiera('controller_admin_vip'),
+    controller_hosts      => [hiera('controller_host')],
+    control_virtual_interface => 'br-ctlplane',
+    public_virtual_ip     => hiera('controller_public_vip'),
+    public_virtual_interface  => 'br-ctlplane',
+    service_certificate   => hiera('service_certificate'),
+    keystone_admin        => true,
+    keystone_public       => true,
+    neutron               => true,
+    cinder                => true,
+    glance_api            => true,
+    glance_registry       => true,
+    nova_osapi            => true,
+    nova_metadata         => true,
+    swift_proxy_server    => true,
+    heat_api              => true,
+    #horizon               => true,
+    rabbitmq              => true,
+  }
+}
 
 # tempest
 # TODO: when puppet-tempest supports install by package, do that instead
