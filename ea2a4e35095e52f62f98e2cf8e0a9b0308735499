@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_f22f849f",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-10T18:59:25Z",
+      "side": 1,
+      "message": "huh, ironic is not supported?",
+      "revId": "ea2a4e35095e52f62f98e2cf8e0a9b0308735499",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
