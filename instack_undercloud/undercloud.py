@@ -92,6 +92,20 @@ _opts = [
                      'local_interface, with the netmask defined by the '
                      'prefix portion of the value.')
                ),
+    cfg.StrOpt('undercloud_public_vip',
+               default='192.0.2.2',
+               help=('Virtual IP address to use for the public endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_admin_vip',
+               default='192.0.2.3',
+               help=('Virtual IP address to use for the admin endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_service_certificate',
+               help=('Certificate file to use for OpenStack service SSL '
+                     'connections.')
+               ),
     cfg.StrOpt('local_interface',
                default='eth1',
                help=('Network interface on the Undercloud that will be '
