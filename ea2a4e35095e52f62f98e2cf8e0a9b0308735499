@@ -16,6 +16,24 @@
       "revId": "ea2a4e35095e52f62f98e2cf8e0a9b0308735499",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_46033d0d",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-10T19:07:40Z",
+      "side": 1,
+      "message": "Evidently not: https://github.com/stackforge/puppet-tripleo/blob/master/manifests/loadbalancer.pp\n\nWe\u0027ll need to get that added to the upstream manifest first, but I\u0027m not even sure this is doing what we want so I\u0027m not going to pursue it too much right now.",
+      "parentUuid": "1a106d94_f22f849f",
+      "revId": "ea2a4e35095e52f62f98e2cf8e0a9b0308735499",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
