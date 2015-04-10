@@ -43,6 +43,16 @@ steps are marked as follows:
 
    Step that should only be run when using RHEL
 
+.. admonition:: Portal Registration
+   :class: portal-tag
+
+   Step that should only be run when using Portal Registration
+
+.. admonition:: Satellite Registration
+   :class: satellite-tag
+
+   Step that should only be run when using Satellite Registration
+
 .. admonition:: CentOS
    :class: centos-tag
 
