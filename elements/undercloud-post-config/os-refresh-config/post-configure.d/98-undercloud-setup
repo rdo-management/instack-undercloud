@@ -52,11 +52,18 @@ if ! keystone role-get ResellerAdmin; then
 fi
 
 # Create service endpoints and optionally include Ceilometer for UI support
+REGISTER_SERVICE_OPTS=
+
+if [ "$(hiera service_certificate)" != "nil" ]; then
+    REGISTER_SERVICE_OPTS="-p $(hiera controller_public_vip)"
+fi
+
 ENDPOINTS_FILE=$(mktemp)
 cat > $ENDPOINTS_FILE << EOF
 {
     "heat": {
-        "password": "$UNDERCLOUD_HEAT_PASSWORD"
+        "password": "$UNDERCLOUD_HEAT_PASSWORD",
+        "ssl_port": "13004"
     },
     "neutron": {
         "password": "$UNDERCLOUD_NEUTRON_PASSWORD"
@@ -85,8 +92,6 @@ cat > $ENDPOINTS_FILE << EOF
     }
 }
 EOF
-
-REGISTER_SERVICE_OPTS=
 
 setup-endpoints -s $ENDPOINTS_FILE $REGISTER_SERVICE_OPTS
 rm $ENDPOINTS_FILE
