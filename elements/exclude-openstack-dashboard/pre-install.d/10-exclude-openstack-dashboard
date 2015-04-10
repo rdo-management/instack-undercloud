@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+# openstack-dashboard installs are currently broken
+# https://bugzilla.redhat.com/show_bug.cgi?id=1210692
+sudo yum-config-manager --save --setopt exclude=openstack-dashboard
