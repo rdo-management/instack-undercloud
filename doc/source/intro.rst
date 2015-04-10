@@ -16,7 +16,18 @@ steps are marked as follows:
 .. admonition:: RHEL
    :class: rhel-tag
 
-   Step that should only be run when using RHEL
+   Step that should only be run when using RHEL, regardless of the registraton
+   method.
+
+.. admonition:: RHEL Portal Registration
+   :class: portal-tag
+
+   Step that should only be run when registering RHEL to the Red Hat Portal
+
+.. admonition:: RHEL Satellite Registration
+   :class: satellite-tag
+
+   Step that should only be run when registering RHEL to a Red Hat Satellite
 
 .. admonition:: CentOS
    :class: centos-tag
