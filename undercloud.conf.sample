@@ -16,6 +16,18 @@
 # portion of the value. (string value)
 #local_ip = 192.0.2.1/24
 
+# Virtual IP address to use for the public endpoints of Undercloud
+# services. (string value)
+#undercloud_public_vip = 192.0.2.2
+
+# Virtual IP address to use for the admin endpoints of Undercloud
+# services. (string value)
+#undercloud_admin_vip = 192.0.2.3
+
+# Certificate file to use for OpenStack service SSL connections.
+# (string value)
+#undercloud_service_certificate =
+
 # Network interface on the Undercloud that will be handling the PXE
 # boots and DHCP for Overcloud instances. (string value)
 #local_interface = eth1
