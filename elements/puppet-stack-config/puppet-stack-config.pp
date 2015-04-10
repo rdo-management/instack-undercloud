@@ -132,6 +132,8 @@ include ::swift
 
 class { 'keystone':
   debug => hiera('debug'),
+  public_bind_host => hiera('controller_host'),
+  admin_bind_host  => hiera('controller_host'),
 }
 
 #TODO: need a cleanup-keystone-tokens.sh solution here
@@ -332,6 +334,26 @@ class { 'horizon':
   keystone_url => join(['http://', hiera('controller_host'), ':5000/v2.0']),
   allowed_hosts => [hiera('controller_host'), $::fqdn, 'localhost'],
   server_aliases => [hiera('controller_host'), $::fqdn, 'localhost'],
+}
+
+class { 'tripleo::loadbalancer':
+  controller_virtual_ip => '192.0.2.2',
+  controller_hosts      => [hiera('controller_host')],
+  control_virtual_interface => 'br-ctlplane',
+  public_virtual_ip     => '192.0.2.3',
+  public_virtual_interface  => 'br-ctlplane',
+  keystone_admin        => true,
+  keystone_public       => true,
+  neutron               => true,
+  cinder                => true,
+  glance_api            => true,
+  glance_registry       => true,
+  nova_osapi            => true,
+  nova_metadata         => true,
+  swift_proxy_server    => true,
+  heat_api              => true,
+  #horizon               => true,
+  rabbitmq              => true,
 }
 
 # tempest
