@@ -20,6 +20,18 @@ IMAGE_PATH=.
 # IP/PREFIX format.
 LOCAL_IP=192.0.2.1/24
 
+### UNDERCLOUD_PUBLIC_VIP ###
+# Virtual IP address to use for the public endpoints of Undercloud services.
+UNDERCLOUD_PUBLIC_VIP=192.0.2.2
+
+### UNDERCLOUD_ADMIN_VIP ###
+# Virtual IP address to use for the admin endpoints of Undercloud services.
+UNDERCLOUD_ADMIN_VIP=192.0.2.3
+
+### UNDERCLOUD_SERVICE_CERTIFICATE ###
+# Certificate file to use for OpenStack service SSL connections.
+UNDERCLOUD_SERVICE_CERTIFICATE=
+
 ### LOCAL_INTERFACE ###
 # Network interface on the Undercloud that will be handling the PXE boots and
 # DHCP for Overcloud instances.
