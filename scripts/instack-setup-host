@@ -48,3 +48,7 @@ if [[ -f /etc/centos-release ]]; then
     cd /etc/yum.repos.d
     sudo curl -O http://buildlogs.centos.org/centos/7/cloud/openstack-rdo/centos-cloud-rdo.repo
 fi
+
+# openstack-dashboard installs are currently broken
+# https://bugzilla.redhat.com/show_bug.cgi?id=1210692
+sudo yum-config-manager --save --setopt openstack-kilo.exclude=python-XStatic-Angular*,openstack-dashboard
