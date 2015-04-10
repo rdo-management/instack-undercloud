@@ -58,6 +58,10 @@ ENDPOINT_LIST="--glance-password $UNDERCLOUD_GLANCE_PASSWORD
 
 REGISTER_SERVICE_OPTS=
 
+if [ -n "${UNDERCLOUD_SERVICE_CERTIFICATE:-}" ]; then
+    REGISTER_SERVICE_OPTS="--ssl $UNDERCLOUD_PUBLIC_VIP"
+fi
+
 # Needed by ceilometer user in register-endpoint
 if ! keystone role-get ResellerAdmin; then
     keystone role-create --name=ResellerAdmin
