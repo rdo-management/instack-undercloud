@@ -92,6 +92,20 @@ _opts = [
                      'local_interface, with the netmask defined by the '
                      'prefix portion of the value.')
                ),
+    cfg.StrOpt('undercloud_public_vip',
+               default='192.0.2.2',
+               help=('Virtual IP address to use for the public endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_admin_vip',
+               default='192.0.2.3',
+               help=('Virtual IP address to use for the admin endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_service_certificate',
+               help=('Certificate file to use for OpenStack service SSL '
+                     'connections.')
+               ),
     cfg.StrOpt('local_interface',
                default='eth1',
                help=('Network interface on the Undercloud that will be '
@@ -402,7 +416,11 @@ def _generate_environment(instack_root):
                         'now be used for configuration.', env_name)
             instack_env[env_name] = answers_parser.get('answers', env_name)
         else:
-            instack_env[env_name] = six.text_type(CONF[opt.name])
+            # six.text_type would convert this to the literal string "None"
+            if CONF[opt.name] is None:
+                instack_env[env_name] = ''
+            else:
+                instack_env[env_name] = six.text_type(CONF[opt.name])
     # Opts that needs extra processing
     if instack_env['DISCOVERY_RUNBENCH'] not in ['0', '1']:
         instack_env['DISCOVERY_RUNBENCH'] = ('1' if CONF.discovery_runbench
