@@ -3,6 +3,9 @@ keystone_auth_uri: http://{{LOCAL_IP}}:5000/v2.0/
 
 debug: {{UNDERCLOUD_DEBUG}}
 controller_host: {{LOCAL_IP}} #local-ipv4
+controller_admin_vip: {{UNDERCLOUD_ADMIN_VIP}}
+controller_public_vip: {{UNDERCLOUD_PUBLIC_VIP}}
+service_certificate: {{UNDERCLOUD_SERVICE_CERTIFICATE}}
 ntp::servers:
   -
 

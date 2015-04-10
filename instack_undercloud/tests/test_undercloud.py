@@ -347,7 +347,7 @@ class TestConfigureSshKeys(base.BaseTestCase):
         id_path = self._create_test_id()
         mock_run.side_effect = [None, None, '3nigma']
         mock_extract.side_effect = ['aturing', 'http://bletchley:5000/v2.0',
-                                    'hut8']
+                                    'hut8', 'bombe.pem']
         mock_client_instance = mock.Mock()
         mock_client.return_value = mock_client_instance
         if not exists:
@@ -356,7 +356,8 @@ class TestConfigureSshKeys(base.BaseTestCase):
         undercloud._configure_ssh_keys()
         mock_eui.assert_called_with(id_path)
         mock_client.assert_called_with(2, 'aturing', '3nigma', 'hut8',
-                                       'http://bletchley:5000/v2.0')
+                                       'http://bletchley:5000/v2.0',
+                                       cacert='bombe.pem')
         mock_client_instance.keypairs.get.assert_called_with('default')
         if not exists:
             mock_client_instance.keypairs.create.assert_called_with(
