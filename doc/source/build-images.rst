@@ -50,23 +50,47 @@ non-root user that was used to install the undercloud.
 
    .. only:: external
 
-      .. admonition:: RHEL
-         :class: rhel-tag
+     .. admonition:: RHEL
+        :class: rhel-tag
 
-         Download the RHEL 7.1 cloud image or copy it over from a different location,
-         for example:
-         https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.1/x86_64/product-downloads,
-         and define the needed environment variables for RHEL 7.1 prior to running
-         ``instack-build-images``::
+        Download the RHEL 7.1 cloud image or copy it over from a different location,
+        for example:
+        https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.1/x86_64/product-downloads,
+        and define the needed environment variables for RHEL 7.1 prior to running
+        ``instack-build-images``::
 
-             export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150224.0.x86_64.qcow2
-             export REG_METHOD=portal
-             export REG_USER="[your username]"
-             export REG_PASSWORD="[your password]"
-             # Find this with `sudo subscription-manager list --available`
-             export REG_POOL_ID="[pool id]"
-             export REG_REPOS="rhel-7-server-rpms rhel-7-server-extras-rpms rhel-ha-for-rhel-7-server-rpms \
-                 rhel-7-server-optional-rpms rhel-7-server-openstack-6.0-rpms"
+            export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150224.0.x86_64.qcow2
+
+     .. admonition:: RHEL Portal Registration
+        :class: portal-tag
+
+        To register the image builds to the Red Hat Portal define the following variables::
+
+              export REG_METHOD=portal
+              export REG_USER="[your username]"
+              export REG_PASSWORD="[your password]"
+              # Find this with `sudo subscription-manager list --available`
+              export REG_POOL_ID="[pool id]"
+              export REG_REPOS="rhel-7-server-rpms rhel-7-server-extras-rpms rhel-ha-for-rhel-7-server-rpms \
+                  rhel-7-server-optional-rpms rhel-7-server-openstack-6.0-rpms"
+
+    .. admonition:: RHEL Satellite Registration
+       :class: satellite-tag
+
+       To register the image builds to a Satellite define the following
+       variables. Only using an activation key is supported when registering to
+       Satellite, username/password is not supported for security reasons. The
+       activation key must enable the repos shown::
+
+              export REG_METHOD=satellite
+              export REG_SAT_URL="[satellite url]"
+              export REG_ORG="[satellite org]"
+              export REG_ACTIVATION_KEY="[activation key]"
+              # Activation key must enable these repos:
+              # rhel-7-server-rpms
+              # rhel-7-server-optional-rpms
+              # rhel-7-server-extras-rpms
+              # rhel-7-server-openstack-6.0-rpms
    ::
 
           instack-build-images

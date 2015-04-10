@@ -68,7 +68,6 @@ if [ "$NODE_DIST" = "rhel7" ]; then
         # SELinux permissive for RHEL without rhos-release
         export DIB_COMMON_ELEMENTS=selinux-permissive
     fi
-    export REG_HALT_UNREGISTER=${REG_HALT_UNREGISTER:-1}
     export DELOREAN=1
     export DELOREAN_REPO_URL=$DELOREAN_TRUNK_REPO
 elif [ "$NODE_DIST" = "centos7" ]; then
@@ -301,7 +300,7 @@ function overcloud-full {
             $OVERCLOUD_FULL_DIB_EXTRA_ARGS \
             $DIB_COMMON_ELEMENTS \
             $PUPPET_COMMON_ELEMENTS \
-            2>&1 | tee dib-openstack-full.log
+            2>&1 | tee dib-overcloud-full.log
     fi
 }
 
