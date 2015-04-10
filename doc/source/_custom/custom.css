@@ -84,10 +84,14 @@ footer p {
 
 /* tags */
 .rhel-tag {background: #fee;}
+.portal-tag {background-color: #ded;}
+.satellite-tag {background-color: #dee;}
 .centos-tag {background: #fef;}
 .baremetal-tag {background: #eef;}
 .virt-tag {background: #efe;}
 .ceph-tag {background: #eff;}
+
+
 
 
 /* LINKS */
