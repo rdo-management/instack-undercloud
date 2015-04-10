@@ -127,6 +127,7 @@ os-net-config \
 delorean-repo \
 stable-interface-names \
 grub2 \
+exclude-openstack-dashboard \
 -p python-psutil,python-debtcollector \
 "
 
