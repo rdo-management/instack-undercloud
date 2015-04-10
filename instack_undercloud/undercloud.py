@@ -83,6 +83,20 @@ _opts = [
                      'local_interface, with the netmask defined by the '
                      'prefix portion of the value.')
                ),
+    cfg.StrOpt('undercloud_public_vip',
+               default='192.0.2.2',
+               help=('Virtual IP address to use for the public endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_admin_vip',
+               default='192.0.2.3',
+               help=('Virtual IP address to use for the admin endpoints of '
+                     'Undercloud services.')
+               ),
+    cfg.StrOpt('undercloud_service_certificate',
+               help=('Certificate file to use for OpenStack service SSL '
+                     'connections.')
+               ),
     cfg.StrOpt('local_interface',
                default='eth1',
                help=('Network interface on the Undercloud that will be '
@@ -481,7 +495,9 @@ def _configure_ssh_keys():
     user = _extract_from_stackrc('OS_USERNAME')
     auth_url = _extract_from_stackrc('OS_AUTH_URL')
     tenant = _extract_from_stackrc('OS_TENANT')
-    nova = novaclient.Client(2, user, password, tenant, auth_url)
+    os_cacert = _extract_from_stackrc('OS_CACERT')
+    nova = novaclient.Client(2, user, password, tenant, auth_url,
+                             cacert=os_cacert)
     try:
         nova.keypairs.get('default')
     except exceptions.NotFound:
