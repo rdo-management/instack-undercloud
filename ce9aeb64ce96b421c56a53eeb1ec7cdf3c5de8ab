@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_32063ccf",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-10T16:14:01Z",
+      "side": 1,
+      "message": "This is also going to hide legitimate errors, but I don\u0027t see any reasonable way around that.\n\nThe Python version of all this can\u0027t get here soon enough.",
+      "range": {
+        "startLine": 134,
+        "startChar": 57,
+        "endLine": 134,
+        "endChar": 58
+      },
+      "revId": "ce9aeb64ce96b421c56a53eeb1ec7cdf3c5de8ab",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
