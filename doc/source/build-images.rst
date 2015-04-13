@@ -32,6 +32,17 @@ non-root user that was used to install the undercloud.
 
             export NODE_DIST=rhel7
 
+  .. note:: To build images with a specific version of the delorean-mgt
+     repositories,
+     set the ``DELOREAN_RDO_MANAGEMENT_REPO_URL`` environment variable prior to running
+     ``instack-build-images``:
+
+     .. admonition:: Last known good delorean mgt yum repositories
+
+        ::
+
+            export DELOREAN_RDO_MANAGEMENT_REPO_URL="http://trunk-mgt.rdoproject.org/repos/current-passed-ci/"
+
 2. Build the required images:
 
    .. only:: internal
