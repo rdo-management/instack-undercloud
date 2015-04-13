@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_eb182a77",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-discovery-ironic",
+        "patchSetId": 8
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-13T14:04:42Z",
+      "side": 1,
+      "message": "I would prefer this to be one function:\n\n if [ \"$RUNBENCH\" \u003d 1 ]; then\n   HDETECT_ARGS\u003d\"--benchmark cpu disk mem\"\n hardware-detect $HDETECT_ARGS \u003e /hw.json || give_up \"Failed to detect hardware\"",
+      "revId": "c67ef8b0861263032d01d310716b3b965af5b5eb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
