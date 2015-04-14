@@ -336,4 +336,6 @@ class { 'horizon':
 
 # tempest
 # TODO: when puppet-tempest supports install by package, do that instead
-package{'openstack-tempest-juno': }
+package{'openstack-tempest-kilo': }
+# needed for /bin/subunit-2to1 (called by run_tempest.sh)
+package{'subunit-filters': }
