@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_1e9dfdbc",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-14T20:36:10Z",
+      "side": 1,
+      "message": "actually, it\u0027s a bug either in Ironic or discoverd, needs investigating. could you provide some details/logs/etc?",
+      "revId": "561eb4f4eebf8bcf22607f47dae63d152b8f0689",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
