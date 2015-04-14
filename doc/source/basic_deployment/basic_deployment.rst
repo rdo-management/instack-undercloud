@@ -225,6 +225,23 @@ Deploy the overcloud (default of 1 compute and 1 control):
 
     instack-deploy-overcloud --tuskar
 
+.. admonition:: Without Tempest
+      :class: no-tempest
+
+    By default ``instack-deploy-overcloud`` runs an integration test suite
+    against the deployed overcloud. To avoid that, run::
+
+        instack-deploy-overcloud --tuskar --no-tempest
+
+.. admonition:: Full Tempest Test Suite
+         :class: full-tempest
+
+    By default ``instack-deploy-overcloud`` runs only a subset of the Tempest
+    integration test suite. To run the full test suite::
+
+        export TEMPEST_ARGS=
+        instack-deploy-overcloud --tuskar
+
 
 Post-Deployment
 ---------------
