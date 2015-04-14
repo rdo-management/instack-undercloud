@@ -290,18 +290,21 @@ function setup_flavors {
     echo "  Setting baremetal_control flavor keys ... "
     nova flavor-key baremetal_control set \
         "cpu_arch"="x86_64" \
+        "capabilities:boot_option"="local" \
         "profile=control"
     nova flavor-show baremetal_control
 
     echo "  Setting baremetal_compute flavor keys ... "
     nova flavor-key baremetal_compute set \
         "cpu_arch"="x86_64" \
+        "capabilities:boot_option"="local" \
         "profile=compute"
     nova flavor-show baremetal_compute
 
     echo "  Setting baremetal_ceph-storage flavor keys ... "
     nova flavor-key baremetal_ceph-storage set \
         "cpu_arch"="x86_64" \
+        "capabilities:boot_option"="local" \
         "profile=ceph-storage"
     nova flavor-show baremetal_ceph-storage
 }
