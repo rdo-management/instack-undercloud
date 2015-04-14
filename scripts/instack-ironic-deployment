@@ -173,10 +173,14 @@ function configure_bios {
         if [ "$driver" == "pxe_drac" ]; then
             echo -n "    Configuring BIOS for node ID $node_id ... "
             ironic node-vendor-passthru $node_id --http_method POST configure_bios_settings
-            echo "DONE. You might need to reboot the machine to apply the changes."
+            echo "DONE."
         fi
+	sleep 5
+	ironic node-set-power-state $node_id reboot
     done
     echo
+
+    wait_for_drac_config_jobs
 }
 
 function configure_raid_volumes {
