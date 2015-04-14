@@ -16,6 +16,24 @@
       "revId": "561eb4f4eebf8bcf22607f47dae63d152b8f0689",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_9eb0cd44",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 1
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-14T20:50:06Z",
+      "side": 1,
+      "message": "I actually meant to mention that this should be fixed in Ironic in the commit message, but I forgot.\n\nThe log I got from Ronelle is here: http://pastebin.test.redhat.com/276246",
+      "parentUuid": "1a106d94_1e9dfdbc",
+      "revId": "561eb4f4eebf8bcf22607f47dae63d152b8f0689",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
