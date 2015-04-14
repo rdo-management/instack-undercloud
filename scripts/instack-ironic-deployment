@@ -154,7 +154,10 @@ function discover_nodes {
                 else
                     echo "ERROR: $error"
                 fi
-                ironic node-set-provision-state $node_id provide
+                # NOTE(bnemec): This step can run into NodeLocked errors, and right now
+                # ironicclient doesn't have a retry mechanism for that.  Until it does,
+                # add some retries here.
+                wait_for -l 5 -d 3 -- ironic node-set-provision-state $node_id provide
                 break
             fi
             sleep 15
