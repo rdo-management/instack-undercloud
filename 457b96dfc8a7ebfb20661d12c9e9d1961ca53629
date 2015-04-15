@@ -22,6 +22,30 @@
       "revId": "457b96dfc8a7ebfb20661d12c9e9d1961ca53629",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_71141f44",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-15T20:28:12Z",
+      "side": 1,
+      "message": "yep, i\u0027ll fix it",
+      "parentUuid": "1a106d94_2e14064d",
+      "range": {
+        "startLine": 127,
+        "startChar": 44,
+        "endLine": 127,
+        "endChar": 53
+      },
+      "revId": "457b96dfc8a7ebfb20661d12c9e9d1961ca53629",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
