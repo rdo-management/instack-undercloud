@@ -13,6 +13,30 @@ Register nodes for your deployment with Ironic::
 
     instack-ironic-deployment --nodes-json instackenv.json --register-nodes
 
+.. note::
+    It's not recommended to delete nodes and/or rerun this command after
+    you've proceeded to the next steps. Particularly, if you start discovery
+    and then recreate nodes, you won't be able to retry discovery until
+    previous one times out (1 hour by default).
+
+    Any problems with node data
+    enrolled into Ironic database on this step can be fixed using Ironic CLI.
+    For example, wrong MAC can be fixed in two steps:
+
+    * find out port UUID by running
+      ::
+
+        ironic node-port-list <NODE UUID>
+
+    * update MAC by running
+      ::
+
+        ironic port-update <PORT UUID> replace address=<NEW MAC>
+
+    Wrong IPMI address can be fixed by the following command::
+
+        ironic node-update <NODE UUID> replace driver_info/ipmi_address=<NEW IPMI ADDRESS>
+
 Discovering Nodes
 -----------------
 
