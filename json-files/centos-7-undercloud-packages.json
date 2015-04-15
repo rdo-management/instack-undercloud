@@ -21,7 +21,8 @@
       "os-net-config",
       "puppet-stack-config",
       "selinux-permissive",
-      "selinux-setenforce-0"
+      "selinux-setenforce-0",
+      "rdo-ramdisk-tools"
     ],
     "hook": [
       "extra-data",

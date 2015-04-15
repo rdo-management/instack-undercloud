@@ -19,7 +19,8 @@
       "ironic-conductor",
       "os-cloud-config",
       "os-net-config",
-      "puppet-stack-config"
+      "puppet-stack-config",
+      "rdo-ramdisk-tools"
     ],
     "hook": [
       "extra-data",
