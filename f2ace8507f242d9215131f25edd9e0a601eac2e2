@@ -16,6 +16,24 @@
       "revId": "f2ace8507f242d9215131f25edd9e0a601eac2e2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_f813d4b5",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-15T15:50:32Z",
+      "side": 1,
+      "message": "because you won\u0027t be able to start discovery for node with different UUID but the same MAC for example. see https://bugzilla.redhat.com/show_bug.cgi?id\u003d1211790 for example",
+      "parentUuid": "1a106d94_58f4a886",
+      "revId": "f2ace8507f242d9215131f25edd9e0a601eac2e2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
