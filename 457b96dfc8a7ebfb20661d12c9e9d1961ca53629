@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_2e14064d",
+        "filename": "doc/source/baremetal-setup.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-15T20:25:43Z",
+      "side": 1,
+      "message": "I\u0027m thinking this sentence was obsoleted by the separate satellite tag below?",
+      "range": {
+        "startLine": 127,
+        "startChar": 44,
+        "endLine": 127,
+        "endChar": 53
+      },
+      "revId": "457b96dfc8a7ebfb20661d12c9e9d1961ca53629",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
