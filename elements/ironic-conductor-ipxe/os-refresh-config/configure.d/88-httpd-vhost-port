@@ -1,0 +1,39 @@
+#!/bin/bash
+set -eux
+set -o pipefail
+
+add-rule INPUT -p tcp --dport 8088 -j ACCEPT
+
+mkdir -p /etc/httpd/conf.d
+cat > /etc/httpd/conf.d/10-ironic_vhost.conf << EOF
+Listen 8088
+<VirtualHost *:8088>
+    DocumentRoot "/httpboot"
+    <Directory "/httpboot">
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+
+    ## Logging
+    ErrorLog "/var/log/httpd/ironic_error.log"
+    ServerSignature Off
+    CustomLog "/var/log/httpd/ironic_access.log" combined
+</VirtualHost>
+EOF
+
+os-svc-enable -n apache2
+os-svc-restart -n apache2 || true
+
+[ -x /usr/sbin/semanage ] || exit 0
+
+semanage fcontext -a -t httpd_sys_content_t "/httpboot(/.*)?"
+restorecon -Rv /httpboot/
+
+# Try to delete port if present
+semanage port -d -t http_port_t -p tcp 8088 || true
+
+# Add port
+semanage port -a -t http_port_t -p tcp 8088
