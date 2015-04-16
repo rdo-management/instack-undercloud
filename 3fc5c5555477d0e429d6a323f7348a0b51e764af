@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_e7a5f1b5",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T12:58:17Z",
+      "side": 1,
+      "message": "This particular comment was not the reason for -1 ;)\n\nAck, thanks for explanation. I\u0027m just afraid that this is additional _seemingly_ useless step that people will always forget.",
+      "parentUuid": "1a106d94_272b8931",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_87699dc0",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 2
