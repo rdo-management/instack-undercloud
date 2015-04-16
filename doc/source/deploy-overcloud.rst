@@ -6,17 +6,26 @@ been sourced into the environment::
 
     source stackrc
 
-Registering Nodes
------------------
 
-Register nodes for your deployment with Ironic::
+Register and Discover Nodes
+---------------------------
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+Import nodes.json file in order to register multiple nodes at once::
 
-Discovering Nodes
------------------
+    # instackenv.json file format is not supported at the moment, let's generate valid structure
+    jq '.nodes' instackenv.json > nodes.json
 
-Discover hardware attributes of nodes and match them to a deployment profile:
+    # Register multiple nodes
+    openstack baremetal import --json nodes.json
+
+
+Add extra parameters needed for booting a node when deploying.::
+
+    # Requirements: "bm-deploy-kernel" and "bm-deploy-ramdisk" images are required to be in Glance
+    # You can check with `openstack image list`
+
+    openstack baremetal configure boot
+
 
 .. admonition:: Ceph
    :class: ceph-tag
@@ -31,18 +40,25 @@ Discover hardware attributes of nodes and match them to a deployment profile:
 
        [('ceph-storage', '1'), ('control', '1'), ('compute', '*')]
 
-::
 
-    instack-ironic-deployment --discover-nodes
+Start and check discovery process of all nodes::
+
+    openstack baremetal introspection all start
+    openstack baremetal introspection all status
+
+
+.. note:: **Discovery has to finish without errors.**
+   The process can take up to 10 minutes. If the process takes longer, see
+   `ironic-discoverd troubleshooting documentation`_.
+
+.. _ironic-discoverd troubleshooting documentation: https://github.com/stackforge/ironic-discoverd#troubleshooting
+
 
 Check what profiles were matched for the discovered nodes::
 
     instack-ironic-deployment --show-profile
 
-If you have problems with discovery step, please check `ironic-discoverd
-troubleshooting documentation`_.
 
-.. _ironic-discoverd troubleshooting documentation: https://github.com/stackforge/ironic-discoverd#troubleshooting
 
 Ready-state configuration
 -------------------------
