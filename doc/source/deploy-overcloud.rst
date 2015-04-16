@@ -6,41 +6,33 @@ been sourced into the environment::
 
     source stackrc
 
-Registering Nodes
------------------
 
-Register nodes for your deployment with Ironic::
+Register and Discover Nodes
+---------------------------
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+Import nodes.json file in order to register multiple nodes at once::
+
+    # instackenv.json file format is not supported at the moment, let's generate valid structure
+    jq '.nodes' instackenv.json > nodes.json
+
+    # Register multiple nodes
+    openstack baremetal import --json nodes.json
 
 .. note::
-    It's not recommended to delete nodes and/or rerun this command after
-    you've proceeded to the next steps. Particularly, if you start discovery
-    and then re-register nodes, you won't be able to retry discovery until
-    the previous one times out (1 hour by default).
+   It's not recommended to delete nodes and/or rerun this command after
+   you have proceeded to the next steps. Particularly, if you start discovery
+   and then re-register nodes, you won't be able to retry discovery until
+   the previous one times out (1 hour by default). If you are having issues
+   with nodes after registration, please follow :ref:`node_reg_problems`.
 
-    Any problems with node data registered into Ironic on this step can be
-    fixed using the Ironic CLI.  For example, a wrong MAC can be fixed in two
-    steps:
 
-    * Find out the assigned port UUID by running
-      ::
+Add extra parameters needed for booting a node when deploying.::
 
-        ironic node-port-list <NODE UUID>
+    # Requirements: "bm-deploy-kernel" and "bm-deploy-ramdisk" images are required to be in Glance
+    # You can check with `openstack image list`
 
-    * Update the MAC address by running
-      ::
+    openstack baremetal configure boot
 
-        ironic port-update <PORT UUID> replace address=<NEW MAC>
-
-    * A Wrong IPMI address can be fixed with the following command::
-
-        ironic node-update <NODE UUID> replace driver_info/ipmi_address=<NEW IPMI ADDRESS>
-
-Discovering Nodes
------------------
-
-Discover hardware attributes of nodes and match them to a deployment profile:
 
 .. admonition:: Ceph
    :class: ceph-tag
@@ -55,18 +47,26 @@ Discover hardware attributes of nodes and match them to a deployment profile:
 
        [('ceph-storage', '1'), ('control', '1'), ('compute', '*')]
 
-::
 
-    instack-ironic-deployment --discover-nodes
+Start discovery process of all nodes::
+
+    openstack baremetal introspection all start
+
+After few minutes you can start checking for introspection status::
+
+    openstack baremetal introspection all status
+
+
+.. note:: **Discovery has to finish without errors.**
+   The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
+   the process takes longer, see :ref:`discovery_times_out`.
+
 
 Check what profiles were matched for the discovered nodes::
 
     instack-ironic-deployment --show-profile
 
-If you have problems with discovery step, please check `ironic-discoverd
-troubleshooting documentation`_.
 
-.. _ironic-discoverd troubleshooting documentation: https://github.com/stackforge/ironic-discoverd#troubleshooting
 
 Ready-state configuration
 -------------------------
