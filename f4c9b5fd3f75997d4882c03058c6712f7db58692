@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_c70435c2",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T12:37:43Z",
+      "side": 1,
+      "message": "It was recommended by Docs person to make it separate pages.",
+      "parentUuid": "1a106d94_074f6d6c",
+      "revId": "f4c9b5fd3f75997d4882c03058c6712f7db58692",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_e751710f",
         "filename": "doc/source/installation/installing.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-16T11:20:05Z",
       "side": 1,
       "message": "Is \"RDO-Manager\" a new official name for undercloud? I thought it\u0027s a name of the utility you call here..",
+      "revId": "f4c9b5fd3f75997d4882c03058c6712f7db58692",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_072e4d43",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T12:37:43Z",
+      "side": 1,
+      "message": "Well, RDO-Manager is the tool for installing and managing RDO. Technically in the end it is the undercloud. So in fact you are installing RDO-Manager with this step.",
+      "parentUuid": "1a106d94_e751710f",
       "revId": "f4c9b5fd3f75997d4882c03058c6712f7db58692",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
