@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_6cc0c67c",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T07:29:57Z",
+      "side": 1,
+      "message": "Could you add a couple of retries here as well? And then still ignore the failure, as we can arrive at this point in manageable already.\n\nAlternatively we could check if the state is not available...",
+      "revId": "d6ebc86a2fdf475ddd1e3f424522b59558c95dcd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
