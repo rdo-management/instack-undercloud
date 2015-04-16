@@ -6,12 +6,13 @@ been sourced into the environment::
 
     source stackrc
 
-Registering Nodes
------------------
 
-Register nodes for your deployment with Ironic::
+Register and Introspect Nodes
+-----------------------------
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+Import instackenv.json file in order to register multiple nodes at once::
+
+    openstack baremetal import --json instackenv.json
 
 .. note::
    It's not recommended to delete nodes and/or rerun this command after
@@ -21,11 +22,21 @@ Register nodes for your deployment with Ironic::
    with nodes after registration, please follow
    :ref:`node_registration_problems`.
 
-Introspecting Nodes
--------------------
 
-Introspect hardware for attributes of nodes and match them to a deployment
-profile:
+Add extra parameters needed for local booting a node when deploying:
+
+.. admonition:: Requirements
+   :class: requirements
+
+   *bm-deploy-kernel* and *bm-deploy-ramdisk* images are required
+   to be in Glance at this point. You can check with ``openstack image list``.
+
+::
+
+    openstack baremetal configure boot
+
+
+Start introspection process of all nodes:
 
 .. admonition:: Ceph
    :class: ceph-tag
@@ -42,15 +53,23 @@ profile:
 
 ::
 
-    instack-ironic-deployment --discover-nodes
+    openstack baremetal introspection all start
 
-Check what profiles were matched for the discovered nodes::
 
-    instack-ironic-deployment --show-profile
+After few minutes you can start checking for introspection status::
+
+    openstack baremetal introspection all status
 
 .. note:: **Introspection has to finish without errors.**
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
    the process takes longer, see :ref:`introspection_problems`.
+
+
+Check what profiles were matched for the introspected nodes::
+
+    instack-ironic-deployment --show-profile
+
+
 
 Ready-state configuration
 -------------------------
@@ -61,8 +80,9 @@ Ready-state configuration
    Some hardware has additional setup available, using its vendor-specific management
    interface.  See the :doc:`/vendor-specific` for details.
 
-Deploying Nodes
----------------
+
+Deploy Nodes
+------------
 
 Create the necessary flavors::
 
@@ -95,8 +115,9 @@ Deploy the overcloud (default of 1 compute and 1 control):
 
     instack-deploy-overcloud --tuskar
 
-Working with the Overcloud
---------------------------
+
+Work with the Overcloud
+-----------------------
 
 ``instack-deploy-overcloud`` generates an overcloudrc file appropriate for
 interacting with the deployed overcloud in the current user's home directory.
@@ -108,8 +129,9 @@ To return to working with the undercloud, source the stackrc file again::
 
     source ~/stackrc
 
-Redeploying the Overcloud
--------------------------
+
+Redeploy the Overcloud
+----------------------
 
 The overcloud can be redeployed when desired.
 

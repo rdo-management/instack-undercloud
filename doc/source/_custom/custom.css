@@ -82,6 +82,15 @@ footer p {
   color: rgba(255, 255, 255, 0.95);
 }
 
+/* requirements */
+.requirements {
+  background: rgb(255, 240, 240);
+}
+
+.requirements > p.first.admonition-title {
+  color: rgb(120, 0, 0);
+}
+
 /* tags */
 .rhel-tag {background: #fee;}
 .centos-tag {background: #fef;}
