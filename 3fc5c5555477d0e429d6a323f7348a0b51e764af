@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_277389b2",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:27:55Z",
+      "side": 1,
+      "message": "I\u0027m seriously surprised these are not part of `openstack baremetal import`. Why have more commands?",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_87699dc0",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:27:55Z",
+      "side": 1,
+      "message": "It\u0027s of no much use to check status right after starting... Maybe put it like\n\nAfter some time (around 2 minutes for VM and 10-15 minutes for baremetal) you can start checking for introspection status::\n\n?",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_676461e5",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:27:55Z",
+      "side": 1,
+      "message": "btw please also point to FAQ here",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
