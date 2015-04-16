@@ -1,8 +1,8 @@
-Frequently Asked Questions
-==========================
+Troubleshooting Node Management Failures
+========================================
 
-Where are the logs?
-~~~~~~~~~~~~~~~~~~~
+Where Are the Logs?
+-------------------
 
 Some logs are stored in *journald*, but most are stored as text files in
 ``/var/log``.  Ironic and ironic-discoverd logs are stored in journald. Note
@@ -13,8 +13,36 @@ for example to get all ironic-discoverd logs use::
 
     sudo journalctl -u openstack-ironic-discoverd -u openstack-ironic-discoverd-dnsmasq
 
-Discovery FAQ
-~~~~~~~~~~~~~
+
+.. _node_reg_problems:
+
+Node Registration Problems
+--------------------------
+
+Any problems with node data registered into Ironic can be fixed using the
+Ironic CLI.
+
+For example, a wrong MAC can be fixed in two steps:
+
+* Find out the assigned port UUID by running
+  ::
+
+    ironic node-port-list <NODE UUID>
+
+* Update the MAC address by running
+  ::
+
+    ironic port-update <PORT UUID> replace address=<NEW MAC>
+
+A Wrong IPMI address can be fixed with the following command::
+
+    ironic node-update <NODE UUID> replace driver_info/ipmi_address=<NEW IPMI ADDRESS>
+
+
+.. _discovery_problems:
+
+Hardware Discovery Problems
+---------------------------
 
 Discovery hangs and times out
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

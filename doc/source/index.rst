@@ -22,8 +22,8 @@ Appendices
 
 .. toctree::
 
-   Frequently Asked Questions (FAQ) <faq>
    Troubleshooting instack-virt-setup Failures <troubleshooting-virt-setup>
+   Troubleshooting Nodes Management Failures <troubleshooting-nodes>
    Troubleshooting a Failed Overcloud Deployment <troubleshooting-overcloud>
 
 Indices and tables
