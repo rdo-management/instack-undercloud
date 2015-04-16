@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_275c2925",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:23:43Z",
+      "side": 1,
+      "message": "let\u0027s drop an example category, existing items are good examples already",
+      "revId": "ed27f7dd9666ff5b7abb043148638c4978d07a83",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_87423d3c",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:23:43Z",
+      "side": 1,
+      "message": "Let\u0027s make OpenStack developer\u0027s guide a global link, because it\u0027s likely that many projects will link to it (like I had in my original PR).",
+      "revId": "ed27f7dd9666ff5b7abb043148638c4978d07a83",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_673d81bb",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:23:43Z",
+      "side": 1,
+      "message": "s/Pages/Home Page/ ?",
+      "revId": "ed27f7dd9666ff5b7abb043148638c4978d07a83",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c74c3573",
+        "filename": "doc/source/introduction/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:23:43Z",
+      "side": 1,
+      "message": "let\u0027s not introduce this page until we can put at least something here",
+      "revId": "ed27f7dd9666ff5b7abb043148638c4978d07a83",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
