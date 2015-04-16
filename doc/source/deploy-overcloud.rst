@@ -6,41 +6,26 @@ been sourced into the environment::
 
     source stackrc
 
-Registering Nodes
------------------
 
-Register nodes for your deployment with Ironic::
+Register and Discover Nodes
+---------------------------
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+Import nodes.json file in order to register multiple nodes at once::
 
-.. note::
-    It's not recommended to delete nodes and/or rerun this command after
-    you've proceeded to the next steps. Particularly, if you start discovery
-    and then re-register nodes, you won't be able to retry discovery until
-    the previous one times out (1 hour by default).
+    # instackenv.json file format is not supported at the moment, let's generate valid structure
+    jq '.nodes' instackenv.json > nodes.json
 
-    Any problems with node data registered into Ironic on this step can be
-    fixed using the Ironic CLI.  For example, a wrong MAC can be fixed in two
-    steps:
+    # Register multiple nodes
+    openstack baremetal import --json nodes.json
 
-    * Find out the assigned port UUID by running
-      ::
 
-        ironic node-port-list <NODE UUID>
+Add extra parameters needed for booting a node when deploying.::
 
-    * Update the MAC address by running
-      ::
+    # Requirements: "bm-deploy-kernel" and "bm-deploy-ramdisk" images are required to be in Glance
+    # You can check with `openstack image list`
 
-        ironic port-update <PORT UUID> replace address=<NEW MAC>
+    openstack baremetal configure boot
 
-    * A Wrong IPMI address can be fixed with the following command::
-
-        ironic node-update <NODE UUID> replace driver_info/ipmi_address=<NEW IPMI ADDRESS>
-
-Discovering Nodes
------------------
-
-Discover hardware attributes of nodes and match them to a deployment profile:
 
 .. admonition:: Ceph
    :class: ceph-tag
@@ -55,18 +40,26 @@ Discover hardware attributes of nodes and match them to a deployment profile:
 
        [('ceph-storage', '1'), ('control', '1'), ('compute', '*')]
 
-::
 
-    instack-ironic-deployment --discover-nodes
+Start discovery process of all nodes::
+
+    openstack baremetal introspection all start
+
+After few minutes you can start checking for introspection status::
+
+    openstack baremetal introspection all status
+
+
+.. note:: **Discovery has to finish without errors.**
+   The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
+   the process takes longer, see :ref:`discovery_times_out`.
+
 
 Check what profiles were matched for the discovered nodes::
 
     instack-ironic-deployment --show-profile
 
-If you have problems with discovery step, please check `ironic-discoverd
-troubleshooting documentation`_.
 
-.. _ironic-discoverd troubleshooting documentation: https://github.com/stackforge/ironic-discoverd#troubleshooting
 
 Ready-state configuration
 -------------------------
