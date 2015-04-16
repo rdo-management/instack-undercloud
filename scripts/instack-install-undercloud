@@ -18,7 +18,11 @@ export DIB_INSTALLTYPE_puppet_modules=source
 # during the puppet apply.
 # Pin to an earlier commit for now.
 export DIB_REPOREF_puppetlabs_concat=15ecb98dc3a551024b0b92c6aafdefe960a4596f
-
+# Commit 5f15e05704b2e549b8fab1c643a6ee743a0e92f4 to puppet-glance updated the
+# way glance packages are installed in such a way that openstack-glance is no
+# longer installed, and openstack-glance is needed to provide the glance-manage
+# command
+export DIB_REPOREF_puppet_glance=25ad0bfbbc86fe959ff4855027b3c6060aac1d22
 
 # Attempt to be smart about detecting the path to the json files.
 JSONFILEDIR=/usr/share/instack-undercloud/json-files
