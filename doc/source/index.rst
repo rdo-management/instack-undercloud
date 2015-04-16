@@ -23,9 +23,9 @@ Appendices
 
 .. toctree::
 
-   Frequently Asked Questions (FAQ) <faq>
    AHC (Automated Health Check) Workflow <ahc-workflow>
    Troubleshooting instack-virt-setup Failures <troubleshooting-virt-setup>
+   Troubleshooting Nodes Management Failures <troubleshooting-nodes>
    Troubleshooting a Failed Overcloud Deployment <troubleshooting-overcloud>
 
 Indices and tables
