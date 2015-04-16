@@ -1,6 +1,8 @@
 Frequently Asked Questions
 ==========================
 
+.. _discovery_troubleshooting:
+
 Discovery times out
 ~~~~~~~~~~~~~~~~~~~
 
