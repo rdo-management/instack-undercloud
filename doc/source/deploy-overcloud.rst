@@ -42,12 +42,20 @@ Ready-state configuration
    Some hardware has additional setup available, using its vendor-specific management
    interface.  See the :doc:`/vendor-specific` for details.
 
-Deploying Nodes
----------------
 
-Create the necessary flavors::
+Create Flavors
+--------------
 
-    instack-ironic-deployment --setup-flavors
+Create a generic flavor for all overcloud roles::
+
+    # Create a flavor and set properties:
+
+    openstack flavor create baremetal --id=auto --ram=4096 --disk=40 --vcpus=1
+    openstack flavor set baremetal --property cpu_arch=x86_64
+
+
+Deploy Nodes
+------------
 
 .. admonition:: Baremetal
    :class: baremetal
