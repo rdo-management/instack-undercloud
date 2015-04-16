@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_074f6d6c",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:20:05Z",
+      "side": 1,
+      "message": "I would put these 2 in the top level index and avoid creating one more page",
+      "revId": "f4c9b5fd3f75997d4882c03058c6712f7db58692",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e751710f",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T11:20:05Z",
+      "side": 1,
+      "message": "Is \"RDO-Manager\" a new official name for undercloud? I thought it\u0027s a name of the utility you call here..",
+      "revId": "f4c9b5fd3f75997d4882c03058c6712f7db58692",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
