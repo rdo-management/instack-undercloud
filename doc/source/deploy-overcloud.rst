@@ -53,12 +53,26 @@ Ready-state configuration
    Some hardware has additional setup available, using its vendor-specific management
    interface.  See the :doc:`/vendor-specific` for details.
 
-Deploying Nodes
----------------
 
-Create the necessary flavors::
+Create Flavors (Node Profiles)
+------------------------------
 
-    instack-ironic-deployment --setup-flavors
+Create and setup flavors for Control, Compute and Ceph Storage roles::
+
+    # Create flavors and set properties:
+
+    openstack flavor create baremetal_control --id=auto --ram=4096 --disk=40 --vcpus=1
+    openstack flavor set baremetal_control --property cpu_arch=x86_64 --property profile=control
+
+    openstack flavor create baremetal_compute --id=auto --ram=4096 --disk=40 --vcpus=1
+    openstack flavor set baremetal_compute --property cpu_arch=x86_64 --property profile=compute
+
+    openstack flavor create baremetal_ceph-storage --id=auto --ram=4096 --disk=40 --vcpus=1
+    openstack flavor set baremetal_ceph-storage --property cpu_arch=x86_64 --property profile=ceph-storage
+
+
+Deploy Nodes
+------------
 
 .. admonition:: Baremetal
    :class: baremetal-tag
