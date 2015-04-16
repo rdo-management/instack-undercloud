@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_e2867f64",
+        "filename": "doc/source/contributions/contributions.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-16T15:05:03Z",
+      "side": 1,
+      "message": "s/Summit/Submit/ and not sure why you use \"\"",
+      "range": {
+        "startLine": 95,
+        "startChar": 6,
+        "endLine": 95,
+        "endChar": 7
+      },
+      "revId": "7a8e61d633e64df4a63d53e9190309a0566a938f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
