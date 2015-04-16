@@ -1,0 +1,34 @@
+#!/bin/bash
+set -eux
+set -o pipefail
+
+
+mkdir -p /httpboot
+install -o ironic -g ironic -m 744 /usr/share/ipxe/undionly.kpxe /httpboot/undionly.kpxe
+chown ironic:ironic -R /httpboot
+
+mkdir -p /etc/httpd/conf.d
+cat > /etc/httpd/conf.d/10-ironic_vhost.conf << EOF
+<VirtualHost *:8088>
+    DocumentRoot "/httpboot"
+    <Directory "/httpboot">
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+
+    ## Logging
+    ErrorLog "/var/log/httpd/ironic_error.log"
+    ServerSignature Off
+    CustomLog "/var/log/httpd/ironic_access.log" combined
+</VirtualHost>
+EOF
+
+os-svc-enable -n apache2
+os-svc-restart -n apache2
+
+[ -x /usr/sbin/semanage ] || exit 0
+semanage fcontext -a -t httpd_sys_content_t "/httpboot(/.*)?"
+restorecon -Rv /httpboot/

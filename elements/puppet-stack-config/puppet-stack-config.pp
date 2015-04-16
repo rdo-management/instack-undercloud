@@ -325,6 +325,11 @@ class { 'ironic::api':
 ironic_config {
   'DEFAULT/my_ip':                value => hiera('controller_host');
   'glance/host':                  value => hiera('glance::api::bind_host');
+  'pxe/pxe_config_template':      value => '$pybasedir/drivers/modules/ipxe_config.template';
+  'pxe/pxe_bootfile_name':        value => 'undionly.kpxe';
+  'pxe/http_url':                 value => 'http://$my_ip:8088';
+  'pxe/http_root':                value => '/httpboot';
+  'pxe/ipxe_enabled':             value => 'True';
 }
 
 class { 'horizon':
