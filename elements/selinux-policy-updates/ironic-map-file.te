@@ -7,6 +7,8 @@ require {
 	type nova_api_t;
 	type init_var_run_t;
 	type default_t;
+        type httpd_t;
+	type tftpdir_t;
 	type tftpd_t;
 	type keystone_t;
 	class lnk_file read;
@@ -32,6 +34,9 @@ allow nova_api_t user_home_t:dir getattr;
 
 #!!!! This avc is allowed in the current policy
 allow nova_scheduler_t user_home_t:dir getattr;
+
+#============= httpd_t ==============
+allow httpd_t tftpdir_t:file { read getattr open };
 
 #============= tftpd_t ==============
 

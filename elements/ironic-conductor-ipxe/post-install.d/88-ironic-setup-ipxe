@@ -1,0 +1,16 @@
+#!/bin/bash
+set -eux
+set -o pipefail
+
+mkdir -p /httpboot
+chown ironic:ironic -R /httpboot
+
+# Copy the iPXE binary to the TFTP directory for chainloading
+install -o ironic -g ironic -m 744 /usr/share/ipxe/undionly.kpxe /tftpboot/undionly.kpxe
+
+# NOTE(lucasagomes): This bit might be superseded by
+# https://review.openstack.org/#/c/172040/
+mkdir -p /etc/dnsmasq
+cat > /etc/dnsmasq/dnsmasq-ironic.conf << EOF
+dhcp-match=ipxe,175
+EOF
