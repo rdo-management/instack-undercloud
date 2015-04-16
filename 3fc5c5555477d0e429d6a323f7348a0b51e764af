@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_272b8931",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T12:54:24Z",
+      "side": 1,
+      "message": "To be honest, this is implementation issue and it should have appeared in the CLI code review. Docs reflect what is implemented and available. So it should not be reason for -1.\n\nAnyway, to answer... Import should take a file and import details what are in the file. It should not do any extra magic in the background.\n\nIf user doesn\u0027t want to do local_boot or if he doesn\u0027t have kernel/ramdisk yet or any other reason, he should be able to do this manually. If he wants us to help him, he just runs this command so we do it automatically for him.\n\nSuggestion for improvement can be to submit RFE for CLI team to merge this under import command using special tag (e.g. --enable-local-boot)",
+      "parentUuid": "1a106d94_277389b2",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_87699dc0",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_87219d4f",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T12:54:24Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_87699dc0",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_676461e5",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2015-04-16T11:27:55Z",
       "side": 1,
       "message": "btw please also point to FAQ here",
+      "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_87e87de3",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T12:54:24Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_676461e5",
       "revId": "3fc5c5555477d0e429d6a323f7348a0b51e764af",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
