@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_4ad7a5bf",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T21:07:15Z",
+      "side": 1,
+      "message": "I think this would sound better if it first briefly defined RDO-Manager. I know you do that on the intro page, but this is the index page and will be seen first.\n\nThen this could say:\n\n\"This is a guide on how to setup and use RDO-Manager....\"",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0ad64dc5",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T21:07:15Z",
+      "side": 1,
+      "message": "Can you move to this the bottom of the document or inline like you have other links? rst should also be human readable when viewed as text, and this is out of place being at the top.",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2ad349d7",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T21:07:15Z",
+      "side": 1,
+      "message": "This sentence doesn\u0027t feel right to me. Maybe it\u0027s just the wording of \"the best from\". I would remove this sentence completely or just say it\u0027s based on TripleO and SpinalStack.",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_aa4f39bc",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T21:07:15Z",
+      "side": 1,
+      "message": "this links to a page that talks all about a \"workload\" cloud. I don\u0027t think we\u0027ve officially decided to name the Overcloud that, as far as I know. Personally, I don\u0027t prefer \"workload\" cloud. Please check with PM on this. If we are going with workload, then the rest of these docs need to be updated at the same time we link to this page",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
