@@ -42,6 +42,23 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_8a1cfdc2",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T20:48:23Z",
+      "side": 1,
+      "message": "In a baremetal environment, the Undercloud is also baremetal. Technically it is possible to run the undercloud in a vm, and bridge the vm to a physical provisioning network so you could deploy the Overcloud on baremetal, but we don\u0027t document that setup at all, so let\u0027s not mention it until we know if/how we can support it.",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_aadc5913",
         "filename": "doc/source/environments/baremetal_env.rst",
         "patchSetId": 1
@@ -53,6 +70,24 @@
       "writtenOn": "2015-04-17T20:18:59Z",
       "side": 1,
       "message": "Why bold?",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6a270113",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T20:48:23Z",
+      "side": 1,
+      "message": "Let\u0027s not claim what we need for HA when we don\u0027t yet have HA.\n\nWouldn\u0027t we also need 2 Compute nodes for HA anyway?",
+      "parentUuid": "1a106d94_aadc5913",
       "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -76,6 +111,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ca7d55e9",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T20:48:23Z",
+      "side": 1,
+      "message": "+1. This is why it was written the way it was. That was based on real world feedback gathered over the last 2 RDO releases.",
+      "parentUuid": "1a106d94_ca08b593",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2a006966",
         "filename": "doc/source/environments/virtual_env.rst",
         "patchSetId": 1
@@ -87,6 +140,24 @@
       "writtenOn": "2015-04-17T20:18:59Z",
       "side": 1,
       "message": "Same comment about bold",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0a880de6",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T20:48:23Z",
+      "side": 1,
+      "message": "same comment about HA on the baremetal environment. We don\u0027t have HA yet, let\u0027s not lead people to believe we do.",
+      "parentUuid": "1a106d94_2a006966",
       "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false

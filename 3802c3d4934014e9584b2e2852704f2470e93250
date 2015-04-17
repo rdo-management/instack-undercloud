@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a106d94_2a8509d0",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-17T20:48:23Z",
+      "side": 0,
+      "message": "This point about the disks being thinly provisioned is important. It raised lots of questions over the last few releases we\u0027ve done. It was added based on real world feedback.",
+      "revId": "3802c3d4934014e9584b2e2852704f2470e93250",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_0a03ed73",
         "filename": "doc/source/environments/virtual_env.rst",
         "patchSetId": 1
