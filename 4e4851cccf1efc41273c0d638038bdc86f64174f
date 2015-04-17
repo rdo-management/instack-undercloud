@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_e42dea47",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T10:43:46Z",
+      "side": 0,
+      "message": "Please don\u0027t move/delete this section. People need to read it _before_ getting into trouble. You can shorten it and move our to troubleshooting part about fixing node info though.",
+      "revId": "4e4851cccf1efc41273c0d638038bdc86f64174f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c430aea0",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T10:43:46Z",
+      "side": 0,
+      "message": "please don\u0027t delete it as well.",
+      "revId": "4e4851cccf1efc41273c0d638038bdc86f64174f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

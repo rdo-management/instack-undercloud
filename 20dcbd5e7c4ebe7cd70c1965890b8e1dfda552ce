@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_042be630",
+        "filename": "doc/source/troubleshooting-nodes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T10:43:46Z",
+      "side": 1,
+      "message": "this paragraph should stay where it was.",
+      "revId": "20dcbd5e7c4ebe7cd70c1965890b8e1dfda552ce",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a41bf219",
+        "filename": "doc/source/troubleshooting-nodes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T10:43:46Z",
+      "side": 1,
+      "message": "redundant heading",
+      "revId": "20dcbd5e7c4ebe7cd70c1965890b8e1dfda552ce",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
