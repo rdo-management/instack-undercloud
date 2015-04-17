@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_24ea6275",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-17T12:34:10Z",
+      "side": 1,
+      "message": "1) Yeah, it is not very consistent through out the docs. I want to submit another patch for improving consistency and structure after we move from scripts. Unified it at least here.\n\n2) Introspection sounds much better, I substituted the terms.\n\n(btw please keep in mind this is not final solution, I am trying to split the improvements into multiple steps)",
+      "parentUuid": "1a106d94_a42132fd",
+      "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_841cf6c2",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-17T12:17:57Z",
       "side": 1,
       "message": "again: better use \"hardware discovery\" or \"introspection\"",
+      "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6403ba42",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-17T12:34:10Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_841cf6c2",
       "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_44fe7e39",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-17T12:34:10Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_c47d4ee9",
+      "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_248542d0",
         "filename": "doc/source/troubleshooting-nodes.rst",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2015-04-17T12:17:57Z",
       "side": 1,
       "message": "this heading should be like \"Troubleshooting Hardware Discovery\". We already have a subheading for timeouts",
+      "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_84735614",
+        "filename": "doc/source/troubleshooting-nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-17T12:34:10Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_248542d0",
       "revId": "1cae93bbbe188979e65858ace066838ab4b2aa34",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
