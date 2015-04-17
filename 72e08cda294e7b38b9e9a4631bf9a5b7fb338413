@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_e7004c03",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T13:02:04Z",
+      "side": 1,
+      "message": "I understand it was here already, but still using possessive form for project names is a bit weird, everywhere I\u0027ve seen it was kind of \"RDO-Manager documentation\".",
+      "range": {
+        "startLine": 1,
+        "startChar": 23,
+        "endLine": 1,
+        "endChar": 24
+      },
+      "revId": "72e08cda294e7b38b9e9a4631bf9a5b7fb338413",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_270b8426",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T13:02:04Z",
+      "side": 1,
+      "message": "I gave it one more thought, but hmm... no. Let\u0027s not have placeholder pages, we already show this documentation to people. Why not copy-paste all/most of contents from the page you\u0027re linking to?",
+      "revId": "72e08cda294e7b38b9e9a4631bf9a5b7fb338413",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a71e5461",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T13:02:04Z",
+      "side": 1,
+      "message": "Let\u0027s add word \"Example\" to this section and move it to the end\n\n [Example Category Name]\n\n [Example Component Name]",
+      "revId": "72e08cda294e7b38b9e9a4631bf9a5b7fb338413",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_470fa02e",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T13:02:04Z",
+      "side": 1,
+      "message": "let\u0027s delete this and add when/if we figure out what to add :)",
+      "revId": "72e08cda294e7b38b9e9a4631bf9a5b7fb338413",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e727acb4",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T13:02:04Z",
+      "side": 1,
+      "message": "this looks redundant, link that follow are pretty self-explaining",
+      "revId": "72e08cda294e7b38b9e9a4631bf9a5b7fb338413",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
