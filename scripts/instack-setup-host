@@ -47,4 +47,5 @@ if [[ -f /etc/centos-release ]]; then
     # Use the Centos cloud repo to pull in its updated package lists
     cd /etc/yum.repos.d
     sudo curl -O http://buildlogs.centos.org/centos/7/cloud/openstack-rdo/centos-cloud-rdo.repo
+    sudo yum install -y python-six
 fi
