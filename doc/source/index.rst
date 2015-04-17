@@ -11,7 +11,7 @@ Contents:
 .. toctree::
 
    Introduction <intro>
-   Setup <setup>
+   Environments <environments/environments>
    Installing the Undercloud <install-undercloud>
    Building Images <build-images>
    Deploying the Overcloud <deploy-overcloud>
