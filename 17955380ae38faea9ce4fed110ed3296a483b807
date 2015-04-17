@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_64f9fa7f",
+        "filename": "elements/overcloud-full/README.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-17T11:48:29Z",
+      "side": 1,
+      "message": "s/openatck/openstack/",
+      "revId": "17955380ae38faea9ce4fed110ed3296a483b807",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
