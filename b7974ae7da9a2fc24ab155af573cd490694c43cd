@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_4acde55c",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:18:59Z",
+      "side": 1,
+      "message": "The \"an\" is still needed here.  \"deployed in an all baremetal\"",
+      "range": {
+        "startLine": 4,
+        "startChar": 30,
+        "endLine": 4,
+        "endChar": 31
+      },
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8ad7ddec",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:18:59Z",
+      "side": 1,
+      "message": "*deploy a minimal",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_aadc5913",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:18:59Z",
+      "side": 1,
+      "message": "Why bold?",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ca08b593",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:18:59Z",
+      "side": 1,
+      "message": "I think we still need to be very clear here that these vms will be automatically created by the steps below.  As written it suggests to me that the vms need to be created manually.",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2a006966",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:18:59Z",
+      "side": 1,
+      "message": "Same comment about bold",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
