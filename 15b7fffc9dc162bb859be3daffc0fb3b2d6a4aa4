@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_ea2c9104",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:36:56Z",
+      "side": 1,
+      "message": "*login",
+      "range": {
+        "startLine": 10,
+        "startChar": 46,
+        "endLine": 10,
+        "endChar": 49
+      },
+      "revId": "15b7fffc9dc162bb859be3daffc0fb3b2d6a4aa4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2a37c94f",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:36:56Z",
+      "side": 1,
+      "message": "I would suggest s/any/a non-root/ here.",
+      "range": {
+        "startLine": 10,
+        "startChar": 24,
+        "endLine": 10,
+        "endChar": 27
+      },
+      "revId": "15b7fffc9dc162bb859be3daffc0fb3b2d6a4aa4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6a40a1a5",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-17T20:36:56Z",
+      "side": 1,
+      "message": "*Install RDO-Manager\n\nAlso, I think we need to decide whether we\u0027re eliminating all references to the undercloud or not.  The terms are being used interchangeably in this new documentation, which seems more confusing than just calling it the undercloud.",
+      "revId": "15b7fffc9dc162bb859be3daffc0fb3b2d6a4aa4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
