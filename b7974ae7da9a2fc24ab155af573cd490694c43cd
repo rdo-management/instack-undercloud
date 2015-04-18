@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_d02ce404",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_4acde55c",
+      "range": {
+        "startLine": 4,
+        "startChar": 30,
+        "endLine": 4,
+        "endChar": 31
+      },
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_8ad7ddec",
         "filename": "doc/source/environments/baremetal_env.rst",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_b02fa8f5",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_8ad7ddec",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_8a1cfdc2",
         "filename": "doc/source/environments/baremetal_env.rst",
         "patchSetId": 1
@@ -53,6 +95,24 @@
       "writtenOn": "2015-04-17T20:48:23Z",
       "side": 1,
       "message": "In a baremetal environment, the Undercloud is also baremetal. Technically it is possible to run the undercloud in a vm, and bridge the vm to a physical provisioning network so you could deploy the Overcloud on baremetal, but we don\u0027t document that setup at all, so let\u0027s not mention it until we know if/how we can support it.",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_10379c4f",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "ACK. Correct, this was copy paste left over, thanks.",
+      "parentUuid": "1a106d94_8a1cfdc2",
       "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -87,6 +147,42 @@
       "writtenOn": "2015-04-17T20:48:23Z",
       "side": 1,
       "message": "Let\u0027s not claim what we need for HA when we don\u0027t yet have HA.\n\nWouldn\u0027t we also need 2 Compute nodes for HA anyway?",
+      "parentUuid": "1a106d94_aadc5913",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5040f4a4",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "I will comment it out until we have. Then we can just uncomment. You are right.",
+      "parentUuid": "1a106d94_6a270113",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_f0392042",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "Was suggested by docs people to make it visible since this is not a heading.",
       "parentUuid": "1a106d94_aadc5913",
       "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
@@ -129,6 +225,42 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_303bb839",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "I\u0027ll reply in James\u0027 comment.",
+      "parentUuid": "1a106d94_ca08b593",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_904a6cc3",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "This is by intention.\n\nUser can create his virtual environment completely manually. Our automated way of creating it is nice-to-have but for minimal system requirements we don\u0027t force user to use our automated way. This was gathered from feedback from real users who wanted to do manual setup and contacted me + from docs person.\n\nI plan to add more details on manual setup in next patches.",
+      "parentUuid": "1a106d94_ca7d55e9",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2a006966",
         "filename": "doc/source/environments/virtual_env.rst",
         "patchSetId": 1
@@ -157,6 +289,42 @@
       "writtenOn": "2015-04-17T20:48:23Z",
       "side": 1,
       "message": "same comment about HA on the baremetal environment. We don\u0027t have HA yet, let\u0027s not lead people to believe we do.",
+      "parentUuid": "1a106d94_2a006966",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d01344b6",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "ACK.",
+      "parentUuid": "1a106d94_0a880de6",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_704530b2",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 1,
+      "message": "Same reply regarding non-heading but important.",
       "parentUuid": "1a106d94_2a006966",
       "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",

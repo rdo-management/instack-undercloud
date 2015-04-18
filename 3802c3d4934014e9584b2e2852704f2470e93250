@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_f01000aa",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 0,
+      "message": "ACK.",
+      "parentUuid": "1a106d94_2a8509d0",
+      "revId": "3802c3d4934014e9584b2e2852704f2470e93250",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_0a03ed73",
         "filename": "doc/source/environments/virtual_env.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-17T20:18:59Z",
       "side": 0,
       "message": "This is a bold I actually approved of. :-)\n\nNot a big deal, but we have had a lot of people try to run this in a nested environment.",
+      "revId": "3802c3d4934014e9584b2e2852704f2470e93250",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_100e7c8d",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T13:31:46Z",
+      "side": 0,
+      "message": "ACK.",
+      "parentUuid": "1a106d94_0a03ed73",
       "revId": "3802c3d4934014e9584b2e2852704f2470e93250",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
