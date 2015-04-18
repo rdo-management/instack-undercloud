@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_b0e168d2",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T12:45:03Z",
+      "side": 1,
+      "message": "As I said in previous comments, I would like to have introduction section as a landing page. Before I figure out how exactly to do that I didn\u0027t want to block this patch to go in since it is very important to introduce components and how to contribute as soon as possible.\n\nI did some rewording here.",
+      "parentUuid": "1a106d94_4ad7a5bf",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_0ad64dc5",
         "filename": "doc/source/introduction/introduction.rst",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-17T21:07:15Z",
       "side": 1,
       "message": "Can you move to this the bottom of the document or inline like you have other links? rst should also be human readable when viewed as text, and this is out of place being at the top.",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_10e95cb8",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T12:45:03Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_0ad64dc5",
       "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_f0ebe0ad",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T12:45:03Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_2ad349d7",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_aa4f39bc",
         "filename": "doc/source/introduction/introduction.rst",
         "patchSetId": 7
@@ -64,6 +118,24 @@
       "writtenOn": "2015-04-17T21:07:15Z",
       "side": 1,
       "message": "this links to a page that talks all about a \"workload\" cloud. I don\u0027t think we\u0027ve officially decided to name the Overcloud that, as far as I know. Personally, I don\u0027t prefer \"workload\" cloud. Please check with PM on this. If we are going with workload, then the rest of these docs need to be updated at the same time we link to this page",
+      "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_50d2b400",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-18T12:45:03Z",
+      "side": 1,
+      "message": "I will check on how to name it. This should not block the patch to go in though.",
+      "parentUuid": "1a106d94_aa4f39bc",
       "revId": "c7b1b74e604dbcfaae58fd3eccd27921de9107af",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
