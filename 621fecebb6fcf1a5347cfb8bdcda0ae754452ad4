@@ -16,6 +16,24 @@
       "revId": "621fecebb6fcf1a5347cfb8bdcda0ae754452ad4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_b975cc99",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T21:09:17Z",
+      "side": 1,
+      "message": "I explained why this is needed. But since this is blocking the merge for already longer time, I am not going to keep arguing about it since this is not hard requirement.",
+      "parentUuid": "1a106d94_1e9fa651",
+      "revId": "621fecebb6fcf1a5347cfb8bdcda0ae754452ad4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
