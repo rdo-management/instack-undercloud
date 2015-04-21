@@ -134,6 +134,7 @@ hiera \
 os-net-config \
 stable-interface-names \
 grub2 \
+overcloud-logging \
 -p python-psutil,python-debtcollector \
 "
 
