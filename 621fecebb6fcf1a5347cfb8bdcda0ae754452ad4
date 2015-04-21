@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_1e9fa651",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-21T17:05:24Z",
+      "side": 1,
+      "message": "all of the above \"example\" doc definitely needs to get removed. you\u0027ve already shown an example for how it should look for ironic. we don\u0027t need a rendered doc templates showing up in the published documentation",
+      "revId": "621fecebb6fcf1a5347cfb8bdcda0ae754452ad4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
