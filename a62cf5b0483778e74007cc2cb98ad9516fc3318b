@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_0384730a",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T11:45:17Z",
+      "side": 1,
+      "message": "ACK",
+      "parentUuid": "1a106d94_6351e7d7",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_236ecf96",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 8
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_83a063a0",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T11:45:17Z",
+      "side": 1,
+      "message": "This was suggested by docs to use it this way, at least from the beginning. I would really like to keep it.",
+      "parentUuid": "1a106d94_236ecf96",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_035ab3f2",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 8
@@ -47,6 +83,24 @@
       "writtenOn": "2015-04-21T11:05:04Z",
       "side": 1,
       "message": "why isn\u0027t ironicclient here btw?",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a38c7f36",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T11:45:17Z",
+      "side": 1,
+      "message": "We should point people to unified CLI only. That is the preferred interaction with RDO-Manager. I removed tuskarclient as well, btw.",
+      "parentUuid": "1a106d94_035ab3f2",
       "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
