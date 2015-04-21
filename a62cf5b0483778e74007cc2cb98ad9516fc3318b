@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_6351e7d7",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-21T11:05:04Z",
+      "side": 1,
+      "message": "\"explain what \u003csomething\u003e is\"",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_236ecf96",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-21T11:05:04Z",
+      "side": 1,
+      "message": "and this line is enough for example part, I still suggest dropping everything above.",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_035ab3f2",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-21T11:05:04Z",
+      "side": 1,
+      "message": "why isn\u0027t ironicclient here btw?",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
