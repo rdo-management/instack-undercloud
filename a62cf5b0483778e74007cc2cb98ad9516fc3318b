@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_83dce313",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T12:22:18Z",
+      "side": 1,
+      "message": "Nope, not full table. Until it gets few more projects filled in, not just one or two.",
+      "parentUuid": "1a106d94_23c6cf49",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_035ab3f2",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 8
@@ -137,6 +155,24 @@
       "side": 1,
       "message": "If you remove tuskarclient - that\u0027s probably fine.",
       "parentUuid": "1a106d94_a38c7f36",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_63d727ee",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-21T12:22:18Z",
+      "side": 1,
+      "message": "Already removed in patchset 9.",
+      "parentUuid": "1a106d94_83c5033e",
       "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
