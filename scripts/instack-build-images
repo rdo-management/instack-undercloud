@@ -135,6 +135,7 @@ os-net-config \
 delorean-repo \
 stable-interface-names \
 grub2 \
+overcloud-logging \
 -p python-psutil,python-debtcollector \
 "
 
