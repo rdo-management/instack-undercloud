@@ -261,6 +261,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_fea60a0f",
+        "filename": "doc/source/environments/virtual_env.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-21T14:51:59Z",
+      "side": 1,
+      "message": "so...if you plan to add more details later, we can\u0027t land this as-is.\n\nwe can\u0027t make things less clear and say we\u0027ll clean them up later.\n\ndon\u0027t include this part in the current change then. wait until you have all the details ready.",
+      "parentUuid": "1a106d94_904a6cc3",
+      "revId": "b7974ae7da9a2fc24ab155af573cd490694c43cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2a006966",
         "filename": "doc/source/environments/virtual_env.rst",
         "patchSetId": 1
