@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_23c6cf49",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-21T12:10:58Z",
+      "side": 1,
+      "message": "Until what time? Until the whole table is filled in? DO you have time estimate on it?",
+      "parentUuid": "1a106d94_83a063a0",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_035ab3f2",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 8
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "We should point people to unified CLI only. That is the preferred interaction with RDO-Manager. I removed tuskarclient as well, btw.",
       "parentUuid": "1a106d94_035ab3f2",
+      "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_83c5033e",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-21T12:10:58Z",
+      "side": 1,
+      "message": "If you remove tuskarclient - that\u0027s probably fine.",
+      "parentUuid": "1a106d94_a38c7f36",
       "revId": "a62cf5b0483778e74007cc2cb98ad9516fc3318b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
