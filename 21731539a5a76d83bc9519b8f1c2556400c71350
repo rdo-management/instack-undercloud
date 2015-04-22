@@ -16,6 +16,24 @@
       "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_4fa68a54",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T13:31:29Z",
+      "side": 1,
+      "message": "Yes, great point. I would call this request as RFE. Earlier I wanted to get the unified CLI to implement the \"suggested flavors\" function which we have in the GUI. It is completely valid point but since it is just an increase of UX, it is lower priority then the others CLI\u0027s RFEs in the queue which are waiting for replacing the scripts. So not sure when this feature will come.",
+      "parentUuid": "1a106d94_af961eee",
+      "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
