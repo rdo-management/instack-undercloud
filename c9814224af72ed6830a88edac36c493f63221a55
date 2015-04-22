@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_0f92d29e",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-22T11:00:33Z",
+      "side": 1,
+      "message": "though IIRC official OpenStack rules say not to use capital letters, I strongly +1 doing it, because otherwise it\u0027s much much harder to read.",
+      "parentUuid": "1a106d94_ef0ad61f",
+      "range": {
+        "startLine": 137,
+        "startChar": 4,
+        "endLine": 137,
+        "endChar": 5
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_cf243ab1",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 1
