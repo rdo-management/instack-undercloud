@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_ef0ad61f",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T10:24:00Z",
+      "side": 1,
+      "message": "Should we use capital first letter for the name of the project? (applies to the whole section)",
+      "range": {
+        "startLine": 137,
+        "startChar": 4,
+        "endLine": 137,
+        "endChar": 5
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_cf243ab1",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T10:24:00Z",
+      "side": 1,
+      "message": "\u0027Will be?\u0027 When? We might try to formulate it a bit easier for the reader, maybe something like \u0027Tuskar allows the user to provide values for Role\u0027s attributes which are defined in associated Heat templates.\u0027",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 11
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0f0f722f",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T10:24:00Z",
+      "side": 1,
+      "message": "Capital O.",
+      "range": {
+        "startLine": 149,
+        "startChar": 71,
+        "endLine": 149,
+        "endChar": 72
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_4f196a78",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T10:24:00Z",
+      "side": 1,
+      "message": "I would add \u0027on Freenode\u0027. I would consider if to extract the irc channel from text and put it under the bullet list. Not very strong opinion about that though, just point for consideration.",
+      "range": {
+        "startLine": 150,
+        "startChar": 28,
+        "endLine": 150,
+        "endChar": 48
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8f03620c",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-22T10:24:00Z",
+      "side": 1,
+      "message": "Is this documentation for the API? Will it be valid also for Kilo since it points to Juno specs? All links should be release independent if all possible.",
+      "range": {
+        "startLine": 160,
+        "startChar": 11,
+        "endLine": 160,
+        "endChar": 106
+      },
+      "revId": "c9814224af72ed6830a88edac36c493f63221a55",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
