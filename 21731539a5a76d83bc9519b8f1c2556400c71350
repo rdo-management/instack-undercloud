@@ -34,6 +34,24 @@
       "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_f6dbce4c",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-22T21:23:08Z",
+      "side": 1,
+      "message": "os-cloud-config flavors.py already has this support. maybe we should use that. or consume it in a way we find it useful.",
+      "parentUuid": "1a106d94_4fa68a54",
+      "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
