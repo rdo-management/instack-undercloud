@@ -46,25 +46,47 @@ export UNDERCLOUD_IP=$(os-apply-config --key local-ip --type netaddress)
 init-keystone -o $UNDERCLOUD_IP -t $UNDERCLOUD_ADMIN_TOKEN \
     -e admin@example.com -p $UNDERCLOUD_ADMIN_PASSWORD -u root
 
-# Create service endpoints and optionally include Ceilometer for UI support
-ENDPOINT_LIST="--glance-password $UNDERCLOUD_GLANCE_PASSWORD
-    --heat-password $UNDERCLOUD_HEAT_PASSWORD
-    --neutron-password $UNDERCLOUD_NEUTRON_PASSWORD
-    --nova-password $UNDERCLOUD_NOVA_PASSWORD
-    --tuskar-password $UNDERCLOUD_TUSKAR_PASSWORD
-    --ironic-password $UNDERCLOUD_IRONIC_PASSWORD
-    --ceilometer-password $UNDERCLOUD_CEILOMETER_PASSWORD
-    --swift-password $UNDERCLOUD_SWIFT_PASSWORD"
-
-REGISTER_SERVICE_OPTS=
-
 # Needed by ceilometer user in register-endpoint
 if ! keystone role-get ResellerAdmin; then
     keystone role-create --name=ResellerAdmin
 fi
 
-# TODO: this needs to be switched over to use os-cloud-config's setup-endpoints
-tripleo setup-endpoints $UNDERCLOUD_IP $ENDPOINT_LIST $REGISTER_SERVICE_OPTS
+# Create service endpoints and optionally include Ceilometer for UI support
+cat > endpoints.json << EOF
+{
+    "heat": {
+        "password": "$UNDERCLOUD_HEAT_PASSWORD"
+    },
+    "neutron": {
+        "password": "$UNDERCLOUD_NEUTRON_PASSWORD"
+    },
+    "glance": {
+        "password": "$UNDERCLOUD_GLANCE_PASSWORD"
+    },
+    "nova": {
+        "password": "$UNDERCLOUD_NOVA_PASSWORD"
+    },
+    "novav3": {
+        "password": "$UNDERCLOUD_NOVA_PASSWORD"
+    },
+    "ceilometer": {
+        "password": "$UNDERCLOUD_CEILOMETER_PASSWORD"
+    },
+    "swift": {
+        "password": "$UNDERCLOUD_SWIFT_PASSWORD"
+    },
+    "ironic": {
+        "password": "$UNDERCLOUD_IRONIC_PASSWORD"
+    },
+    "tuskar": {
+        "password": "$UNDERCLOUD_TUSKAR_PASSWORD"
+    }
+}
+EOF
+
+REGISTER_SERVICE_OPTS=
+
+setup-endpoints -s endpoints.json $REGISTER_SERVICE_OPTS
 
 if ! keystone role-get heat_stack_user; then
     keystone role-create --name heat_stack_user
