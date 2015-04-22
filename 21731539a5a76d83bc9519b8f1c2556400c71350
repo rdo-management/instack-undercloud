@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_af961eee",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-22T13:24:38Z",
+      "side": 1,
+      "message": "Idea: can we have some \"auto-creation\" based on the existing nodes? there\u0027s no point in allowing a user to set flavors that do not match hardware anyway",
+      "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
