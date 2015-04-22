@@ -1,0 +1,8 @@
+Verified+1: rdo-ci-hudson <whayutin+hudson@redhat.com>
+Code-Review+2: Dmitry Tantsur <divius.inside@gmail.com>
+Verified+1: Dmitry Tantsur <divius.inside@gmail.com>
+Submitted-by: Dmitry Tantsur <divius.inside@gmail.com>
+Submitted-at: Wed, 22 Apr 2015 09:09:12 +0200
+Reviewed-on: https://review.gerrithub.io/230332
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
