@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_7c04dd17",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/httpd/conf.d/10-ironic_discoverd_vhost.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-23T12:36:39Z",
+      "side": 1,
+      "message": "I wonder if we should have it configurable",
+      "range": {
+        "startLine": 2,
+        "startChar": 15,
+        "endLine": 2,
+        "endChar": 19
+      },
+      "revId": "8cd958b2bd4799ef9711807303d198c394b0c68b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
