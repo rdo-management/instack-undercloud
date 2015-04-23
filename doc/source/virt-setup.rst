@@ -73,9 +73,11 @@ Preparing the Host Machine
           Enable rhos-release::
 
               export RUN_RHOS_RELEASE=1
+
    ::
 
-    curl https://raw.githubusercontent.com/rdo-management/instack-undercloud/master/scripts/instack-setup-host | bash -x
+       curl https://raw.githubusercontent.com/rdo-management/instack-undercloud/master/scripts/instack-setup-host | bash -x
+
 
 #. Install instack-undercloud::
 
@@ -83,9 +85,10 @@ Preparing the Host Machine
 
 #. The virt setup automatically sets up a vm for the Undercloud installed with
    the same base OS as the host. See the Note below to choose a different
-   OS.::
+   OS.:
 
-  .. note:: To setup the undercloud vm with a base OS different from the host,
+  .. note::
+     To setup the undercloud vm with a base OS different from the host,
      set the ``$NODE_DIST`` environment variable prior to running
      ``instack-virt-setup``:
 
@@ -151,7 +154,8 @@ Preparing the Host Machine
 
       instack-virt-setup
 
-   If the script encounters problems, see :doc:`troubleshooting-virt-setup`.
+   If the script encounters problems, see
+   :doc:`troubleshooting/troubleshooting-virt-setup`.
 
 When the script has completed successfully it will output the IP address of the
 instack vm that has now been installed with a base OS.
