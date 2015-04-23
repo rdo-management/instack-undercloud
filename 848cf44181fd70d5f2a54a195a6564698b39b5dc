@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_6d726912",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1001933
+      },
+      "writtenOn": "2015-04-23T22:06:12Z",
+      "side": 1,
+      "message": "Just for information, puppet lint [1] enforce to align the \"\u003d\u003e\" for code clarity.\n\n[1] http://puppet-lint.com/",
+      "revId": "848cf44181fd70d5f2a54a195a6564698b39b5dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
