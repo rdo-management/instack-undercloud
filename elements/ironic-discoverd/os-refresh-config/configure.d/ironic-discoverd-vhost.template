@@ -1,0 +1,16 @@
+Listen {{PORT}}
+<VirtualHost *:{{PORT}}>
+    DocumentRoot "{{ROOT}}"
+    <Directory "{{ROOT}}">
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+
+    ## Logging
+    ErrorLog "/var/log/httpd/ironic_discoverd_error.log"
+    ServerSignature Off
+    CustomLog "/var/log/httpd/ironic_discoverd_access.log" combined
+</VirtualHost>
