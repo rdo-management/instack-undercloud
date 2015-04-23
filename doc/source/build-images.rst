@@ -94,6 +94,15 @@ non-root user that was used to install the undercloud.
               # rhel-7-server-openstack-6.0-rpms
               export REG_ACTIVATION_KEY="[activation key]"
               export REG_HALT_UNREGISTER=""
+
+   .. admonition:: Quintupleo
+      :class: quintupleo
+
+      Currently fails due to bug https://bugs.launchpad.net/diskimage-builder/+bug/1443706
+      apply proposed fix https://review.openstack.org/#/c/173138/
+      to `/usr/share/diskimage-builder/elements/redhat-common/bin/extract-image`
+      before proceding
+
    ::
 
           instack-build-images
