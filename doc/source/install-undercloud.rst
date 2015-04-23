@@ -40,6 +40,17 @@ node on which you want to install the undercloud.
 
         127.0.0.1   myhost.mydomain
 
+  .. admonition:: Quintupleo
+     :class: quintupleo-tag
+
+     The above /etc/hosts entry should be::
+
+        127.0.0.1   undercloud.openstacklocal undercloud.novalocal
+
+     Copy in the sample answers file::
+
+        cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
+
   .. admonition:: Baremetal
      :class: baremetal-tag
 

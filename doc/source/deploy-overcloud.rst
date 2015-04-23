@@ -13,6 +13,13 @@ Register nodes for your deployment with Ironic::
 
     instack-ironic-deployment --nodes-json instackenv.json --register-nodes
 
+.. admonition:: Quintupleo
+   :class: quintupleo-tag
+
+   Running ``nova list`` on the host cloud will show that the baremetal nodes
+   will be in Status ``SHUTOFF`` after nodes are registered. This indicates
+   that the BMC nodes are working as expected.
+
 .. note::
     It's not recommended to delete nodes and/or rerun this command after
     you've proceeded to the next steps. Particularly, if you start discovery
@@ -59,6 +66,13 @@ Discover hardware attributes of nodes and match them to a deployment profile:
 
     instack-ironic-deployment --discover-nodes
 
+
+.. admonition:: Quintupleo
+   :class: quintupleo-tag
+
+   Horizon in the host OpenStack can be used to view the console of the
+   baremetal nodes to see the progress of booting the discovery images.
+
 Check what profiles were matched for the discovered nodes::
 
     instack-ironic-deployment --show-profile
@@ -92,6 +106,14 @@ Create the necessary flavors::
       cp /usr/share/instack-undercloud/deploy-baremetal-overcloudrc ~/deploy-overcloudrc
       source deploy-overcloudrc
 
+.. admonition:: Quintupleo
+   :class: quintupleo-tag
+
+   Copy the sample overcloudrc file then source it::
+
+      cp /usr/share/instack-undercloud/deploy-baremetal-overcloudrc ~/deploy-overcloudrc
+      source deploy-overcloudrc
+
 Deploy the overcloud (default of 1 compute and 1 control):
 
 .. admonition:: Ceph
@@ -109,6 +131,12 @@ Deploy the overcloud (default of 1 compute and 1 control):
 ::
 
     instack-deploy-overcloud --tuskar
+
+.. admonition:: Quintupleo
+   :class: quintupleo-tag
+
+   Currently fails due to https://bugzilla.redhat.com/show_bug.cgi?id=1214545
+   and other issues still investigating
 
 Working with the Overcloud
 --------------------------
