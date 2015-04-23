@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_fc81edc3",
+        "filename": "doc/source/environments/baremetal_env.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-23T11:30:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_3cd0a51e",
+      "revId": "cb82a85678cbbf65bb169e34cf17d324a789dbc4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_9ca8b98e",
         "filename": "doc/source/environments/environments.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-23T10:41:56Z",
       "side": 1,
       "message": "ditto about dropping \"_env\" for names - it\u0027s already \"environments\" dir",
+      "revId": "cb82a85678cbbf65bb169e34cf17d324a789dbc4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_1c6cc934",
+        "filename": "doc/source/environments/environments.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-23T11:30:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_9ca8b98e",
       "revId": "cb82a85678cbbf65bb169e34cf17d324a789dbc4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
