@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_f9b29f04",
+        "filename": "elements/undercloud-post-config/os-refresh-config/post-configure.d/98-undercloud-setup",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-23T07:48:21Z",
+      "side": 1,
+      "message": "can we use a temporary file instead of cluttering the current dir even more?",
+      "range": {
+        "startLine": 55,
+        "startChar": 6,
+        "endLine": 55,
+        "endChar": 20
+      },
+      "revId": "21d795a1d025c116ec9a8b74dfc6e8c9e6a5cffb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
