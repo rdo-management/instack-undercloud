@@ -225,6 +225,19 @@ function discovery-ramdisk {
     fi
 }
 
+function discovery-ramdisk-py {
+    if [ ! -f $DISCOVERY_NAME.initramfs -o \
+         ! -f $DISCOVERY_NAME.kernel ]; then
+        ramdisk-image-create \
+            -a $NODE_ARCH \
+            -o $DISCOVERY_NAME \
+            --ramdisk-element dracut-ramdisk \
+            $NODE_DIST ironic-discoverd-ramdisk-instack-py \
+            $DIB_COMMON_ELEMENTS \
+            2>&1 | tee dib-discovery-py.log
+    fi
+}
+
 function overcloud-control {
     if [ ! -f overcloud-control.qcow2 ]; then
         disk-image-create \
