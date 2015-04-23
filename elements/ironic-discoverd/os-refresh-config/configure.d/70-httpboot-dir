@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -eux
+
+[ -x /usr/sbin/semanage ] || exit 0
+
+semanage fcontext -a -t httpd_sys_content_t "/httpboot(/.*)?"
+restorecon -Rv /httpboot/
+
+# Try to delete port if present
+semanage port -d -t http_port_t -p tcp 8089 || true
+
+# Add port
+semanage port -a -t http_port_t -p tcp 8089
+
