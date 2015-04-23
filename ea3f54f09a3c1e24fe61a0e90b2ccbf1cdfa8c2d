@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_ed9c995f",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-23T21:21:11Z",
+      "side": 1,
+      "message": "Nice, I was just thinking this section belonged in the troubleshooting docs.",
+      "range": {
+        "startLine": 22,
+        "startChar": 9,
+        "endLine": 22,
+        "endChar": 35
+      },
+      "revId": "ea3f54f09a3c1e24fe61a0e90b2ccbf1cdfa8c2d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
