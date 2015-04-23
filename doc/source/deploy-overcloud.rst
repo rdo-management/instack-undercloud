@@ -37,33 +37,14 @@ Register nodes for your deployment with Ironic::
 
         ironic node-update <NODE UUID> replace driver_info/ipmi_address=<NEW IPMI ADDRESS>
 
-Discovering Nodes
------------------
+Introspecting Nodes
+-------------------
 
-Discover hardware attributes of nodes and match them to a deployment profile:
-
-.. admonition:: Ceph
-   :class: ceph-tag
-
-   When deploying Ceph, you will need to configure the ``edeploy`` plugin so
-   that it will assign the ``ceph-storage`` profile to at least one system. To
-   do so, you need to **prepend** the following ``('ceph-storage', '1')`` into
-   the list of profiles defined in ``/etc/edeploy/state``, before initiating the
-   nodes discovery. [#]_
-
-   Example contents of ``/etc/edeploy/state``::
-
-       [('ceph-storage', '1'), ('control', '1'), ('compute', '*')]
-
-::
+Introspect hardware attributes of nodes::
 
     instack-ironic-deployment --discover-nodes
 
-Check what profiles were matched for the discovered nodes::
-
-    instack-ironic-deployment --show-profile
-
-If you have problems with discovery step, please check `ironic-discoverd
+If you have problems with this step, please check `ironic-discoverd
 troubleshooting documentation`_.
 
 .. _ironic-discoverd troubleshooting documentation: https://github.com/stackforge/ironic-discoverd#troubleshooting
