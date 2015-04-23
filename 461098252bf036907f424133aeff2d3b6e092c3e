@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_5c4921b6",
+        "filename": "doc/source/troubleshooting/troubleshooting-nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-23T11:36:28Z",
+      "side": 1,
+      "message": "Yeah, I wanted to create separate file for \"Where to find logs\" but until then I would keep it here if you don\u0027t mind.",
+      "parentUuid": "1a106d94_bc62d53b",
+      "revId": "461098252bf036907f424133aeff2d3b6e092c3e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_7c75fdf8",
         "filename": "doc/source/troubleshooting/troubleshooting-nodes.rst",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2015-04-23T11:30:50Z",
       "side": 1,
       "message": "Could you please drop this sentence? Fix for this bug has landed already",
+      "range": {
+        "startLine": 63,
+        "startChar": 53,
+        "endLine": 66,
+        "endChar": 25
+      },
+      "revId": "461098252bf036907f424133aeff2d3b6e092c3e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_bcc93528",
+        "filename": "doc/source/troubleshooting/troubleshooting-nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-23T11:36:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_7c75fdf8",
       "range": {
         "startLine": 63,
         "startChar": 53,
