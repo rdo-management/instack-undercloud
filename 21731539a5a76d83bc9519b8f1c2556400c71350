@@ -52,6 +52,24 @@
       "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d9f6c3f8",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-23T06:11:08Z",
+      "side": 1,
+      "message": "I would recommend to update the RFE which Dmitry created for the suggested flavors, so that assignee of that task can take the existing code into account: https://bugzilla.redhat.com/show_bug.cgi?id\u003d1214343",
+      "parentUuid": "1a106d94_f6dbce4c",
+      "revId": "21731539a5a76d83bc9519b8f1c2556400c71350",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
