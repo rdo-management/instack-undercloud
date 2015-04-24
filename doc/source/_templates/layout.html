@@ -1,0 +1,33 @@
+{% extends "!layout.html" %}
+
+{% set script_files = script_files + ["_static/cookies.js"] %}
+{% set script_files = script_files + ["_static/expandable.js"] %}
+{% set script_files = script_files + ["_static/admonition_selector.js"] %}
+
+
+{% block menu %}
+  <div id="admonition_selector">
+    <span class="trigger">Display Specific-only Content</span>
+
+    <div class="content">
+      <span class="title">Operating Systems</span>
+      <ul>
+        <li><input type="checkbox" name="centos" id="centos" value="CentOS" checked><label for="centos">CentOS</label></li>
+        <li><input type="checkbox" name="rhel" id="rhel" value="RHEL" checked><label for="rhel">RHEL</label></li>
+      </ul>
+
+      <span class="title">Environments</span>
+      <ul>
+        <li><input type="checkbox" name="baremetal" id="baremetal" value="baremetal" checked="checked"><label for="baremetal">Baremetal</label></li>
+        <li><input type="checkbox" name="virtual" id="virtual" value="virtual" checked="checked"><label for="virtual">Virtual</label></li>
+      </ul>
+
+      <span class="title">Additional Overcloud Roles</span>
+      <ul>
+        <li><input type="checkbox" name="ceph" id="ceph" value="ceph" checked="checked"><label for="ceph">Ceph</label></li>
+      </ul>
+    </div>
+  </div>
+
+  {{ super() }}
+{% endblock %}
