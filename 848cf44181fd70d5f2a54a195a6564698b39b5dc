@@ -16,6 +16,24 @@
       "revId": "848cf44181fd70d5f2a54a195a6564698b39b5dc",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_528bc5c2",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-24T17:12:32Z",
+      "side": 1,
+      "message": "Yeah, we should probably add a Jenkins job for that at some point.  This file has a bunch of lint problems.",
+      "parentUuid": "1a106d94_6d726912",
+      "revId": "848cf44181fd70d5f2a54a195a6564698b39b5dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
