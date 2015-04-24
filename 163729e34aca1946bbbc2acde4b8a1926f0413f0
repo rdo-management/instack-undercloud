@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_75e22b30",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "Missing \"the\": \"install the undercloud\"\n\nAlso probably shouldn\u0027t be a capital U.",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d5d2ff5a",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"install the undercloud\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_b5d7834a",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"enable the needed repositories\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_15c937ac",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"Install the unified CLI\"\n\n\"also installs\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_55c60f9b",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"Run the script\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_35c3938a",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"keep the defaults\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_95bc0708",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-24T18:12:52Z",
+      "side": 1,
+      "message": "\"Both of these\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
