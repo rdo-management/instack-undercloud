@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_5ca59ca0",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-24T08:23:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_edb3f9e6",
+      "range": {
+        "startLine": 13,
+        "startChar": 7,
+        "endLine": 13,
+        "endChar": 12
+      },
+      "revId": "86e96b47d0856e8259444d83422886e5ec238d27",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2dc99159",
         "filename": "doc/source/deploy-overcloud.rst",
         "patchSetId": 9
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_3ca26099",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-24T08:23:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_2dc99159",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 5
+      },
+      "revId": "86e96b47d0856e8259444d83422886e5ec238d27",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_6dbf09ab",
         "filename": "doc/source/index.rst",
         "patchSetId": 9
@@ -59,6 +107,30 @@
       "writtenOn": "2015-04-23T21:36:54Z",
       "side": 1,
       "message": "This is just Node in the actual doc.",
+      "range": {
+        "startLine": 30,
+        "startChar": 19,
+        "endLine": 30,
+        "endChar": 24
+      },
+      "revId": "86e96b47d0856e8259444d83422886e5ec238d27",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_9cab9474",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-24T08:23:45Z",
+      "side": 1,
+      "message": "Was removed during rebase, anyway.",
+      "parentUuid": "1a106d94_6dbf09ab",
       "range": {
         "startLine": 30,
         "startChar": 19,
