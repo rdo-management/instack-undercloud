@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_d906b11c",
+        "filename": "doc/source/user_guide/images.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-04-27T13:30:32Z",
+      "side": 1,
+      "message": "Unresolved merge conflict",
+      "revId": "a8dfa9d5f0209a1509708379338da8830a605206",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
