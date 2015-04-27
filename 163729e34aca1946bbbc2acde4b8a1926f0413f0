@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ae9a8d6b",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_75e22b30",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_d5d2ff5a",
         "filename": "doc/source/installation/installing.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-24T18:12:52Z",
       "side": 1,
       "message": "\"install the undercloud\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ce9d4968",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_d5d2ff5a",
       "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_6e941543",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_b5d7834a",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_15c937ac",
         "filename": "doc/source/installation/installing.rst",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2015-04-24T18:12:52Z",
       "side": 1,
       "message": "\"Install the unified CLI\"\n\n\"also installs\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8e97d147",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_15c937ac",
       "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_2eafbd95",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_55c60f9b",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_35c3938a",
         "filename": "doc/source/installation/installing.rst",
         "patchSetId": 5
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_4eaaf985",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_35c3938a",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_95bc0708",
         "filename": "doc/source/installation/installing.rst",
         "patchSetId": 5
@@ -115,6 +223,24 @@
       "writtenOn": "2015-04-24T18:12:52Z",
       "side": 1,
       "message": "\"Both of these\"",
+      "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_eea8058f",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-27T10:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_95bc0708",
       "revId": "163729e34aca1946bbbc2acde4b8a1926f0413f0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
