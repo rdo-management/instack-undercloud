@@ -34,6 +34,24 @@
       "revId": "8a97f28d602114a5b1c01e27d78befe00f484780",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_99ec39f5",
+        "filename": "elements/ironic-discoverd-ramdisk-instack/init.d/80-ironic-discoverd-ramdisk-instack",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-04-27T14:46:26Z",
+      "side": 1,
+      "message": "ah cool, thanks.",
+      "parentUuid": "1a106d94_d9da314b",
+      "revId": "8a97f28d602114a5b1c01e27d78befe00f484780",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
