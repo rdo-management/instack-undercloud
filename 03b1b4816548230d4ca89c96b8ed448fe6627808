@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_b4913cf3",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003797
+      },
+      "writtenOn": "2015-04-27T22:34:59Z",
+      "side": 1,
+      "message": "We could assume that the user will know this, but I think it is useful help",
+      "revId": "03b1b4816548230d4ca89c96b8ed448fe6627808",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_948ec0ce",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1003797
+      },
+      "writtenOn": "2015-04-27T22:34:59Z",
+      "side": 1,
+      "message": "We could assume that the user will know this, but I think it is useful help",
+      "revId": "03b1b4816548230d4ca89c96b8ed448fe6627808",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_d4c318eb",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1003797
+      },
+      "writtenOn": "2015-04-27T22:34:59Z",
+      "side": 1,
+      "message": "This could be replaced with an ssh command in the quintupleo setup section",
+      "revId": "03b1b4816548230d4ca89c96b8ed448fe6627808",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_34b54c7e",
+        "filename": "doc/source/deploy-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1003797
+      },
+      "writtenOn": "2015-04-27T22:34:59Z",
+      "side": 1,
+      "message": "The fix for this has landed so this can be removed",
+      "revId": "03b1b4816548230d4ca89c96b8ed448fe6627808",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
