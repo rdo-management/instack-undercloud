@@ -1,13 +1,51 @@
-Deploying the Overcloud
-=======================
+Getting Started with RDO-Manager
+================================
 
-All the commands on this page require that the appropriate stackrc file has
-been sourced into the environment::
+With these few steps you will be able to simply deploy RDO to your environment
+using our POC defaults in few steps.
+
+
+Prepare Your Environment
+------------------------
+
+#. Make sure you have your environemnt ready and undercloud running:
+
+   * :doc:`../environments/environments`
+   * :doc:`../install-undercloud`
+
+#. Log into your undercloud (instack) virtual machine as non-root user::
+
+    ssh root@<rdo-manager-machine>
+
+    su - stack
+
+#. In order to use CLI commands you need to source needed passwords::
 
     source stackrc
 
-Registering Nodes
------------------
+
+Get Images
+----------
+
+..
+    You can simply download and use provided overcloud images to get started::
+
+        sudo yum install -y wget
+        wget --no-verbose --no-parent --recursive --level=1 --no-directories --reject 'index.html*' -P ./images/ http://fedorapeople.org/...
+
+    .. note:: If you happen to need to build overcloud images, please follow these
+       steps: :ref:`building_images`
+
+
+At the moment we have to build images manually, please follow:
+
+* :ref:`building_images`
+
+.. _post_building_images:
+
+
+Register Nodes
+--------------
 
 Register nodes for your deployment with Ironic::
 
@@ -21,8 +59,9 @@ Register nodes for your deployment with Ironic::
    with nodes after registration, please follow
    :ref:`node_registration_problems`.
 
-Introspecting Nodes
--------------------
+
+Introspect Nodes
+----------------
 
 Introspect hardware attributes of nodes::
 
@@ -33,21 +72,16 @@ Introspect hardware attributes of nodes::
    the process takes longer, see :ref:`introspection_problems`.
 
 
-Ready-state configuration
--------------------------
-
-.. admonition:: Baremetal
-   :class: baremetal
-
-   Some hardware has additional setup available, using its vendor-specific management
-   interface.  See the :doc:`/vendor-specific` for details.
-
-Deploying Nodes
----------------
+Create Flavors
+--------------
 
 Create the necessary flavors::
 
     instack-ironic-deployment --setup-flavors
+
+
+Deploy Overcloud
+-----------------
 
 .. admonition:: Baremetal
    :class: baremetal
@@ -96,8 +130,20 @@ Deploy the overcloud (default of 1 compute and 1 control):
 
     instack-deploy-overcloud --tuskar
 
-Working with the Overcloud
---------------------------
+
+Post-Deployment
+---------------
+
+Testing Overcloud
+^^^^^^^^^^^^^^^^^
+
+Trigger Instack testing script::
+
+    instack-test-overcloud
+
+
+Working with Overcloud
+^^^^^^^^^^^^^^^^^^^^^^
 
 ``instack-deploy-overcloud`` generates an overcloudrc file appropriate for
 interacting with the deployed overcloud in the current user's home directory.
@@ -109,8 +155,9 @@ To return to working with the undercloud, source the stackrc file again::
 
     source ~/stackrc
 
-Redeploying the Overcloud
--------------------------
+
+Redeploying Overcloud
+^^^^^^^^^^^^^^^^^^^^^
 
 The overcloud can be redeployed when desired.
 
@@ -123,9 +170,8 @@ The overcloud can be redeployed when desired.
     # This command should show no stack once the Delete has completed
     heat stack-list
 
-#. Although not required, discovery can be rerun. Reset the state file and then rediscover nodes::
+#. Although not required, introspection can be rerun::
 
-    sudo cp /usr/libexec/os-apply-config/templates/etc/edeploy/state /etc/edeploy/state
     instack-ironic-deployment --discover-nodes
 
 #. Deploy the Overcloud again::

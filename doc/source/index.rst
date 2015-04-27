@@ -14,10 +14,8 @@ Contents:
    Introduction <introduction/introduction>
    Environments <environments/environments>
    Installing the Undercloud <install-undercloud>
-   Building Images <build-images>
-   Deploying the Overcloud <deploy-overcloud>
-   Vendor-Specific Setup <vendor-specific>
-   AHC (Automated Health Check) Workflow <ahc-workflow>
+   Getting Started <getting_started/getting_started>
+   User Guide <user_guide/user_guide>
    Troubleshooting <troubleshooting/troubleshooting>
    How to Contribute <contributions/contributions>
 
