@@ -1,10 +1,9 @@
-Dell DRAC Setup
-===============
+Ready-state
+===========
 
-Additional setup steps available for Dell hardware with a DRAC.
 
-Ready-state configuration
--------------------------
+Vendor-specific Dell DRAC Setup
+-------------------------------
 
 Configure BIOS based on the deployment profile::
 
