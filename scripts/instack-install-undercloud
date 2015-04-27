@@ -19,6 +19,10 @@ export DIB_INSTALLTYPE_puppet_modules=source
 # Pin to an earlier commit for now.
 export DIB_REPOREF_puppetlabs_concat=15ecb98dc3a551024b0b92c6aafdefe960a4596f
 
+# Just for testing
+export DIB_REPOLOCATION_puppet_tripleo=https://review.openstack.org/stackforge/puppet-tripleo
+export DIB_REPOREF_puppet_tripleo=refs/changes/58/175958/3
+
 
 # Attempt to be smart about detecting the path to the json files.
 JSONFILEDIR=/usr/share/instack-undercloud/json-files
