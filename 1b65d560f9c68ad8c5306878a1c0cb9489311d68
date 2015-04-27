@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_6e953586",
+        "filename": "doc/source/_templates/layout.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-27T09:54:06Z",
+      "side": 1,
+      "message": "I suggest \"Limit environment specific content\" or something like that.",
+      "range": {
+        "startLine": 10,
+        "startChar": 26,
+        "endLine": 10,
+        "endChar": 55
+      },
+      "revId": "1b65d560f9c68ad8c5306878a1c0cb9489311d68",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
