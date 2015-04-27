@@ -1,5 +1,10 @@
-Building Images
-===============
+Images
+======
+
+.. _building_images:
+
+Building images
+---------------
 
 Images must be built prior to doing a deployment. A discovery ramdisk,
 deployment ramdisk, and openstack-full image can all be built using
@@ -11,28 +16,29 @@ the dependencies are already present.
 The following steps can be used to build images. They should be run as the same
 non-root user that was used to install the undercloud.
 
-#. The built images will automatically have the same base OS as the running
-   undercloud. See the Note below to choose a different OS::
 
-  .. note:: To build images with a base OS different from the undercloud,
-     set the ``$NODE_DIST`` environment variable prior to running
-     ``instack-build-images``:
+#. Choose image operating system:
 
-     .. admonition:: CentOS
-        :class: centos
+   The built images will automatically have the same base OS as the
+   running undercloud. To choose a different OS use one of the following
+   commands (make sure you have your OS specific content visible):
 
-        ::
+   .. admonition:: CentOS
+      :class: centos
 
-            export NODE_DIST=centos7
+      ::
 
-     .. admonition:: RHEL
-        :class: rhel
+          export NODE_DIST=centos7
 
-        ::
+   .. admonition:: RHEL
+      :class: rhel
 
-            export NODE_DIST=rhel7
+      ::
 
-2. Build the required images:
+          export NODE_DIST=rhel7
+
+
+#. Build the required images:
 
    .. only:: internal
 
@@ -93,6 +99,7 @@ non-root user that was used to install the undercloud.
               # rhel-7-server-extras-rpms
               # rhel-7-server-openstack-6.0-rpms
               export REG_ACTIVATION_KEY="[activation key]"
+
    ::
 
           instack-build-images
@@ -104,6 +111,12 @@ non-root user that was used to install the undercloud.
       **discovery-ramdisk** images (\*.initramfs, \*.kernel) and **testing**
       fedora-user.qcow2 (which is always Fedora based).
 
+
 #. Load the images into Glance::
 
     instack-prepare-for-overcloud
+
+
+.. note::
+
+   If you followed Getting Started flow, after images are loaded to Glance :ref:`go back to the flow <post_building_images>`.
