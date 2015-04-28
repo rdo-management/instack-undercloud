@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_44a935de",
+        "filename": "doc/source/build-images.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-28T16:21:51Z",
+      "side": 0,
+      "message": "Note that if they properly did this, then the images will be unregistered because the REG_HALT_UNREGISTER check is just -z.",
+      "range": {
+        "startLine": 96,
+        "startChar": 21,
+        "endLine": 96,
+        "endChar": 40
+      },
+      "revId": "dd55a9062d57f0c6adcd3a5ce9c43d1df599ba48",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
