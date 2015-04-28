@@ -169,6 +169,7 @@ if [ -n "$TUSKAR" ]; then
 
     export TUSKAR_PARAMETERS=${TUSKAR_PARAMETERS:-"
     -A NeutronControlPlaneID=${NeutronControlPlaneID}
+    -A Controller-1::EnablePacemaker=${EnablePacemaker:-false}
     -A Controller-1::AdminPassword=${OVERCLOUD_ADMIN_PASSWORD}
     -A Controller-1::AdminToken=${OVERCLOUD_ADMIN_TOKEN}
     -A Compute-1::AdminPassword=${OVERCLOUD_ADMIN_PASSWORD}
