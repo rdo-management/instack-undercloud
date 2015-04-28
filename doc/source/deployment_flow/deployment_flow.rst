@@ -11,7 +11,7 @@ Prepare Your Environment
 #. Make sure you have your environemnt ready and undercloud running:
 
    * :doc:`../environments/environments`
-   * :doc:`../install-undercloud`
+   * :doc:`../installation/installing`
 
 #. Log into your undercloud (instack) virtual machine as non-root user::
 
@@ -48,9 +48,9 @@ At the moment we have to build images manually, please follow:
 Register Nodes
 --------------
 
-Register nodes for your deployment with Ironic::
+Import instackenv.json file in order to register multiple nodes with Ironic::
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+    openstack baremetal import --json instackenv.json
 
 .. note::
    It's not recommended to delete nodes and/or rerun this command after
@@ -60,13 +60,31 @@ Register nodes for your deployment with Ironic::
    with nodes after registration, please follow
    :ref:`node_registration_problems`.
 
+Add extra parameters needed for local booting a node when deploying:
+
+.. admonition:: Requirements
+   :class: requirements
+
+   *bm-deploy-kernel* and *bm-deploy-ramdisk* images are required
+   to be in Glance at this point. You can check with ``openstack image list``.
+
+::
+
+    openstack baremetal configure boot
+
 
 Introspect Nodes
 ----------------
 
-Introspect hardware attributes of nodes::
+Start introspection process to discover hardware attributes of all nodes::
 
-    instack-ironic-deployment --discover-nodes
+    openstack baremetal introspection all start
+
+
+After few minutes you can start checking for introspection status::
+
+    openstack baremetal introspection all status
+
 
 .. note:: **Introspection has to finish without errors.**
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
@@ -76,9 +94,12 @@ Introspect hardware attributes of nodes::
 Create Flavors
 --------------
 
-Create the necessary flavors::
+Create a generic flavor for all overcloud roles::
 
-    instack-ironic-deployment --setup-flavors
+    # Create a flavor and set properties:
+
+    openstack flavor create baremetal --id=auto --ram=4096 --disk=40 --vcpus=1
+    openstack flavor set baremetal --property cpu_arch=x86_64
 
 
 Deploy Overcloud
