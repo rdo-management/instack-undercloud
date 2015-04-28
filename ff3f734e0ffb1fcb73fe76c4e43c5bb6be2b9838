@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_8eda2ce6",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-04-28T14:35:58Z",
+      "side": 1,
+      "message": "I\u0027m not sure we want to take the approach of defaulting it in here. Or if we do, we might want to use the same default as upstream (false).\n\nI was thinking more of a check to see if it\u0027s set and only then including the parameter. See a few lines below this for a model (the CONTROLSCALE check).",
+      "revId": "ff3f734e0ffb1fcb73fe76c4e43c5bb6be2b9838",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
