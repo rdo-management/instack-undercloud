@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_7aeb2178",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_da96954b",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_9adb7d4e",
         "filename": "doc/source/getting_started/getting_started.rst",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-29T13:36:29Z",
       "side": 1,
       "message": "These are not our POC defaults. They are just defaults. This is not about POC vs production. If you think these are POC defaults, where are the production defaults?\n\nIf you insist this entire thing is POC, then propose a change that puts \"all of rdo-manager is one giant POC\" at the very top and beginning of the documentation.",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_faf6f15b",
+        "filename": "doc/source/getting_started/getting_started.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_9adb7d4e",
       "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_9a9d3d0d",
+        "filename": "doc/source/getting_started/getting_started.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_dae855e4",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_5abc65dc",
         "filename": "doc/source/getting_started/getting_started.rst",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2015-04-29T13:36:29Z",
       "side": 1,
       "message": "this assumes we\u0027re publishing images, which we aren\u0027t. and if we were it would be for CentOS only, so it needs to be surrounded in that admonition.",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_1a914df1",
+        "filename": "doc/source/getting_started/getting_started.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "This is prepared in comment when this option is available. Not generated to the build content yet.",
+      "parentUuid": "1a106d94_5abc65dc",
       "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_3ac369ee",
+        "filename": "doc/source/getting_started/getting_started.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "OK. I was asked by people to add testing step. I am removing it from the flow.",
+      "parentUuid": "1a106d94_3ac1a954",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_bacc798a",
         "filename": "doc/source/user_guide/images.rst",
         "patchSetId": 4
@@ -98,6 +188,24 @@
       "writtenOn": "2015-04-29T13:36:29Z",
       "side": 1,
       "message": "why are you undoing the admonitions, and the ability to hide one or the other?",
+      "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_3d96c33f",
+        "filename": "doc/source/user_guide/images.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T15:26:31Z",
+      "side": 1,
+      "message": "Done.\n\nHow to handle mixing OS\u0027s will be covered in separate patch.",
+      "parentUuid": "1a106d94_bacc798a",
       "revId": "b2328daa2a35d3fedc04b035a051f267174b6777",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
