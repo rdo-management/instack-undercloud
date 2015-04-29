@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_3abd29b8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T13:52:49Z",
+      "side": 1,
+      "message": "I abandoned them in behalf of this change. I just merged those two changes together since they are impacting the same file, flow.",
+      "parentUuid": "1a106d94_baa11996",
+      "revId": "cb274efcf599ac66a4a485c729fbef94ec1db61b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_daa4d5a7",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-29T13:46:10Z",
       "side": 1,
       "message": "you need to rebase Ia4b219cc76dc3c7c205052ecbf3732777330ad4b on top of Ib85420423dfdbd040db339699ea03a16381d02f4 on the same topic branch.\n\nyou dont need to use Depends-On for changes in the same repo",
+      "revId": "cb274efcf599ac66a4a485c729fbef94ec1db61b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_dacb3551",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-29T13:52:49Z",
+      "side": 1,
+      "message": "Yeah, I did the first but I also included the Depends-On. Do you want me to remove it?",
+      "parentUuid": "1a106d94_daa4d5a7",
       "revId": "cb274efcf599ac66a4a485c729fbef94ec1db61b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
