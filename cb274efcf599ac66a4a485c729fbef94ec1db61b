@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_baa11996",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-29T13:46:10Z",
+      "side": 1,
+      "message": "I\u0027m not following what you\u0027re trying to say. these 2 changes are abandoned.",
+      "revId": "cb274efcf599ac66a4a485c729fbef94ec1db61b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_daa4d5a7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-29T13:46:10Z",
+      "side": 1,
+      "message": "you need to rebase Ia4b219cc76dc3c7c205052ecbf3732777330ad4b on top of Ib85420423dfdbd040db339699ea03a16381d02f4 on the same topic branch.\n\nyou dont need to use Depends-On for changes in the same repo",
+      "revId": "cb274efcf599ac66a4a485c729fbef94ec1db61b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
