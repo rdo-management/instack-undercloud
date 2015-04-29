@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_9aaedd7f",
+        "filename": "doc/source/build-images.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-29T13:52:32Z",
+      "side": 1,
+      "message": "this is the reop we\u0027re now using by default and the variable is called:\n\n  DELOREAN_TRUNK_MGT_REPO",
+      "revId": "b8f73236ff4067eb7479339cb1d65a428d2b14d9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
