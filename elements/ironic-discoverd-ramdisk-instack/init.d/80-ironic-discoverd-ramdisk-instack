@@ -382,7 +382,7 @@ fi
 step "Running discovery"
 
 ironic-discoverd-ramdisk -d --use-hardware-detect $BENCH_ARG --bootif "$BOOTIF" \
-    -L /run/initramfs/rdsosreport.txt -L /log \
+    -L /run/initramfs/rdsosreport.txt -L /log -L /var/run/cmdline -L /var/log/ \
     "$discoverd_callback_url" || give_up "Failed to discover hardware"
 
 case "$ONSUCCESS" in
