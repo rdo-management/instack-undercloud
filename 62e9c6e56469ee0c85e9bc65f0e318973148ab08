@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_a538d1d3",
+        "filename": "doc/source/deployment_flow/deployment_flow.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-30T12:06:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_8a10425a",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 139,
+        "endChar": 22
+      },
+      "revId": "62e9c6e56469ee0c85e9bc65f0e318973148ab08",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_6a150648",
         "filename": "doc/source/deployment_flow/deployment_flow.rst",
         "patchSetId": 5
@@ -36,6 +60,30 @@
       "writtenOn": "2015-04-30T11:57:00Z",
       "side": 1,
       "message": "ditto, maybe \"Redeploy overcloud\"?",
+      "range": {
+        "startLine": 153,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 11
+      },
+      "revId": "62e9c6e56469ee0c85e9bc65f0e318973148ab08",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_053285f1",
+        "filename": "doc/source/deployment_flow/deployment_flow.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-30T12:06:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_6a150648",
       "range": {
         "startLine": 153,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_e52e498b",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-30T12:06:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_ca0d1a40",
+      "range": {
+        "startLine": 17,
+        "startChar": 3,
+        "endLine": 17,
+        "endChar": 13
+      },
+      "revId": "62e9c6e56469ee0c85e9bc65f0e318973148ab08",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2506a11d",
         "filename": "doc/source/user_guide/ready_states.rst",
         "patchSetId": 5
@@ -82,6 +154,30 @@
       "writtenOn": "2015-04-30T11:57:00Z",
       "side": 1,
       "message": "a bit redundant: if you say it\u0027s Dell DRAC, it\u0027s pretty obvious that it\u0027s vendor-specific :)",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 24
+      },
+      "revId": "62e9c6e56469ee0c85e9bc65f0e318973148ab08",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c5422d3d",
+        "filename": "doc/source/user_guide/ready_states.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-30T12:06:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_2506a11d",
       "range": {
         "startLine": 5,
         "startChar": 0,
