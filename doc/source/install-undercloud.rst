@@ -34,18 +34,27 @@ node on which you want to install the undercloud.
 
 #. Run script to install the undercloud:
 
-  .. note:: Ensure that there is an entry for the system's full hostname in /etc/hosts.
-     For example, if the system is named *myhost.mydomain*, /etc/hosts should have
-     an entry like::
-
-        127.0.0.1   myhost.mydomain
-
   .. admonition:: Baremetal
      :class: baremetal
 
-     Copy in the sample answers file and edit it to reflect your environment::
+      .. note:: Ensure that there is a FQDN hostname set and that the $HOSTNAME
+         environment variable matches that value.
 
-        cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
+         Use ``hostnamectl`` to set a hostname if needed::
+
+            sudo hostnamectl set-hostname myhost.mydomain
+            sudo hostnamectl set-hostname --transient myhost.mydomain
+            export HOSTNAME=myhost.mydomain
+         
+         An entry for the system's FQDN hostname is also needed in /etc/hosts.
+         For example, if the system is named *myhost.mydomain*, /etc/hosts should have
+         an entry like::
+
+            127.0.0.1   myhost.mydomain
+
+         Copy in the sample answers file and edit it to reflect your environment::
+
+            cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
 
 
   ::
