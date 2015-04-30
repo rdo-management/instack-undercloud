@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_89196fd9",
+        "filename": "elements/ironic-conductor-ipxe/os-refresh-config/configure.d/88-httpd-vhost-port",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-04-30T14:25:59Z",
+      "side": 1,
+      "message": "Sure, I think I forgot it there. The idea was to make it configurable. \n\nBut right now those values should be set on both puppet and in the elements and it\u0027s messy. So I just hardcoded it for now until we get everything puppetized.\n\nThat said, yes I will set it to the config file as suggested.",
+      "parentUuid": "1a106d94_89a20ffb",
+      "revId": "2acddcc9f7ff4b19bf52b187afabf803ffe08fde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_c9b7e7f3",
         "filename": "elements/ironic-conductor-ipxe/selinux/ironic-ipxe.audit2allow",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-30T14:06:15Z",
       "side": 1,
       "message": "I don\u0027t think this file is needed anywhere.",
+      "revId": "2acddcc9f7ff4b19bf52b187afabf803ffe08fde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a97b8bf3",
+        "filename": "elements/ironic-conductor-ipxe/selinux/ironic-ipxe.audit2allow",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-04-30T14:25:59Z",
+      "side": 1,
+      "message": "Yeah, it doesn\u0027t... I just left it here because you can generate the .te file with it if needed.",
+      "parentUuid": "1a106d94_c9b7e7f3",
       "revId": "2acddcc9f7ff4b19bf52b187afabf803ffe08fde",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
