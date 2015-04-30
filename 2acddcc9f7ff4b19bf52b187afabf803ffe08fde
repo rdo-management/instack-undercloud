@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_89a20ffb",
+        "filename": "elements/ironic-conductor-ipxe/os-refresh-config/configure.d/88-httpd-vhost-port",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002548
+      },
+      "writtenOn": "2015-04-30T14:06:15Z",
+      "side": 1,
+      "message": "If we\u0027re just replacing the placeholders with hardcoded values, why not just put the values in the conf file and not bother with the sed?",
+      "revId": "2acddcc9f7ff4b19bf52b187afabf803ffe08fde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c9b7e7f3",
+        "filename": "elements/ironic-conductor-ipxe/selinux/ironic-ipxe.audit2allow",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002548
+      },
+      "writtenOn": "2015-04-30T14:06:15Z",
+      "side": 1,
+      "message": "I don\u0027t think this file is needed anywhere.",
+      "revId": "2acddcc9f7ff4b19bf52b187afabf803ffe08fde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
