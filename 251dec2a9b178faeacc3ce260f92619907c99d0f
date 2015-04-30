@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_0a1e12bb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-04-30T11:11:45Z",
+      "side": 1,
+      "message": "so that we\u0027ll know when this is ready to merge what are the corresponding commits?",
+      "revId": "251dec2a9b178faeacc3ce260f92619907c99d0f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
