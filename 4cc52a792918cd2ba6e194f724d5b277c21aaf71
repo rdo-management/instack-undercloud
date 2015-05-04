@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_733b23eb",
+        "filename": "doc/source/deployment_flow/deployment_flow.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T11:44:29Z",
+      "side": 1,
+      "message": "*environment",
+      "revId": "4cc52a792918cd2ba6e194f724d5b277c21aaf71",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_533ee7da",
+        "filename": "doc/source/deployment_flow/deployment_flow.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T11:44:29Z",
+      "side": 1,
+      "message": "you can\u0027t simply download images, b/c we dont have them published anywhere :-). I\u0027m not aware of any plans to do so right now.",
+      "revId": "4cc52a792918cd2ba6e194f724d5b277c21aaf71",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_b328fb9a",
+        "filename": "doc/source/deployment_flow/deployment_flow.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T11:44:29Z",
+      "side": 1,
+      "message": "this is all we offer at the moment",
+      "revId": "4cc52a792918cd2ba6e194f724d5b277c21aaf71",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
