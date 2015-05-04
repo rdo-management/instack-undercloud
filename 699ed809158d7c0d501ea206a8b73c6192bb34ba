@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_0932805e",
+        "filename": "doc/source/advanced_deployment/advanced_deployment.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - In this chapter",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a9424cab",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - in a few steps",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_893dd02d",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - Deploy the Overcloud",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e948c4cd",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - Access the Overcloud",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0919e0d6",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - Redeploy the Overcloud",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_490f5888",
+        "filename": "doc/source/environments/environments.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - Environment Setup",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a929ace7",
+        "filename": "doc/source/index.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - Environment Setup",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e91f24b5",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "nit - therefore\n\nactually, i think you can just eliminate the ,therefore also RDO-Manager, phrasing since you said in the earlier paragraph that RDO-Manager is based on TripleO",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_c91a28c5",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-04T20:20:20Z",
+      "side": 1,
+      "message": "this talks about the workload and deploy cloud. I think we should either ask ryan to update that, or just pull that doc into this doc set.\n\nOr better yet, submit that upstream (if not already) and link to it there.",
+      "revId": "699ed809158d7c0d501ea206a8b73c6192bb34ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
