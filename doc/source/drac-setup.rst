@@ -3,6 +3,18 @@ Dell DRAC Setup
 
 Additional setup steps available for Dell hardware with a DRAC.
 
+Match deployment profiles
+-------------------------
+Before doing the ready-state configuration, we first must match the nodes to profiles.
+
+  ::
+
+      sudo yum install -y ahc-tools
+      sudo -E ahc-match
+
+.. note:: By default, ahc-match must be run as root. If we want to use the tool as a non-root user, we need to pass a config file with a user-writable lock file and user-writable edeploy config dir.
+
+
 Ready-state configuration
 -------------------------
 
@@ -21,8 +33,7 @@ Create root RAID volume based on the deployment profile::
 
 Discover root block device::
 
-    sudo cp /usr/libexec/os-apply-config/templates/etc/edeploy/state /etc/edeploy/state
-    instack-ironic-deployment --discover-nodes
+    sudo -E ahc-match
 
 Create non-root RAID volumes based on the deployment profile::
 
