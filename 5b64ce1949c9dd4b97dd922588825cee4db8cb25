@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a9288c9a",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-04T21:58:57Z",
+      "side": 1,
+      "message": "This is already hard-coded into the PUPPET_COMMON_ELEMENTS list above.  I\u0027m guessing it should be removed so we can conditionally add it here?",
+      "revId": "5b64ce1949c9dd4b97dd922588825cee4db8cb25",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
