@@ -67,9 +67,9 @@ non-root user that was used to install the undercloud.
       .. admonition:: RHEL
          :class: rhel
 
-        Download the RHEL 7.1 cloud image or copy it over from a different location,
-        and define the needed environment variable for RHEL 7.1 prior to running
-        ``instack-build-images``::
+         Download the RHEL 7.1 cloud image or copy it over from a different
+         location, and define the needed environment variable for RHEL 7.1 prior
+         to running ``instack-build-images``::
 
              curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
              export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
@@ -78,53 +78,54 @@ non-root user that was used to install the undercloud.
 
    .. only:: external
 
-    .. admonition:: RHEL
-       :class: rhel
+      .. admonition:: RHEL
+         :class: rhel
 
-       Download the RHEL 7.1 cloud image or copy it over from a different location,
-       for example:
-       https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.1/x86_64/product-downloads,
-       and define the needed environment variables for RHEL 7.1 prior to running
-       ``instack-build-images``::
+         Download the RHEL 7.1 cloud image or copy it over from a different
+         location, for example: https://access.redhat.com/downloads/content/69/
+         ver=/rhel---7/7.1/x86_64/product-downloads, and define the needed
+         environment variables for RHEL 7.1 prior to running
+         ``instack-build-images``::
 
-            export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150224.0.x86_64.qcow2
+             export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150224.0.x86_64.qcow2
 
-    .. admonition:: RHEL Portal Registration
-       :class: portal
+      .. admonition:: RHEL Portal Registration
+         :class: portal
 
-       To register the image builds to the Red Hat Portal define the following variables::
+         To register the image builds to the Red Hat Portal define the following
+         variables::
 
-              export REG_METHOD=portal
-              export REG_USER="[your username]"
-              export REG_PASSWORD="[your password]"
-              # Find this with `sudo subscription-manager list --available`
-              export REG_POOL_ID="[pool id]"
-              export REG_REPOS="rhel-7-server-rpms rhel-7-server-extras-rpms rhel-ha-for-rhel-7-server-rpms \
-                  rhel-7-server-optional-rpms rhel-7-server-openstack-6.0-rpms"
+             export REG_METHOD=portal
+             export REG_USER="[your username]"
+             export REG_PASSWORD="[your password]"
+             # Find this with `sudo subscription-manager list --available`
+             export REG_POOL_ID="[pool id]"
+             export REG_REPOS="rhel-7-server-rpms rhel-7-server-extras-rpms rhel-ha-for-rhel-7-server-rpms \
+                               rhel-7-server-optional-rpms rhel-7-server-openstack-6.0-rpms"
 
-    .. admonition:: RHEL Satellite Registration
-       :class: satellite
+      .. admonition:: RHEL Satellite Registration
+         :class: satellite
 
-       To register the image builds to a Satellite define the following
-       variables. Only using an activation key is supported when registering to
-       Satellite, username/password is not supported for security reasons. The
-       activation key must enable the repos shown::
+         To register the image builds to a Satellite define the following
+         variables. Only using an activation key is supported when registering
+         to Satellite, username/password is not supported for security reasons.
+         The activation key must enable the repos shown::
 
-              export REG_METHOD=satellite
-              # REG_SAT_URL should be in the format of:
-              # http://<satellite-hostname>
-              export REG_SAT_URL="[satellite url]"
-              export REG_ORG="[satellite org]"
-              # Activation key must enable these repos:
-              # rhel-7-server-rpms
-              # rhel-7-server-optional-rpms
-              # rhel-7-server-extras-rpms
-              # rhel-7-server-openstack-6.0-rpms
-              export REG_ACTIVATION_KEY="[activation key]"
+             export REG_METHOD=satellite
+             # REG_SAT_URL should be in the format of:
+             # http://<satellite-hostname>
+             export REG_SAT_URL="[satellite url]"
+             export REG_ORG="[satellite org]"
+             # Activation key must enable these repos:
+             # rhel-7-server-rpms
+             # rhel-7-server-optional-rpms
+             # rhel-7-server-extras-rpms
+             # rhel-7-server-openstack-6.0-rpms
+             export REG_ACTIVATION_KEY="[activation key]"
 
    ::
 
-          instack-build-images
+       instack-build-images
 
 
    .. note::
@@ -136,31 +137,49 @@ non-root user that was used to install the undercloud.
 
 #. Load the images into Glance::
 
-    instack-prepare-for-overcloud
+       instack-prepare-for-overcloud
 
 
 Register Nodes
 --------------
 
-Register nodes for your deployment with Ironic::
+#. Import instackenv.json file in order to register multiple nodes with Ironic::
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+       openstack baremetal import --json instackenv.json
 
-.. note::
-   It's not recommended to delete nodes and/or rerun this command after
-   you have proceeded to the next steps. Particularly, if you start discovery
-   and then re-register nodes, you won't be able to retry discovery until
-   the previous one times out (1 hour by default). If you are having issues
-   with nodes after registration, please follow
-   :ref:`node_registration_problems`.
+   .. note::
+       It's not recommended to delete nodes and/or rerun this command after
+       you have proceeded to the next steps. Particularly, if you start
+       discovery and then re-register nodes, you won't be able to retry discovery
+       until the previous one times out (1 hour by default). If you are having
+       issues with nodes after registration, please follow
+       :ref:`node_registration_problems`.
+
+#. Add extra parameters needed for local booting a node when deploying:
+
+   .. admonition:: Requirements
+      :class: requirements
+
+      *bm-deploy-kernel* and *bm-deploy-ramdisk* images are required
+      to be in Glance at this point. You can check with ``openstack image list``.
+
+  ::
+
+      openstack baremetal configure boot
 
 
 Introspect Nodes
 ----------------
 
-Introspect hardware attributes of nodes::
+#. Start introspection process to discover hardware attributes of all nodes::
 
-    instack-ironic-deployment --discover-nodes
+       openstack baremetal introspection all start
+
+
+#. After few minutes you can start checking for introspection status::
+
+       openstack baremetal introspection all status
+
 
 .. note:: **Introspection has to finish without errors.**
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
@@ -170,9 +189,12 @@ Introspect hardware attributes of nodes::
 Create Flavors
 --------------
 
-Create the necessary flavors::
+#. Create a generic flavor for all overcloud roles::
 
-    instack-ironic-deployment --setup-flavors
+       # Create a flavor and set properties:
+
+       openstack flavor create baremetal --id=auto --ram=4096 --disk=40 --vcpus=1
+       openstack flavor set baremetal --property cpu_arch=x86_64
 
 
 Deploy the Overcloud
