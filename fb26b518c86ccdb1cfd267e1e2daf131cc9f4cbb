@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_d03488fd",
+        "filename": "scripts/instack-tempest-test-overcloud",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2015-05-05T12:36:33Z",
+      "side": 1,
+      "message": "Can we update this so the tempest artifacts are saved to the file system?",
+      "revId": "fb26b518c86ccdb1cfd267e1e2daf131cc9f4cbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
