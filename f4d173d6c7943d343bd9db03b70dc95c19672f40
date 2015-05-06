@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_42c72a96",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1003910
+      },
+      "writtenOn": "2015-05-06T12:33:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_c202fa08",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_a2053e12",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_22c2ee84",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 1003910
+      },
+      "writtenOn": "2015-05-06T12:33:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_a2053e12",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_0209b22b",
         "filename": "doc/source/introduction/components.rst",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2015-05-06T11:10:27Z",
       "side": 1,
       "message": "We don\u0027t use OpenStack gerrit, rather gerrithub. So this guide while mostly relevant may be confusing.",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_82bda204",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1003910
+      },
+      "writtenOn": "2015-05-06T12:33:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_0209b22b",
       "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
