@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_c202fa08",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1004021
+      },
+      "writtenOn": "2015-05-06T11:10:27Z",
+      "side": 1,
+      "message": "\"by single\" -\u003e \"by a single\"\n\nIt may also be worth mentioning that it uses  service names rather than code names. compute vs nova and image vs glance etc. So users don\u0027t need to know the code names for each project.",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a2053e12",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 1004021
+      },
+      "writtenOn": "2015-05-06T11:10:27Z",
+      "side": 1,
+      "message": "\"nodes\" -\u003e \"node\"",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0209b22b",
+        "filename": "doc/source/introduction/components.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1004021
+      },
+      "writtenOn": "2015-05-06T11:10:27Z",
+      "side": 1,
+      "message": "We don\u0027t use OpenStack gerrit, rather gerrithub. So this guide while mostly relevant may be confusing.",
+      "revId": "f4d173d6c7943d343bd9db03b70dc95c19672f40",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
