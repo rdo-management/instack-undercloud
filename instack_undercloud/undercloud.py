@@ -164,6 +164,10 @@ _auth_opts = [
                help=('Glance service password. '
                      'If left unset, one will be automatically generated.')
                ),
+    cfg.StrOpt('undercloud_heat_encryption_key',
+               help=('Heat db encryption key. '
+                     'If left unset, one will be automatically generated.')
+               ),
     cfg.StrOpt('undercloud_heat_password',
                help=('Heat service password. '
                      'If left unset, one will be automatically generated.')
