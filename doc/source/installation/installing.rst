@@ -27,18 +27,7 @@ Installing the Undercloud
 
 
 #. Download and execute the instack-undercloud setup script which will enable
-   the needed repositories for you:
-
-   .. only:: internal
-
-      .. admonition:: RHEL
-         :class: rhel
-
-          Enable rhos-release::
-
-              export RUN_RHOS_RELEASE=1
-
-   ::
+   the needed repositories for you::
 
        curl https://raw.githubusercontent.com/rdo-management/instack-undercloud/master/scripts/instack-setup-host | bash -x
 
