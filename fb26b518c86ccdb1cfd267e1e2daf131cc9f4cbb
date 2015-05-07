@@ -34,6 +34,24 @@
       "revId": "fb26b518c86ccdb1cfd267e1e2daf131cc9f4cbb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_4f23cebc",
+        "filename": "scripts/instack-tempest-test-overcloud",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-05-07T14:55:07Z",
+      "side": 1,
+      "message": "Ahh, it actually doesn\u0027t save the output of the tempest run. Adding it in the next update!",
+      "parentUuid": "1a106d94_0feb9678",
+      "revId": "fb26b518c86ccdb1cfd267e1e2daf131cc9f4cbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
