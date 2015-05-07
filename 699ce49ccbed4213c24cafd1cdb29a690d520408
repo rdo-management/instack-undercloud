@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_65050b45",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-07T20:12:41Z",
+      "side": 1,
+      "message": "For internal we shouldn\u0027t need to do this at all.  The repos are taken care of by rhos-release, which is enabled at line 143.",
+      "parentUuid": "1a106d94_4aa1fc92",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_afa9a225",
         "filename": "doc/source/environments/virtual.rst",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Hm, that didn\u0027t work for me, but I\u0027m unsure why. OK, I\u0027ll skip that for now, and come back to it next time I need to reinstall.",
       "parentUuid": "1a106d94_afa9a225",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_85f6475b",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-07T20:12:41Z",
+      "side": 1,
+      "message": "Is it possible you were looking at the external version of the docs?  If you miss the RUN_RHOS_RELEASE step below it will cause all kinds of problems, and that isn\u0027t included in the external docs.",
+      "parentUuid": "1a106d94_4ac8dc54",
       "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
