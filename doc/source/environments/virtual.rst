@@ -84,6 +84,29 @@ Preparing the Virtual Environment (Automated)
          register with a Satellite server. It is suggested to use an activation
          key that automatically enables the above repos for registered systems.
 
+   .. only:: internal
+
+         Register the host machine using Subscription Management.::
+
+             sudo subscription-manager register --username="[your username]" --password="[your password]"
+             # Find this with `subscription-manager list --available`
+             sudo subscription-manager attach --pool="[pool id]"
+             # Verify repositories are available
+             sudo subscription-manager repos --list
+             # Enable repositories needed
+             sudo subscription-manager repos --enable=rhel-7-server-rpms \
+                  --enable=rhel-7-server-optional-rpms --enable=rhel-7-server-extras-rpms
+
+      .. admonition:: RHEL
+         :class: rhel
+
+         You also need to install the EPEL repository. You can find an RPM for
+         installing it here:
+         http://ftp.icm.edu.pl/pub/Linux/fedora/linux/epel/7/x86_64/repoview/epel-release.html
+
+         In addition you need to install the rhos-release-6-rhel-7.1 repo from
+         https://url.corp.redhat.com/rhos-release
+
 
 #. Make sure sshd service is installed and running.
 
