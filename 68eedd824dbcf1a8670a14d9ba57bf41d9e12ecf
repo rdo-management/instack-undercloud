@@ -16,6 +16,24 @@
       "revId": "68eedd824dbcf1a8670a14d9ba57bf41d9e12ecf",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6fc7aa96",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-07T11:33:59Z",
+      "side": 0,
+      "message": "afaict, it\u0027s not. i was following what was done in overcloud_controller.pp from t-h-t:\nhttps://review.openstack.org/#/c/170080/",
+      "parentUuid": "1a106d94_2fcad2a0",
+      "revId": "68eedd824dbcf1a8670a14d9ba57bf41d9e12ecf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
