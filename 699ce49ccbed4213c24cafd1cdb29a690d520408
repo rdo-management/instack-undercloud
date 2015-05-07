@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_2fb6528a",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-07T14:28:00Z",
+      "side": 1,
+      "message": "This is essentially duplicated from line 59.  Did you have the Portal Registration option unchecked when you were going through the docs?",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_afa9a225",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-07T14:28:00Z",
+      "side": 1,
+      "message": "These two repos are already handled by instack-setup-host.  Is this just being added in preparation for removing that?\n\nAlso, I don\u0027t think epel is RHEL-specific because I believe it is needed on CentOS too.",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
