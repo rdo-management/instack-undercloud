@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-hudson <whayutin+hudson@redhat.com>
+Code-Review+2: Derek Higgins <derekh@redhat.com>
+Submitted-by: Derek Higgins <derekh@redhat.com>
+Submitted-at: Thu, 07 May 2015 14:34:47 +0200
+Reviewed-on: https://review.gerrithub.io/232532
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
