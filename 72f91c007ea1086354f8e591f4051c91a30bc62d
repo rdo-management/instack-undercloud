@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_cf0a1e89",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/ironic-discoverd/dnsmasq.conf",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002548
+      },
+      "writtenOn": "2015-05-07T13:01:44Z",
+      "side": 1,
+      "message": "Just wondering why use discovery.pxeip in one place then local-ip in the other.",
+      "revId": "72f91c007ea1086354f8e591f4051c91a30bc62d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
