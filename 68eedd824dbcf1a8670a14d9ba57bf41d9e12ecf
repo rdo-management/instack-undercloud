@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_2fcad2a0",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002548
+      },
+      "writtenOn": "2015-05-07T11:29:01Z",
+      "side": 0,
+      "message": "Why remove these? is the dependency not still required?",
+      "revId": "68eedd824dbcf1a8670a14d9ba57bf41d9e12ecf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
