@@ -29,16 +29,12 @@ Installing the Undercloud
             sudo hostnamectl set-hostname myhost.mydomain
             sudo hostnamectl set-hostname --transient myhost.mydomain
             export HOSTNAME=myhost.mydomain
-         
+
          An entry for the system's FQDN hostname is also needed in /etc/hosts.
          For example, if the system is named *myhost.mydomain*, /etc/hosts should have
          an entry like::
 
             127.0.0.1   myhost.mydomain
-
-         Copy in the sample answers file and edit it to reflect your environment::
-
-            cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
 
 
 #. Download and execute the instack-undercloud setup script which will enable
