@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_4aa1fc92",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-07T16:33:27Z",
+      "side": 1,
+      "message": "Sure, but line 59 is external only. And they aren\u0027t exactly the same, since internal uses development repos. Perhaps we should ignore that for now, and make this bit both for external and internal?",
+      "parentUuid": "1a106d94_2fb6528a",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_afa9a225",
         "filename": "doc/source/environments/virtual.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-05-07T14:28:00Z",
       "side": 1,
       "message": "These two repos are already handled by instack-setup-host.  Is this just being added in preparation for removing that?\n\nAlso, I don\u0027t think epel is RHEL-specific because I believe it is needed on CentOS too.",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_4ac8dc54",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-07T16:33:27Z",
+      "side": 1,
+      "message": "Hm, that didn\u0027t work for me, but I\u0027m unsure why. OK, I\u0027ll skip that for now, and come back to it next time I need to reinstall.",
+      "parentUuid": "1a106d94_afa9a225",
       "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
