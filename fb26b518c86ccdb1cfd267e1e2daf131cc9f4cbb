@@ -16,6 +16,24 @@
       "revId": "fb26b518c86ccdb1cfd267e1e2daf131cc9f4cbb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0feb9678",
+        "filename": "scripts/instack-tempest-test-overcloud",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-05-07T14:15:55Z",
+      "side": 1,
+      "message": "After we discussed this issue on IRC, I realized that it\u0027s saved in ~/tempest.",
+      "parentUuid": "1a106d94_d03488fd",
+      "revId": "fb26b518c86ccdb1cfd267e1e2daf131cc9f4cbb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
