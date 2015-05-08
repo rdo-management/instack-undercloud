@@ -243,6 +243,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_3bcfb057",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-08T12:03:59Z",
+      "side": 1,
+      "message": "I\u0027ll add that it\u0027s compulsory, but I can\u0027t explain it better than that.",
+      "parentUuid": "1a106d94_7be12829",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_dbd3fc5d",
         "filename": "doc/source/advanced_deployment/nodes.rst",
         "patchSetId": 1
@@ -288,6 +306,24 @@
       "writtenOn": "2015-05-08T09:43:51Z",
       "side": 1,
       "message": "What does it mean? What is actually needed?",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5bd42ceb",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-08T12:03:59Z",
+      "side": 1,
+      "message": "That\u0027s all that is needed, as far as I know.",
+      "parentUuid": "1a106d94_5bc70c96",
       "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
