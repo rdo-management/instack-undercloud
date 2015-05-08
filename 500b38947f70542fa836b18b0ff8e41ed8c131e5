@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a106d94_db85bc5a",
+        "filename": "doc/source/advanced_deployment/deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "This is not deployment command, should not be part of this section. Also it should explain in more details what and how user can do in order to change parameters of installation.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_bb88c071",
+        "filename": "doc/source/advanced_deployment/deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "wording and capitalization -- I would suggest \"Deploy Overcloud\"",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_450a8f26",
         "filename": "doc/source/advanced_deployment/deployment.rst",
         "patchSetId": 1
@@ -19,6 +53,41 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_9bb8642b",
+        "filename": "doc/source/advanced_deployment/deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "Same as my comment at nodes section.\n\nBut my question is - Lennart is the command already available? I would separate different sections into different patches.",
+      "parentUuid": "1a106d94_450a8f26",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_9b8fc474",
+        "filename": "doc/source/advanced_deployment/deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "I don\u0027t think you need to describe each and every option of the CLI command (that probably should be documented in the CLI docs). But more what it does and how to change it to reflect my environment. In deployment case we can say how to trigger it, what we can change and how to change it, what is happening during deployment and if it gets stuck point user to troubleshooting, etc.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_e0028908",
         "filename": "doc/source/advanced_deployment/nodes.rst",
         "patchSetId": 1
@@ -30,6 +99,195 @@
       "writtenOn": "2015-05-07T21:01:54Z",
       "side": 1,
       "message": "likewise for these commands as well. the rdomanager oscplugin is meant to replace instack scripts, not offer an advanced flow. all these commands should be documented in the basic flow provided they pass CI.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_bba1e0f9",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "James, there is already a proposal to get these commands into Basic Flow section. But here, what Lennart is doing (or I would expect), is that he describes what concepts we have and how to modify them to users\u0027 environments (not using our provided defaults). So here I would really expect that we describe user how the CSV/JSON file looks like, how user can register multiple nodes, etc. In Basic flow we just give him the command without any explanation how to modify it.",
+      "parentUuid": "1a106d94_e0028908",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7b8ac864",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "Capitalization (Camel Case). Applies to all headings.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5be0ac28",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "What do you mean by importing nodes from a service host?",
+      "range": {
+        "startLine": 7,
+        "startChar": 41,
+        "endLine": 7,
+        "endChar": 53
+      },
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_3bdb307d",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "s/OpenStack/undercloud",
+      "range": {
+        "startLine": 7,
+        "startChar": 66,
+        "endLine": 7,
+        "endChar": 75
+      },
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_1bf3d40a",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "s/CVS/CSV",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_9be6a442",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "I don\u0027t think we support nova baremetal at all.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7be12829",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "What happens here, why is it needed for user to run this command? Is it optional or compulsory step?",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_dbd3fc5d",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "Starting and checking introspection should be just one section with two subsections.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_bbd6004d",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "This is not one specific node.",
+      "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5bc70c96",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-08T09:43:51Z",
+      "side": 1,
+      "message": "What does it mean? What is actually needed?",
       "revId": "500b38947f70542fa836b18b0ff8e41ed8c131e5",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
