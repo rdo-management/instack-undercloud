@@ -105,6 +105,24 @@
       "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_80a4754b",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-08T08:47:33Z",
+      "side": 1,
+      "message": "Since I was reading it from the source, as I was adding to another part of it, it is possible that I misread something, yes. I\u0027ll look at this again once I need to re-provision.",
+      "parentUuid": "1a106d94_85f6475b",
+      "revId": "699ce49ccbed4213c24cafd1cdb29a690d520408",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
