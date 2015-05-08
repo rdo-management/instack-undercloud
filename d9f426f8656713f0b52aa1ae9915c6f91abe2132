@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_3fa79ba8",
+        "filename": "doc/source/_custom/custom.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-08T15:40:33Z",
+      "side": 1,
+      "message": "This appears to be essentially the same color as the rhel admonition.  Can we find one that\u0027s not already used?  It looks like the portal and satellite tags are using darker variations, so maybe 225, 240, 240?",
+      "revId": "d9f426f8656713f0b52aa1ae9915c6f91abe2132",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_858da7d5",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-08T15:40:33Z",
+      "side": 1,
+      "message": "Since introspection is no longer an atomic operation, this should probably say \"Introspection for all nodes has to...\" now.",
+      "revId": "d9f426f8656713f0b52aa1ae9915c6f91abe2132",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
