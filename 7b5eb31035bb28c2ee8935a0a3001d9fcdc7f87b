@@ -76,6 +76,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ce5cd77f",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-11T12:22:14Z",
+      "side": 1,
+      "message": "No, only those are supported by the CSV format.",
+      "parentUuid": "1a106d94_6ef16394",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_ae2ebbf8",
         "filename": "doc/source/advanced_deployment/nodes.rst",
         "patchSetId": 2
@@ -87,6 +105,24 @@
       "writtenOn": "2015-05-11T11:30:59Z",
       "side": 1,
       "message": "Would be great to discribe more what is happening. You don\u0027t have to write it by yourself, ask people who understand it better to help to fill in the content.",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_4ef6275e",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-11T12:22:14Z",
+      "side": 1,
+      "message": "Oh, I know what and how it\u0027s doing, the tricky bit is how to explain it, what the user wants to know.",
+      "parentUuid": "1a106d94_ae2ebbf8",
       "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
