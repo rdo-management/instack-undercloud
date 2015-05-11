@@ -1,0 +1,112 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_ce005768",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "typically on baremetal it is IPMI, PXE_SSH is only for virt setup.",
+      "range": {
+        "startLine": 37,
+        "startChar": 67,
+        "endLine": 37,
+        "endChar": 74
+      },
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2efbeb79",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "There is needed at least one MAC address (the power management one).",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_0ef6ef8e",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "There are also other attributes which can be defined, such as CPU, RAM, Disk, etc. So if we go with this, we should mention them as well.",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_6ef16394",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "Are there more columns as well? (CPU, RAM, ...)",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ae2ebbf8",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "Would be great to discribe more what is happening. You don\u0027t have to write it by yourself, ask people who understand it better to help to fill in the content.",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8e313f5c",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-11T11:30:59Z",
+      "side": 1,
+      "message": "Same comment as for the instrospection - more details of what is happening and why it is happening.",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
