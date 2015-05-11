@@ -168,6 +168,7 @@ if [ -n "$TUSKAR" ]; then
     tuskar plan-add-role $PLAN_ID -r $CEPH_ID
 
     export TUSKAR_PARAMETERS=${TUSKAR_PARAMETERS:-"
+    -A EnablePacemaker=true
     -A NeutronControlPlaneID=${NeutronControlPlaneID}
     -A Controller-1::AdminPassword=${OVERCLOUD_ADMIN_PASSWORD}
     -A Controller-1::AdminToken=${OVERCLOUD_ADMIN_TOKEN}
@@ -325,6 +326,7 @@ else
     OVERCLOUD_YAML_PATH="$INSTACK_ROOT/openstack-tripleo-heat-templates/overcloud-without-mergepy.yaml"
 
     export OVERCLOUD_PARAMETERS=${OVERCLOUD_PARAMETERS:-"\
+    -P EnablePacemaker=true \
     -P AdminPassword=${OVERCLOUD_ADMIN_PASSWORD} \
     -P AdminToken=${OVERCLOUD_ADMIN_TOKEN} \
     -P CeilometerPassword=${OVERCLOUD_CEILOMETER_PASSWORD} \
