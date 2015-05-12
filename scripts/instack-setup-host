@@ -17,8 +17,8 @@ fi
 
 # Install repo file for Delorean el7 midstream packages built from
 # rdo-management.
-export DELOREAN_TRUNK_MGT_REPO=${DELOREAN_TRUNK_MGT_REPO:-"http://trunk-mgt.rdoproject.org/repos/current-passed-ci"}
-sudo curl -o /etc/yum.repos.d/delorean-rdo-management.repo $DELOREAN_TRUNK_MGT_REPO/delorean-rdo-management.repo
+export DELOREAN_TRUNK_MGT_REPO=${DELOREAN_TRUNK_MGT_REPO:-"http://trunk-mgt.rdoproject.org/centos-kilo/current-passed-ci"}
+sudo curl -o /etc/yum.repos.d/delorean-rdo-manager-kilo.repo $DELOREAN_TRUNK_MGT_REPO/delorean-rdo-manager-kilo.repo
 
 # Delorean requires RDO
 if ! rpm -q rdo-release; then
