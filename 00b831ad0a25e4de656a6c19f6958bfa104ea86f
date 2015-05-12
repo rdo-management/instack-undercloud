@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_f7c19f80",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-12T11:32:31Z",
+      "side": 1,
+      "message": "This sentence does not make sense.\n\nStill missing description of what is happening - bode is booted, pxe boots discovery ramdisk, it introspects hardware, some benchmark testing, etc.",
+      "range": {
+        "startLine": 111,
+        "startChar": 35,
+        "endLine": 112,
+        "endChar": 15
+      },
+      "revId": "00b831ad0a25e4de656a6c19f6958bfa104ea86f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
