@@ -129,6 +129,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_d7c903ad",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-05-12T11:32:37Z",
+      "side": 1,
+      "message": "Well then we need to explain in human understandable way what is happening. If there is some way to modify something and if yes how to modify it.",
+      "parentUuid": "1a106d94_4ef6275e",
+      "revId": "7b5eb31035bb28c2ee8935a0a3001d9fcdc7f87b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_8e313f5c",
         "filename": "doc/source/advanced_deployment/nodes.rst",
         "patchSetId": 2
