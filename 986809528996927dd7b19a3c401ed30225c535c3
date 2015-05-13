@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_25f01cc8",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-13T13:41:46Z",
+      "side": 1,
+      "message": "somehow we need to point out the difference between \"latest RDO Kilo builds\" and what delorean is. otherwise, everyone is going to assume they need to set the below env var in order to get latest RDO kilo",
+      "revId": "986809528996927dd7b19a3c401ed30225c535c3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_65bdf4d7",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-13T13:41:46Z",
+      "side": 1,
+      "message": "no need to document this commented out.\n\nmaybe doc it as a separate note or something",
+      "revId": "986809528996927dd7b19a3c401ed30225c535c3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_85b630f7",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-13T13:41:46Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "986809528996927dd7b19a3c401ed30225c535c3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e5d0c420",
+        "filename": "scripts/instack-build-images",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-13T13:41:46Z",
+      "side": 1,
+      "message": "need to doc in the image building docs about how and why you might set this to 1",
+      "revId": "986809528996927dd7b19a3c401ed30225c535c3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
