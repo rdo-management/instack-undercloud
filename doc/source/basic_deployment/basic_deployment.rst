@@ -122,6 +122,13 @@ non-root user that was used to install the undercloud.
               # rhel-7-server-openstack-6.0-rpms
               export REG_ACTIVATION_KEY="[activation key]"
 
+   .. admonition:: Optional
+      :class: optional
+
+      If you want to include the latest RDO Kilo builds enable the variable::
+
+          export USE_DELOREAN_TRUNK=1
+
    ::
 
           instack-build-images
