@@ -37,6 +37,23 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_a0435a6a",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-13T17:41:38Z",
+      "side": 1,
+      "message": "We\u0027re not actually setting any repo priorities now, so I\u0027m not sure we even need this step.",
+      "revId": "986809528996927dd7b19a3c401ed30225c535c3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_65bdf4d7",
         "filename": "doc/source/environments/virtual.rst",
         "patchSetId": 3
