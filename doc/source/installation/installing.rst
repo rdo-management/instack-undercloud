@@ -68,6 +68,12 @@ Installing the Undercloud
 
         cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
 
+  .. admonition:: Quintupleo
+     :class: baremetal
+
+     Copy in the sample answers file and edit to make ``NETWORK_GATEWAY=192.0.2.2``::
+
+        cp /usr/share/instack-undercloud/instack.answers.sample ~/instack.answers
 
   Install the undercloud::
 
