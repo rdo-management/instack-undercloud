@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_c5102850",
+        "filename": "scripts/instack-setup-host",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-05-13T12:21:20Z",
+      "side": 1,
+      "message": "Maybe make this RDO_RELEASE to match\nhttps://github.com/openstack/tripleo-image-elements/blob/master/elements/rdo-release/pre-install.d/10-rdo-release-repo\n?",
+      "revId": "7954587061fa8b64eb86695b0df671d4906ef670",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
