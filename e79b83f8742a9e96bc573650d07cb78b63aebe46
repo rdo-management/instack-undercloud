@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_002eae8b",
+        "filename": "doc/source/environments/virtual.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-05-13T15:18:39Z",
+      "side": 1,
+      "message": "This has moved:\nhttp://trunk-mgt.rdoproject.org/centos-kilo/current-passed-ci/delorean-rdo-management.repo",
+      "revId": "e79b83f8742a9e96bc573650d07cb78b63aebe46",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a056ba03",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-05-13T15:18:39Z",
+      "side": 1,
+      "message": "This has moved:\nhttp://trunk-mgt.rdoproject.org/centos-kilo/current-passed-ci/delorean-rdo-management.repo",
+      "revId": "e79b83f8742a9e96bc573650d07cb78b63aebe46",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
