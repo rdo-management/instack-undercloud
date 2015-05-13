@@ -122,6 +122,14 @@ non-root user that was used to install the undercloud.
               # rhel-7-server-openstack-6.0-rpms
               export REG_ACTIVATION_KEY="[activation key]"
 
+   .. admonition:: Quintupleo
+      :class: quintupleo
+
+      Currently fails due to bug https://bugs.launchpad.net/diskimage-builder/+bug/1443706
+      apply proposed fix https://review.openstack.org/#/c/173138/
+      to `/usr/share/diskimage-builder/elements/redhat-common/bin/extract-image`
+      before proceding
+
    ::
 
           instack-build-images
@@ -154,6 +162,12 @@ Register nodes for your deployment with Ironic::
    with nodes after registration, please follow
    :ref:`node_registration_problems`.
 
+.. admonition:: Quintupleo
+   :class: quintupleo
+
+   Running ``nova list`` on the host cloud will show that the baremetal nodes
+   will be in Status ``SHUTOFF`` after nodes are registered. This indicates
+   that the BMC nodes are working as expected.
 
 Introspect Nodes
 ----------------
@@ -166,6 +180,11 @@ Introspect hardware attributes of nodes::
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
    the process takes longer, see :ref:`introspection_problems`.
 
+.. admonition:: Quintupleo
+   :class: quintupleo
+
+   Horizon in the host OpenStack can be used to view the console of the
+   baremetal nodes to see the progress of booting the discovery images.
 
 Create Flavors
 --------------
@@ -173,6 +192,15 @@ Create Flavors
 Create the necessary flavors::
 
     instack-ironic-deployment --setup-flavors
+
+
+.. admonition:: Quintupleo
+   :class: quintupleo
+
+   Local boot does not yet work in a Quintupleo environment, so clear this boot
+   option on the flavor::
+
+      nova flavor-key baremetal unset capabilities:boot_option
 
 
 Deploy the Overcloud
