@@ -8,3 +8,4 @@ section contains instructions on how to setup your environments properly.
 
    Virtual Environment <virtual>
    Baremetal Environment <baremetal>
+   Quintupleo Environment <quintupleo>

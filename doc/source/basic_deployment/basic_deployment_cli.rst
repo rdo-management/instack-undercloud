@@ -145,6 +145,14 @@ non-root user that was used to install the undercloud.
               # rhel-7-server-openstack-6.0-rpms
               export REG_ACTIVATION_KEY="[activation key]"
 
+   .. admonition:: QuintupleO
+      :class: quintupleo
+
+      Currently fails due to bug https://bugs.launchpad.net/diskimage-builder/+bug/1443706
+      apply proposed fix https://review.openstack.org/#/c/173138/
+      to `/usr/share/diskimage-builder/elements/redhat-common/bin/extract-image`
+      before proceding
+
  .. note ::
     By default, images are built with the latest RDO-Manager Trunk repo which has passed CI. If you need to manually test packages before CI has passed, you can use:
 
@@ -201,6 +209,14 @@ Register nodes for your deployment with Ironic::
    of the "force_power_state_during_sync" configuration option will be
    set back to the default, which is "False".
 
+.. admonition:: QuintupleO
+   :class: quintupleo
+
+   Running ``nova list`` on the host cloud will show that the baremetal nodes
+   will be in Status ``SHUTOFF`` after nodes are registered. This indicates
+   that the BMC nodes are working as expected.
+
+
 Assign kernel and ramdisk to nodes::
 
     openstack baremetal configure boot
@@ -217,6 +233,12 @@ Introspect hardware attributes of nodes::
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
    the process takes longer, see :ref:`introspection_problems`.
 
+.. admonition:: QuintupleO
+   :class: quintupleo
+
+   Horizon in the host OpenStack can be used to view the console of the
+   baremetal nodes to see the progress of booting the discovery images.
+
 
 Create Flavors
 --------------
@@ -225,6 +247,15 @@ Create the necessary flavor::
 
     openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 1 baremetal
     openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" baremetal
+
+.. admonition:: QuintupleO
+   :class: quintupleo
+
+   Local boot does not yet work in a Quintupleo environment, so clear this boot
+   option on the flavor::
+
+      nova flavor-key baremetal unset capabilities:boot_option
+
 
 Configure a nameserver for the Overcloud
 ----------------------------------------

@@ -140,6 +140,7 @@ footer p {
 .baremetal {background: #eef;}
 .virtual {background: #efe;}
 .ceph {background: #eff;}
+.quintupleo {background: #ffe;}
 
 /* admonition selector */
 #admonition_selector {

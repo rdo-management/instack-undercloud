@@ -60,6 +60,11 @@ steps are marked as follows:
 
    Step that should only be run when deploying to virtual machines
 
+.. admonition:: QuintupleO
+   :class: quintupleo
+
+   Step that should only be run when deploying via QuintupleO
+
 .. admonition:: Ceph
    :class: ceph
 
