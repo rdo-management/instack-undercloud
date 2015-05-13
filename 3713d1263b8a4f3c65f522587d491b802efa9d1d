@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_7a63cf41",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 9
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-13T11:46:10Z",
+      "side": 1,
+      "message": "can we toggle this the other way? i don\u0027t think the default should be to run tempest",
+      "revId": "3713d1263b8a4f3c65f522587d491b802efa9d1d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
