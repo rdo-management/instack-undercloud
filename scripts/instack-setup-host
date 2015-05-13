@@ -3,10 +3,16 @@
 set -eux
 set -o pipefail
 
+# Delorean requires RDO (default release is "kilo")
+export RDO_REPO_RELEASE=${RDO_REPO_RELEASE:-"kilo"}
+if ! rpm -q rdo-release; then
+    sudo yum install -y https://rdoproject.org/repos/openstack-$RDO_REPO_RELEASE/rdo-release-$RDO_REPO_RELEASE.rpm
+fi
+
 # Install repo file for Delorean master packages
 # Pin to an older repo for now because newer openstack-keystone requires a
 # newer and not yet avaialable python-pycadf.
-export USE_DELOREAN_TRUNK=${USE_DELOREAN_TRUNK:-1}
+export USE_DELOREAN_TRUNK=${USE_DELOREAN_TRUNK:-0}
 if [ "$USE_DELOREAN_TRUNK" = "1" ]; then
     export DELOREAN_TRUNK_REPO=${DELOREAN_TRUNK_REPO:-"http://trunk.rdoproject.org/kilo/centos7/latest-RDO-kilo-CI/"}
     export DELOREAN_REPO_FILE=${DELOREAN_REPO_FILE:-"delorean-kilo.repo"}
@@ -19,11 +25,6 @@ fi
 # rdo-management.
 export DELOREAN_TRUNK_MGT_REPO=${DELOREAN_TRUNK_MGT_REPO:-"http://trunk-mgt.rdoproject.org/repos/current-passed-ci"}
 sudo curl -o /etc/yum.repos.d/delorean-rdo-management.repo $DELOREAN_TRUNK_MGT_REPO/delorean-rdo-management.repo
-
-# Delorean requires RDO
-if ! rpm -q rdo-release; then
-    sudo yum install -y https://rdo.fedorapeople.org/openstack-kilo/rdo-release-kilo-0.noarch.rpm
-fi
 
 if ! rpm -q epel-release; then
     sudo yum install -y http://mirrors.einstein.yu.edu/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
@@ -47,8 +48,3 @@ fi
 
 # Delorean uses repo priorities to ensure we get the right packages
 sudo yum install -y yum-plugin-priorities
-if [[ -f /etc/centos-release ]]; then
-    # Use the Centos cloud repo to pull in its updated package lists
-    cd /etc/yum.repos.d
-    sudo curl -O http://buildlogs.centos.org/centos/7/cloud/openstack-rdo/centos-cloud-rdo.repo
-fi
