@@ -1,0 +1,8 @@
+Code-Review+1: Giulio Fidente <gfidente@redhat.com>
+Code-Review+2: James Slagle <jslagle@redhat.com>
+Verified+1: James Slagle <jslagle@redhat.com>
+Submitted-by: James Slagle <jslagle@redhat.com>
+Submitted-at: Wed, 13 May 2015 14:11:08 +0200
+Reviewed-on: https://review.gerrithub.io/233267
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
