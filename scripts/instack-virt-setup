@@ -32,6 +32,10 @@ else
     exit 1
 fi
 
+# NOTE(bnemec): Newer devtest_variables.sh sanity checks $TRIPLEO_ROOT, but
+# we don't care about that.  Fool it into thinking everything is right.
+mkdir -p ~/.cache/tripleo/tripleo-incubator/scripts
+
 source $DEVTEST_VARIABLES
 tripleo install-dependencies
 # libvirtd group
