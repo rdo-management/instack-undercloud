@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_fdc1744e",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-14T12:51:08Z",
+      "side": 1,
+      "message": "are we sure epel isnt needed here?",
+      "revId": "e48dd7a632b9de1d4da97da88b3ddf1d16052a02",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
