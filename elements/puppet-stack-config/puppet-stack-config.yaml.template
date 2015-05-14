@@ -68,6 +68,7 @@ glance::registry::pipeline: 'keystone'
 heat_stack_domain_admin_password: {{UNDERCLOUD_HEAT_STACK_DOMAIN_ADMIN_PASSWORD}}
 heat::engine::configure_delegated_roles: false
 heat::engine::heat_stack_user_role: 'heat_stack_user'
+heat::engine::default_software_config_transport: 'POLL_TEMP_URL'
 heat::engine::heat_watch_server_url: http://{{LOCAL_IP}}:8003
 heat::engine::heat_metadata_server_url: http://{{LOCAL_IP}}:8000
 heat::engine::heat_waitcondition_server_url: http://{{LOCAL_IP}}:8000/v1/waitcondition
