@@ -23,7 +23,8 @@ $TRIPLEOPUPPETELEMENTS:\
 $INSTACKUNDERCLOUDELEMENTS:\
 /usr/share/tripleo-image-elements:\
 /usr/share/diskimage-builder/elements:\
-/usr/share/openstack-heat-templates/software-config/elements"}
+/usr/share/openstack-heat-templates/software-config/elements:\
+${EXTRA_ELEMENTS_PATH:-}"}
 
 # Override TMP_DIR for image build.
 # It defaults /tmp. But, /tmp is usually tmpfs mounted on Fedora, and dib will
@@ -137,6 +138,7 @@ fi
 
 export OVERCLOUD_FULL_DIB_EXTRA_ARGS=${OVERCLOUD_FULL_DIB_EXTRA_ARGS:-"\
 $PUPPET_COMMON_ELEMENTS \
+${EXTRA_ELEMENTS:-} \
 overcloud-full \
 overcloud-controller \
 overcloud-compute \
