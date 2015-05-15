@@ -22,6 +22,30 @@
       "revId": "ee798dda15064bfe59631ab49d3aee4f3e7b56d4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_234c8a76",
+        "filename": "instack_undercloud/tests/test_undercloud.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-15T14:29:39Z",
+      "side": 1,
+      "message": "I\u0027ve been writing Bash for the past year and a half and forgot you could do that? ;-)\n\nI\u0027ll fix it in the next patch set.  I believe this needs a rebase anyway.",
+      "parentUuid": "1a106d94_69df863a",
+      "range": {
+        "startLine": 112,
+        "startChar": 8,
+        "endLine": 118,
+        "endChar": 44
+      },
+      "revId": "ee798dda15064bfe59631ab49d3aee4f3e7b56d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
