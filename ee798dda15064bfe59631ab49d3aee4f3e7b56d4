@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_69df863a",
+        "filename": "instack_undercloud/tests/test_undercloud.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-05-15T08:42:13Z",
+      "side": 1,
+      "message": "any particular reason not to use @mock.patch() applied to class?",
+      "range": {
+        "startLine": 112,
+        "startChar": 8,
+        "endLine": 118,
+        "endChar": 44
+      },
+      "revId": "ee798dda15064bfe59631ab49d3aee4f3e7b56d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
