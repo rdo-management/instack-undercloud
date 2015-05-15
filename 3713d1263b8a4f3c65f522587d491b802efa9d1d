@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_3f665c2a",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 9
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-05-15T13:58:42Z",
+      "side": 1,
+      "message": "the idea behind running tempest is to do post-install validation, that\u0027s why it would be better to have it turned on. in the current form is takes too much time, but I am going to update the patch to run only a subset of the tests and let\u0027s check if we still need to turn it off by default.",
+      "parentUuid": "1a106d94_7a63cf41",
+      "revId": "3713d1263b8a4f3c65f522587d491b802efa9d1d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_9a5ccb7e",
         "filename": "scripts/instack-tempest-test-overcloud",
         "patchSetId": 9
@@ -30,6 +48,24 @@
       "writtenOn": "2015-05-13T11:47:04Z",
       "side": 1,
       "message": "you need to add this file to setup.cfg so it gets included in the rpm",
+      "revId": "3713d1263b8a4f3c65f522587d491b802efa9d1d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_bf79acc9",
+        "filename": "scripts/instack-tempest-test-overcloud",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-05-15T13:58:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_9a5ccb7e",
       "revId": "3713d1263b8a4f3c65f522587d491b802efa9d1d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
