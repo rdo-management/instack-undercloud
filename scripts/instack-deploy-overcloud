@@ -243,7 +243,7 @@ if [ -n "$TUSKAR" ]; then
         FSID=$(uuidgen)
         MON_KEY=$(create_cephx_key)
         ADMIN_KEY=$(create_cephx_key)
-        CINDER_ISCSI=${CINDER_ISCSI:-0}
+        CINDER_LVM=${CINDER_LVM:-0}
         export TUSKAR_PARAMETERS="$TUSKAR_PARAMETERS
             -A Controller-1::CinderEnableRbdBackend=True
             -A Controller-1::GlanceBackend=rbd
@@ -253,7 +253,7 @@ if [ -n "$TUSKAR" ]; then
             -A Compute-1::NovaEnableRbdBackend=True
         "
 
-        if [ $CINDER_ISCSI -eq 0 ]; then
+        if [ $CINDER_LVM -eq 0 ]; then
             export TUSKAR_PARAMETERS="$TUSKAR_PARAMETERS
                 -A Controller-1::CinderEnableIscsiBackend=false
             "
@@ -375,7 +375,7 @@ else
         FSID=$(uuidgen)
         MON_KEY=$(create_cephx_key)
         ADMIN_KEY=$(create_cephx_key)
-        CINDER_ISCSI=${CINDER_ISCSI:-0}
+        CINDER_LVM=${CINDER_LVM:-0}
         export OVERCLOUD_PARAMETERS="$OVERCLOUD_PARAMETERS \
         -P CephClusterFSID=$FSID \
         -P CephMonKey=$MON_KEY \
@@ -385,7 +385,7 @@ else
         -P GlanceBackend=rbd \
         "
 
-        if [ $CINDER_ISCSI -eq 0 ]; then
+        if [ $CINDER_LVM -eq 0 ]; then
             export OVERCLOUD_PARAMETERS="$OVERCLOUD_PARAMETERS \
             -P CinderEnableIscsiBackend=False
             "
