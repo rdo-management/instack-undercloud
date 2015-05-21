@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "facab960_fd6ec095",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-21T11:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_a249738d",
+      "revId": "3d1800a8687fc09afa24a429de707caa04009727",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_7dd55042",
         "filename": "doc/source/advanced_deployment/nodes.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-05-21T11:30:13Z",
       "side": 1,
       "message": "s/found/find/",
+      "revId": "3d1800a8687fc09afa24a429de707caa04009727",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_dd71fc78",
+        "filename": "doc/source/advanced_deployment/nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-05-21T11:40:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_7dd55042",
       "revId": "3d1800a8687fc09afa24a429de707caa04009727",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
