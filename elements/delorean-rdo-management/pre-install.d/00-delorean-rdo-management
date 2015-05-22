@@ -5,5 +5,24 @@ set -eux
 # Install repo file for Delorean el7 midstream packages built from
 # rdo-management.
 export DELOREAN_TRUNK_MGT_REPO=${DELOREAN_TRUNK_MGT_REPO:-"http://trunk-mgt.rdoproject.org/centos-kilo/current-passed-ci"}
-sudo curl -o /etc/yum.repos.d/delorean-rdo-management.repo $DELOREAN_TRUNK_MGT_REPO/delorean-rdo-management.repo
+
+# Enable ignore case in shell for Bash regexp comparison
+shopt -s nocasematch
+
+# Gather all proxy protocols
+export PROXY_PROTOCOLS=$(env | grep -iPo '.+(?=_proxy)')
+
+for PROTOCOL in ${PROXY_PROTOCOLS}; do
+    # Check, if current protocol is corresponding with repo url
+    PROTOCOL_URL=$PROTOCOL://
+    if [[ $DELOREAN_TRUNK_MGT_REPO =~ ^$PROTOCOL_URL ]]; then
+        PROXY_URL=$(env | grep -P ^$PROTOCOL | grep -P $PROTOCOL_URL | sed -e "s/.*=//g")
+        # Build curl argument to pass proxy url
+        PROXY_URL="-x $PROXY_URL"
+        break
+    fi
+done
+
+export PROXY_URL=${PROXY_URL:-""}
+sudo curl $PROXY_URL -o /etc/yum.repos.d/delorean-rdo-management.repo $DELOREAN_TRUNK_MGT_REPO/delorean-rdo-management.repo
 
