@@ -63,7 +63,7 @@ Installing the Undercloud
 
 #. Install the unified CLI (also installs instack-undercloud as a dependency)::
 
-    sudo yum install -y python-rdomanager-oscplugin
+    sudo yum install -y python-openstackclient python-rdomanager-oscplugin
 
 
 #. Run the script to install the undercloud:
