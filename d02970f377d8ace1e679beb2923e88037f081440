@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_087a62bc",
+        "filename": "instack_undercloud/undercloud.py",
+        "patchSetId": 20
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-26T13:54:24Z",
+      "side": 1,
+      "message": "should be undercloud.conf?",
+      "revId": "d02970f377d8ace1e679beb2923e88037f081440",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e87426d0",
+        "filename": "instack_undercloud/undercloud.py",
+        "patchSetId": 20
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-26T13:54:24Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "d02970f377d8ace1e679beb2923e88037f081440",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
