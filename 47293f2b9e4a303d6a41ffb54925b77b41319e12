@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_9e8d997e",
+        "filename": "doc/source/installation/installing.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-26T15:40:30Z",
+      "side": 1,
+      "message": "What if we just changed this line to something like \"Install the RDO Manager CLI, which will pull in all other necessary packages as dependencies.\"?",
+      "revId": "47293f2b9e4a303d6a41ffb54925b77b41319e12",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
