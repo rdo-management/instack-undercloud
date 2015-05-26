@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_3e4bad2c",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-26T16:25:56Z",
+      "side": 1,
+      "message": "I\u0027m actually finding this more confusing to read.  Do we need to specify that it\u0027s served via iSCSI?  Maybe the env var should be CINDER_LVM instead?\n\nAt the very least I think some rewording of \"served via iSCSI\" is needed to make it clear that\u0027s a description of the backend.  Maybe \"...when Ceph is enabled, the Cinder LVM back-end, which is served via iSCSI, is disabled\"",
+      "revId": "a9eb62363a8afaab8562fc405606596d7fedc44c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
