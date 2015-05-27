@@ -16,6 +16,24 @@
       "revId": "503f36e19c945c2b49fd21bcf26e9830367863f3",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_ad5f8d0d",
+        "filename": "elements/delorean-rdo-management/pre-install.d/00-delorean-rdo-management",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1005072
+      },
+      "writtenOn": "2015-05-27T15:04:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_324afc80",
+      "revId": "503f36e19c945c2b49fd21bcf26e9830367863f3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
