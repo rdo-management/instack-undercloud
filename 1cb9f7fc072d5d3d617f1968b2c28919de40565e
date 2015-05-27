@@ -52,6 +52,24 @@
       "revId": "1cb9f7fc072d5d3d617f1968b2c28919de40565e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_e4e292d4",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-05-27T12:07:27Z",
+      "side": 1,
+      "message": "it usually means you can retry even later :) maybe I\u0027m overly cautious here, wdyt?",
+      "parentUuid": "facab960_44a33e9e",
+      "revId": "1cb9f7fc072d5d3d617f1968b2c28919de40565e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
