@@ -34,6 +34,24 @@
       "revId": "1cb9f7fc072d5d3d617f1968b2c28919de40565e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_44a33e9e",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-27T11:57:13Z",
+      "side": 1,
+      "message": "how, isn\u0027t that what this command is supposed to do? so if it fails, it means it can\u0027t be done?",
+      "parentUuid": "facab960_c48f4e22",
+      "revId": "1cb9f7fc072d5d3d617f1968b2c28919de40565e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
