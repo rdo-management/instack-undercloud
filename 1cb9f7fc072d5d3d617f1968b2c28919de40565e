@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_2488fa1e",
+        "filename": "scripts/instack-ironic-deployment",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-05-27T11:48:36Z",
+      "side": 1,
+      "message": "why a warning here? if the node can\u0027t be made available, isn\u0027t deployment going to fail to it later on?",
+      "revId": "1cb9f7fc072d5d3d617f1968b2c28919de40565e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
