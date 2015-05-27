@@ -34,6 +34,10 @@ export TMP_DIR=${TMP_DIR:-/var/tmp}
 # https://review.openstack.org/179502
 export DIB_DEFAULT_INSTALLTYPE=${DIB_DEFAULT_INSTALLTYPE:-package}
 
+# Needed for corosync to be able to use hostnames
+# https://bugs.launchpad.net/tripleo/+bug/1447497
+export DIB_CLOUD_INIT_ETC_HOSTS=''
+
 export NODE_ARCH=${NODE_ARCH:-amd64}
 
 export USE_DELOREAN_TRUNK=${USE_DELOREAN_TRUNK:-0}
