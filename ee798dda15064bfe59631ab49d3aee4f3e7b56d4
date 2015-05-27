@@ -46,6 +46,30 @@
       "revId": "ee798dda15064bfe59631ab49d3aee4f3e7b56d4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_bba6e4bf",
+        "filename": "instack_undercloud/tests/test_undercloud.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-05-27T19:36:21Z",
+      "side": 1,
+      "message": "I changed my mind on this after I tried it.  If I make it a class decorator then these have to be passed in to every test function in the class, and since none of those functions care about these mocks I prefer to just keep them separate in setUp like this.",
+      "parentUuid": "1a106d94_234c8a76",
+      "range": {
+        "startLine": 112,
+        "startChar": 8,
+        "endLine": 118,
+        "endChar": 44
+      },
+      "revId": "ee798dda15064bfe59631ab49d3aee4f3e7b56d4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
