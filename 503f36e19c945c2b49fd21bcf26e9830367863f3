@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_324afc80",
+        "filename": "elements/delorean-rdo-management/pre-install.d/00-delorean-rdo-management",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-05-27T14:55:45Z",
+      "side": 1,
+      "message": "I think we have 2 \"-x\"s here, since line 21 adds -x.\nAlso, I think this might be the cause of failure, since we have -x \"\" in the case when there is no proxy.",
+      "revId": "503f36e19c945c2b49fd21bcf26e9830367863f3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
