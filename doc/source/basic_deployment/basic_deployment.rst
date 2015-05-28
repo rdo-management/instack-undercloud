@@ -69,7 +69,7 @@ non-root user that was used to install the undercloud.
 
          Download the RHEL 7.1 cloud image or copy it over from a different location,
          and define the needed environment variable for RHEL 7.1 prior to running
-         ``instack-build-images``::
+         ``openstack overcloud image build --all``::
 
              curl -O http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.1/20150203.1/images/rhel-guest-image-7.1-20150203.1.x86_64.qcow2
              export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150203.1.x86_64.qcow2
@@ -87,7 +87,7 @@ non-root user that was used to install the undercloud.
        for example:
        https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.1/x86_64/product-downloads,
        and define the needed environment variables for RHEL 7.1 prior to running
-       ``instack-build-images``::
+       ``openstack overcloud image build --all``::
 
             export DIB_LOCAL_IMAGE=rhel-guest-image-7.1-20150224.0.x86_64.qcow2
 
@@ -126,7 +126,7 @@ non-root user that was used to install the undercloud.
 
    ::
 
-          instack-build-images
+          openstack overcloud image build --all
 
 
    .. note::
@@ -138,7 +138,7 @@ non-root user that was used to install the undercloud.
 
 #. Load the images into Glance::
 
-    instack-prepare-for-overcloud
+    openstack overcloud image upload
 
 
 Register Nodes
@@ -146,15 +146,19 @@ Register Nodes
 
 Register nodes for your deployment with Ironic::
 
-    instack-ironic-deployment --nodes-json instackenv.json --register-nodes
+    openstack baremetal import --json instackenv.json
 
 .. note::
    It's not recommended to delete nodes and/or rerun this command after
-   you have proceeded to the next steps. Particularly, if you start discovery
-   and then re-register nodes, you won't be able to retry discovery until
+   you have proceeded to the next steps. Particularly, if you start introspection
+   and then re-register nodes, you won't be able to retry introspection until
    the previous one times out (1 hour by default). If you are having issues
    with nodes after registration, please follow
    :ref:`node_registration_problems`.
+
+Assign kernel and ramdisk to nodes::
+
+    openstack baremetal configure boot
 
 
 Introspect Nodes
@@ -162,7 +166,7 @@ Introspect Nodes
 
 Introspect hardware attributes of nodes::
 
-    instack-ironic-deployment --discover-nodes
+    openstack baremetal introspection bulk start
 
 .. note:: **Introspection has to finish without errors.**
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
@@ -172,9 +176,10 @@ Introspect hardware attributes of nodes::
 Create Flavors
 --------------
 
-Create the necessary flavors::
+Create the necessary flavor::
 
-    instack-ironic-deployment --setup-flavors
+    openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 1 baremetal
+    openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" baremetal
 
 
 Deploy the Overcloud
@@ -276,7 +281,7 @@ The overcloud can be redeployed when desired.
 
 #. Although not required, introspection can be rerun::
 
-    instack-ironic-deployment --discover-nodes
+    openstack baremetal introspection bulk start
 
 #. Deploy the Overcloud again::
 
