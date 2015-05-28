@@ -314,4 +314,4 @@ We will use the sample reports above to construct some matching rules for our de
   ::
 
       sudo cp /usr/libexec/os-apply-config/templates/etc/edeploy/state /etc/edeploy/state
-      instack-ironic-deployment --discover-nodes
+      openstack baremetal introspection bulk start
