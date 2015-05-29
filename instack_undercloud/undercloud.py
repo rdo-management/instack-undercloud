@@ -71,7 +71,7 @@ _opts = [
     cfg.StrOpt('deployment_mode',
                default='poc',
                choices=['poc', 'scale'],
-               help=('Deployment mode for this undercloud.  "poc" will allow '
+                help=('Deployment mode for this undercloud.  "poc" will allow '
                      'deployment of a single role to heterogenous hardware. '
                      '"scale" will allow deployment of a single role only to '
                      'homogenous hardware.'

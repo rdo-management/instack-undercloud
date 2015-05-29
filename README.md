@@ -7,3 +7,5 @@ https://repos.fedorapeople.org/repos/openstack-m/instack-undercloud/html/
 To build the docs locally:
 
     tox -e docs
+
+Test
