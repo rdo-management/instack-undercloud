@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ "${DIB_DEBUG_TRACE:-0}" -gt 0 ]; then
+    set -x
+fi
+set -eu
+set -o pipefail
+
+# TODO(trown): we should just make an iptables rule for Ironic API port instead
+sudo systemctl disable iptables.service
+sudo systemctl enable openstack-ironic-python-agent
+
