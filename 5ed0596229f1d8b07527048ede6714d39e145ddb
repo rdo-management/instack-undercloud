@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_53605132",
+        "filename": "doc/source/troubleshooting/troubleshooting-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-05-29T15:50:47Z",
+      "side": 1,
+      "message": "Assuming we are talking about troubleshooting the undercloud (were deploy baremetal nodes)\n\nI would phrase it something like: \u0027\"No valid host was found\". Means that the Nova Scheduler could not find a bare metal node suitable for booting the new instance. This can be a mismatch between resources...\"",
+      "revId": "5ed0596229f1d8b07527048ede6714d39e145ddb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_f3c7a510",
+        "filename": "doc/source/troubleshooting/troubleshooting-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-05-29T15:50:47Z",
+      "side": 1,
+      "message": "maybe worth mentioning comparing the capabilities between the flavor and the node",
+      "revId": "5ed0596229f1d8b07527048ede6714d39e145ddb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_f31245b3",
+        "filename": "doc/source/troubleshooting/troubleshooting-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-05-29T15:50:47Z",
+      "side": 1,
+      "message": "ironic node-set-maintenance \u003cIRONIC-NODE-UUID\u003e off",
+      "revId": "5ed0596229f1d8b07527048ede6714d39e145ddb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
