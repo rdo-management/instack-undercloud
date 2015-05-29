@@ -227,6 +227,20 @@ function discovery-ramdisk {
     fi
 }
 
+function ironic-agent {
+    if [ ! -f ironic-agent.initramfs -o \
+         ! -f ironic-agent.kernel ]; then
+        ramdisk-image-create \
+            -a $NODE_ARCH \
+            -o ironic-agent \
+            --ramdisk-element dracut-ramdisk \
+            $NODE_DIST ironic-agent-instack delorean-rdo-management \
+            $PUPPET_COMMON_ELEMENTS \
+            $DIB_COMMON_ELEMENTS \
+            2>&1 | tee dib-agent.log
+    fi
+}
+
 function overcloud-control {
     if [ ! -f overcloud-control.qcow2 ]; then
         disk-image-create \
