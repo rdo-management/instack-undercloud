@@ -1,0 +1,10 @@
+python-dev:
+qemu-utils:
+parted: 
+hdparm: 
+util-linux: 
+genisoimage: 
+gcc:
+cloud-init:
+scsi-target-utils: 
+openstack-ironic-python-agent:
