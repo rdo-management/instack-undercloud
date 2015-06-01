@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_d8ee388b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-01T19:21:33Z",
+      "side": 1,
+      "message": "This won\u0027t work as intended.  Depends-On expects a change id: https://github.com/redhat-openstack/khaleesi/blob/master/roles/depends-on/files/depends_on.py#L10",
+      "revId": "48eb178d7631d568fa7495fc31fd69388cc63867",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
