@@ -16,6 +16,24 @@
       "revId": "58eeb0fe42317e9c739a01ebfd84fa36441f43d0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_2956f1d2",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-06-02T13:03:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_586dc831",
+      "revId": "58eeb0fe42317e9c739a01ebfd84fa36441f43d0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
