@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_37bac723",
+        "filename": "doc/source/troubleshooting/troubleshooting-overcloud.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-06-03T13:06:47Z",
+      "side": 1,
+      "message": "Might worth adding \"manageable\" as well, I\u0027ve seem once the nodes being moved to that state to start the instropection but for some reason they didn\u0027t move back to available.",
+      "revId": "bc24be08b3ffee8a35618e355fe9b20e75b25953",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
