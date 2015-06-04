@@ -210,6 +210,13 @@ Deploy the overcloud (default of 1 compute and 1 control):
           # rhel-7-server-extras-rpms
           # rhel-7-server-openstack-6.0-rpms
 
+.. admonition:: High Availability
+   :class: ha
+
+   Specify the number of Controller nodes to be deployed with::
+
+       export CONTROLSCALE=3
+
 .. admonition:: Ceph
    :class: ceph
 

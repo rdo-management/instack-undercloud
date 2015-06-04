@@ -153,6 +153,13 @@ if [ "$REG_METHOD" = "satellite" ]; then
 
 fi
 
+# NOTE(gfidente): Pacemaker can be (and will be) used for single controller scenario as well, so we never run keepalived
+if [ ${OVERCLOUD_PACEMAKER:-1} -eq 1 ]; then
+    if [ -n "${OVERCLOUD_PACEMAKER_ENV:-}" ] || [ -r /usr/share/openstack-tripleo-heat-templates/environments/puppet-pacemaker.yaml ]; then
+        export OVERCLOUD_EXTRA="$OVERCLOUD_EXTRA -e ${OVERCLOUD_PACEMAKER_ENV:-/usr/share/openstack-tripleo-heat-templates/environments/puppet-pacemaker.yaml}"
+    fi
+fi
+
 # NOTE(gfidente): Taken from
 # https://github.com/ceph/ceph-deploy/blob/master/ceph_deploy/new.py#L21
 function create_cephx_key() {
