@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_cbb73285",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-06-04T08:46:46Z",
+      "side": 1,
+      "message": "lovely, was wondering if we consume this in the tuskar case - i guess we could also use this to pass the ServiceNetMap (until Tuskar learns to parse it in from the default_values in the overcloud resource registry)",
+      "range": {
+        "startLine": 329,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 26
+      },
+      "revId": "006fd2bd6a7cd0a956bf6ba395cc3e791f8e2160",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
