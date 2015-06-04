@@ -144,6 +144,7 @@ export UNDERCLOUD_NODE_CPU=${UNDERCLOUD_NODE_CPU:-$NODE_CPU}
 
 sudo tripleo configure-vm \
     --name $UNDERCLOUD_VM_NAME \
+    --enable-serial-console \
     --image /var/lib/libvirt/images/$UNDERCLOUD_VM_NAME.qcow2 \
     --seed \
     --libvirt-nic-driver virtio \
