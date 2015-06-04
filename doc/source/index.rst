@@ -58,6 +58,11 @@ steps are marked as follows:
 
    Step that should only be run when deploying to virtual machines
 
+.. admonition:: High Availability
+   :class: ha
+
+   Step that should only be run when deploying multiple controllers for HA
+
 .. admonition:: Ceph
    :class: ceph
 
