@@ -7,8 +7,11 @@ Enable running benchmarks during discovery
 ------------------------------------------
 
 By default, the benchmark tests do not run during the discovery process.
-We can enable this feature by setting DISCOVERY_RUNBENCH=1 in the
-instack.answer file prior to running instack-install-undercloud.
+You can enable this feature by setting *discovery_runbench = true* in the
+**undercloud.conf** file prior to installing the undercloud.
+
+If you want to enable this feature after installing the undercloud, you can set
+*discovery_runbench = true* in **undercloud.conf**, and re-run ``openstack undercloud install``
 
 Analyze the collected benchmark data
 ------------------------------------
@@ -314,3 +317,47 @@ We will use the sample reports above to construct some matching rules for our de
   ::
 
       sudo -E ahc-match
+
+
+Create flavors to use advanced matching
+---------------------------------------
+
+In order to use the profiles assigned to the Ironic nodes, Nova needs to have
+flavors that have the property "capabilities:profile" set to the intended profile.
+
+For example, with just the compute and control profiles:
+
+* Create the flavors
+
+  ::
+
+    openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 1 control
+    openstack flavor create --id auto --ram 4096 --disk 40 --vcpus 1 compute
+
+* Assign the properties
+
+  ::
+
+    openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="compute" compute
+    openstack flavor set --property "cpu_arch"="x86_64" --property "capabilities:boot_option"="local" --property "capabilities:profile"="control" control
+
+
+Use the flavors to deploy
+-------------------------
+
+By default, all nodes are deployed to the **baremetal** flavor.
+The RDO-Manager CLI has options to support more advanced role matching.
+
+Continuing with the example with only a control and compute profile:
+
+* Get the Tuskar plan id
+
+  ::
+
+  tuskar plan-list
+
+* Deploy the overcloud
+
+  ::
+
+    openstack overcloud deploy --control-flavor control --compute-flavor compute --plan-uuid <UUID from above>
