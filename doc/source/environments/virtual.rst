@@ -28,15 +28,15 @@ The baremetal machine must meet the following minimum system requirements:
 * 12 GB free memory
 * 120 GB disk space
 
-..
-    <REMOVE WHEN HA IS AVAILABLE>
+For minimal **HA (high availability)** deployment you need at least 3 Overcloud
+Controllers and 2 Overcloud Computes which increases the minimum system
+requirements up to:
 
-    For minimal **HA (high availability)** deployment you need at least 3 Overcloud
-    Controllers and 2 Overcloud Computes which increases the minimum system
-    requirements up to:
+* 24 GB free memory
+* 240 GB disk space.
 
-    * 24 GB free memory
-    * 240 GB disk space.
+If deploying Ceph to have HA of the Cinder volumes, at least 2 Overcloud
+CephStorage nodes have to be deployed in addition to Controllers and Computes.
 
 RDO-Manager is supporting only the following operating systems:
 
@@ -236,12 +236,22 @@ Preparing the Virtual Environment (Automated)
              export REG_ACTIVATION_KEY="[activation key]"
 
 
+   .. admonition:: High Availability
+      :class: ha
+
+      At least 3 Controllers are needed to have HA. The ``NODE_COUNT`` variable
+      defines the number of virtual machines available for the Overcloud
+      deployment. Set ``NODE_COUNT`` to 4 for 1 Compute and 3 Controllers::
+
+          export NODE_COUNT=4
+
+
    .. admonition:: Ceph
       :class: ceph
 
-      To use Ceph you will need at least one additional virtual machine to be
-      provisioned as a Ceph OSD; set the ``NODE_COUNT`` variable to 3, from a
-      default of 2, so that the overcloud will have exactly one more::
+      To use Ceph you will need at least one additional node to be provisioned
+      as a Ceph OSD; set ``NODE_COUNT`` to the total number of Overcloud nodes,
+      for example to 3 for 1 Compute, 1 Controller and 1 CephStorage::
 
           export NODE_COUNT=3
 
