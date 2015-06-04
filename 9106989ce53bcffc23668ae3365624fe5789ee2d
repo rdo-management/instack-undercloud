@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_0eee85b4",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-06-04T21:00:14Z",
+      "side": 1,
+      "message": "The default dir moved to /etc/ahc-tools/edeploy",
+      "revId": "9106989ce53bcffc23668ae3365624fe5789ee2d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
