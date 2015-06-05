@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_372f1cf8",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-06-05T14:04:25Z",
+      "side": 1,
+      "message": "comma required",
+      "range": {
+        "startLine": 10,
+        "startChar": 56,
+        "endLine": 10,
+        "endChar": 57
+      },
+      "revId": "d6bbc52c0bccbabec6c118b33ed44b1868fb8442",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
