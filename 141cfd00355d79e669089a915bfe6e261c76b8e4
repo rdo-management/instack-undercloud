@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_d9729b48",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 5
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-08T21:41:13Z",
+      "side": 1,
+      "message": "So do we even want to make this configurable?  I would be totally in favor of killing off this environment variable if it isn\u0027t needed. :-)",
+      "revId": "141cfd00355d79e669089a915bfe6e261c76b8e4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
