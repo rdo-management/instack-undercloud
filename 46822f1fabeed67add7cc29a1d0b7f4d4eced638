@@ -45,6 +45,30 @@
       "revId": "46822f1fabeed67add7cc29a1d0b7f4d4eced638",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_8ab0af44",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003803
+      },
+      "writtenOn": "2015-06-09T11:04:52Z",
+      "side": 1,
+      "message": "Yes, that\u0027s the idea, we\u0027ll do that as soon as the CI changes and related CLI doc patches land.\n\nFor now, let\u0027s at least mention the GUI in the docs so that users at least know that it exists and how to access it.",
+      "parentUuid": "facab960_1fc143e4",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 12
+      },
+      "revId": "46822f1fabeed67add7cc29a1d0b7f4d4eced638",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
