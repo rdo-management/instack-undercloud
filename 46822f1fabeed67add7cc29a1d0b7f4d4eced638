@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_ff965fef",
+        "filename": "doc/source/installation/accessing_gui.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-09T10:12:04Z",
+      "side": 1,
+      "message": "typo s/acces/access",
+      "range": {
+        "startLine": 12,
+        "startChar": 12,
+        "endLine": 12,
+        "endChar": 17
+      },
+      "revId": "46822f1fabeed67add7cc29a1d0b7f4d4eced638",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_1fc143e4",
+        "filename": "doc/source/installation/installation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-09T10:12:04Z",
+      "side": 1,
+      "message": "I guess putting this here for now is fine, but probably we want two branches of \"Basic Deployment\" don\u0027t we - one with the UI step-by-step (including these instructions on how to access as step 1), and another with the converged CLI flow?",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 12
+      },
+      "revId": "46822f1fabeed67add7cc29a1d0b7f4d4eced638",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
