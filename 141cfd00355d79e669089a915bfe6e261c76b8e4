@@ -16,6 +16,24 @@
       "revId": "141cfd00355d79e669089a915bfe6e261c76b8e4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_6b144df5",
+        "filename": "scripts/instack-deploy-overcloud",
+        "patchSetId": 5
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1003853
+      },
+      "writtenOn": "2015-06-09T20:25:59Z",
+      "side": 1,
+      "message": "We want pacemaker by default so that we scale.  That is all we have available now, but we\u0027ll be adding keepalived later as another option instead of pacemaker, so we\u0027ll want some env var for that decision (though I don\u0027t know if this is the right place or the right variable).",
+      "parentUuid": "facab960_d9729b48",
+      "revId": "141cfd00355d79e669089a915bfe6e261c76b8e4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
