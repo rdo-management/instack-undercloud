@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_e735e6f7",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-11T21:16:38Z",
+      "side": 1,
+      "message": "It makes me a little nervous having this in our example.  Somebody is going to copy-paste this to their compute file and wonder why none of their vms are running accelerated.",
+      "revId": "009405b0e577cd8de6b2156ee5947167f3b0e3ca",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_a754be21",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-11T21:16:38Z",
+      "side": 1,
+      "message": "Nit: This seems like it should be a list, not a tuple.",
+      "range": {
+        "startLine": 11,
+        "startChar": 23,
+        "endLine": 11,
+        "endChar": 24
+      },
+      "revId": "009405b0e577cd8de6b2156ee5947167f3b0e3ca",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
