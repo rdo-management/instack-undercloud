@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_78dc1713",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-06-12T14:14:05Z",
+      "side": 1,
+      "message": "Depends-On: I9863a4c1fc5d36fd58366abcc59a39fb7e2b0e98",
+      "revId": "03406f013583dbe2d8599fbccd6a0120ba4c6916",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_78c5f73a",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-06-12T14:14:05Z",
+      "side": 1,
+      "message": "Maybe:\n\n To get the deployment plan UUID (plan name is \"overcloud\"), run::",
+      "revId": "03406f013583dbe2d8599fbccd6a0120ba4c6916",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_58c6734a",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-06-12T14:14:05Z",
+      "side": 1,
+      "message": "I\u0027d like some brief explanation what is done on this step. I, for example, have no idea :)",
+      "range": {
+        "startLine": 241,
+        "startChar": 26,
+        "endLine": 241,
+        "endChar": 55
+      },
+      "revId": "03406f013583dbe2d8599fbccd6a0120ba4c6916",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_98c0fb2b",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-06-12T14:14:05Z",
+      "side": 1,
+      "message": "this is not changed for now?",
+      "range": {
+        "startLine": 251,
+        "startChar": 8,
+        "endLine": 251,
+        "endChar": 51
+      },
+      "revId": "03406f013583dbe2d8599fbccd6a0120ba4c6916",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
