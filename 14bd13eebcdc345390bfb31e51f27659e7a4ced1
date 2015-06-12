@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_93fffca9",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-12T16:14:53Z",
+      "side": 1,
+      "message": "Typo s/od/of",
+      "range": {
+        "startLine": 411,
+        "startChar": 14,
+        "endLine": 411,
+        "endChar": 15
+      },
+      "revId": "14bd13eebcdc345390bfb31e51f27659e7a4ced1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_132bec30",
+        "filename": "doc/source/introduction/introduction.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-12T16:14:53Z",
+      "side": 1,
+      "message": "Was removing my new diagrams etc intentional?\n\nI thought it was nice having an overview diagram in the introduction, but I appreciate some of the text overlaps with what you\u0027ve written below.",
+      "range": {
+        "startLine": 10,
+        "startChar": 7,
+        "endLine": 10,
+        "endChar": 12
+      },
+      "revId": "14bd13eebcdc345390bfb31e51f27659e7a4ced1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
