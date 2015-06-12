@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_18406b55",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-06-12T15:09:23Z",
+      "side": 1,
+      "message": "I had a line here:\n\n#1227755(discoverd edeploy plugin puts too much data in Ironic\n\nwhich of course got removed because it starts with \u0027#\u0027, not sure how to fix it though. gerrit does not like updates to the commit message with nothing else.",
+      "revId": "4d62212a894e9de66322052048dc847ef98eae1e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
