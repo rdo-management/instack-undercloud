@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "facab960_b805bf7b",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-06-12T14:15:37Z",
+      "side": 1,
+      "message": "I think this section will not work once we switch over.\n\nhttps://bugzilla.redhat.com/show_bug.cgi?id\u003d1231214\n\nI think we should document where to copy the files from/to for the time being, while we figure out the best way to do it by default.\n\nwdyt? I can put up a patch for that, and you can make this one depend on it.",
+      "revId": "03406f013583dbe2d8599fbccd6a0120ba4c6916",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_78c5f73a",
         "filename": "doc/source/basic_deployment/basic_deployment.rst",
         "patchSetId": 1
