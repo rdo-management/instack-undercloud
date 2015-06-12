@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_4d979390",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_60cf0780",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 7
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_60e8e7e2",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "I\u0027d leave out this Ultimately.. sentence, I\u0027m not sure it\u0027s necessarily communicating an accurate message, e.g I don\u0027t believe business planning is a roadmap item for upstream TripleO :)\n\nIf we stick to saying TripleO aims to allow baremetal deployment of OpenStack with OpenStack services (which you already said in the first sentence) then it\u0027s less likely to confuse or mislead, IMHO.",
+      "range": {
+        "startLine": 29,
+        "startChar": 31,
+        "endLine": 29,
+        "endChar": 32
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_2df88fe4",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_60e8e7e2",
       "range": {
         "startLine": 29,
         "startChar": 31,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_2dcfafb1",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "I was using terms which have been used by our PM to communicate this out. Though it is a minor change. Why I would reserve from calling it \"deployment node\" is that there might be undercloud HA in the future and it is multiple nodes. Furthermore, when we say underCLOUD, we need to communicate why is that a \"cloud\". So I would prefer the \"deployment cloud\" but I will not bikeshade on this. As for overcloud, workload is very descriptive and \"deployed cloud\" is not that all saying, you can deploy also undercloud...",
+      "parentUuid": "facab960_00bf1bd1",
+      "range": {
+        "startLine": 33,
+        "startChar": 63,
+        "endLine": 33,
+        "endChar": 73
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_40468324",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -82,6 +154,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "s/foundamental/fundamental\n\nI\u0027d consider rewording this, as deployment is an overloaded term, and we\u0027re actually talking about introspection, benchmarking and preparation of the environment (e.g hardware).\n\nMaybe \"Some key aspects of SpinalStack workflow have been incorporated into RDO-Manager, providing options to perform introspection, benchmarking and role matching of your hardware prior to deploying OpenStack\"",
+      "range": {
+        "startLine": 60,
+        "startChar": 27,
+        "endLine": 60,
+        "endChar": 32
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_8d56fbd0",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_40468324",
       "range": {
         "startLine": 60,
         "startChar": 27,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_6d47f71d",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_c051b3d9",
+      "range": {
+        "startLine": 64,
+        "startChar": 26,
+        "endLine": 64,
+        "endChar": 35
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_00639bb1",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -128,6 +248,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "We actually don\u0027t perform per-step validation yet, so perhaps omit that for now?\n\nMaybe something like:\n\n\"RDO-Manager also configures servers in a similar way to SpinalStack, using stable community puppet implementations, applied in a series of passes, such that granular control and validation of the deployment is possible\".",
+      "range": {
+        "startLine": 69,
+        "startChar": 13,
+        "endLine": 69,
+        "endChar": 21
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_ad51ffd9",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_00639bb1",
       "range": {
         "startLine": 69,
         "startChar": 13,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_0d5aebf2",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_60738780",
+      "range": {
+        "startLine": 145,
+        "startChar": 5,
+        "endLine": 145,
+        "endChar": 12
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_c068d389",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -174,6 +342,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "Well the elements aren\u0027t layered, I might say \"then installs additional software via configuration scripts (called elements) ...\"",
+      "range": {
+        "startLine": 185,
+        "startChar": 8,
+        "endLine": 185,
+        "endChar": 16
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_2d5defe9",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_c068d389",
       "range": {
         "startLine": 185,
         "startChar": 8,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_0dd3cbd6",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_20117f05",
+      "range": {
+        "startLine": 220,
+        "startChar": 40,
+        "endLine": 220,
+        "endChar": 41
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_e02dd747",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -220,6 +436,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "Maybe say, though this \"requires manual configuration of the role definitions and role matching via the ahc-match tool\", then we can link to the ahc docs which trown added?",
+      "range": {
+        "startLine": 255,
+        "startChar": 26,
+        "endLine": 255,
+        "endChar": 30
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_6dd7f7bf",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_e02dd747",
       "range": {
         "startLine": 255,
         "startChar": 26,
@@ -279,6 +519,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_b875bf99",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_40b043f4",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 291,
+        "endChar": 7
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_008d5b31",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -290,6 +554,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "I\u0027m not sure how much value this last paragraph brings, it basically says \"stuff is complex, don\u0027t change it\", which is the opposite really of what a deep architecture document should do :)\n\nPersonally I\u0027d rather drop that and add details about the things we expect folks to be able to customize during deployment planning, for example:\n\n* Number of nodes for each role\n* Network configuration (NIC configuration options, Isolated vs single overlay network)\n* Ceph rbd backend options and defaults\n* Ways to pass in extra configuration, e.g site-specific customzations",
+      "range": {
+        "startLine": 299,
+        "startChar": 29,
+        "endLine": 299,
+        "endChar": 30
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_adf81f4a",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done. I added a bullet for \"Service paremeters configuration\"",
+      "parentUuid": "facab960_008d5b31",
       "range": {
         "startLine": 299,
         "startChar": 29,
@@ -325,6 +613,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_edc067e2",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_402be32f",
+      "range": {
+        "startLine": 322,
+        "startChar": 22,
+        "endLine": 322,
+        "endChar": 31
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_6021c74c",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -336,6 +648,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "I can probably help with some diagrams and words around the heat configuration phase, including how it interfaces with puppet (potentially as a follow-up patch)",
+      "range": {
+        "startLine": 340,
+        "startChar": 6,
+        "endLine": 340,
+        "endChar": 12
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_ed994720",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Thanks, I will appreciate that.",
+      "parentUuid": "facab960_6021c74c",
       "range": {
         "startLine": 340,
         "startChar": 6,
@@ -371,6 +707,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_2da40f56",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_00a63bc1",
+      "range": {
+        "startLine": 385,
+        "startChar": 57,
+        "endLine": 385,
+        "endChar": 63
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_a0c90f7a",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
@@ -382,6 +742,30 @@
       "writtenOn": "2015-06-10T10:38:07Z",
       "side": 1,
       "message": "Is it worth mentioning there are plans to add more operational tools in future RDO-Manager releases?",
+      "range": {
+        "startLine": 402,
+        "startChar": 29,
+        "endLine": 402,
+        "endChar": 35
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_cdbd636a",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-12T12:14:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_a0c90f7a",
       "range": {
         "startLine": 402,
         "startChar": 29,
