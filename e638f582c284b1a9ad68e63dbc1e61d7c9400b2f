@@ -255,6 +255,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_ed4ea795",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-12T11:51:08Z",
+      "side": 1,
+      "message": "Ok, how about something like this, to communicate that we\u0027re aware of operator feedback that they\u0027d like to see more flexibility in this regard, but right now we don\u0027t offer it:\n\n\"Currently, the roles in RDO-Manager are very prescriptive, and in particular individual services cannot easily be scaled independently of the Controller role (other than storage nodes).  More flexibility in this regard is planned in a future release.\"",
+      "parentUuid": "facab960_40b043f4",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 291,
+        "endChar": 7
+      },
+      "revId": "e638f582c284b1a9ad68e63dbc1e61d7c9400b2f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_008d5b31",
         "filename": "doc/source/introduction/architecture.rst",
         "patchSetId": 3
