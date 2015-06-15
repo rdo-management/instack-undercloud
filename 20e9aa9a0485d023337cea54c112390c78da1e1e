@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_ff5e4675",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-15T15:29:50Z",
+      "side": 1,
+      "message": "This should be:\n\nDepends-On: I457ae90cb8de500998e9d4775f2832747d052628@https://review.openstack.org\n\nSee also https://github.com/redhat-openstack/khaleesi/blob/master/roles/depends-on/files/depends_on.py#L10",
+      "revId": "20e9aa9a0485d023337cea54c112390c78da1e1e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
