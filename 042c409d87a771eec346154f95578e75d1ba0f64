@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_df5982ff",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-15T13:47:54Z",
+      "side": 1,
+      "message": "tiny nit, \"an actual deployment cloud\" might read better as \"a deployment cloud\" or \"an OpenStack environment used for deployment\"\n\nSame elsewhere starting with \"an actual ..., e.g \"an actual workload cloud\" might read better as \"the deployed cloud which hosts user workloads\", or just \"a workload cloud\".",
+      "range": {
+        "startLine": 32,
+        "startChar": 55,
+        "endLine": 32,
+        "endChar": 56
+      },
+      "revId": "042c409d87a771eec346154f95578e75d1ba0f64",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
