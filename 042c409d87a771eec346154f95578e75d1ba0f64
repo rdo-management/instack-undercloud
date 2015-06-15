@@ -22,6 +22,30 @@
       "revId": "042c409d87a771eec346154f95578e75d1ba0f64",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_df834202",
+        "filename": "doc/source/introduction/architecture.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-06-15T14:39:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "facab960_df5982ff",
+      "range": {
+        "startLine": 32,
+        "startChar": 55,
+        "endLine": 32,
+        "endChar": 56
+      },
+      "revId": "042c409d87a771eec346154f95578e75d1ba0f64",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
