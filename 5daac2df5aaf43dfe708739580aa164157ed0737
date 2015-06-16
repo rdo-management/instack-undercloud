@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_1815bd3f",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-06-16T15:10:04Z",
+      "side": 1,
+      "message": "instack-deploy-overcloud --tuskar was also creating the overcloud plan and adding the roles to it like [1] do we need to add that here or is it done somewhere else?\n\n[1]\nhttps://github.com/rdo-management/instack-undercloud/blob/master/scripts/instack-deploy-overcloud#L170",
+      "range": {
+        "startLine": 233,
+        "startChar": 0,
+        "endLine": 233,
+        "endChar": 65
+      },
+      "revId": "5daac2df5aaf43dfe708739580aa164157ed0737",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
