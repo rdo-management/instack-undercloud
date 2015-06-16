@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_98a38db1",
+        "filename": "elements/undercloud-post-config/os-refresh-config/post-configure.d/98-undercloud-setup",
+        "patchSetId": 2
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-06-16T16:15:26Z",
+      "side": 1,
+      "message": "you\u0027ll need to default UNDERCLOUD_NAMESERVER here via:\n\n ${UNDERCLOUD_NAMESERVER:-\"\"}",
+      "revId": "93a3340f4423a144f294fc527a741c74f271f811",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
