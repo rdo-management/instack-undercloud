@@ -46,6 +46,30 @@
       "revId": "5daac2df5aaf43dfe708739580aa164157ed0737",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_38ae01e7",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-06-16T15:31:48Z",
+      "side": 1,
+      "message": "thanks for replying, wasn\u0027t sure and wanted to check",
+      "parentUuid": "facab960_785de914",
+      "range": {
+        "startLine": 233,
+        "startChar": 0,
+        "endLine": 233,
+        "endChar": 65
+      },
+      "revId": "5daac2df5aaf43dfe708739580aa164157ed0737",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
