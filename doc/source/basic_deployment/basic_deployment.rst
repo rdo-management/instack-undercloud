@@ -134,7 +134,7 @@ non-root user that was used to install the undercloud.
 
  ::
 
-   instack-build-images
+   openstack overcloud image build --all
 
 
  .. note::
@@ -146,7 +146,7 @@ non-root user that was used to install the undercloud.
 
 #. Load the images into Glance::
 
-    instack-prepare-for-overcloud
+    openstack overcloud image upload
 
 
 Register Nodes
