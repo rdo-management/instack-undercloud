@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "facab960_55754ef8",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-06-16T14:22:52Z",
+      "side": 1,
+      "message": "Good point, I will update the patch.",
+      "parentUuid": "facab960_e735e6f7",
+      "revId": "009405b0e577cd8de6b2156ee5947167f3b0e3ca",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_a754be21",
         "filename": "doc/source/advanced_deployment/ready_states.rst",
         "patchSetId": 3
