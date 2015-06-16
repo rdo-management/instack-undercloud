@@ -244,12 +244,6 @@ Deploy the overcloud (default of 1 compute and 1 control)::
 
     openstack overcloud deploy --plan-uuid "[uuid]"
 
-The next command performs post-deployment configuration (initialization of
-Keystone and Neutron) in the overcloud::
-
-    source overcloudrc
-    openstack overcloud postconfig
-
 .. admonition:: Deployment with post-install validation
    :class: tempest
 
@@ -304,5 +298,3 @@ The overcloud can be redeployed when desired.
 #. Deploy the Overcloud again::
 
     openstack overcloud deploy --plan-uuid "[uuid]"
-    source overcloudrc
-    openstack overcloud postconfig
