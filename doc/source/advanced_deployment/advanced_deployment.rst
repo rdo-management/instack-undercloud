@@ -8,6 +8,7 @@ In this chapter you will find advanced management of various RDO-Manager areas.
 
    Ready-States (BIOS, RAID) <ready_states>
    Automated Health Check <automated_health_check>
+   Network Isolation <network_isolation>
 
 
 .. <MOVE THESE UNDER TOCTREE WHEN READY, KEEP LOGICAL WORKFLOW ORDER>
