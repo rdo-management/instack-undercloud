@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_ac656f1f",
+        "filename": "doc/source/post_deployment/post_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003855
+      },
+      "writtenOn": "2015-06-17T13:31:50Z",
+      "side": 1,
+      "message": "Thanks for review Jarda, after all I realized that nodes removing will probably be in a separate section because it\u0027s not so straightforward.",
+      "parentUuid": "facab960_2c56bf5c",
+      "range": {
+        "startLine": 10,
+        "startChar": 28,
+        "endLine": 10,
+        "endChar": 37
+      },
+      "revId": "6b2179b187f6fdca15c39433012a5d629f2e43dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_2c6f9f2c",
         "filename": "doc/source/post_deployment/scale_out.rst",
         "patchSetId": 1
