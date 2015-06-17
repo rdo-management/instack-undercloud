@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_a72d8800",
+        "filename": "deploy-baremetal-overcloudrc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000779
+      },
+      "writtenOn": "2015-06-17T16:04:16Z",
+      "side": 1,
+      "message": "Should CEPHSTORAGESCALE be added to this?",
+      "revId": "f1c2d6ad2cd9cfef131c70c3810ee757289fc56d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
