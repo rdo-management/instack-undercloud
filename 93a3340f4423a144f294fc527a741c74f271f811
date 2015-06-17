@@ -16,6 +16,24 @@
       "revId": "93a3340f4423a144f294fc527a741c74f271f811",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_6cc6076a",
+        "filename": "elements/undercloud-post-config/os-refresh-config/post-configure.d/98-undercloud-setup",
+        "patchSetId": 2
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-06-17T11:46:40Z",
+      "side": 1,
+      "message": "will do thanks",
+      "parentUuid": "facab960_98a38db1",
+      "revId": "93a3340f4423a144f294fc527a741c74f271f811",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
