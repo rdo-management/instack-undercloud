@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "facab960_272898e1",
+        "filename": "deploy-baremetal-overcloudrc",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004170
+      },
+      "writtenOn": "2015-06-17T16:41:27Z",
+      "side": 1,
+      "message": "Note that I changed this subnet. A /8 was ridiculous, and it would often conflict with the rest of the users network (it would make 10. addresses unreachable).",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 32
+      },
+      "revId": "f1c2d6ad2cd9cfef131c70c3810ee757289fc56d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_47259c07",
+        "filename": "deploy-baremetal-overcloudrc",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1004170
+      },
+      "writtenOn": "2015-06-17T16:41:27Z",
+      "side": 1,
+      "message": "Here again. We are trying to demonstrate what a real network would look like, and nobody uses /16 networks for access VLANs.",
+      "range": {
+        "startLine": 23,
+        "startChar": 36,
+        "endLine": 23,
+        "endChar": 38
+      },
+      "revId": "f1c2d6ad2cd9cfef131c70c3810ee757289fc56d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_a72d8800",
         "filename": "deploy-baremetal-overcloudrc",
         "patchSetId": 1
