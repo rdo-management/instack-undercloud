@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_c056e129",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-06-22T16:21:43Z",
+      "side": 1,
+      "message": "compared to existing docs, looks like one has to \u0027source stackrc\u0027 for this to work",
+      "revId": "e53ae0109f0abe5555f26f453a147ef27ac05a7d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
