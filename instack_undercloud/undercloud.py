@@ -31,10 +31,19 @@ from oslo_config import cfg
 import six
 
 
-CONF_PATH = os.path.expanduser('~/undercloud.conf')
+CONF_PATHS = [os.environ.get('UNDERCLOUD_CONFIG', ''),
+              '~/.instack/undercloud.conf',
+              '/etc/tripleo/undercloud.conf',
+              ]
+CONF_PATHS = [os.path.expanduser(p) for p in CONF_PATHS]
 # NOTE(bnemec): Deprecated
 ANSWERS_PATH = os.path.expanduser('~/instack.answers')
-PASSWORD_PATH = os.path.expanduser('~/undercloud-passwords.conf')
+PASSWORD_PATHS = [os.environ.get('UNDERCLOUD_PASSWORDS', ''),
+                  '~/.instack/undercloud-passwords.conf',
+                  '/etc/tripleo/undercloud-passwords.conf',
+                  ]
+PASSWORD_PATHS = [os.path.expanduser(p) for p in PASSWORD_PATHS]
+_password_path = PASSWORD_PATHS[-1]
 LOG_FILE = os.path.expanduser('~/.instack/install-undercloud.log')
 DEFAULT_LOG_LEVEL = logging.DEBUG
 DEFAULT_LOG_FORMAT = '%(asctime)s %(levelname)s: %(message)s'
@@ -232,10 +241,18 @@ def list_opts():
 
 def _load_config():
     conf_params = []
-    if os.path.isfile(PASSWORD_PATH):
-        conf_params += ['--config-file', PASSWORD_PATH]
-    if os.path.isfile(CONF_PATH):
-        conf_params += ['--config-file', CONF_PATH]
+    global _password_path
+    # Reverse the lists because in oslo.config the last of any duplicate
+    # params wins.
+    for p, c in zip(reversed(PASSWORD_PATHS), reversed(CONF_PATHS)):
+        if os.path.isfile(p):
+            conf_params += ['--config-file', p]
+            # _password_path defines where the password file will be written,
+            # and if there are multiple password files found we want the last
+            # one since those are the passwords that will be used.
+            _password_path = p
+        if os.path.isfile(c):
+            conf_params += ['--config-file', c]
     CONF(conf_params)
 
 
@@ -404,7 +421,8 @@ def _generate_environment(instack_root):
                                              else '0')
     instack_env['PUBLIC_INTERFACE_IP'] = instack_env['LOCAL_IP']
     instack_env['LOCAL_IP'] = instack_env['LOCAL_IP'].split('/')[0]
-    with open(PASSWORD_PATH, 'w') as password_file:
+    _, temp_path = tempfile.mkstemp()
+    with open(temp_path, 'w') as password_file:
         password_file.write('[auth]\n')
         for opt in _auth_opts:
             env_name = opt.name.upper()
@@ -424,6 +442,8 @@ def _generate_environment(instack_root):
                 LOG.info('Generated new password for %s', opt.name)
             instack_env[env_name] = value
             password_file.write('%s=%s\n' % (opt.name, value))
+    args = ['sudo', 'cp', temp_path, _password_path]
+    _run_command(args)
 
     return instack_env
 
@@ -506,5 +526,5 @@ def install(instack_root):
     _run_orc(instack_env)
     _configure_ssh_keys()
     _run_command(['sudo', 'rm', '-f', '/tmp/svc-map-services'], None, 'rm')
-    LOG.info(COMPLETION_MESSAGE, {'password_path': PASSWORD_PATH,
+    LOG.info(COMPLETION_MESSAGE, {'password_path': _password_path,
              'stackrc_path': os.path.expanduser('~/stackrc')})
