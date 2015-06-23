@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_5139c53f",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "I think an overview diagram would be helpful here, I have one I prepared recently which you\u0027re welcome to reuse?\n\nE.g http://file.fab/~shardy/diagrams/Isolated%20Network%20Overview.svg",
+      "range": {
+        "startLine": 19,
+        "startChar": 12,
+        "endLine": 19,
+        "endChar": 21
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_b11e91b9",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "I suspect these steps need revising for the converged CLI flow?",
+      "range": {
+        "startLine": 32,
+        "startChar": 10,
+        "endLine": 32,
+        "endChar": 19
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_b1f05192",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "I think you mean cd not cp here?",
+      "range": {
+        "startLine": 125,
+        "startChar": 11,
+        "endLine": 125,
+        "endChar": 12
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_f12d79ff",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "Same, I think you mean cd not cp here?",
+      "range": {
+        "startLine": 131,
+        "startChar": 12,
+        "endLine": 131,
+        "endChar": 17
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_712889e2",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "typo, this should be 2015-04-30",
+      "range": {
+        "startLine": 142,
+        "startChar": 29,
+        "endLine": 142,
+        "endChar": 30
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_91250d0b",
+        "filename": "doc/source/installation/networking.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-06-23T07:31:27Z",
+      "side": 1,
+      "message": "Typo s/Assinging/Assigning",
+      "range": {
+        "startLine": 259,
+        "startChar": 0,
+        "endLine": 259,
+        "endChar": 9
+      },
+      "revId": "176a897d2ee05b07f1afe0d33e33c32116a56deb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
