@@ -5,3 +5,5 @@ export OS_USERNAME=admin
 export OS_TENANT_NAME=admin
 export COMPUTE_API_VERSION=1.1
 export OS_NO_CACHE=True
+export IRONIC_MAX_RETRIES=24
+export IRONIC_RETRY_INTERVAL=5
