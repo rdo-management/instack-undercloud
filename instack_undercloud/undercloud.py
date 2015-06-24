@@ -135,6 +135,14 @@ _opts = [
                 help=('Whether to enable the debug log level for Undercloud '
                       'OpenStack services.')
                 ),
+    cfg.IntOpt('ironic_retry_interval',
+               default=5,
+               help='Default interval in seconds between retries for all '
+               'ironic operations when node is locked.'),
+    cfg.IntOpt('ironic_max_retries',
+               default=24,
+               help='Number of retries for all '
+               'ironic operations when node is locked.'),
 ]
 
 # Passwords, tokens, hashes
@@ -457,6 +465,17 @@ def _extract_from_stackrc(name):
                 return parts[1].rstrip()
 
 
+def _update_stackrc():
+    """Inject additional variables into stackrc."""
+    upd = [('IRONIC_RETRY_INTERVAL', CONF.ironic_retry_interval),
+           ('IRONIC_MAX_RETRIES', CONF.ironic_max_retries)]
+    with open(os.path.expanduser('~/stackrc'), 'a') as f:
+        f.write("\n")
+        for tpl in upd:
+            LOG.debug('Setting %s to %s in stackrc', *tpl)
+            f.write("export %s=\"%s\"\n" % tpl)
+
+
 def _configure_ssh_keys():
     """Configure default ssh keypair in Nova
 
@@ -506,5 +525,6 @@ def install(instack_root):
     _run_orc(instack_env)
     _configure_ssh_keys()
     _run_command(['sudo', 'rm', '-f', '/tmp/svc-map-services'], None, 'rm')
+    _update_stackrc()
     LOG.info(COMPLETION_MESSAGE, {'password_path': PASSWORD_PATH,
              'stackrc_path': os.path.expanduser('~/stackrc')})
