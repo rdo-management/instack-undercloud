@@ -79,6 +79,12 @@ heat::rabbit_password: {{UNDERCLOUD_RABBIT_PASSWORD}}
 heat::rabbit_host: {{LOCAL_IP}}
 heat::keystone_host: {{LOCAL_IP}}
 heat::keystone_password: {{UNDERCLOUD_HEAT_PASSWORD}}
+heat::keystone::domain::auth_url: http://{{LOCAL_IP}}:35357/v2.0
+heat::keystone::domain::keystone_admin: 'admin'
+heat::keystone::domain::keystone_tenant: 'admin'
+heat::keystone::domain::keystone_password: {{UNDERCLOUD_ADMIN_PASSWORD}}
+heat::keystone::domain::domain_name: 'heat_stack'
+heat::keystone::domain::domain_password: {{UNDERCLOUD_HEAT_STACK_DOMAIN_ADMIN_PASSWORD}}
 heat::api::bind_host: {{LOCAL_IP}}
 heat::api_cloudwatch::bind_host: {{LOCAL_IP}}
 heat::api_cfn::bind_host: {{LOCAL_IP}}
@@ -91,6 +97,9 @@ keystone_ca_certificate: '{{KEYSTONE_CA_CERTIFICATE}}'
 keystone_signing_key: '{{KEYSTONE_SIGNING_KEY}}'
 keystone_signing_certificate: '{{KEYSTONE_SIGNING_CERTIFICATE}}'
 keystone::database_connection: mysql://keystone:{{UNDERCLOUD_ADMIN_TOKEN}}@{{LOCAL_IP}}/keystone
+keystone::roles::admin::password: {{UNDERCLOUD_ADMIN_PASSWORD}}
+keystone::roles::admin::email: 'root@localhost'
+keystone::roles::admin::admin_tenant: 'admin'
 keystone::public_bind_host: 0.0.0.0
 keystone::admin_bind_host: 0.0.0.0
 
