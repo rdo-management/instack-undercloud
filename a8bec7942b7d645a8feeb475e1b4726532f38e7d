@@ -16,6 +16,24 @@
       "revId": "a8bec7942b7d645a8feeb475e1b4726532f38e7d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dacfb570_24ff3c03",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 19
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-25T14:25:21Z",
+      "side": 1,
+      "message": "Yeah, I didn\u0027t expect that to work, especially since we install the puppet modules from a package.  This was just intended as a reference so I and other reviewers know what is needed to make this work.",
+      "parentUuid": "dacfb570_e13386f4",
+      "revId": "a8bec7942b7d645a8feeb475e1b4726532f38e7d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
