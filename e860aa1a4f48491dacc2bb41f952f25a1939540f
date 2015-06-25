@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bad4c104_002ce6aa",
+        "filename": "instack_undercloud/undercloud.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-25T21:36:08Z",
+      "side": 1,
+      "message": "Need a trailing space on this line.",
+      "revId": "e860aa1a4f48491dacc2bb41f952f25a1939540f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
