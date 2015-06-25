@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dacfb570_e13386f4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 19
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2015-06-25T11:12:13Z",
+      "side": 1,
+      "message": "Sorry, depends-on doesn\u0027t work across this two gerrit, only with other reviews on khaleesi here on gerrithub.",
+      "revId": "a8bec7942b7d645a8feeb475e1b4726532f38e7d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
