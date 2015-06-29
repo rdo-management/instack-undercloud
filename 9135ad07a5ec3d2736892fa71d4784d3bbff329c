@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_81571102",
+        "filename": "doc/source/advanced_deployment/network_isolation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2015-06-29T18:56:14Z",
+      "side": 1,
+      "message": "may want to adjust the numbering here",
+      "revId": "9135ad07a5ec3d2736892fa71d4784d3bbff329c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
