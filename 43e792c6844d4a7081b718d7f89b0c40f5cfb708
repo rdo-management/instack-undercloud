@@ -22,6 +22,30 @@
       "revId": "43e792c6844d4a7081b718d7f89b0c40f5cfb708",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_d1bba270",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-06-30T18:54:51Z",
+      "side": 1,
+      "message": "It\u0027s actually a top-level param to the puppet manifest, so I think this is right.\n\nSee https://github.com/openstack/puppet-keystone/blob/bca04a399e6de63bd6d3d3d985aeaf3134802ac1/manifests/init.pp#L70",
+      "parentUuid": "9ad9bd40_d1b9e2ea",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 33
+      },
+      "revId": "43e792c6844d4a7081b718d7f89b0c40f5cfb708",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
