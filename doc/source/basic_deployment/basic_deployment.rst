@@ -221,21 +221,6 @@ Deploy the Overcloud
           # rhel-7-server-extras-rpms
           # rhel-7-server-openstack-6.0-rpms
 
-.. admonition:: Ceph
-   :class: ceph
-
-   When deploying Ceph, specify the number of Ceph OSD nodes to be deployed
-   with::
-
-       export CEPHSTORAGESCALE=1
-
-   By default when Ceph is enabled the Cinder iSCSI back-end is disabled. This
-   behavior may be changed by setting the environment variable::
-
-       export CINDER_ISCSI=1
-
-::
-
 To get the deployment plan UUID (plan name is "overcloud"), run::
 
     openstack management plan list
