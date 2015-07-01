@@ -1,0 +1,10 @@
+#!/bin/bash
+# In order for CFME to access the Swift objects with hardware data about
+# the Ironic nodes, we need to give the admin user the swiftoperator role
+# on the service tenant.
+
+set -eux
+
+source /root/stackrc
+
+openstack role add --user admin --project service swiftoperator
