@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_8e048c7f",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-07-02T16:42:18Z",
+      "side": 1,
+      "message": "tabs?",
+      "revId": "87852ba1abb14cbebc9b6155714a43b5e7946bde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
