@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_30d83fef",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/ironic-discoverd/discoverd.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-02T11:50:54Z",
+      "side": 1,
+      "message": "lets be explicit and call it admin_password",
+      "range": {
+        "startLine": 19,
+        "startChar": 23,
+        "endLine": 19,
+        "endChar": 30
+      },
+      "revId": "1ceea2dbdae58ef322422c663641c3d25fc8b955",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
