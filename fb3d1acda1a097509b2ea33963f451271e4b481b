@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_33a04990",
+        "filename": "elements/ironic-discoverd/os-apply-config/etc/ironic-discoverd/discoverd.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-02T14:41:32Z",
+      "side": 1,
+      "message": "is there some change here?",
+      "revId": "fb3d1acda1a097509b2ea33963f451271e4b481b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_53adcd87",
+        "filename": "elements/ironic-discoverd/os-refresh-config/post-configure.d/99-admin-swiftoperator-role",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-02T14:41:32Z",
+      "side": 1,
+      "message": "should this file be 0755 instead of 0644?",
+      "revId": "fb3d1acda1a097509b2ea33963f451271e4b481b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
