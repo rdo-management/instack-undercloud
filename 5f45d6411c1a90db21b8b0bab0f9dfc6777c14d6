@@ -46,6 +46,30 @@
       "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_f37341af",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003910
+      },
+      "writtenOn": "2015-07-02T12:53:30Z",
+      "side": 1,
+      "message": "I also use 127.0.0.1, which works (but for other services, than HTTP).",
+      "parentUuid": "9ad9bd40_5334eddd",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 10
+      },
+      "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
