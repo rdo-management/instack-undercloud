@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_5334eddd",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1001583
+      },
+      "writtenOn": "2015-07-02T12:42:00Z",
+      "side": 1,
+      "message": "Does this line actually work for anyone else?  I had better success with:\n\nssh -g -N -L 8080:\u003cundercloud_vm_ip\u003e:80 `hostname`",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 10
+      },
+      "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
