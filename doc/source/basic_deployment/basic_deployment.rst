@@ -256,10 +256,6 @@ Deploy the Overcloud
           # rhel-7-server-extras-rpms
           # rhel-7-server-openstack-6.0-rpms
 
-#. To get the deployment plan UUID (plan name is "overcloud"), run::
-
-    openstack management plan list
-
 #. Deploy the overcloud:
 
    By default 1 compute and 1 control node will be deployed, with networking
@@ -284,7 +280,7 @@ Deploy the Overcloud
 
    ::
 
-      openstack overcloud deploy --plan-uuid "[uuid]"
+      openstack overcloud deploy --plan overcloud
 
 
 
