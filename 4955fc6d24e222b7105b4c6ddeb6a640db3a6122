@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_fe6ea1c8",
+        "filename": "doc/source/post_deployment/vm_snapshot.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-03T14:44:54Z",
+      "side": 1,
+      "message": "I don\u0027t know much about Heat, but is it really safe to just launch instances without heat knowing?",
+      "range": {
+        "startLine": 21,
+        "startChar": 6,
+        "endLine": 21,
+        "endChar": 15
+      },
+      "revId": "4955fc6d24e222b7105b4c6ddeb6a640db3a6122",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
