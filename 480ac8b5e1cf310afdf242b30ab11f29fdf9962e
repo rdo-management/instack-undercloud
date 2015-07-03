@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_1be35708",
+        "filename": "doc/source/advanced_deployment/automated_health_check.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-03T12:52:14Z",
+      "side": 1,
+      "message": "Please provide an example config file here. Actually, it would be cool to create it in a new (or ironic-discoverd) element instead",
+      "range": {
+        "startLine": 25,
+        "startChar": 50,
+        "endLine": 25,
+        "endChar": 83
+      },
+      "revId": "480ac8b5e1cf310afdf242b30ab11f29fdf9962e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
