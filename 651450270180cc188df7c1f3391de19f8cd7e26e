@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_5e3eadb9",
+        "filename": "doc/source/post_deployment/quiesce_compute.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-03T14:43:59Z",
+      "side": 1,
+      "message": "it\u0027s worth adding \"via Ironic API\" otherwise Ironic may get in way. Also it\u0027s worth explaining what you mean by removing from overcloud here. nova delete? ironic node-delete? heat scale down?",
+      "range": {
+        "startLine": 78,
+        "startChar": 12,
+        "endLine": 78,
+        "endChar": 48
+      },
+      "revId": "651450270180cc188df7c1f3391de19f8cd7e26e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
