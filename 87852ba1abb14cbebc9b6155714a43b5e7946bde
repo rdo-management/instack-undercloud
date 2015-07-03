@@ -16,6 +16,24 @@
       "revId": "87852ba1abb14cbebc9b6155714a43b5e7946bde",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_ff5dc049",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1003791
+      },
+      "writtenOn": "2015-07-03T10:34:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_8e048c7f",
+      "revId": "87852ba1abb14cbebc9b6155714a43b5e7946bde",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
