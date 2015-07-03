@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_3b7c9b20",
+        "filename": "doc/source/advanced_deployment/automated_health_check.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-07-03T13:19:17Z",
+      "side": 1,
+      "message": "Would be nice to add pointer on what all attributes can be matched. Also missing units information.",
+      "revId": "ca870a05430afa861c1de1787d09c6ce42e51182",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
