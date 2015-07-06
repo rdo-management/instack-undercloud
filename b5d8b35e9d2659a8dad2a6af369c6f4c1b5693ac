@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_6de3bb07",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-07-06T16:24:06Z",
+      "side": 1,
+      "message": "I wonder if we should just say copy from discoverd.conf here, as we always want the same credentials that discoverd used.\n\nThis is what I am putting in CI:\n\nsudo sed \u0027s/\\[discoverd/\\[ironic/\u0027 /etc/ironic-discoverd/discoverd.conf | sudo tee /etc/ahc-tools/ahc-tools.conf \u003e /dev/null\n\nsudo chmod 0640 /etc/ahc-tools/ahc-tools.conf",
+      "revId": "b5d8b35e9d2659a8dad2a6af369c6f4c1b5693ac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
