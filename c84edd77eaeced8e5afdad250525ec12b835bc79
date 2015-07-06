@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_f00080ac",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-07-06T18:44:19Z",
+      "side": 1,
+      "message": "I\u0027m not sure the hiera file is the right place. They\u0027d either have to modify the packaged version (not ideal) or the installed version and re-run puppet apply manually.\n\nI think it\u0027d be better to just tell them to change it in /etc/ironic/ironic.conf and restart openstack-ironic-conductor.\n\nThe change will be overwritten though if \"openstack undercloud install\" is re-run, but I don\u0027t see a good way around that.",
+      "revId": "c84edd77eaeced8e5afdad250525ec12b835bc79",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
