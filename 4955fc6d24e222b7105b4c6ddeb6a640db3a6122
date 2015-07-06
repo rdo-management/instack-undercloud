@@ -22,6 +22,30 @@
       "revId": "4955fc6d24e222b7105b4c6ddeb6a640db3a6122",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_49c18c7f",
+        "filename": "doc/source/post_deployment/vm_snapshot.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1004937
+      },
+      "writtenOn": "2015-07-06T13:02:34Z",
+      "side": 1,
+      "message": "This is end-user, overcloud documentation, not undercloud documentation. So yes, it\u0027s perfectly safe. The user may not even be using Heat.",
+      "parentUuid": "9ad9bd40_fe6ea1c8",
+      "range": {
+        "startLine": 21,
+        "startChar": 6,
+        "endLine": 21,
+        "endChar": 15
+      },
+      "revId": "4955fc6d24e222b7105b4c6ddeb6a640db3a6122",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
