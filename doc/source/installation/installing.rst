@@ -103,6 +103,30 @@ Installing the Undercloud
 
         cp /usr/share/instack-undercloud/undercloud.conf.sample ~/undercloud.conf
 
+  .. admonition:: SSL
+     :class: ssl
+
+     To enable SSL on the undercloud, you must set the ``undercloud_service_certificate``
+     option in ``undercloud.conf`` to an appropriate certificate file.
+
+     To generate a self-signed certificate file, the following commands can be used::
+
+         openssl genrsa -out privkey.pem 2048
+
+     The next command will prompt for some identification details.  Most of these don't
+     matter, but make sure the ``Common Name`` entered matches the value of
+     ``undercloud_public_vip`` in undercloud.conf::
+
+         openssl req -new -x509 -key privkey.pem -out cacert.pem -days 365
+
+     Finally, combine the two files into one for HAProxy to use.  The order of the
+     files in this command matters, so do not change it::
+
+         cat cacert.pem privkey.pem > test.pem
+
+     ``undercloud_service_certificate`` should then be set to the path to ``test.pem``.
+     Depending on where the file is written, SELinux may need to be set to permissive
+     for HAProxy to read the file.
 
   Install the undercloud::
 

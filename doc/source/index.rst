@@ -65,5 +65,10 @@ steps are marked as follows:
 
    Step that should only be run when deploying Ceph for use by the Overcloud
 
+.. admonition:: SSL
+   :class: ssl
+
+   Step that should only be run when deploying with SSL OpenStack endpoints
+
 Any such steps should *not* be run if the target environment does not match
 the section marking.
