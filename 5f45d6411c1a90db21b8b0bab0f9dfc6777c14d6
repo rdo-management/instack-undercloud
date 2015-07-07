@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_f695d3e4",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003803
+      },
+      "writtenOn": "2015-07-07T18:07:57Z",
+      "side": 1,
+      "message": "Definitely not seeing the hostname of the virt host there.",
+      "parentUuid": "9ad9bd40_b0e4380e",
+      "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_d0f1bcce",
         "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
         "patchSetId": 5
@@ -101,6 +119,24 @@
       "writtenOn": "2015-07-06T19:10:16Z",
       "side": 1,
       "message": "If you use -A here, the new rule gets appended to the end of the INPUT chain. The last rule prior to this new rule is:\n\n REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited\n\nSo will this rule really work?",
+      "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_36a01b43",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003803
+      },
+      "writtenOn": "2015-07-07T18:07:57Z",
+      "side": 1,
+      "message": "I\u0027m not seeing this reject rule on the virt host\u0027s iptables.",
+      "parentUuid": "9ad9bd40_d0f1bcce",
       "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
