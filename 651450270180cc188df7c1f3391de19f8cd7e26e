@@ -46,6 +46,30 @@
       "revId": "651450270180cc188df7c1f3391de19f8cd7e26e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_41832004",
+        "filename": "doc/source/post_deployment/quiesce_compute.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-07T07:13:21Z",
+      "side": 1,
+      "message": "Why not? I think both.",
+      "parentUuid": "9ad9bd40_294b682c",
+      "range": {
+        "startLine": 78,
+        "startChar": 12,
+        "endLine": 78,
+        "endChar": 48
+      },
+      "revId": "651450270180cc188df7c1f3391de19f8cd7e26e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
