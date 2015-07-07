@@ -140,6 +140,7 @@ footer p {
 .baremetal {background: #eef;}
 .virtual {background: #efe;}
 .ceph {background: #eff;}
+.ssl {background: #ffe;}
 
 /* admonition selector */
 #admonition_selector {
