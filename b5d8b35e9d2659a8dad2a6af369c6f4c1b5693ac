@@ -16,6 +16,24 @@
       "revId": "b5d8b35e9d2659a8dad2a6af369c6f4c1b5693ac",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_0138389f",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-07T06:47:20Z",
+      "side": 1,
+      "message": "I believe we always should have a short example of what users should expect to end up with. I\u0027ll add your command line, thanks!",
+      "parentUuid": "9ad9bd40_6de3bb07",
+      "revId": "b5d8b35e9d2659a8dad2a6af369c6f4c1b5693ac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
