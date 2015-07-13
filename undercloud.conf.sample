@@ -16,6 +16,11 @@
 # portion of the value. (string value)
 #local_ip = 192.0.2.1/24
 
+# List of ntp servers to configure on the Undercloud. Overcloud nodes
+# can also use the ntp server running on the Undercloud if they dont
+# have a route to any other ntp servers. (list value)
+#ntp_servers = <None>
+
 # Network interface on the Undercloud that will be handling the PXE
 # boots and DHCP for Overcloud instances. (string value)
 #local_interface = eth1

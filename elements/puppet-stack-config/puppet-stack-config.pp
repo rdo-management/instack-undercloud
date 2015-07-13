@@ -17,6 +17,14 @@ if count(hiera('ntp::servers')) > 0 {
   include ::ntp
 }
 
+# Run a dnsmasq forwarder on the undercloud to handle DNS requests for
+# Overcloud nodes not connected to external networks.
+service {"dnsmasq":
+  provider => systemd,
+  ensure => running,
+  enable => true
+}
+
 # TODO Galara
 class { 'mysql::server':
   override_options => {
