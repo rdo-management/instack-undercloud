@@ -1,7 +1,11 @@
 debug: {{UNDERCLOUD_DEBUG}}
 controller_host: {{LOCAL_IP}} #local-ipv4
 ntp::servers:
+  {{#NTP_SERVERS}}
+  - {{.}}
+  {{^NTP_SERVERS}}
   -
+  {{/NTP_SERVERS}}
 
 # Common Hiera data gets applied to all nodes
 ssh::server::storeconfigs_enabled: false

@@ -83,6 +83,12 @@ _opts = [
                      'local_interface, with the netmask defined by the '
                      'prefix portion of the value.')
                ),
+    cfg.ListOpt('ntp_servers',
+                help=('List of ntp servers to configure on the Undercloud. '
+                      'Overcloud nodes can also use the ntp server running on '
+                      'the Undercloud if they don''t have a route to any other '
+                      'ntp servers.')
+               ),
     cfg.StrOpt('local_interface',
                default='eth1',
                help=('Network interface on the Undercloud that will be '
