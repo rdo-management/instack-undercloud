@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_e884f0b2",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:33:25Z",
+      "side": 1,
+      "message": "Nit: Typo in \"parameters\"",
+      "range": {
+        "startLine": 138,
+        "startChar": 38,
+        "endLine": 138,
+        "endChar": 47
+      },
+      "revId": "41e26895a62548b744134763c5c451a5127f96a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_c8772cd3",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:33:25Z",
+      "side": 1,
+      "message": "Nit: This might read better as two sentences instead of a single one.",
+      "revId": "41e26895a62548b744134763c5c451a5127f96a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
