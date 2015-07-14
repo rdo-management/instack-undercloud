@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_88d284d0",
+        "filename": "doc/source/advanced_deployment/template_deploy.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:21:16Z",
+      "side": 1,
+      "message": "Duplicate \"heat\" here.",
+      "range": {
+        "startLine": 15,
+        "startChar": 30,
+        "endLine": 15,
+        "endChar": 34
+      },
+      "revId": "28226a0175f0ec1827ffed390961ce5cb0f511f7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
