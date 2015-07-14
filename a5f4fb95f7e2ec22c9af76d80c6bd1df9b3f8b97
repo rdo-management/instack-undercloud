@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_683b809c",
+        "filename": "doc/source/advanced_deployment/network_isolation.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-07-14T13:13:11Z",
+      "side": 1,
+      "message": "The markup for this numbered list is slightly wrong so the generated output ends up all on one line - I think we need a blank line before the list?",
+      "range": {
+        "startLine": 25,
+        "startChar": 9,
+        "endLine": 25,
+        "endChar": 10
+      },
+      "revId": "a5f4fb95f7e2ec22c9af76d80c6bd1df9b3f8b97",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_28ba580a",
+        "filename": "doc/source/advanced_deployment/network_isolation.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-07-14T13:13:11Z",
+      "side": 1,
+      "message": "Would it be better (e.g a bit more accessible to new users) if we put this section near the beginning, then moved into the subsequent sections showing how to customize the configuration?",
+      "range": {
+        "startLine": 290,
+        "startChar": 29,
+        "endLine": 290,
+        "endChar": 36
+      },
+      "revId": "a5f4fb95f7e2ec22c9af76d80c6bd1df9b3f8b97",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
