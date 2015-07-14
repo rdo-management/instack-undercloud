@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_48195c87",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:43:38Z",
+      "side": 1,
+      "message": "See my note below, but you might want to highlight the *all* part of this. With an arbitrary example such as echoing some text to /tmp, it\u0027s not completely clear where this is useful.",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_0859145a",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:43:38Z",
+      "side": 1,
+      "message": "Nit: Consider two sentences here rather than a single run-on.",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_683540f6",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:43:38Z",
+      "side": 1,
+      "message": "This makes the assumption that the reader is already familiar with HOT. I\u0027m not suggesting we re-invent the documentation for HOT, but I have a few suggestions:\n\n- A link to both HOT in general (somewhere in this series of patches, it may not apply here)\n\n- A description of what this snippet is trying to accomplish. I understand you\u0027re covering the mechanics of how to pass in a file like this, but it reads as if the intention is for the user to try to run this stuff (for example, the use of the cat/EOF). If that\u0027s the case, we should provide a brief explanation of what it is this snippet does (the echo call is pretty self-explanatory, but the rest of the guts around it could use some description), perhaps with links to things such as OS::Heat::MultipartMime",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_e807901b",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:43:38Z",
+      "side": 1,
+      "message": "It might be worth echoing here that this will apply to all nodes, but perhaps that\u0027s just a personal preference. It might be just me that\u0027s struggling to remember that side of it.",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_a8166853",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-14T14:43:38Z",
+      "side": 1,
+      "message": "Nit: \"and then\" or just \"and\"",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
