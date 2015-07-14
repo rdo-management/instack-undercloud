@@ -140,6 +140,24 @@
       "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_75ba79c1",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003803
+      },
+      "writtenOn": "2015-07-14T10:36:02Z",
+      "side": 1,
+      "message": "Actually I just realized that this step is not necessary - I will remove it.",
+      "parentUuid": "9ad9bd40_36a01b43",
+      "revId": "5f45d6411c1a90db21b8b0bab0f9dfc6777c14d6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
