@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_412db745",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-07-14T22:48:51Z",
+      "side": 1,
+      "message": "stray merge conflict marker :)",
+      "revId": "ef4a5747602c8638ebd5bc49ff06b4be6e7c4002",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
