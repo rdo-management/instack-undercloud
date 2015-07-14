@@ -53,6 +53,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_6651f10d",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-07-14T17:56:09Z",
+      "side": 1,
+      "message": "Yeah, the intention was to provide some cut/paste examples, although one annoyance with that is that the doc indentation messes up the cat/EOF block.  \n\nI\u0027m not sure how we fix that, I assumed it\u0027d be pretty obvious to anyone with any *nix experience at all but I\u0027ll try to further clarify.",
+      "parentUuid": "9ad9bd40_683540f6",
+      "revId": "8a52566a2397fb7fbd0b2423e7d231f9ae7bc2bf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_e807901b",
         "filename": "doc/source/advanced_deployment/extra_config.rst",
         "patchSetId": 3
