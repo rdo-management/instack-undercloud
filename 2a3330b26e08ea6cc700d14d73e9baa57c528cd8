@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_96929e9d",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-15T12:43:54Z",
+      "side": 1,
+      "message": "Optional nature of this paragraph is implied by 1. heading, 2. \"also possible\", 3. an explicit node. Some of these may be dropped, I believe :)",
+      "parentUuid": "9ad9bd40_73036c42",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 11
+      },
+      "revId": "2a3330b26e08ea6cc700d14d73e9baa57c528cd8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_d316f8f0",
         "filename": "doc/source/advanced_deployment/profile_matching.rst",
         "patchSetId": 1
