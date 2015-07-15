@@ -298,7 +298,7 @@ Deploy the Overcloud
 
    ::
 
-      openstack overcloud deploy --plan-uuid "[uuid]"
+      openstack overcloud deploy --plan "[uuid]"
 
 
 
@@ -356,4 +356,4 @@ The overcloud can be redeployed when desired.
 
 #. Deploy the Overcloud again::
 
-    openstack overcloud deploy --plan-uuid "[uuid]"
+    openstack overcloud deploy --plan "[uuid]"
