@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_961c5e15",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-15T14:09:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_57673525",
+      "range": {
+        "startLine": 9,
+        "startChar": 17,
+        "endLine": 9,
+        "endChar": 40
+      },
+      "revId": "c3630953e7badc10892a94262f6acfe8707b3bda",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_776ef902",
         "filename": "doc/source/advanced_deployment/ready_states.rst",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2015-07-15T08:08:52Z",
       "side": 1,
       "message": "this sentence is not clear without knowing that top-level object in CMDB file is JSON(-alike) dict. Or a list? I\u0027m already confused :)",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 7
+      },
+      "revId": "c3630953e7badc10892a94262f6acfe8707b3bda",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_16d84e52",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-15T14:09:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_776ef902",
       "range": {
         "startLine": 17,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_36df123d",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-15T14:09:13Z",
+      "side": 1,
+      "message": "It\u0027s not JSON, I will make it clear addressing your first comment as well.",
+      "parentUuid": "9ad9bd40_374b9188",
+      "range": {
+        "startLine": 20,
+        "startChar": 4,
+        "endLine": 20,
+        "endChar": 5
+      },
+      "revId": "c3630953e7badc10892a94262f6acfe8707b3bda",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_574e5597",
         "filename": "doc/source/advanced_deployment/ready_states.rst",
         "patchSetId": 6
@@ -82,6 +154,30 @@
       "writtenOn": "2015-07-15T08:08:52Z",
       "side": 1,
       "message": "1. \"list of\" should be outside of ``..``\n\n2. please document these values, at least what is in \"controller\" and in each of \"physical_disks\"",
+      "range": {
+        "startLine": 31,
+        "startChar": 54,
+        "endLine": 31,
+        "endChar": 62
+      },
+      "revId": "c3630953e7badc10892a94262f6acfe8707b3bda",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_36b632fb",
+        "filename": "doc/source/advanced_deployment/ready_states.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-15T14:09:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_574e5597",
       "range": {
         "startLine": 31,
         "startChar": 54,
