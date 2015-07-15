@@ -15,7 +15,7 @@ number of nodes of the role::
 
 And then re-deploy the Overcloud with the updated plan::
 
-    openstack overcloud deploy --plan-uuid $PLAN_UUID
+    openstack overcloud deploy --plan $PLAN_UUID
 
 .. note::
    Scaling out assumes that newly added nodes has already been
