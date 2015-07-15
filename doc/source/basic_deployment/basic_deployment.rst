@@ -298,7 +298,7 @@ Deploy the Overcloud
 
    ::
 
-      openstack overcloud deploy --plan-uuid "[uuid]"
+      openstack overcloud deploy --plan "[uuid-or-name]"
 
 
 
