@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_73036c42",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-07-15T11:01:26Z",
+      "side": 1,
+      "message": "I am not so sure. I want to be very clear that we do not run this step if we used ahc-match.",
+      "parentUuid": "9ad9bd40_b31b341a",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 11
+      },
+      "revId": "2a3330b26e08ea6cc700d14d73e9baa57c528cd8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_d316f8f0",
         "filename": "doc/source/advanced_deployment/profile_matching.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2015-07-15T09:03:15Z",
       "side": 1,
       "message": "no need for list",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 2
+      },
+      "revId": "2a3330b26e08ea6cc700d14d73e9baa57c528cd8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_93fe3037",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2015-07-15T11:01:26Z",
+      "side": 1,
+      "message": "I agree here, and will fix in the next patch set.",
+      "parentUuid": "9ad9bd40_d316f8f0",
       "range": {
         "startLine": 132,
         "startChar": 0,
