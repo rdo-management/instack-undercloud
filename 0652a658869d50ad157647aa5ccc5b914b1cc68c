@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9ad9bd40_565d76e8",
+        "filename": "doc/source/advanced_deployment/profile_matching.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-07-15T13:26:58Z",
+      "side": 1,
+      "message": "While we\u0027re making changes, can we not use tuskar directly here?",
+      "revId": "0652a658869d50ad157647aa5ccc5b914b1cc68c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_f65f6ae3",
         "filename": "doc/source/basic_deployment/basic_deployment.rst",
         "patchSetId": 1
@@ -13,6 +30,23 @@
       "writtenOn": "2015-07-15T13:21:06Z",
       "side": 1,
       "message": "Let\u0027s just take this out of the basic deployment flow.  It isn\u0027t necessary, and the more we can simplify things the better.",
+      "revId": "0652a658869d50ad157647aa5ccc5b914b1cc68c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_76735a80",
+        "filename": "doc/source/post_deployment/scale_out.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-07-15T13:26:58Z",
+      "side": 1,
+      "message": "Here as well.",
       "revId": "0652a658869d50ad157647aa5ccc5b914b1cc68c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
