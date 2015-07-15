@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_77e8b9b4",
+        "filename": "doc/source/advanced_deployment/template_deploy.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1004021
+      },
+      "writtenOn": "2015-07-15T07:17:49Z",
+      "side": 1,
+      "message": "I heat environment as env vars, not Heat environments. Might be worth specifying.",
+      "revId": "5d5762db1c1acf8ab8bcdf692afaffdd74cd59b7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
