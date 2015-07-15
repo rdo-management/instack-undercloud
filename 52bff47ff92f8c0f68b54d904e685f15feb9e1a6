@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_56f816e5",
+        "filename": "doc/source/advanced_deployment/images.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-15T12:50:13Z",
+      "side": 1,
+      "message": "From this section I can\u0027t really understand what the correct command is: with --all or without. I suggest you leave only one example on line 16 and move the explanation there.",
+      "range": {
+        "startLine": 25,
+        "startChar": 4,
+        "endLine": 25,
+        "endChar": 41
+      },
+      "revId": "52bff47ff92f8c0f68b54d904e685f15feb9e1a6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_76defa6e",
+        "filename": "doc/source/advanced_deployment/images.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-15T12:50:13Z",
+      "side": 1,
+      "message": "you already have an example on line 33, please just move the explanation there",
+      "range": {
+        "startLine": 42,
+        "startChar": 4,
+        "endLine": 42,
+        "endChar": 36
+      },
+      "revId": "52bff47ff92f8c0f68b54d904e685f15feb9e1a6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_96d9be85",
+        "filename": "doc/source/advanced_deployment/images.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-15T12:50:13Z",
+      "side": 1,
+      "message": "I\u0027m not sure I see point in just listing all commands, provided that you link to help on line 58.",
+      "range": {
+        "startLine": 50,
+        "startChar": 4,
+        "endLine": 54,
+        "endChar": 8
+      },
+      "revId": "52bff47ff92f8c0f68b54d904e685f15feb9e1a6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
