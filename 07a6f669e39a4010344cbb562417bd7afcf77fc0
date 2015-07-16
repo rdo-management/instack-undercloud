@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_8821974f",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-07-16T15:31:52Z",
+      "side": 1,
+      "message": "I might just say \"Making configuration changes\", as this works both on create and update?\n\nThen below, say \"If you want to make a configuration change, either prior to initial deployment, or subsequently via an update...\"",
+      "range": {
+        "startLine": 191,
+        "startChar": 12,
+        "endLine": 191,
+        "endChar": 22
+      },
+      "revId": "07a6f669e39a4010344cbb562417bd7afcf77fc0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_682b7330",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1004023
+      },
+      "writtenOn": "2015-07-16T15:31:52Z",
+      "side": 1,
+      "message": "Would it be a good idea to mention that this is a temporary workaround, and that a future version is expected to provide interfaces that enable specifying extra hieradata without modifying any templates?",
+      "range": {
+        "startLine": 194,
+        "startChar": 15,
+        "endLine": 194,
+        "endChar": 19
+      },
+      "revId": "07a6f669e39a4010344cbb562417bd7afcf77fc0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
