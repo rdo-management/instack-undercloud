@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_477062a5",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-07-16T05:56:57Z",
+      "side": 1,
+      "message": "Because of a bug in deploying named plans, uuid needs to be used right now.\n\nhttps://bugzilla.redhat.com/show_bug.cgi?id\u003d1235337",
+      "revId": "160c43a39a7223bdebabe604b89d9ee503460882",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
