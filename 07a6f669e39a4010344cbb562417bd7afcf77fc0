@@ -45,6 +45,23 @@
       "revId": "07a6f669e39a4010344cbb562417bd7afcf77fc0",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1f593a36",
+        "filename": "doc/source/advanced_deployment/extra_config.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:48:31Z",
+      "side": 1,
+      "message": "Minor nit, backticks (`) work better than single quotes here so it\u0027ll get flagged as programmatic text.",
+      "revId": "07a6f669e39a4010344cbb562417bd7afcf77fc0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
