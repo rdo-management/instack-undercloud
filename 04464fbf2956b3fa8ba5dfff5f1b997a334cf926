@@ -1,0 +1,135 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_fc1ca479",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "A patch recently landed with the file template_deploy.rst that describes how to deploy using the Heat templates directly. What you have isn\u0027t a huge duplication of that, but it might be useful to link over to there.",
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1c14e84c",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "Convention in these docs has been to use the ..note:: notation to format it as such.",
+      "range": {
+        "startLine": 26,
+        "startChar": 16,
+        "endLine": 26,
+        "endChar": 17
+      },
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_7c08942d",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "Nit: \"corresponds\", not \"correspond\" here.",
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bc021c09",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "Consider removing this in favor of the link I referenced above. You may be able to get away with saying at the outset something to the tune of \"Make sure you understand the process of deploying with customized templates as described here\" which will keep you from having to add these sorts of notes.",
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_3c17ec52",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "See comment above.",
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_5c0d903d",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "See comment above.",
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_3f0efe34",
+        "filename": "doc/source/advanced_deployment/deploy_manila.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T19:42:29Z",
+      "side": 1,
+      "message": "Consider making this a ..note:: as well.",
+      "range": {
+        "startLine": 86,
+        "startChar": 31,
+        "endLine": 86,
+        "endChar": 40
+      },
+      "revId": "04464fbf2956b3fa8ba5dfff5f1b997a334cf926",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
