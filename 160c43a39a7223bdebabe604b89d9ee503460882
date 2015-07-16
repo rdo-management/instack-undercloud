@@ -16,6 +16,24 @@
       "revId": "160c43a39a7223bdebabe604b89d9ee503460882",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_2dcc1d35",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-07-16T13:54:13Z",
+      "side": 1,
+      "message": "That was merged weeks ago, and I\u0027ve been doing deploys by name on puddles and poodles for a while now as well.  I guess we\u0027ll see if it passes CI, but I\u0027m as confident as I can be that this works.",
+      "parentUuid": "9ad9bd40_477062a5",
+      "revId": "160c43a39a7223bdebabe604b89d9ee503460882",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
