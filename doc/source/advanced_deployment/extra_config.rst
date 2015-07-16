@@ -187,3 +187,36 @@ The extra config may be enabled via an environment file::
 You may then deploy your overcloud referencing the additional environment file::
 
     openstack overcloud deploy --templates -e post_config_env.yaml
+
+Making post-deployment configuration changes
+--------------------------------------------
+
+If you want to make a configuration change on overcloud nodes, you can update
+hiera data files which are used for passing configuration values to Puppet.
+Hiera data files are part of heat templates and are located in
+'puppet/hieradata' directory. You can find a file for each of roles
+(controller, compute,...) in this directory, so different configuration can be
+set for different roles. Put your configuration changes into the file which
+corresponds to the role of nodes you want to change. For example to set
+reserved host memory on all compute nodes::
+
+   echo "nova::compute::reserved_host_memory: some_value" >> puppet/hieradata/compute.yaml
+
+And then update your overcloud::
+
+   openstack overcloud deploy --templates "custom templates dir"
+
+.. note::
+
+   If you set a configuration of a puppet class which is not being included
+   yet, make sure you include it in any of 'puppet/manifests' file. For example
+   if you want to change CPU allocation ratio update controller hieradata::
+
+      echo "nova::scheduler::filter::cpu_allocation_ratio: '11.0'" >> puppet/hieradata/controller.yaml
+
+   And include 'nova::scheduler::filter' class in 'puppet/manifests/overcloud_controller_pacemaker.pp'.
+
+.. note::
+
+   It's best to copy default heat templates to a custom location before making
+   any changes. See :ref:`custom-template-location`
