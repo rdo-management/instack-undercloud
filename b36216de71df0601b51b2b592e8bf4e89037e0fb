@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_ff781691",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Did you mean for this to be in here or is this just placeholder? If it\u0027s intentional, you might want to rephrase it into a full sentence.",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_3f735eb2",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "I worry this ties too closely to the implementation in saying it\u0027s defined by a template. Also, \"baremetal node type\" sounds like more of hardware based distinction.\n\nConsider rephrasing this to reference that they refer to the functionality that will be served by the node. Perhaps adding a few examples so people get an idea of the scope of what a role represents would be useful.",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9f638adb",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Personal Nit: I prefer the phrasing you use later: \"with the following command\" as compared to the informal \"like so\".",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_ff9f36b2",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Duplicate \"about the\"",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1fa77a0d",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Nit: \"the\" plan, not \"a\" plan.",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_5fb02243",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Consider using the ..note:: notation since it\u0027s used pretty frequently elsewhere in the docs (though I\u0027m totally fine with how this reads too).",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9fbaaa21",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Typo: \"Similar\", not \"similarly\" here.",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bfb5ae32",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Grammar: This should be two sentences or rephrased to connect the thoughts.",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_df835254",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-07-16T20:00:08Z",
+      "side": 1,
+      "message": "Awkward phrasing starting with \"To pass\" and then jumping to \"this can be done\".",
+      "revId": "b36216de71df0601b51b2b592e8bf4e89037e0fb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
