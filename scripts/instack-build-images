@@ -146,6 +146,7 @@ overcloud-full \
 overcloud-controller \
 overcloud-compute \
 overcloud-ceph-storage \
+ntp \
 "}
 
 # There are new deps on python-psutil and python-debtcollector but the Nova and Cinder
