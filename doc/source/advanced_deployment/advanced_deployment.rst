@@ -13,6 +13,7 @@ In this chapter you will find advanced deployment of various RDO-Manager areas.
    Deploying with Heat Templates <template_deploy>
    Network Isolation <network_isolation>
    Managing Tuskar Plans and Roles <managing_plans_and_roles>
+   Configuring Cinder with a NetApp Backend <cinder_netapp>
 
 
 .. <MOVE THESE UNDER TOCTREE WHEN READY, KEEP LOGICAL WORKFLOW ORDER>
