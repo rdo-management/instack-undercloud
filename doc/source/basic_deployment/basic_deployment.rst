@@ -320,8 +320,70 @@ To return to working with the undercloud, source the stackrc file again::
     source ~/stackrc
 
 
+Setting up the Overcloud network
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create a file called ``overcloud-network.json`` with the Neutron configuration::
+
+    $ echo '{
+        "float": {
+            "cidr": "10.0.0.0/8",
+            "name": "default-net",
+            "nameserver": "8.8.8.8"
+        },
+        "external": {
+            "name": "ext-net",
+            "cidr": "192.0.2.0/24",
+            "allocation_start": "192.0.2.45",
+            "allocation_end": "192.0.2.64",
+            "gateway": "192.0.2.1"
+        }
+    }' > ~/overcloud-network.json
+
+
+Create an external network with Neutron::
+
+    $ neutron net-create ext-net -- --router:external=True \
+    --shared=True \
+    --provider:network_type=gre
+    $ neutron subnet-create --name ext-net \
+    --allocation-pool=start=10.0.1.2,end=10.0.1.254 ext-net 10.0.1.0/24
+
+Then source the ``overcloudrc``, and run ``setup-neutron``::
+
+    $ source ~/overcloudrc
+
+    $ setup-neutron -n ~/overcloud-network.json
+
+You can confirm that the networks were created with ``neutron net-list``::
+
+    $ neutron net-list
+    +--------------------------------------+-------------+---------------------------------------------------+
+    | id                                   | name        | subnets                                           |
+    +--------------------------------------+-------------+---------------------------------------------------+
+    | d474fe1f-222d-4e32-802b-cde86e746a2a | ext-net     | 01c5f621-1e0f-4b9d-9c30-7dc59592a52f 192.0.2.0/24 |
+    | d4746a34-76a4-4b88-8540-6c1f6fd6acb1 | default-net | 4c85b94d-f868-4300-bbbc-8c499cdbbe5e 10.0.0.0/8   |
+    +--------------------------------------+-------------+---------------------------------------------------+
+
+
 Validate the Overcloud
 ^^^^^^^^^^^^^^^^^^^^^^
+
+Before running tempest you need to make sure that the "heat_stack_owner" has been create during the
+deployment ::
+
+    $ openstack role list
+    +----------------------------------+------------------+
+    | ID                               | Name             |
+    +----------------------------------+------------------+
+    | 6226a517204846d1a26d15aae1af208f | swiftoperator    |
+    | 7c7eb03955e545dd86bbfeb73692738b | heat_stack_owner |
+    +----------------------------------+------------------+
+
+if not use this::
+
+    $ keystone role-create --name heat_stack_owner;
+
 To verify the Overcloud by running Tempest::
 
     openstack overcloud validate --overcloud-auth-url $OS_AUTH_URL \
