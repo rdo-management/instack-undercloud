@@ -320,6 +320,13 @@ To return to working with the undercloud, source the stackrc file again::
     source ~/stackrc
 
 
+Setting up the Overcloud network
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+After deploying you will need to set up the overclud network. For a
+basic deployment, see :ref:`basic_network_setup`.
+
+
 Validate the Overcloud
 ^^^^^^^^^^^^^^^^^^^^^^
 To verify the Overcloud by running Tempest::
