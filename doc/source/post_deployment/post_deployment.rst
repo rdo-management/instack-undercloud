@@ -12,3 +12,4 @@ In this chapter you will find advanced management of various RDO-Manager areas.
    Quiescing a Compute node <quiesce_compute>
    Import/Export of VM Snapshots <vm_snapshot>
    Updating Packages on Overcloud Nodes <package_update>
+   Backing up and Restoring your Undercloud <backup_restore_undercloud>
