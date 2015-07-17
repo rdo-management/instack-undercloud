@@ -12,6 +12,7 @@ In this chapter you will find advanced deployment of various RDO-Manager areas.
    Additional node configuration <extra_config>
    Deploying with Heat Templates <template_deploy>
    Network Isolation <network_isolation>
+   Configuring Cinder with a NetApp Backend <cinder_netapp>
 
 
 .. <MOVE THESE UNDER TOCTREE WHEN READY, KEEP LOGICAL WORKFLOW ORDER>
