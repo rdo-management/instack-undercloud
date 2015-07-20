@@ -52,6 +52,23 @@
       "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_59cd955c",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-07-20T14:38:01Z",
+      "side": 1,
+      "message": "we sure about this (the setup-neutron with the json you have above creates another ext-net) - not clear what the end goal is (just creation of vanilla overcloud networks? the setup-neutron should suffice\n\n\n(in particular my net-list is not like the one you have below, i have 2 networks called ext-net)",
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
