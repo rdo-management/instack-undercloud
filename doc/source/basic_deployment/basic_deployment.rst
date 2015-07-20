@@ -320,6 +320,38 @@ To return to working with the undercloud, source the stackrc file again::
     source ~/stackrc
 
 
+Setup the Overcloud network
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To create a public network in the Overcloud, assuming to edit the network
+address ranges to match needs, one can use something like::
+
+    neutron net-create nova --router:external
+    neutron subnet-create --name nova --disable-dhcp \
+      --allocation-pool start=172.16.23.140,end=172.16.23.240 \
+      --gateway 172.16.23.251 nova 172.16.23.128/25
+
+We named it "nova" because that will make tempest tests to pass, based on the
+default floating pool name set in nova.conf. You can confirm that the network
+was created with::
+
+    neutron net-list
+    +--------------------------------------+-------------+-------------------------------------------------------+
+    | id                                   | name        | subnets                                               |
+    +--------------------------------------+-------------+-------------------------------------------------------+
+    | d474fe1f-222d-4e32-802b-cde86e746a2a | nova        | 01c5f621-1e0f-4b9d-9c30-7dc59592a52f 172.16.23.128/25 |
+    +--------------------------------------+-------------+-------------------------------------------------------+
+
+To use a VLAN, the following should work assuming ranges and VLAN id are
+customized based on needs::
+
+    neutron net-create nova --router:external --provider:network_type vlan \
+      --provider:physical_network datacentre --provider:segmentation_id 195
+    neutron subnet-create --name nova --disable-dhcp \
+      --allocation-pool start=172.16.23.140,end=172.16.23.240 \
+      --gateway 172.16.23.251 nova 172.16.23.128/25
+
+
 Validate the Overcloud
 ^^^^^^^^^^^^^^^^^^^^^^
 To verify the Overcloud by running Tempest::
