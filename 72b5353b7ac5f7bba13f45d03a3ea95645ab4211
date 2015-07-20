@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9ad9bd40_d967e523",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-07-20T15:41:35Z",
+      "side": 1,
+      "message": "I think we don\u0027t want to use setup-neutron at all",
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_2e49698b",
         "filename": "doc/source/basic_deployment/basic_deployment.rst",
         "patchSetId": 4
@@ -66,6 +83,41 @@
       "writtenOn": "2015-07-20T14:38:01Z",
       "side": 1,
       "message": "we sure about this (the setup-neutron with the json you have above creates another ext-net) - not clear what the end goal is (just creation of vanilla overcloud networks? the setup-neutron should suffice\n\n\n(in particular my net-list is not like the one you have below, i have 2 networks called ext-net)",
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_3978d1c3",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-07-20T15:41:35Z",
+      "side": 1,
+      "message": "+1\n\nI think we should remove any reference to setup-neutron and should only document how to create an internal network (for the tenant) and an external network and gateway (to route the instances outside)\n\nAlso consider there are already instructions on how to create an external network using a provider network in the OpenStack guide (we might want to reference)\n\nhttp://docs.openstack.org/admin-guide-cloud/content/provider_api_workflow.html",
+      "parentUuid": "9ad9bd40_59cd955c",
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_b94b0186",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-07-20T15:41:35Z",
+      "side": 1,
+      "message": "this should be unneeded as well",
       "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
