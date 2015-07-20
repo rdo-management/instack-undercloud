@@ -69,6 +69,29 @@
       "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_f95909ff",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-20T14:43:05Z",
+      "side": 1,
+      "message": "This is called heat_stack_user in director and it\u0027s created automatically.\n\nHere\u0027s the output on the latest puddle:\n$ openstack role list\n+----------------------------------+-----------------+\n| ID                               | Name            |\n+----------------------------------+-----------------+\n| 9fe2ff9ee4384b1894a90878d3e92bab | _member_        |\n| a7e43e12d8f74530a59df75acad5e0a7 | admin           |\n| b3540548d4e64d5682842f15bd8a4f9f | ResellerAdmin   |\n| b8d1b0cedf884a7a8e7aaaed5648674d | heat_stack_user |\n| c0e00dec23474787a22624ec5a155bbb | swiftoperator   |\n+----------------------------------+-----------------+",
+      "range": {
+        "startLine": 380,
+        "startChar": 41,
+        "endLine": 380,
+        "endChar": 57
+      },
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
