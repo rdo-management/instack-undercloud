@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_2e49698b",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-20T12:17:03Z",
+      "side": 1,
+      "message": "It would be useful to indicate that this external network needs to be created in the undercloud (if I understood correctly). Eg. start with \u0027source ~/stackrc\u0027\n\nBtw, there\u0027s already a ctlplane network configured in neutron - might be worth mentioning as well, just to avoid confusion when the admin checks the networks with neutron net-list.",
+      "revId": "72b5353b7ac5f7bba13f45d03a3ea95645ab4211",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
