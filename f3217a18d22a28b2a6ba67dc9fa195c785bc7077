@@ -16,6 +16,24 @@
       "revId": "f3217a18d22a28b2a6ba67dc9fa195c785bc7077",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_ee0941de",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-07-20T07:19:21Z",
+      "side": 1,
+      "message": "I don\u0027t actually understand what you mean.",
+      "parentUuid": "9ad9bd40_d04a61ab",
+      "revId": "f3217a18d22a28b2a6ba67dc9fa195c785bc7077",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
