@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_38a518a2",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-21T07:47:35Z",
+      "side": 1,
+      "message": "I think shared\u003dTrue is required for the tempest test but I will let someone who knows tempest better confirm/correct me.",
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_989aa46c",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-07-21T07:47:35Z",
+      "side": 1,
+      "message": "Tempest is configurable, so I don\u0027t think we need to name it nova, it\u0027s a bit confusing. I added a patch for oscplugin to accept network-id: https://review.gerrithub.io/#/c/240608/",
+      "range": {
+        "startLine": 331,
+        "startChar": 13,
+        "endLine": 331,
+        "endChar": 17
+      },
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
