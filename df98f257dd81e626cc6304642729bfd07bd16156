@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_6e1b5a73",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T11:36:36Z",
+      "side": 1,
+      "message": "maybe stress that the network is external and NOT shared?",
+      "revId": "df98f257dd81e626cc6304642729bfd07bd16156",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_4e121658",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T11:36:36Z",
+      "side": 1,
+      "message": "responding from previous patch:\nIMO, we should fix this conf issue (I suggest making the puppets edit it as default always) instead of badly naming resources.\ndevstack changes this conf as default, we should do this as well.",
+      "revId": "df98f257dd81e626cc6304642729bfd07bd16156",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_0e0d6e37",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 353,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T11:36:36Z",
+      "side": 1,
+      "message": "please address comment on previous patchset",
+      "revId": "df98f257dd81e626cc6304642729bfd07bd16156",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
