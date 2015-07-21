@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_7b74fa35",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-07-21T10:52:49Z",
+      "side": 1,
+      "message": "thanks, will do",
+      "parentUuid": "9ad9bd40_9be29e2d",
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_989aa46c",
         "filename": "doc/source/basic_deployment/basic_deployment.rst",
         "patchSetId": 2
@@ -107,6 +125,30 @@
       "side": 1,
       "message": "The reason the network is named \"nova\" is because of default argument in nova.conf (default_floating_pool). That way, tests that use the NovaNetwork API are using the external network by default.\n\nThis will work, but it\u0027s really misleading.\nThe convention, AFAIK, is to name the external network \"public\", which is more informative, and update the nova.conf file accordingly\n\n@Imre, if the external network\u0027s name and the nova.conf default don\u0027t match, the Neutron tests might work, but the Nova tests will fail.",
       "parentUuid": "9ad9bd40_989aa46c",
+      "range": {
+        "startLine": 331,
+        "startChar": 13,
+        "endLine": 331,
+        "endChar": 17
+      },
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bbf04268",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1003854
+      },
+      "writtenOn": "2015-07-21T10:52:49Z",
+      "side": 1,
+      "message": "Yair, I agree it\u0027s misleading but changing the default value in nova also has drawbacks I think ... I will try to address that with\n\nhttps://review.openstack.org/#/c/204016\n\nbut keep the name to \u0027nova\u0027 until there is a clear decision on that",
+      "parentUuid": "9ad9bd40_1b5cceec",
       "range": {
         "startLine": 331,
         "startChar": 13,
