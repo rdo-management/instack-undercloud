@@ -138,6 +138,16 @@ Example::
     OS::TripleO::ObjectStorage::Net::SoftwareConfig: /home/stack/nic-configs/swift-storage.yaml
     OS::TripleO::CephStorage::Net::SoftwareConfig: /home/stack/nic-configs/ceph-storage.yaml
 
+  parameters:
+    NeutronExternalNetworkBridge:
+      default: "''"
+      description: Set to "''" if floating IPs on tagged VLAN, "br-ex" if on native.
+      type: string
+    Controller-1::NeutronExternalNetworkBridge:
+      default: "''"
+      description: Set to "''" if floating IPs on tagged VLAN, "br-ex" if on native.
+      type: string
+
   parameter_defaults:
     # Customize all these values to match the local environment
     InternalApiNetCidr: 172.17.0.0/24
@@ -415,6 +425,75 @@ Example::
                 -
                   ip_netmask: 10.1.2.0/24
                   next_hop: 172.17.0.1
+
+Using the Native VLAN for Floating IPs
+--------------------------------------
+By default, Neutron will be expecting the floating IP network to be delivered
+on a tagged VLAN. If the floating IP network will use the native VLAN, then we
+need to tell Neutron to put the floating IPs directly on the ``br-ex`` bridge.
+The value must be set in both of these parameters in the parameters section:
+
+Example::
+
+  parameters:
+    NeutronExternalNetworkBridge:
+      default: "br-ex"
+      description: Set to "''" if floating IPs on tagged VLAN, "br-ex" if on native.
+      type: string
+    Controller-1::NeutronExternalNetworkBridge:
+      default: "br-ex"
+      description: Set to "''" if floating IPs on tagged VLAN, "br-ex" if on native.
+      type: string
+
+The next section contains the changes to the NIC config that need to happen
+to put the External network on the native VLAN (the External network may be
+used for floating IPs in addition to the Horizon dashboard and Public APIs).
+
+Using the Native VLAN on a Trunked Interface
+--------------------------------------------
+If a trunked interface or bond has a network on the native VLAN, then the IP
+address will be assigned directly to the bridge and there will be no VLAN
+interface. If the native VLAN is used for the External network, make sure to
+set the NeutronExternalNetworkBridge parameters to "br-ex" instead of "''"
+in the ``network-environment.yaml``.
+
+For example, if the external network is on the native VLAN, the bond
+configuration would look like this:
+
+Example::
+
+            network_config:
+              -
+                type: ovs_bridge
+                name: {get_input: bridge_name}
+                addresses:
+                  -
+                    ip_netmask: {get_param: ExternalIpSubnet}
+                routes:
+                  -
+                    ip_netmask: 0.0.0.0/0
+                    next_hop: {get_param: ExternalInterfaceDefaultRoute}
+                members:
+                  -
+                    type: ovs_bond
+                    name: bond1
+                    ovs_options: {get_param: BondInterfaceOvsOptions}
+                    members:
+                      -
+                        type: interface
+                        name: nic3
+                        primary: true
+                      -
+                        type: interface
+                        name: nic4
+
+..note::
+  When moving the address (and possibly route) statements onto the bridge, be
+  sure to remove the corresponding VLAN interface from the bridge. Make sure to
+  make the changes to all applicable roles. The External network is only on the
+  controllers, so only the controller template needs to be changed. The Storage
+  network on the other hand is attached to all roles, so if the storage network
+  were the default VLAN, all roles would need to be edited.
 
 Configuring Jumbo Frames
 ------------------------
