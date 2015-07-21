@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_bbebe211",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T09:03:38Z",
+      "side": 1,
+      "message": "No. shared\u003dTrue will complicate the tempest tests. \nAs a rule, a network shouldn\u0027t be both shared and external",
+      "parentUuid": "9ad9bd40_38a518a2",
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_db898676",
         "filename": "doc/source/basic_deployment/basic_deployment.rst",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-07-21T08:40:14Z",
       "side": 1,
       "message": "This gives me \"Unable to find network with name \u0027False\u0027\"\n\nNeutron accepts it if I remove \u0027--enable_dhcp False\u0027",
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9be29e2d",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T09:03:38Z",
+      "side": 1,
+      "message": "s/\"enable_dhcp False\"/\"disable-dhcp\"",
+      "parentUuid": "9ad9bd40_db898676",
       "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,47 @@
         "endLine": 331,
         "endChar": 17
       },
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1b5cceec",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T09:03:38Z",
+      "side": 1,
+      "message": "The reason the network is named \"nova\" is because of default argument in nova.conf (default_floating_pool). That way, tests that use the NovaNetwork API are using the external network by default.\n\nThis will work, but it\u0027s really misleading.\nThe convention, AFAIK, is to name the external network \"public\", which is more informative, and update the nova.conf file accordingly\n\n@Imre, if the external network\u0027s name and the nova.conf default don\u0027t match, the Neutron tests might work, but the Nova tests will fail.",
+      "parentUuid": "9ad9bd40_989aa46c",
+      "range": {
+        "startLine": 331,
+        "startChar": 13,
+        "endLine": 331,
+        "endChar": 17
+      },
+      "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_7b6a3a82",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 1002607
+      },
+      "writtenOn": "2015-07-21T09:03:38Z",
+      "side": 1,
+      "message": "IIUC, this says that all IP details (DNS, GW, range, etc...) in this section are arbitrary.\nIf so, then this comment should be at the top of the section, and more explicit. Otherwise, users will just copy-paste these values and wonder why their network doesn\u0027t work.\n\nI suggest to put a network description at the top and recall this values later.\nSomething like:\n\"My network is as following (Range, VLAN, DNS, GW,...) so I\u0027ll export these variables (ie $ export EXTERNAL_GW\u003d172.16.23.251)\" and later \"--gateway $EXTERNAL_GW\"\nSo it\u0027s clear that before users are creating their network, the need to have these details ready (probably from the network admin)",
       "revId": "97d47f59914b81a471183cfa8f8da95ca67cf5e7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
