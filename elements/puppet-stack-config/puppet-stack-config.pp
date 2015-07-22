@@ -341,7 +341,6 @@ ironic_config {
   'pxe/http_url':                            value => 'http://$my_ip:8088';
   'pxe/http_root':                           value => '/httpboot';
   'pxe/ipxe_enabled':                        value => 'True';
-  'conductor/force_power_state_during_sync': value => hiera('ironic::conductor::force_power_state_during_sync');
 }
 
 class { 'horizon':
