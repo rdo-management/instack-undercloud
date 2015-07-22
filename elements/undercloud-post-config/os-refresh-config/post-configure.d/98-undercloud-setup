@@ -95,6 +95,14 @@ if ! openstack role show heat_stack_user; then
     openstack role create heat_stack_user
 fi
 
+# tuskar-ui requires the admin role, but doesn't specify a project.
+# since the admin user is granted the swiftoperator role in the service project
+# in order to read the ironic-discoverd swift buckets, give the admin user
+# the admin role in the service project as well.
+if ! openstack role list --user admin --project service | grep 'admin.*service.*admin'; then
+    openstack role add --user admin --project service admin
+fi
+
 DHCP_START=$(os-apply-config --key neutron.dhcp_start --type netaddress)
 DHCP_END=$(os-apply-config --key neutron.dhcp_end --type netaddress)
 NETWORK_CIDR=$(os-apply-config --key neutron.network_cidr --type raw)
