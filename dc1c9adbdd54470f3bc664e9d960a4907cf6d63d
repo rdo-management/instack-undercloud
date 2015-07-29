@@ -16,6 +16,24 @@
       "revId": "dc1c9adbdd54470f3bc664e9d960a4907cf6d63d",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_09da9ae7",
+        "filename": "doc/source/post_deployment/package_update.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003855
+      },
+      "writtenOn": "2015-07-29T14:53:38Z",
+      "side": 1,
+      "message": "- yes, if \u0027-i\u0027 is not specified or the command is aborted for some reason you can continue in the update by running the command again (with \u0027-i\u0027)\n- yes, it will pick up an existing update (it decides based on stack\u0027s status - IN_PROGRESS vs *_COMPLETE), new one can\u0027t be started until stack is IN_PROGRESS",
+      "parentUuid": "9ad9bd40_09253a08",
+      "revId": "dc1c9adbdd54470f3bc664e9d960a4907cf6d63d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
