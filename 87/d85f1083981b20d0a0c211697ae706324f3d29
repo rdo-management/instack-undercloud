@@ -1,0 +1,8 @@
+Code-Review+1: Zane Bitter <zbitter@redhat.com>
+Code-Review+2: James Slagle <jslagle@redhat.com>
+Verified+1: James Slagle <jslagle@redhat.com>
+Submitted-by: James Slagle <jslagle@redhat.com>
+Submitted-at: Wed, 29 Jul 2015 20:37:20 +0200
+Reviewed-on: https://review.gerrithub.io/240770
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
