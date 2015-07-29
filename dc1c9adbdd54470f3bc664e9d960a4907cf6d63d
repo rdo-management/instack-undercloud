@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_09253a08",
+        "filename": "doc/source/post_deployment/package_update.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1004937
+      },
+      "writtenOn": "2015-07-29T14:40:55Z",
+      "side": 1,
+      "message": "To clarify:\n\n- I assume this applies when the user forgets to specify -i the first time around? They can recover by just running again with -i?\n- This will pick up an existing update in progress, and not start a new one? (Starting a new one, I think, would require waiting until the old one times out.)",
+      "revId": "dc1c9adbdd54470f3bc664e9d960a4907cf6d63d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
