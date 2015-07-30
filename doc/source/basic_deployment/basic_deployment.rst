@@ -350,7 +350,7 @@ and VLAN id based on the environment::
 
     neutron net-create nova --router:external --provider:network_type vlan \
       --provider:physical_network datacentre --provider:segmentation_id 195
-    neutron subnet-create --name nova --disable-dhcp \
+    neutron subnet-create --name nova --enable-dhcp \
       --allocation-pool start=172.16.23.140,end=172.16.23.240 \
       --gateway 172.16.23.251 nova 172.16.23.128/25
 
