@@ -22,6 +22,30 @@
       "revId": "c60235c0f42b6beb88c42ed85aeb27636870ea77",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_30e25b2f",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-07-30T08:45:34Z",
+      "side": 1,
+      "message": "do you mean we should get rid of the \u0027:\u0027 ? I wanted to keep it, so i put a space after the : and before the ::",
+      "parentUuid": "9ad9bd40_70f063fe",
+      "range": {
+        "startLine": 154,
+        "startChar": 64,
+        "endLine": 154,
+        "endChar": 68
+      },
+      "revId": "c60235c0f42b6beb88c42ed85aeb27636870ea77",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
