@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_95fcf973",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003948
+      },
+      "writtenOn": "2015-07-30T06:34:46Z",
+      "side": 1,
+      "message": "so i\u0027m not doing this right, looking at https://github.com/rdo-management/instack-undercloud/blob/d761b684efc67661e1d9a5450d45398d4b4d7ce0/doc/source/advanced_deployment/managing_plans_and_roles.rst#id1",
+      "revId": "d761b684efc67661e1d9a5450d45398d4b4d7ce0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
