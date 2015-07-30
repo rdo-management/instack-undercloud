@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_959dd90c",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-30T07:37:13Z",
+      "side": 1,
+      "message": "you can use section name as link, no need to create a new anchor",
+      "range": {
+        "startLine": 138,
+        "startChar": 3,
+        "endLine": 138,
+        "endChar": 55
+      },
+      "revId": "48ba062b23427d18564ccb0f415e0a1ffa58ce5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1591c9f0",
+        "filename": "doc/source/advanced_deployment/managing_plans_and_roles.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-07-30T07:37:13Z",
+      "side": 1,
+      "message": "2 : are enough (the same issue several times below)",
+      "range": {
+        "startLine": 156,
+        "startChar": 64,
+        "endLine": 156,
+        "endChar": 67
+      },
+      "revId": "48ba062b23427d18564ccb0f415e0a1ffa58ce5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
