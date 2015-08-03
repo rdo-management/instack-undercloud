@@ -125,13 +125,9 @@ Preparing the Virtual Environment (Automated)
               # To enable puddles:
               sudo rhos-release 7-director
 
-              # We need openwsman-python from the optional repo
-              sudo yum install -y yum-utils
-              sudo yum-config-manager --enable rhelosp-rhel-7-server-opt
+   .. only:: external
 
-   .. note::
-     If testing RDO as opposed to RHOS, you need to enable some extra
-     repositories:
+     Testing RDO requires the some extra repositories:
 
      ::
 
@@ -146,6 +142,14 @@ Preparing the Virtual Environment (Automated)
      ::
 
        sudo curl -o /etc/yum.repos.d/rdo-management-trunk.repo http://trunk-mgt.rdoproject.org/centos-kilo/current/delorean-rdo-management.repo
+
+     .. admonition:: RHEL
+         :class: rhel
+
+         Deploying RDO on RHEL requires also the optional channel::
+
+             sudo yum install -y yum-utils
+             sudo yum-config-manager --enable rhelosp-rhel-7-server-opt
 
 
 #. Install instack-undercloud::
