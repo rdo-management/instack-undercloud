@@ -217,6 +217,25 @@ Introspect hardware attributes of nodes::
    The process can take up to 5 minutes for VM / 15 minutes for baremetal. If
    the process takes longer, see :ref:`introspection_problems`.
 
+Introspecting a single node
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can also introspection only nodes one by one::
+
+    openstack baremetal introspection start UUID
+
+Make sure to move a node to available state *before* if it's not already
+there::
+
+    ironic node-set-provision-state UUID manage
+
+Use the following command to check the current introspection state::
+
+    openstack baremetal introspection status UUID
+
+Do not forget to make nodes available for deployment afterwards::
+
+    ironic node-set-provision-state UUID provide
 
 Create Flavors
 --------------
