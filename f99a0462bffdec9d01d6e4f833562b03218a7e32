@@ -22,6 +22,30 @@
       "revId": "f99a0462bffdec9d01d6e4f833562b03218a7e32",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_cccc17be",
+        "filename": "doc/source/advanced_deployment/cinder_netapp.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004684
+      },
+      "writtenOn": "2015-08-07T14:33:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_f3ad469c",
+      "range": {
+        "startLine": 24,
+        "startChar": 12,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "f99a0462bffdec9d01d6e4f833562b03218a7e32",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
