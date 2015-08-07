@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_f3ad469c",
+        "filename": "doc/source/advanced_deployment/cinder_netapp.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003804
+      },
+      "writtenOn": "2015-08-07T14:08:41Z",
+      "side": 1,
+      "message": "There is some oddity in the generated docs where this line is bold. Perhaps it\u0027s the indentation below it? You can probably combine the two into a single ordered list entry.",
+      "range": {
+        "startLine": 24,
+        "startChar": 12,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "f99a0462bffdec9d01d6e4f833562b03218a7e32",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
