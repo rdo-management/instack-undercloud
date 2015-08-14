@@ -130,6 +130,8 @@ done
 
 # Disable nova quotas
 nova quota-update --cores -1 --instances -1 --ram -1 $(openstack project show admin | awk '$2=="id" {print $4}')
+# Disable neutron port quota
+neutron quota-update --ports -1
 
 # instack-prepare-for-overcloud
 rm -rf $HOME/.novaclient
