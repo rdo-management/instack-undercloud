@@ -327,7 +327,7 @@ class { 'ironic::conductor':
 }
 
 class { 'ironic':
-  enabled_drivers => ['pxe_ipmitool', 'pxe_ssh', 'pxe_drac'],
+  enabled_drivers => ['pxe_ipmitool', 'pxe_ssh', 'pxe_drac', 'pxe_wol'],
   debug           => hiera('debug'),
 }
 
