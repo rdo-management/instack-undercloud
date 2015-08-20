@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_f494148e",
+        "filename": "doc/source/basic_deployment/basic_deployment_gui.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006073
+      },
+      "writtenOn": "2015-08-20T12:01:12Z",
+      "side": 1,
+      "message": "Information how to build the image files can be found in the CLI guide (\"Get Images -\u003e 2. Build the required images\"), but maybe some users don\u0027t even read that one but rather jump directly to the GUI guide.\n\nMaybe the build instructions should live somewhere prior the CLI\u0026GUI guides, as a prerequisite for both?",
+      "revId": "c5d885f329ddb7ad01d5ecf6312a97cfce69b6c6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
