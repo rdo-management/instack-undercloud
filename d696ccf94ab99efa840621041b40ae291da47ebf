@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_a557b8c9",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-20T19:17:43Z",
+      "side": 1,
+      "message": "this is already set in puppet-stack-config.pp, line 300\n\nshould we remove it from there if we\u0027re going to specify it in the hiera file?",
+      "revId": "d696ccf94ab99efa840621041b40ae291da47ebf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_8562b4ab",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 1
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-20T19:17:43Z",
+      "side": 1,
+      "message": "i\u0027m not sure why scheduler_use_baremetal_filters would be required, as those filters include:\n\nExactRamFilter,ExactDiskFilter,ExactCoreFilter\n\nI don\u0027t think that\u0027s something we want to enable. Maybe it\u0027s failing for you because you have machines with different hardware and they both don\u0027t fully satisfy all the flavors?",
+      "revId": "d696ccf94ab99efa840621041b40ae291da47ebf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_056ea496",
+        "filename": "elements/puppet-stack-config/puppet-stack-config.yaml.template",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-20T19:17:43Z",
+      "side": 1,
+      "message": "i probably just missed setting these when i initially ported this to puppet. Odd that we haven\u0027t seen it cause any issues though (same for line 166).",
+      "revId": "d696ccf94ab99efa840621041b40ae291da47ebf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
