@@ -181,6 +181,7 @@ include ::nova::conductor
 include ::nova::consoleauth
 include ::nova::vncproxy
 include ::nova::scheduler
+include ::nova::scheduler::filter
 
 class {'neutron':
   rabbit_hosts => [hiera('controller_host')],
@@ -304,6 +305,7 @@ nova_config {
   'DEFAULT/my_ip':                     value => $ipaddress;
   'DEFAULT/linuxnet_interface_driver': value => 'nova.network.linux_net.LinuxOVSInterfaceDriver';
   'DEFAULT/rpc_response_timeout':      value => '600';
+  'DEFAULT/scheduler_tracks_instance_changes':      value => false;
 }
 
 
