@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_266bae86",
+        "filename": "doc/source/basic_deployment/basic_deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-08-21T14:41:55Z",
+      "side": 1,
+      "message": "Can we just put this step before the introspection command?",
+      "revId": "d822ce5325b605f81e3da121d81c25bdb807eaf3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
