@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_ee3fd8d4",
+        "filename": "elements/undercloud-stack-config/install.d/01-install-proliantutils",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-08-24T14:19:31Z",
+      "side": 1,
+      "message": "Nice catch, thanks!",
+      "parentUuid": "9ad9bd40_ee7198e1",
+      "revId": "25305bad674931edc83c445b4f86192f6675f555",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_2e5aa050",
         "filename": "elements/undercloud-stack-config/install.d/01-install-proliantutils",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2015-08-24T14:11:31Z",
       "side": 1,
       "message": "\"it\u0027s a dependency of the ilo driver, which is enabled by default in Ironic\".",
+      "range": {
+        "startLine": 5,
+        "startChar": 49,
+        "endLine": 6,
+        "endChar": 13
+      },
+      "revId": "25305bad674931edc83c445b4f86192f6675f555",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_2e21c0b4",
+        "filename": "elements/undercloud-stack-config/install.d/01-install-proliantutils",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-08-24T14:19:31Z",
+      "side": 1,
+      "message": "No, it\u0027s not enabled by default in Ironic, that\u0027s why this patch is needed. I will add a reference to the ilo driver.",
+      "parentUuid": "9ad9bd40_2e5aa050",
       "range": {
         "startLine": 5,
         "startChar": 49,
