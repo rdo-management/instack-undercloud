@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-hudson <whayutin+hudson@redhat.com>
+Code-Review+2: James Slagle <jslagle@redhat.com>
+Submitted-by: James Slagle <jslagle@redhat.com>
+Submitted-at: Mon, 24 Aug 2015 17:58:19 +0200
+Reviewed-on: https://review.gerrithub.io/234482
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
