@@ -1,0 +1,9 @@
+Code-Review+1: Jiri Tomasek <jtomasek@redhat.com>
+Code-Review+1: Ryan Brady <rbrady@redhat.com>
+Code-Review+2: James Slagle <jslagle@redhat.com>
+Verified+1: James Slagle <jslagle@redhat.com>
+Submitted-by: James Slagle <jslagle@redhat.com>
+Submitted-at: Mon, 24 Aug 2015 15:15:38 +0200
+Reviewed-on: https://review.gerrithub.io/237666
+Project: rdo-management/instack-undercloud
+Branch: refs/heads/master
