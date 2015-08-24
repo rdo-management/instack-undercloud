@@ -306,6 +306,10 @@ Deploy the Overcloud
        network interface configurations, instead follow the workflow here to
        deploy: :doc:`../advanced_deployment/network_isolation`
 
+       Deployment will default to using the ``qemu`` virtlib, to deploy with
+       another, for example ``kvm`` use the ``--libvirt-type`` option.
+
+
 Post-Deployment
 ---------------
 
