@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_9e5e7511",
+        "filename": "elements/undercloud-stack-config/install.d/01-install-proliantutils",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-25T11:43:20Z",
+      "side": 1,
+      "message": "can you use puppet for this since that\u0027s what\u0027s configuring ironic here? i\u0027d add it to puppet-stack-config.pp\n\nIn fact, this could probably also be fixed in puppet-ironic....if pxe_ilo is enabled, we need to install this package.",
+      "revId": "2aef771b51d264cb062e3cd03288a30d307e5ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
