@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_de863d65",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1003295
+      },
+      "writtenOn": "2015-08-25T11:48:52Z",
+      "side": 1,
+      "message": "introspect nodes one by one. When doing so, you must take care to set the correct node states manually.",
+      "range": {
+        "startLine": 223,
+        "startChar": 8,
+        "endLine": 224,
+        "endChar": 55
+      },
+      "revId": "ac046f4196e4cdcba4a24a2ad4a4a45ea880d5bd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
