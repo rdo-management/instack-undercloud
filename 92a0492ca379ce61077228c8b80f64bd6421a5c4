@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_3b0bbb2c",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-25T11:33:30Z",
+      "side": 1,
+      "message": "*When doing so",
+      "revId": "92a0492ca379ce61077228c8b80f64bd6421a5c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_7b054313",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-25T11:33:30Z",
+      "side": 1,
+      "message": "*care about setting",
+      "revId": "92a0492ca379ce61077228c8b80f64bd6421a5c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_fb11535e",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-25T11:33:30Z",
+      "side": 1,
+      "message": "maybe this is an Ironic artifact, but why is the state called manageable, but you have to specify manage in the command below?",
+      "revId": "92a0492ca379ce61077228c8b80f64bd6421a5c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1b17d752",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-08-25T11:33:30Z",
+      "side": 1,
+      "message": "*The error\n\nThis is also saying that the error field will contain an error message if introspection succeeded.\n\nProbably add a \"if introspection failed\" before the \"or\".",
+      "revId": "92a0492ca379ce61077228c8b80f64bd6421a5c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
