@@ -16,6 +16,24 @@
       "revId": "2aef771b51d264cb062e3cd03288a30d307e5ed2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_70647ae5",
+        "filename": "elements/undercloud-stack-config/install.d/01-install-proliantutils",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-08-26T13:19:41Z",
+      "side": 1,
+      "message": "Moving to puppet-stack-config",
+      "parentUuid": "9ad9bd40_9e5e7511",
+      "revId": "2aef771b51d264cb062e3cd03288a30d307e5ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
