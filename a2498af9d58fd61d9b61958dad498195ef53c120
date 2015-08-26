@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_646bdf85",
+        "filename": "instack_undercloud/undercloud.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-08-26T15:56:46Z",
+      "side": 1,
+      "message": "This line is now too long for pep8 to pass.",
+      "revId": "a2498af9d58fd61d9b61958dad498195ef53c120",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
