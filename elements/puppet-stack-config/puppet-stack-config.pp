@@ -94,32 +94,7 @@ if $::osfamily == 'RedHat' {
   $rabbit_provider = undef
 }
 
-# TODO Rabbit HA
-class { 'rabbitmq':
-  package_provider  => $rabbit_provider,
-  config_cluster    => false,
-  node_ip_address   => hiera('controller_host'),
-}
-
-rabbitmq_vhost { '/':
-  provider => 'rabbitmqctl',
-}
-rabbitmq_user {[
-  hiera(rabbit_username)
-]:
-  admin    => true,
-  password => hiera('rabbit_password'),
-  provider => 'rabbitmqctl',
-}
-
-rabbitmq_user_permissions {[
-  join([hiera(rabbit_username), '@/'])
-]:
-  configure_permission => '.*',
-  write_permission     => '.*',
-  read_permission      => '.*',
-  provider             => 'rabbitmqctl',
-}
+include ::rabbitmq
 
 # pre-install swift here so we can build rings
 include ::swift
