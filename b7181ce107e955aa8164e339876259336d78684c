@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_a5922ff4",
+        "filename": "instack_undercloud/undercloud.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-08-31T09:07:49Z",
+      "side": 1,
+      "message": "Tempest is used for post-install validation, so it should be enabled by default.",
+      "revId": "b7181ce107e955aa8164e339876259336d78684c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
