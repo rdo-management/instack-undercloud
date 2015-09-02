@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_96a475ba",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-02T14:53:44Z",
+      "side": 1,
+      "message": "i\u0027m not directly opposed to this, but I\u0027m not a huge fan. i think it\u0027s better to just document the command and how to use the output, as opposed to this bash.\n\nDocumenting the command and what to do with the output in natural language lends itself to the principal of trying to make sure folks understand the meaning behind the commands that they\u0027re running.\n\nWhile it may be obvious to some that the bash snippet is saving just the network id, it\u0027s not obvious to all. So, that\u0027s why I like something more along the lines of \"run net-list, and use the id in the next commands...\"\n\nThat being said, I\u0027m sure we have examples using pipes, awk, and $(), in other places in the docs, so i wouldn\u0027t -1 on this if you choose to go this route :)",
+      "parentUuid": "9ad9bd40_a3077d80",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_03f909c8",
         "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
         "patchSetId": 1
