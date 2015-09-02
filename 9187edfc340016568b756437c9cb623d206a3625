@@ -50,6 +50,23 @@
       "revId": "9187edfc340016568b756437c9cb623d206a3625",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_e3b7c5f3",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1002471
+      },
+      "writtenOn": "2015-09-02T12:35:48Z",
+      "side": 1,
+      "message": "there is no such flag as \"--tempest-args\" that was a overcloud verify flag.\nyou do not need it, the regex comes right after the script",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
