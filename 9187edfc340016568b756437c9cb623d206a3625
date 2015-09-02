@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_d6851d08",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1002284
+      },
+      "writtenOn": "2015-09-02T15:07:25Z",
+      "side": 1,
+      "message": "The config script already does the net-list (in python). It is not necessary to pass the network-id at all unless there are multiple external networks, a case which is not covered here at all.",
+      "parentUuid": "9ad9bd40_96a475ba",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_03f909c8",
         "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
         "patchSetId": 1
@@ -65,6 +83,29 @@
       "writtenOn": "2015-09-02T12:24:59Z",
       "side": 1,
       "message": "s/Using that/Use that\ns/configure Tempest/to configure Tempest",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_1677853c",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1002284
+      },
+      "writtenOn": "2015-09-02T15:07:25Z",
+      "side": 1,
+      "message": "etc/tempest.conf is the default so not needed.",
+      "range": {
+        "startLine": 415,
+        "startChar": 30,
+        "endLine": 415,
+        "endChar": 33
+      },
       "revId": "9187edfc340016568b756437c9cb623d206a3625",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -117,6 +158,24 @@
       "side": 1,
       "message": "this is private network cidr, it doen\u0027t care about the public network, so it shouldn\u0027t match.\nAlso, since it\u0027s private network, it should be able to work with any cidr (5.55.50.5/25 for example), but it is good practice, in order to keep things clear, to make it different than public network CIDR, or any CIDR used by the actual machines, so maybe 192.168.X.X isn\u0027t the best choice here. why not go for the upstream default 10.100.0.0/24?",
       "parentUuid": "9ad9bd40_63fe55b0",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_56a82d77",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 1002284
+      },
+      "writtenOn": "2015-09-02T15:07:25Z",
+      "side": 1,
+      "message": "The upstream default is 10.100.0.0/16 but I agree  we should just use it unless there is a good reason not to. I think it is also related to tenant_network_mask_bits so I think you would not want to specify just one unless you really understand how these are used. Yair?",
+      "parentUuid": "9ad9bd40_43779102",
       "revId": "9187edfc340016568b756437c9cb623d206a3625",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
