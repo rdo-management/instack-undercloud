@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_03f909c8",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-02T12:24:59Z",
+      "side": 1,
+      "message": "can you somehow delineate the above between the command you run and the expected output?",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_430311b8",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-02T12:24:59Z",
+      "side": 1,
+      "message": "s/Using that/Use that\ns/configure Tempest/to configure Tempest",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_63fe55b0",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-02T12:24:59Z",
+      "side": 1,
+      "message": "need to mention that 192.168.0.0/24 is an example value, and that it\u0027s environmental. Should this match the subnet cidr shown in the net-list output? If so, please make your examples match as well.",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
