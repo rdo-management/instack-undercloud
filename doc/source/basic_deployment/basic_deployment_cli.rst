@@ -371,6 +371,9 @@ tests to pass, based on the default floating pool name set in nova.conf. You
 can confirm that the network was created with::
 
     neutron net-list
+
+Sample output of the command::
+
     +--------------------------------------+-------------+-------------------------------------------------------+
     | id                                   | name        | subnets                                               |
     +--------------------------------------+-------------+-------------------------------------------------------+
@@ -389,18 +392,35 @@ and VLAN id based on the environment::
 
 Validate the Overcloud
 ^^^^^^^^^^^^^^^^^^^^^^
-To verify the Overcloud by running Tempest::
+Source the ``overcloudrc`` file::
 
-    openstack overcloud validate --overcloud-auth-url $OS_AUTH_URL \
-                                 --overcloud-admin-password $OS_PASSWORD
+    source ~/overcloudrc
+
+Set up the ``tempest`` directory::
+
+    mkdir ~/tempest
+    cd ~/tempest
+    /usr/share/openstack-tempest-kilo/tools/configure-tempest-directory
+
+The ``~/tempest-deployer-input.conf`` file was created during deployment and
+contains deployment specific settings for Tempest. Use that file to configure
+Tempest::
+
+    tools/config_tempest.py --deployer-input ~/tempest-deployer-input.conf \
+                            --debug --create \
+                            identity.uri $OS_AUTH_URL \
+                            identity.admin_password $OS_PASSWORD
+
+Run Tempest::
+
+    tools/run-tests.sh
 
 .. note:: The full Tempest test suite might take hours to run on a single CPU.
 
-To run only a part of the Tempest test suite (eg. tests with ``smoke`` tag)::
 
-    openstack overcloud validate --overcloud-auth-url $OS_AUTH_URL \
-                                 --overcloud-admin-password $OS_PASSWORD \
-                                 --tempest-args smoke
+To run only a part of the Tempest test suite (eg. tests with the ``smoke`` tag)::
+
+     tools/run-tests.sh '.*smoke'
 
 
 Redeploy the Overcloud
