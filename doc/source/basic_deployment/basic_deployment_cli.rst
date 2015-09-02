@@ -389,18 +389,47 @@ and VLAN id based on the environment::
 
 Validate the Overcloud
 ^^^^^^^^^^^^^^^^^^^^^^
-To verify the Overcloud by running Tempest::
+Source the ``overcloudrc`` file::
 
-    openstack overcloud validate --overcloud-auth-url $OS_AUTH_URL \
-                                 --overcloud-admin-password $OS_PASSWORD
+    source ~/overcloudrc
 
-.. note:: The full Tempest test suite might take hours to run on a single CPU.
+Set up the ``tempest`` directory::
 
-To run only a part of the Tempest test suite (eg. tests with ``smoke`` tag)::
+    mkdir ~/tempest
+    cd ~/tempest
+    /usr/share/openstack-tempest-kilo/tools/configure-tempest-directory
 
-    openstack overcloud validate --overcloud-auth-url $OS_AUTH_URL \
-                                 --overcloud-admin-password $OS_PASSWORD \
-                                 --tempest-args smoke
+Check the public network UUID in Neutron::
+
+    neutron net-list
+    +--------------------------------------+------+-------------------------------------------------------+
+    | id                                   | name | subnets                                               |
+    +--------------------------------------+------+-------------------------------------------------------+
+    | c5350d84-4a9f-4f96-8194-87ebfd65ec7a | nova | 0014a38b-ba43-4c8d-ae1b-8df11be83af9 172.16.23.128/25 |
+    +--------------------------------------+------+-------------------------------------------------------+
+
+The ``~/tempest-deployer-input.conf`` file was created during deployment and
+contains deployment specific settings for Tempest. Using that file and the
+public network UUID configure Tempest::
+
+    tools/config_tempest.py --out etc/tempest.conf \
+                            --network-id c5350d84-4a9f-4f96-8194-87ebfd65ec7a \
+                            --deployer-input ~/tempest-deployer-input.conf \
+                            --debug --create \
+                            identity.uri $OS_AUTH_URL \
+                            identity.admin_password $OS_PASSWORD \
+                            network.tenant_network_cidr 192.168.0.0/24
+
+Run Tempest::
+
+    tools/run-tests.sh
+
+.. note:: The full Tempest test suite might take many hours to run on a single CPU.
+
+
+To run only a part of the Tempest test suite (eg. tests with the ``smoke`` tag)::
+
+     tools/run-tests.sh --tempest-args '.*smoke'
 
 
 Redeploy the Overcloud
