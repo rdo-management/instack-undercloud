@@ -485,6 +485,8 @@ def _generate_environment(instack_root):
                                              else '0')
     instack_env['PUBLIC_INTERFACE_IP'] = instack_env['LOCAL_IP']
     instack_env['LOCAL_IP'] = instack_env['LOCAL_IP'].split('/')[0]
+    instack_env['UNDERCLOUD_SERVICE_CERTIFICATE'] = os.path.abspath(
+        instack_env['UNDERCLOUD_SERVICE_CERTIFICATE'])
 
     _write_password_file(answers_parser, instack_env)
 

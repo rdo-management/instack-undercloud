@@ -209,6 +209,22 @@ class TestGenerateEnvironment(BaseTestCase):
         env = undercloud._generate_environment('.')
         self.assertEqual('eno1', env['LOCAL_INTERFACE'])
 
+    def test_absolute_cert_path(self):
+        conf = config_fixture.Config()
+        self.useFixture(conf)
+        conf.config(undercloud_service_certificate='/home/stack/test.pem')
+        env = undercloud._generate_environment('.')
+        self.assertEqual('/home/stack/test.pem',
+                         env['UNDERCLOUD_SERVICE_CERTIFICATE'])
+
+    def test_relative_cert_path(self):
+        conf = config_fixture.Config()
+        self.useFixture(conf)
+        conf.config(undercloud_service_certificate='test.pem')
+        env = undercloud._generate_environment('.')
+        self.assertEqual(os.path.join(os.getcwd(), 'test.pem'),
+                         env['UNDERCLOUD_SERVICE_CERTIFICATE'])
+
 
 class TestWritePasswordFile(BaseTestCase):
     def test_normal(self):
