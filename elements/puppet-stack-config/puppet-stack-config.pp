@@ -351,16 +351,29 @@ class { 'ironic::drivers::ipmi':
   retry_timeout => 15
 }
 
-ironic_config {
-  'DEFAULT/my_ip':                           value => hiera('controller_host');
-  'DEFAULT/rpc_response_timeout':            value => '600';
-  'glance/host':                             value => hiera('glance::api::bind_host');
-  'discoverd/enabled':                       value => 'true';
-  'pxe/pxe_config_template':                 value => '$pybasedir/drivers/modules/ipxe_config.template';
-  'pxe/pxe_bootfile_name':                   value => 'undionly.kpxe';
-  'pxe/http_url':                            value => 'http://$my_ip:8088';
-  'pxe/http_root':                           value => '/httpboot';
-  'pxe/ipxe_enabled':                        value => 'True';
+if str2bool(hiera('ipxe_deploy', 'true')) {
+    ironic_config {
+      'DEFAULT/my_ip':                           value => hiera('controller_host');
+      'DEFAULT/rpc_response_timeout':            value => '600';
+      'glance/host':                             value => hiera('glance::api::bind_host');
+      'discoverd/enabled':                       value => 'true';
+      'pxe/pxe_config_template':                 value => '$pybasedir/drivers/modules/ipxe_config.template';
+      'pxe/pxe_bootfile_name':                   value => 'undionly.kpxe';
+      'pxe/http_url':                            value => 'http://$my_ip:8088';
+      'pxe/http_root':                           value => '/httpboot';
+      'pxe/ipxe_enabled':                        value => 'True';
+    }
+} else {
+    ironic_config {
+      'DEFAULT/my_ip':                           value => hiera('controller_host');
+      'DEFAULT/rpc_response_timeout':            value => '600';
+      'glance/host':                             value => hiera('glance::api::bind_host');
+      'discoverd/enabled':                       value => 'true';
+      'pxe/pxe_config_template':                 value => '$pybasedir/drivers/modules/pxe_config.template';
+      # leave this option to be able to switch to iPXE
+      'pxe/http_url':                            value => 'http://$my_ip:8088';
+      'pxe/http_root':                           value => '/httpboot';
+    }
 }
 
 if str2bool(hiera('enable_tuskar', 'true')) {
