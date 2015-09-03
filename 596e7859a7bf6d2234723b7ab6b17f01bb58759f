@@ -22,6 +22,30 @@
       "revId": "596e7859a7bf6d2234723b7ab6b17f01bb58759f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ae8d1ca_1c60d534",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1003514
+      },
+      "writtenOn": "2015-09-03T14:16:16Z",
+      "side": 1,
+      "message": "*facepalm* That\u0027s what I get for copy/pasting.",
+      "parentUuid": "3ae8d1ca_7c871910",
+      "range": {
+        "startLine": 335,
+        "startChar": 24,
+        "endLine": 335,
+        "endChar": 27
+      },
+      "revId": "596e7859a7bf6d2234723b7ab6b17f01bb58759f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
