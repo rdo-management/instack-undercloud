@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_81147ef6",
+        "filename": "doc/source/advanced_deployment/network_isolation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-04T19:02:23Z",
+      "side": 1,
+      "message": "can you remove the reference to OSP 7 since these are going to also serve as both our rdo-manager and upstream tripleo docs?\n\nI\u0027d just refer to whatever piece of code is actually configuring NeutronExternalNetworkBridge, whether that be tripleo-heat-templates or the CLI, etc.",
+      "revId": "ab300c3bf259ef48a109e828c09a2bc458a25c18",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
