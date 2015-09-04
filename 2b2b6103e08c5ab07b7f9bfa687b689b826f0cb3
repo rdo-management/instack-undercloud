@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_a1409a36",
+        "filename": "doc/source/environments/baremetal.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1001877
+      },
+      "writtenOn": "2015-09-04T16:56:28Z",
+      "side": 1,
+      "message": "did you mean to put this one in a separate list? It\u0027s in the \"2 generic drivers\" list currently\n\nProbably good to separate it from the others and call more attention to the fact that is for testing (although I guess people may still use it for real purposes).",
+      "revId": "2b2b6103e08c5ab07b7f9bfa687b689b826f0cb3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
