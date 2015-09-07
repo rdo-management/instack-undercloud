@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "1ae5cdf2_64bbfbc4",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "That\u0027s weird, we even have a bug for the need of passing the network-id in oscplugin: https://bugzilla.redhat.com/show_bug.cgi?id\u003d1243828 \n\nI also remember having way more failures when it was not passed, but checking it now doesn\u0027t have significant difference between the 2 runs. The previous issues probably occurred before removing the network setup from oscplugin.",
+      "parentUuid": "9ad9bd40_d6851d08",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_03f909c8",
         "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "writtenOn": "2015-09-02T12:24:59Z",
       "side": 1,
       "message": "can you somehow delineate the above between the command you run and the expected output?",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_f6a22199",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "Removing based on the comment above.",
+      "parentUuid": "9ad9bd40_03f909c8",
       "revId": "9187edfc340016568b756437c9cb623d206a3625",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -89,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_36b9e92e",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_430311b8",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_1677853c",
         "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
         "patchSetId": 1
@@ -100,6 +154,30 @@
       "writtenOn": "2015-09-02T15:07:25Z",
       "side": 1,
       "message": "etc/tempest.conf is the default so not needed.",
+      "range": {
+        "startLine": 415,
+        "startChar": 30,
+        "endLine": 415,
+        "endChar": 33
+      },
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_a4b503cf",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_1677853c",
       "range": {
         "startLine": 415,
         "startChar": 30,
@@ -182,6 +260,24 @@
     },
     {
       "key": {
+        "uuid": "1ae5cdf2_e4c62b49",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "OK, removing...",
+      "parentUuid": "9ad9bd40_56a82d77",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_e3b7c5f3",
         "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
         "patchSetId": 1
@@ -193,6 +289,24 @@
       "writtenOn": "2015-09-02T12:35:48Z",
       "side": 1,
       "message": "there is no such flag as \"--tempest-args\" that was a overcloud verify flag.\nyou do not need it, the regex comes right after the script",
+      "revId": "9187edfc340016568b756437c9cb623d206a3625",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_030ca941",
+        "filename": "doc/source/basic_deployment/basic_deployment_cli.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1003793
+      },
+      "writtenOn": "2015-09-07T08:09:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_e3b7c5f3",
       "revId": "9187edfc340016568b756437c9cb623d206a3625",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
