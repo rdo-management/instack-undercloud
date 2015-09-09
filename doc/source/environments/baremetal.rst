@@ -212,7 +212,7 @@ this page always targets Ironic git master, not the release we use.
 There are 2 generic drivers:
 
 * ``pxe_ipmitool`` driver uses `ipmitool`_ utility to manage a bare metal
-  node, and supports fast variaty of hardware.
+  node, and supports vast variety of hardware.
 
 * ``pxe_ssh`` is a special driver for testing Ironic in the virtual
   environment. This driver connects to the hypervisor to conduct management
