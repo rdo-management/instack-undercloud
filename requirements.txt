@@ -1,3 +1,0 @@
-six>=1.9.0
-python-novaclient
-oslo.config
