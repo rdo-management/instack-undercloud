@@ -1,9 +1,4 @@
-Undercloud Install via instack
-==============================
+WARNING
+=======
 
-instack-undercloud documentation:
-https://repos.fedorapeople.org/repos/openstack-m/instack-undercloud/html/
-
-To build the docs locally:
-
-    tox -e docs
+This repository is outdated, please use: https://github.com/openstack/instack-undercloud
